@@ -139,7 +139,10 @@ ${getRandomFallback()}
 // REST API for chatbot interaction (using Gitee Qwen3-32B via OpenAI client)
 app.post("/api/chat", async (req: express.Request, res: express.Response): Promise<void> => {
   try {
-    const { messages, contextGarment, contextTrend } = req.body;
+    const body = req?.body || {};
+    const messages = body.messages;
+    const contextGarment = body.contextGarment || null;
+    const contextTrend = body.contextTrend || null;
 
     if (!messages || !Array.isArray(messages)) {
       res.status(400).json({ error: "Invalid parameters. 'messages' must be an array." });
@@ -199,7 +202,12 @@ Coordinate your speech in professional, inspiring, elegant, yet objective Chines
     isGiteeOffline = true;
 
     // Graceously provide a high-end customized fallback directly so user experiences zero friction
-    const fallbackReply = getSmartCurationFallback(req.body.messages || [], req.body.contextGarment, req.body.contextTrend);
+    const body = req?.body || {};
+    const msgs = body.messages || [];
+    const contextGarment = body.contextGarment || null;
+    const contextTrend = body.contextTrend || null;
+
+    const fallbackReply = getSmartCurationFallback(msgs, contextGarment, contextTrend);
     res.json({
       text: fallbackReply,
       simulated: true,
