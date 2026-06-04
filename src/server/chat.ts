@@ -29,6 +29,7 @@ export async function handleChatRequest(body: ChatBody) {
 
   const apiKey = process.env.GEMINI_API_KEY;
   const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+  const timeoutMs = Number(process.env.AI_REQUEST_TIMEOUT_MS || 30000);
   if (!apiKey) {
     return {
       status: 200,
@@ -54,7 +55,7 @@ export async function handleChatRequest(body: ChatBody) {
           systemInstruction,
         },
       }),
-      Number(process.env.AI_REQUEST_TIMEOUT_MS || 10000),
+      timeoutMs,
     );
 
     return {
@@ -93,7 +94,8 @@ Guidelines:
 2. If using retrieved documents, cite them explicitly by title and source table.
 3. If using daily fashion news, clearly label it as "今日资讯来源" and keep the original source visible.
 4. Do not invent URLs, brands, runway seasons, books, or source facts.
-5. Use concise bullet points or numbered lists.`;
+5. Use concise bullet points or numbered lists.
+6. Keep the answer within 450 Chinese characters unless the user explicitly asks for a long essay.`;
 
   if (input.retrievedDocs.length > 0) {
     instruction += "\n\n[Retrieved Knowledge Base Documents]\n";
