@@ -2,6 +2,8 @@
 
 > **FashionAtlas** 是一款面向先锋剪裁、经典廓型与流线织物的**馆藏级数字化学术档案与个人灵感策展系统**。它将传统的实体时装馆藏与先锋人工智能底盘结合，提供沉浸式的学术检索、工艺分解及人机对谈策展体验。
 
+**线上体验地址**：[https://fashion-atlas-dossier.vercel.app](https://fashion-atlas-dossier.vercel.app)
+
 <img width="2548" height="1328" alt="image" src="https://github.com/user-attachments/assets/371e723f-6f59-4f37-84e0-64ee7738891d" />
 
 
