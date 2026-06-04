@@ -106,3 +106,38 @@ export interface RunwayShow {
   image: string;
 }
 
+export interface FashionNewsItem {
+  sourceId: string;
+  sourceName: string;
+  title: string;
+  url: string;
+  publishedAt: string | null;
+  summary: string;
+  imageUrl: string;
+  tags: string[];
+  fetchedAt: string;
+  raw?: Record<string, unknown>;
+}
+
+export interface DailyCurationItem {
+  title: string;
+  sourceName: string;
+  url: string;
+  publishedAt: string | null;
+  summary: string;
+  recommendationReason: string;
+  tags: string[];
+  imageUrl: string;
+}
+
+export interface DailyCuration {
+  date: string;
+  title: string;
+  summary: string;
+  items: DailyCurationItem[];
+  trendTags: string[];
+  sourceUrls: string[];
+  model?: string;
+  simulated?: boolean;
+  createdAt: string;
+}

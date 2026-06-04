@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
   BookOpen, 
@@ -20,8 +20,8 @@ import {
   Calendar,
   Hash
 } from "lucide-react";
-import { aestheticGuides, fashionMovies, fashionBooks, runwayShows } from "../data";
 import { AestheticGuide, FashionMovie, FashionBook, RunwayShow } from "../types";
+import { useFashionData } from "../hooks/useFashionData";
 
 interface AestheticSectionProps {
   onSaveGuideToMoodboard: (title: string, summary: string) => void;
@@ -42,11 +42,23 @@ export default function AestheticSection({
   activeSubTab,
   onActiveSubTabChange,
 }: AestheticSectionProps) {
+  const { data: aestheticGuides, loading: loadingGuides } = useFashionData<AestheticGuide>("aesthetic_guides");
+  const { data: fashionMovies, loading: loadingMovies } = useFashionData<FashionMovie>("movies");
+  const { data: fashionBooks, loading: loadingBooks } = useFashionData<FashionBook>("books");
+  const { data: runwayShows, loading: loadingRunways } = useFashionData<RunwayShow>("runways");
+
   const [localAestheticSubTab, setLocalAestheticSubTab] = useState<"guides" | "bookshelf" | "runways">("guides");
   const aestheticSubTab = activeSubTab !== undefined ? activeSubTab : localAestheticSubTab;
   const setAestheticSubTab = onActiveSubTabChange !== undefined ? onActiveSubTabChange : setLocalAestheticSubTab;
 
-  const [activeGuide, setActiveGuide] = useState<AestheticGuide>(aestheticGuides[0]);
+  const [activeGuide, setActiveGuide] = useState<AestheticGuide | null>(null);
+
+  useEffect(() => {
+    if (aestheticGuides.length > 0 && !activeGuide) {
+      setActiveGuide(aestheticGuides[0]);
+    }
+  }, [aestheticGuides]);
+
   const [paperMode, setPaperMode] = useState(false); // Parchment eye-care reading mode!
 
   // Bookshelf filters & search
@@ -55,6 +67,14 @@ export default function AestheticSection({
 
   // Runway filters & search
   const [runwaySearch, setRunwaySearch] = useState("");
+
+  if (loadingGuides || loadingMovies || loadingBooks || loadingRunways) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#800020]"></div>
+      </div>
+    );
+  }
 
   // Filtering books
   const filteredBooks = fashionBooks.filter((book) => {
@@ -134,7 +154,7 @@ export default function AestheticSection({
                 {/* Minimalist guide options with horizontal/vertical flow */}
                 <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
                   {aestheticGuides.map((guide, idx) => {
-                    const isGuideActive = activeGuide.id === guide.id;
+                    const isGuideActive = activeGuide?.id === guide.id;
                     return (
                       <div key={guide.id} className="flex items-center">
                         <button
@@ -165,75 +185,77 @@ export default function AestheticSection({
                 </button>
               </div>
 
-              <motion.div
-                key={activeGuide.id + "-" + paperMode}
-                initial={{ opacity: 0, scale: 0.99 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.99 }}
-                className={`transition-all duration-300 ${
-                  paperMode
-                    ? "rounded-lg p-6 sm:p-8 border bg-[#FAF6EC] border-[#E6DFD3] text-[#2F1F17] font-serif shadow-sm"
-                    : "text-[#2A2B2A] font-sans py-4"
-                }`}
-              >
-                <span className={`text-[9px] font-mono uppercase tracking-widest block mb-1.5 ${paperMode ? "text-[#8C7255]/90 font-semibold" : "text-[#2A2B2A]/40"}`}>
-                  MUST-READ AESTHETIC BLUEPRINT
-                </span>
-                <h3 className={`font-serif font-bold text-lg sm:text-xl tracking-tight mb-3 ${paperMode ? "text-[#2F1F17]" : "text-[#2A2B2A]"}`}>
-                  {activeGuide.title}
-                </h3>
-                <p className={`text-xs sm:text-sm leading-relaxed mb-6 italic border-l-2 pl-4 ${paperMode ? "border-[#E6DFD3] text-[#2F1F17]/80" : "border-[#2A2B2A]/20 text-[#2A2B2A]/60"}`}>
-                  “{activeGuide.introduction}”
-                </p>
-
-                <div className="space-y-6">
-                  {activeGuide.sections.map((sect, idx) => {
-                    const romanNumerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
-                    const roman = romanNumerals[idx] || (idx + 1).toString();
-                    return (
-                      <div key={idx} className="space-y-2">
-                        <h4 className="flex items-baseline gap-2 select-none">
-                          <span className="font-serif italic text-xs text-[#800020] mr-1">
-                            [ {roman} ]
-                          </span>
-                          <span className={`text-sm sm:text-base font-semibold ${paperMode ? "font-serif text-[#2F1F17]" : "font-sans text-[#2A2B2A]"}`}>
-                            {sect.subtitle.replace(/^\d+\.\s*/, "")}
-                          </span>
-                        </h4>
-                        <p className={`text-xs sm:text-sm leading-relaxed font-light text-justify ${
-                          paperMode ? "font-serif text-[#2F1F17]/90" : "font-sans text-[#2A2B2A]/80"
-                        }`}>
-                          {sect.content}
-                        </p>
-                      </div>
-                    );
-                  })}
-                </div>
-
-                {/* Bottom Curatorial Summary (De-SaaSed) */}
-                <div 
-                  className="mt-8 py-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4"
-                  style={{
-                    borderTop: "1px solid rgba(42, 43, 42, 0.06)",
-                    borderBottom: "1px solid rgba(42, 43, 42, 0.06)"
-                  }}
+              {activeGuide && (
+                <motion.div
+                  key={activeGuide.id + "-" + paperMode}
+                  initial={{ opacity: 0, scale: 0.99 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.99 }}
+                  className={`transition-all duration-300 ${
+                    paperMode
+                      ? "rounded-lg p-6 sm:p-8 border bg-[#FAF6EC] border-[#E6DFD3] text-[#2F1F17] font-serif shadow-sm"
+                      : "text-[#2A2B2A] font-sans py-4"
+                  }`}
                 >
-                  <div className="flex items-start gap-2.5">
-                    <BookText className="w-5 h-5 shrink-0 text-[#8C7255] mt-0.5" />
-                    <div className="space-y-0.5">
-                      <p className="text-[10px] font-mono text-[#2A2B2A]/40 uppercase tracking-widest font-semibold">策展人小结</p>
-                      <p className={`text-xs ${paperMode ? "text-[#2F1F17] font-serif" : "text-[#2A2B2A]/80 font-sans"} font-medium`}>{activeGuide.summary}</p>
-                    </div>
+                  <span className={`text-[9px] font-mono uppercase tracking-widest block mb-1.5 ${paperMode ? "text-[#8C7255]/90 font-semibold" : "text-[#2A2B2A]/40"}`}>
+                    MUST-READ AESTHETIC BLUEPRINT
+                  </span>
+                  <h3 className={`font-serif font-bold text-lg sm:text-xl tracking-tight mb-3 ${paperMode ? "text-[#2F1F17]" : "text-[#2A2B2A]"}`}>
+                    {activeGuide.title}
+                  </h3>
+                  <p className={`text-xs sm:text-sm leading-relaxed mb-6 italic border-l-2 pl-4 ${paperMode ? "border-[#E6DFD3] text-[#2F1F17]/80" : "border-[#2A2B2A]/20 text-[#2A2B2A]/60"}`}>
+                    “{activeGuide.introduction}”
+                  </p>
+
+                  <div className="space-y-6">
+                    {activeGuide.sections.map((sect, idx) => {
+                      const romanNumerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+                      const roman = romanNumerals[idx] || (idx + 1).toString();
+                      return (
+                        <div key={idx} className="space-y-2">
+                          <h4 className="flex items-baseline gap-2 select-none">
+                            <span className="font-serif italic text-xs text-[#800020] mr-1">
+                              [ {roman} ]
+                            </span>
+                            <span className={`text-sm sm:text-base font-semibold ${paperMode ? "font-serif text-[#2F1F17]" : "font-sans text-[#2A2B2A]"}`}>
+                              {sect.subtitle.replace(/^\d+\.\s*/, "")}
+                            </span>
+                          </h4>
+                          <p className={`text-xs sm:text-sm leading-relaxed font-light text-justify ${
+                            paperMode ? "font-serif text-[#2F1F17]/90" : "font-sans text-[#2A2B2A]/80"
+                          }`}>
+                            {sect.content}
+                          </p>
+                        </div>
+                      );
+                    })}
                   </div>
 
-                  <button
-                    onClick={() => onSaveGuideToMoodboard(activeGuide.title, activeGuide.summary)}
-                    className="text-[11px] shrink-0 font-sans font-light uppercase tracking-[0.15em] px-4 py-2 rounded-lg border border-[#2A2B2A] bg-transparent text-[#2A2B2A] hover:bg-[#2A2B2A] hover:text-[#F6F4E8] transition-all duration-300 focus:outline-none self-end sm:self-auto cursor-pointer active:scale-95"
+                  {/* Bottom Curatorial Summary (De-SaaSed) */}
+                  <div
+                    className="mt-8 py-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+                    style={{
+                      borderTop: "1px solid rgba(42, 43, 42, 0.06)",
+                      borderBottom: "1px solid rgba(42, 43, 42, 0.06)"
+                    }}
                   >
-                    保存摘要至暂存板
-                  </button>
-                </div>
-              </motion.div>
+                    <div className="flex items-start gap-2.5">
+                      <BookText className="w-5 h-5 shrink-0 text-[#8C7255] mt-0.5" />
+                      <div className="space-y-0.5">
+                        <p className="text-[10px] font-mono text-[#2A2B2A]/40 uppercase tracking-widest font-semibold">策展人小结</p>
+                        <p className={`text-xs ${paperMode ? "text-[#2F1F17] font-serif" : "text-[#2A2B2A]/80 font-sans"} font-medium`}>{activeGuide.summary}</p>
+                      </div>
+                    </div>
+
+                    <button
+                      onClick={() => onSaveGuideToMoodboard(activeGuide.title, activeGuide.summary)}
+                      className="text-[11px] shrink-0 font-sans font-light uppercase tracking-[0.15em] px-4 py-2 rounded-lg border border-[#2A2B2A] bg-transparent text-[#2A2B2A] hover:bg-[#2A2B2A] hover:text-[#F6F4E8] transition-all duration-300 focus:outline-none self-end sm:self-auto cursor-pointer active:scale-95"
+                    >
+                      保存摘要至暂存板
+                    </button>
+                  </div>
+                </motion.div>
+              )}
             </div>
 
             {/* Suggested Movies (Right section) */}

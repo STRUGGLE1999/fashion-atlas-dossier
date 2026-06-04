@@ -17,6 +17,7 @@ export default function MoodboardSection({
   const [noteTitle, setNoteTitle] = useState("");
   const [noteContent, setNoteContent] = useState("");
   const [filterType, setFilterType] = useState<string>("all");
+  const [exporting, setExporting] = useState(false);
 
   // Multi-input focus states for ledger-lines animation
   const [titleFocused, setTitleFocused] = useState(false);
@@ -39,8 +40,31 @@ export default function MoodboardSection({
     return item.type === filterType;
   });
 
-  const triggerExport = () => {
-    alert("✨ 【FashionAtlas 专享特权】馆藏级别时尚灵感报告已导出为数字PDF草稿件！可在终端本地直接查阅。");
+  const triggerExport = async () => {
+    if (exporting) return;
+    setExporting(true);
+    try {
+      const response = await fetch("/api/moodboard/export");
+      if (!response.ok) throw new Error("PDF export failed");
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      const filename = response.headers
+        .get("content-disposition")
+        ?.match(/filename="([^"]+)"/)?.[1] || "FashionAtlas-Dossier.pdf";
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("Dossier export error:", error);
+      alert("私人特刊生成暂时受阻，请稍后再试。");
+    } finally {
+      setExporting(false);
+    }
   };
 
   return (
@@ -60,10 +84,11 @@ export default function MoodboardSection({
         {items.length > 0 && (
           <button
             onClick={triggerExport}
+            disabled={exporting}
             className="text-[10px] tracking-[0.18em] font-sans font-light uppercase text-[#121212]/75 hover:text-[#5C1D24] transition-colors focus:outline-none cursor-pointer flex items-center gap-1.5 self-start md:self-auto py-1.5"
             id="btn-export-dossier"
           >
-            导出灵感报告 (Dossier) ↗
+            {exporting ? "生成私人特刊中..." : "导出灵感报告 (Dossier) ↗"}
           </button>
         )}
       </div>

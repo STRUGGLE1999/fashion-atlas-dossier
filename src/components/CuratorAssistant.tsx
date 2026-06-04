@@ -1,7 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Send, Sparkles, X, User, Heart, MessageSquare, Sliders, Play, CornerDownLeft } from "lucide-react";
+import { Send, Sparkles, X, User, Heart, MessageSquare, Sliders, Play, CornerDownLeft, BookOpen, Link as LinkIcon, Database } from "lucide-react";
 import { ArchiveItem, TrendTopic, Message } from "../types";
+
+// Extended message type to include RAG sources
+interface ExtendedMessage extends Message {
+  retrievedDocs?: any[];
+}
 
 interface CuratorAssistantProps {
   isOpen: boolean;
@@ -20,7 +25,7 @@ export default function CuratorAssistant({
   onClearActiveContext,
   onSaveSuggestionToMoodboard,
 }: CuratorAssistantProps) {
-  const [messages, setMessages] = useState<Message[]>([
+  const [messages, setMessages] = useState<ExtendedMessage[]>([
     {
       id: "welcome",
       role: "assistant",
@@ -69,7 +74,7 @@ export default function CuratorAssistant({
 
     if (!textToSend) setInput("");
 
-    const userMsg: Message = {
+    const userMsg: ExtendedMessage = {
       id: Math.random().toString(),
       role: "user",
       content: text,
@@ -96,17 +101,18 @@ export default function CuratorAssistant({
 
       const data = await response.json();
       
-      const assistantMsg: Message = {
+      const assistantMsg: ExtendedMessage = {
         id: Math.random().toString(),
         role: "assistant",
         content: data.text || "数据传输受阻，我的时尚资料库暂时无法建立连接。",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+        retrievedDocs: data.retrievedDocs || []
       };
 
       setMessages((prev) => [...prev, assistantMsg]);
     } catch (err: any) {
       console.error(err);
-      const errorMsg: Message = {
+      const errorMsg: ExtendedMessage = {
         id: Math.random().toString(),
         role: "assistant",
         content: `※ 时尚大模型连接发生阻碍 (${err?.message || "网络连接异常"})。暂时开启离线智控解答：在面料上引入不规则的重磅褶裥，搭配雕塑底盘厚鞋，是塑造现代先锋艺术感的黄金法则。已自动将此构思保存至左侧暂存板中，提供您在灵感看板使用。`,
@@ -166,7 +172,7 @@ export default function CuratorAssistant({
                 <div>
                   <h3 className="font-serif font-bold text-xs sm:text-sm tracking-wide text-[#121212] flex items-center gap-1.5 italic">
                     时尚先锋数字策展大模型
-                    <span className="text-[8px] font-mono bg-[#5C1D24] text-[#FAF9F6] border border-[#5C1D24]/20 px-1.5 py-0.5 rounded uppercase font-bold">PRO</span>
+                    <span className="text-[8px] font-mono bg-[#5C1D24] text-[#FAF9F6] border border-[#5C1D24]/20 px-1.5 py-0.5 rounded uppercase font-bold">RAG v2.0</span>
                   </h3>
                   <p className="text-[8px] text-[#121212]/45 font-mono tracking-widest uppercase">CURATOR ASSISTANT ENGINE</p>
                 </div>
@@ -223,6 +229,29 @@ export default function CuratorAssistant({
                     >
                       <p className="whitespace-pre-line font-sans text-[11.5px] leading-relaxed">{m.content}</p>
 
+                      {/* RAG Sources Display */}
+                      {m.role === "assistant" && m.retrievedDocs && m.retrievedDocs.length > 0 && (
+                        <div className="mt-4 pt-3 border-t border-[#121212]/5 space-y-2">
+                          <p className="text-[9px] font-mono font-bold text-[#8C7255] uppercase tracking-widest flex items-center gap-1.5">
+                            <Database className="w-3 h-3" />
+                            知识库引用来源 (CITED SOURCES)
+                          </p>
+                          <div className="flex flex-wrap gap-2">
+                            {m.retrievedDocs.map((doc, idx) => (
+                              <div
+                                key={idx}
+                                className="px-2 py-1 bg-[#F6F4E8] border border-[#121212]/5 rounded flex items-center gap-1.5 hover:border-[#8C7255]/30 transition-colors"
+                              >
+                                <BookOpen className="w-2.5 h-2.5 text-[#8C7255]" />
+                                <span className="text-[9px] font-sans text-[#121212]/60 truncate max-w-[120px]">
+                                  {doc.content.name || doc.content.title}
+                                </span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
                       {/* Assistant special actions (Save suggested concepts) */}
                       {m.role === "assistant" && m.id !== "welcome" && (
                         <div className="mt-3 pt-2.5 border-t border-[#121212]/5 flex justify-end">
@@ -258,11 +287,11 @@ export default function CuratorAssistant({
                   </div>
                   <div className="bg-white/80 border border-[#121212]/10 p-3 rounded-lg flex items-center gap-2 max-w-[80%]">
                     <div className="flex space-x-1">
-                      <div className="w-1.5 h-1.5 bg-[#FAF9F6] rounded-full animate-bounce" />
-                      <div className="w-1.5 h-1.5 bg-[#FAF9F6] rounded-full animate-bounce [animation-delay:0.2s]" />
-                      <div className="w-1.5 h-1.5 bg-[#FAF9F6] rounded-full animate-bounce [animation-delay:0.4s]" />
+                      <div className="w-1.5 h-1.5 bg-[#8C7255] rounded-full animate-bounce" />
+                      <div className="w-1.5 h-1.5 bg-[#8C7255] rounded-full animate-bounce [animation-delay:0.2s]" />
+                      <div className="w-1.5 h-1.5 bg-[#8C7255] rounded-full animate-bounce [animation-delay:0.4s]" />
                     </div>
-                    <span className="text-[8.5px] text-[#121212]/45 font-mono uppercase tracking-widest font-semibold">MUSEUM ANCHOR ANALYZING...</span>
+                    <span className="text-[8.5px] text-[#121212]/45 font-mono uppercase tracking-widest font-semibold">RAG KNOWLEDGE SEARCHING...</span>
                   </div>
                 </div>
               )}

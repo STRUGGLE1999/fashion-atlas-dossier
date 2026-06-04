@@ -1,0 +1,112 @@
+[
+  {
+    "id": "show-1",
+    "season": "1947 SS",
+    "brand": "Christian Dior",
+    "title": "新风貌 (The New Look)",
+    "importance": "战后时尚的里程碑，重新确立了巴黎的全球霸主地位。",
+    "whatToWatch": "著名的‘Bar’套装：紧致腰身与宽大裙摆，彻底终结了战时的节俭美学。",
+    "associatedStyles": ["黄金时代廓形", "高级定制"],
+    "videoRefer": "Dior 历史档案馆修复版。",
+    "image": "https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-2",
+    "season": "1966 FW",
+    "brand": "Yves Saint Laurent",
+    "title": "吸烟装 (Le Smoking)",
+    "importance": "女性权力的视觉宣言，打破了晚装必须是裙装的性别枷锁。",
+    "whatToWatch": "首个专门为女性设计的燕尾服系列，确立了中性优雅的巅峰标准。",
+    "associatedStyles": ["写字楼塞壬", "经典极简"],
+    "videoRefer": "YSL 博物馆数字化档案。",
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-3",
+    "season": "1990 SS",
+    "brand": "Maison Martin Margiela",
+    "title": "废弃操场秀",
+    "importance": "解构主义的诞生宣言，彻底颠覆了 80 年代的消费主义美学。",
+    "whatToWatch": "模特在破旧操场奔跑，衣服露出了缝线与衬里，当地居民与时尚精英共处一室。",
+    "associatedStyles": ["解构主义", "安特卫普先锋"],
+    "videoRefer": "Margiela 官方重制影像。",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-4",
+    "season": "1993 SS",
+    "brand": "Perry Ellis (by Marc Jacobs)",
+    "title": "垃圾摇滚 (Grunge)",
+    "importance": "街头亚文化首次大规模入侵奢侈品领域，宣告了青年文化的胜利。",
+    "whatToWatch": "法兰绒衬衫、马丁靴与高级真丝的混搭，引发了当时的巨大争议。",
+    "associatedStyles": ["垃圾乐潮", "反叛精神"],
+    "videoRefer": "Vogue Runway 经典回顾。",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-5",
+    "season": "1999 SS",
+    "brand": "Alexander McQueen",
+    "title": "NO. 13",
+    "importance": "技术、艺术与情感的完美熔炉，时尚史上最震撼的收官时刻。",
+    "whatToWatch": "机器人向 Shalom Harlow 喷绘颜料，象征着自然与工业文明的残酷对话。",
+    "associatedStyles": ["极致浪漫主义", "高科技工艺"],
+    "videoRefer": "大都会博物馆永久数字化长廊。",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-6",
+    "season": "1997 SS",
+    "brand": "Comme des Garçons",
+    "title": "肿块大秀 (Lumps and Bumps)",
+    "importance": "对‘理想身体’的激进解构，时尚界对人体解剖学的第一次暴力重组。",
+    "whatToWatch": "衣服内部填充的不规则垫块，扭曲了传统女性身形。",
+    "associatedStyles": ["解构主义", "先锋雕塑"],
+    "videoRefer": "MOMA 现代艺术博物馆大师特辑。",
+    "image": "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-7",
+    "season": "2000 FW",
+    "brand": "Hussein Chalayan",
+    "title": "余波 (Afterwords)",
+    "importance": "将家具转变为服装，深入探讨了流离失所与战争的社会主题。",
+    "whatToWatch": "咖啡桌瞬间变成层叠裙的惊人装置艺术。",
+    "associatedStyles": ["穿戴建筑", "概念主义"],
+    "videoRefer": "Chalayan 官方作品集影像。",
+    "image": "https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-8",
+    "season": "2010 SS",
+    "brand": "Alexander McQueen",
+    "title": "柏拉图的亚特兰蒂斯 (Plato's Atlantis)",
+    "importance": "麦昆生前最后一场大秀，预示了数字时尚与生态演变的未来。",
+    "whatToWatch": "著名的‘犰狳鞋’、异形数码印花及史上首次大秀全球直播。",
+    "associatedStyles": ["未来主义", "海洋生态"],
+    "videoRefer": "McQueen 官方永久纪念馆。",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-9",
+    "season": "2024 Spring",
+    "brand": "Maison Margiela Artisanal",
+    "title": "亚历山大三世桥下",
+    "importance": "高定戏剧性的回归，加里亚诺证明了叙事才是时装的灵魂。",
+    "whatToWatch": "电影感的叙事、极端的塑身衣与如陶瓷般的妆容。",
+    "associatedStyles": ["新浪漫主义", "极端解构"],
+    "videoRefer": "Margiela 官方全时长录像。",
+    "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-10",
+    "season": "1996 FW",
+    "brand": "Prada",
+    "title": "丑陋之美",
+    "importance": "知识分子时尚的转折点，让‘反直觉审美’成为高级趣味。",
+    "whatToWatch": "‘泥泞’的色调、70 年代墙纸图案与书呆子气的剪裁。",
+    "associatedStyles": ["知识分子风", "丑陋美学"],
+    "videoRefer": "Prada 官方历史影像。",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=600"
+  }
+]

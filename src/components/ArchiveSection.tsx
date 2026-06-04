@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, Heart, ChevronRight, Compass } from "lucide-react";
-import { archiveItems } from "../data";
 import { ArchiveItem } from "../types";
+import { useFashionData } from "../hooks/useFashionData";
 
 interface ArchiveSectionProps {
   onSaveToMoodboard: (item: ArchiveItem) => void;
@@ -15,7 +15,22 @@ export default function ArchiveSection({
   onConsultAI,
   savedItemIds,
 }: ArchiveSectionProps) {
-  const [selectedItem, setSelectedItem] = useState<ArchiveItem>(archiveItems[0]);
+  const { data: archiveItems, loading } = useFashionData<ArchiveItem>("archives");
+  const [selectedItem, setSelectedItem] = useState<ArchiveItem | null>(null);
+
+  useEffect(() => {
+    if (archiveItems.length > 0 && !selectedItem) {
+      setSelectedItem(archiveItems[0]);
+    }
+  }, [archiveItems]);
+
+  if (loading || !selectedItem) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#800020]"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

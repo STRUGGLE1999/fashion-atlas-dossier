@@ -1,0 +1,82 @@
+[
+  {
+    "id": "margiela-tabi",
+    "name": "Margiela Tabi Boots (1988)",
+    "category": "解构主义 / 鞋履设计",
+    "designer": "Maison Martin Margiela",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=600",
+    "description": "最具辨识度且最具争议的现代鞋履，是马吉拉解构哲学的基石。分趾设计打破了传统鞋履轮廓，迫使人们重新思考人体解剖学与鞋履的关系。",
+    "history": "在马吉拉 1989 春夏的首秀中首次亮相。马吉拉受日本 15th 世纪 tabi 袜和橡胶底工人鞋 (jika-tabi) 的启发，将其转译为高定时尚。",
+    "materials": "柔软羊皮 (Lambskin)、分趾结构、圆柱形粗跟、传统 Kohaze 金属钩扣",
+    "details": [
+      "标志性的分趾 (Split-toe) 设计",
+      "几何感极强的圆柱形鞋跟",
+      "内踝处的传统日本金属钩扣 (Kohaze)",
+      "通常带有品牌标志性的白色手工缝线"
+    ]
+  },
+  {
+    "id": "mcqueen-oyster-dress",
+    "name": "McQueen 'Oyster' Dress (SS 2003)",
+    "category": "浪漫主义 / 高级定制",
+    "designer": "Alexander McQueen",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=600",
+    "description": "被认为是史上技术最复杂的服装之一，是麦昆将浪漫主义与原始自然暴力融合的杰作。裙摆看起来像是在腐烂，呈现出一种‘瘀伤的珍珠’般的美感。",
+    "history": "出自 2003 春夏《Irere》系列。该系列讲述了一个在海上遇难最终化作热带鸟类的女孩的故事。此裙是对海浪蹂躏后残存之美的致敬。",
+    "materials": "数百个手工缝制的丝绸欧根纱 (Silk Organza) 圆片、斜裁真皮雪纺、内置鱼骨支撑",
+    "details": [
+      "由数百层手工剪裁的欧根纱堆叠而成的‘牡蛎壳’状裙摆",
+      "极具脆弱感的斜裁米色丝绸上身",
+      "模拟自然侵蚀与海洋生物纹理的复杂褶皱",
+      "目前仅存两件原版，一件馆藏于大都会艺术博物馆"
+    ]
+  },
+  {
+    "id": "rick-owens-bauhaus",
+    "name": "Rick Owens Bauhaus Jacket",
+    "category": "机能主义 / 先锋皮革",
+    "designer": "Rick Owens",
+    "image": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&q=80&w=600",
+    "description": "里克·欧文斯重新定义了皮夹克，摒弃了笨重的硬汉风格，转向苗条、修长且极具建筑感的轮廓。Bauhaus 款以其标志性的弧形拉链和大口袋著称。",
+    "history": "欧文斯‘Glunge’（华丽+垃圾摇滚）美学的缩影。旨在随着年龄增长而变得更有质感，反映了他对‘宁静破坏’的兴趣。",
+    "materials": "起泡羊皮 (Blistered Lamb)、重型小牛皮、底部的罗纹羊毛插片",
+    "details": [
+      "极度修长且紧身的‘Rick’式袖管",
+      "袖子下方的罗纹羊毛插片，在保持紧身的同时确保活动度",
+      "高耸的漏斗领 (Funnel Neck) 结构，可形成面具效果",
+      "标志性的超大几何形状口袋与不对称弧形拉链"
+    ]
+  },
+  {
+    "id": "cdg-lumps-and-bumps",
+    "name": "CDG 'Lumps and Bumps' (1997)",
+    "category": "先锋艺术 / 身体重构",
+    "designer": "Rei Kawakubo (Comme des Garçons)",
+    "image": "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&q=80&w=600",
+    "description": "正式名称为《身体遇上衣服，衣服遇上身体》。通过在不自然的位置填充填充物，彻底解构了传统的女性身体曲线，挑战了理想美的定义。",
+    "history": "1997 年春夏系列，是川久保玲职业生涯中最具代表性的作品之一。她用不和谐的身形抗击男权视角下的‘胸凸细腰美臀’教条。",
+    "materials": "弹性锦纶、聚氨酯填充物、格子布、针织面料",
+    "details": [
+      "背部、腹部或臀部不规则的隆起肿块 (Pads)",
+      "紧身弹性面料与臃肿填充物的剧烈对比",
+      "彻底改变穿着者解剖学比例的设计",
+      "对时装界‘完美轮廓’的一次激进否定"
+    ]
+  },
+  {
+    "id": "chalayan-table-dress",
+    "name": "Chalayan Table Dress (2000)",
+    "category": "概念艺术 / 穿戴建筑",
+    "designer": "Hussein Chalayan",
+    "image": "https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&q=80&w=600",
+    "description": "一个可以变形为裙子的木制咖啡桌。这是先锋‘可穿戴建筑’的巅峰之作，解构了家具与服装之间的边界。",
+    "history": "出自 2000 秋冬《Afterwords》系列。该系列探讨了战乱时期难民被迫带走一切家产的主题。模特将桌子中心提起，使其瞬间变成一件层叠裙。",
+    "materials": "天然木材、折叠机构、高定衬里",
+    "details": [
+      "完美的圆形木制咖啡桌结构",
+      "通过提拉中心部分实现向裙装的物理转换",
+      "探讨了流离失所、身份与归属感的深层社会命题",
+      "融合了精密工业设计与高级时装裁剪"
+    ]
+  }
+]

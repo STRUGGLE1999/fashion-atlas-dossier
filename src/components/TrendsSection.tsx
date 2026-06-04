@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { weeklyTrends, outfitFormulas } from "../data";
+import React, { useState, useEffect } from "react";
 import { TrendTopic, OutfitFormula } from "../types";
 import { Sparkles, Calendar, Bookmark, Flame, Sliders, Check, HelpCircle, Expand, Info } from "lucide-react";
 import { motion } from "motion/react";
+import { useFashionData } from "../hooks/useFashionData";
 
 interface TrendsSectionProps {
   onSaveFormulaToMoodboard: (formula: OutfitFormula) => void;
@@ -17,9 +17,28 @@ export default function TrendsSection({
   onConsultAI,
   savedItemIds,
 }: TrendsSectionProps) {
-  const activeTrend = weeklyTrends[0];
-  const activeFormulas = outfitFormulas.filter(f => f.trendId === activeTrend.id);
-  const [selectedFormula, setSelectedFormula] = useState<OutfitFormula>(activeFormulas[0]);
+  const { data: weeklyTrends, loading: loadingTrends } = useFashionData<TrendTopic>("trends");
+  const { data: outfitFormulas, loading: loadingFormulas } = useFashionData<OutfitFormula>("formulas");
+
+  const [activeTrend, setActiveTrend] = useState<TrendTopic | null>(null);
+  const [activeFormulas, setActiveFormulas] = useState<OutfitFormula[]>([]);
+  const [selectedFormula, setSelectedFormula] = useState<OutfitFormula | null>(null);
+
+  useEffect(() => {
+    if (weeklyTrends.length > 0 && !activeTrend) {
+      setActiveTrend(weeklyTrends[0]);
+    }
+  }, [weeklyTrends]);
+
+  useEffect(() => {
+    if (activeTrend && outfitFormulas.length > 0) {
+      const filtered = outfitFormulas.filter(f => f.trendId === activeTrend.id);
+      setActiveFormulas(filtered);
+      if (filtered.length > 0 && !selectedFormula) {
+        setSelectedFormula(filtered[0]);
+      }
+    }
+  }, [activeTrend, outfitFormulas]);
   
   // Custom formula modifications (Interactive simulation)
   const [isBagIncluded, setIsBagIncluded] = useState(true);
@@ -27,6 +46,7 @@ export default function TrendsSection({
   const [zoomImage, setZoomImage] = useState<string | null>(null);
 
   const handleSaveModifiedFormula = () => {
+    if (!selectedFormula) return;
     // Save formula with selected options
     const modifiedFormula: OutfitFormula = {
       ...selectedFormula,
@@ -44,6 +64,14 @@ export default function TrendsSection({
     };
     onSaveFormulaToMoodboard(modifiedFormula);
   };
+
+  if (loadingTrends || loadingFormulas || !activeTrend || !selectedFormula) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#800020]"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-10">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
   Sparkles, 
@@ -16,8 +16,8 @@ import {
   FolderPlus,
   HelpCircle
 } from "lucide-react";
-import { styleEntries, archiveItems, runwayShows } from "../data";
-import { StyleEntry, MoodboardItem } from "../types";
+import { DailyCuration, StyleEntry, MoodboardItem } from "../types";
+import { useFashionData } from "../hooks/useFashionData";
 
 interface HomeSectionProps {
   onSaveStyleToMoodboard: (title: string, summary: string, tags: string[]) => void;
@@ -32,6 +32,9 @@ export default function HomeSection({
   interactiveMode,
   onInteractiveModeChange,
 }: HomeSectionProps) {
+  const { data: styleEntries, loading } = useFashionData<StyleEntry>("styles");
+  const [dailyCuration, setDailyCuration] = useState<DailyCuration | null>(null);
+
   const [localInteractiveMode, setLocalInteractiveMode] = useState<"none" | "translator" | "structures" | "scenarios">("none");
   const activeInteractiveMode = interactiveMode !== undefined ? interactiveMode : localInteractiveMode;
   const setActiveInteractiveMode = onInteractiveModeChange !== undefined ? onInteractiveModeChange : setLocalInteractiveMode;
@@ -42,6 +45,35 @@ export default function HomeSection({
   // Selection state for style details inside structure map
   const [selectedStyleId, setSelectedStyleId] = useState<string>("quiet-luxury");
 
+  useEffect(() => {
+    if (styleEntries.length > 0 && !selectedStyleId) {
+      setSelectedStyleId(styleEntries[0].id);
+    }
+  }, [styleEntries]);
+
+  useEffect(() => {
+    async function fetchDailyCuration() {
+      try {
+        const response = await fetch("/api/daily-curation");
+        if (!response.ok) return;
+        const data = await response.json();
+        setDailyCuration(data.curation || null);
+      } catch {
+        setDailyCuration(null);
+      }
+    }
+
+    fetchDailyCuration();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#800020]"></div>
+      </div>
+    );
+  }
+
   // Filtered styles based on user query
   const filteredStyles = styleEntries.filter(
     (style) =>
@@ -51,6 +83,20 @@ export default function HomeSection({
   );
 
   const selectedStyle = styleEntries.find((s) => s.id === selectedStyleId) || styleEntries[0];
+  const dailyFocus = dailyCuration?.items?.[0] || null;
+  const focusImage = dailyFocus?.imageUrl || "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200";
+  const focusAlt = dailyFocus?.title || "Margiela Playground Debut 1989";
+  const focusKicker = dailyCuration ? "DAILY CURATION SIGNAL" : "SEMINAL CHRONICLE MOUNT";
+  const focusMeta = dailyFocus
+    ? `${dailyFocus.sourceName} • ${dailyFocus.publishedAt ? new Date(dailyFocus.publishedAt).toLocaleDateString() : "LATEST"}`
+    : "PARIS DEBUT 1989";
+  const focusTitle = dailyFocus?.title || "马吉拉 1989 儿童操场大秀：给虚伪时装秩序的废墟之吻";
+  const focusQuote = dailyFocus?.summary ||
+    "1989年的巴黎市郊，没有传统秀场的长笛与香槟，马吉拉让一众平民孩子挂在模特的毛边报纸碎衣角上共同奔跑。这场大秀像一粒巨无霸炸弹撞碎了法国资产阶级传统的假模假样，正式开创了解构主义服饰的百年圣殿。";
+  const focusBody = dailyFocus?.recommendationReason ||
+    "这场秀证明了：时装不仅仅是消费和炫耀，它是关于重力、废墟纹理、社会冲突以及穿着者如何建立精神护盾的流动戏剧。这也是为什么 FashionAtlas 在今日首推「安特卫普先锋与解构」作为大家对抗都市焦虑、获得穿衣底气的起点。";
+  const focusTags = dailyFocus?.tags?.slice(0, 3) || ["安特卫普六君子", "解构圣殿", "废墟反抗"];
+  const focusHref = dailyFocus?.url || "#/resource/deconstructed-tailoring";
 
   // Scenarios data
   const scenariosData = {
@@ -146,8 +192,8 @@ export default function HomeSection({
             {/* Impressive Large Image with 8px curves */}
             <div className="relative rounded-lg overflow-hidden aspect-[16/9] md:aspect-[21/9] border border-[#121212]/5 shadow-xs">
               <img
-                src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200"
-                alt="Margiela Playground Debut 1989"
+                src={focusImage}
+                alt={focusAlt}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.01]"
               />
             </div>
@@ -155,44 +201,46 @@ export default function HomeSection({
             {/* Image Headline & Metadata moved out & below for absolute typography contrast */}
             <div className="space-y-2 pt-1">
               <div className="flex items-center gap-2">
-                <span className="text-[9.5px] font-mono tracking-[0.25em] text-[#800020] uppercase font-bold">SEMINAL CHRONICLE MOUNT</span>
+                <span className="text-[9.5px] font-mono tracking-[0.25em] text-[#800020] uppercase font-bold">{focusKicker}</span>
                 <span className="text-[#121212]/20 text-[9px] font-mono select-none">|</span>
-                <span className="text-[9.5px] font-mono tracking-wider text-[#121212]/50 uppercase font-bold">PARIS DEBUT 1989</span>
+                <span className="text-[9.5px] font-mono tracking-wider text-[#121212]/50 uppercase font-bold">{focusMeta}</span>
               </div>
               <h3 className="font-sans font-bold text-[#121212] text-xl sm:text-2.5xl tracking-tight leading-tight">
-                马吉拉 1989 儿童操场大秀：给虚伪时装秩序的废墟之吻
+                {focusTitle}
               </h3>
             </div>
 
             {/* Editorial Intros / Quotes of the Editor with hanging punctuation for perfect vertical alignment */}
             <p className="font-serif italic text-[#121212]/85 text-sm leading-relaxed border-l-2 border-[#800020] pl-3.5 text-justify max-w-3xl pt-1">
-              <span className="inline-block -ml-1.5 text-[#800020] font-sans font-bold pr-0.5 select-none text-[15px] leading-none">“</span>1989年的巴黎市郊，没有传统秀场的长笛与香槟，马吉拉让一众平民孩子挂在模特的毛边报纸碎衣角上共同奔跑。这场大秀像一粒巨无霸炸弹撞碎了法国资产阶级传统的假模假样，正式开创了解构主义服饰的百年圣殿。”
+              <span className="inline-block -ml-1.5 text-[#800020] font-sans font-bold pr-0.5 select-none text-[15px] leading-none">“</span>{focusQuote}
             </p>
 
             <div className="text-xs text-[#121212]/70 leading-relaxed font-sans text-justify space-y-2">
               <p>
-                这场秀证明了：时装不仅仅是消费和炫耀，它是关于重力、废墟纹理、社会冲突以及穿着者如何建立精神护盾的流动戏剧。这也是为什么 FashionAtlas 在今日首推
-                <strong>「安特卫普先锋与解构」</strong> 作为大家对抗都市焦虑、获得穿衣底气的起点。
+                {focusBody}
               </p>
             </div>
           </div>
 
           <div className="mt-8 pt-4 border-t border-[#121212]/10 flex flex-wrap gap-4 items-center justify-between">
             <div className="flex flex-wrap gap-3 items-center">
-              <span className="text-[9px] font-mono text-[#121212]/60 tracking-wider hover:text-[#800020] transition-colors">#安特卫普六君子</span>
-              <span className="text-[#121212]/15 text-[10px] select-none">•</span>
-              <span className="text-[9px] font-mono text-[#121212]/60 tracking-wider hover:text-[#800020] transition-colors">#解构圣殿</span>
-              <span className="text-[#121212]/15 text-[10px] select-none">•</span>
-              <span className="text-[9px] font-mono text-[#121212]/60 tracking-wider hover:text-[#800020] transition-colors">#废墟反抗</span>
+              {focusTags.map((tag, idx) => (
+                <React.Fragment key={tag}>
+                  {idx > 0 && <span className="text-[#121212]/15 text-[10px] select-none">•</span>}
+                  <span className="text-[9px] font-mono text-[#121212]/60 tracking-wider hover:text-[#800020] transition-colors">#{tag}</span>
+                </React.Fragment>
+              ))}
               
               <span className="w-1.5 h-1.5 bg-[#121212]/10 rounded-full mx-1"></span>
 
               <a
-                href="#/resource/deconstructed-tailoring"
+                href={focusHref}
+                target={dailyFocus ? "_blank" : undefined}
+                rel={dailyFocus ? "noopener noreferrer" : undefined}
                 className="text-[10.5px] font-sans font-medium text-[#800020] hover:text-[#5C1D24] flex items-center gap-1.5 bg-transparent hover:bg-[#121212]/5 border-b border-[#800020]/20 hover:border-[#5C1D24]/40 py-0.5 px-0 transition-all font-medium"
                 id="btn-spotlight-deeplink"
               >
-                <span>立即剖析解构力量馆藏 ↗</span>
+                <span>{dailyFocus ? "阅读今日来源 ↗" : "立即剖析解构力量馆藏 ↗"}</span>
               </a>
             </div>
             

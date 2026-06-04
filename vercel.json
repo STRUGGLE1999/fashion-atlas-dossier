@@ -1,0 +1,14 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/fetch-fashion-news",
+      "schedule": "0 1 * * *"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!api/.*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -6,49 +6,98 @@ import TrendsSection from "./components/TrendsSection";
 import MoodboardSection from "./components/MoodboardSection";
 import CuratorAssistant from "./components/CuratorAssistant";
 import ResourceDetailView from "./components/ResourceDetailView";
-import { ArchiveItem, TrendTopic, OutfitFormula, MoodboardItem, FashionMovie, FashionBook, RunwayShow } from "./types";
-import { 
-  Sparkles, 
-  Layers, 
-  BookOpen, 
-  Flame, 
-  Heart, 
-  Compass, 
-  Globe, 
-  ChevronDown, 
-  ChevronUp, 
+import {
+  ArchiveItem,
+  TrendTopic,
+  OutfitFormula,
+  MoodboardItem,
+  FashionMovie,
+  FashionBook,
+  RunwayShow,
+} from "./types";
+import {
+  Sparkles,
+  Layers,
+  BookOpen,
+  Flame,
+  Heart,
+  Compass,
+  Globe,
+  ChevronDown,
+  ChevronUp,
   ExternalLink,
-  BookMarked
+  BookMarked,
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<"home" | "archive" | "trends" | "aesthetic" | "moodboard">("home");
-  const [aestheticActiveSubTab, setAestheticActiveSubTab] = useState<"guides" | "bookshelf" | "runways">("guides");
-  const [homeInteractiveMode, setHomeInteractiveMode] = useState<"none" | "translator" | "structures" | "scenarios">("none");
-  
+  const [activeTab, setActiveTab] = useState<
+    "home" | "archive" | "trends" | "aesthetic" | "moodboard"
+  >("home");
+  const [aestheticActiveSubTab, setAestheticActiveSubTab] = useState<
+    "guides" | "bookshelf" | "runways"
+  >("guides");
+  const [homeInteractiveMode, setHomeInteractiveMode] = useState<
+    "none" | "translator" | "structures" | "scenarios"
+  >("none");
+
   // Track hash-based navigation for resource details (#/resource/:id)
   const [currentHash, setCurrentHash] = useState(window.location.hash);
 
   // Hover state configuration for drop-downs
-  const [activeDropdown, setActiveDropdown] = useState<"discover" | "archive" | null>(null);
+  const [activeDropdown, setActiveDropdown] = useState<
+    "discover" | "archive" | null
+  >(null);
   const dropdownTimeoutRef = useRef<number | null>(null);
 
-  // State for user moodboard collection (persists in localStorage)
-  const [moodboard, setMoodboard] = useState<MoodboardItem[]>(() => {
-    try {
-      const saved = localStorage.getItem("fashion_atlas_moodboard");
-      if (saved) {
-        return JSON.parse(saved);
+  // State for user moodboard collection (persists in backend)
+  // Use null as initial state to distinguish from empty array []
+  const [moodboard, setMoodboard] = useState<MoodboardItem[] | null>(null);
+
+  // Fetch moodboard on mount
+  useEffect(() => {
+    async function fetchMoodboard() {
+      try {
+        const response = await fetch("/api/moodboard");
+        if (response.ok) {
+          const data = await response.json();
+          // Ensure we always have an array
+          setMoodboard(Array.isArray(data) ? data : []);
+        } else {
+          setMoodboard([]); // Fallback to empty if server fails
+        }
+      } catch (e) {
+        console.error("Backend moodboard fetch error:", e);
+        setMoodboard([]);
       }
-    } catch (e) {
-      console.error("Local storage read error:", e);
     }
-    return []; // default empty moodboard
-  });
+    fetchMoodboard();
+  }, []);
+
+  // Save moodboard to backend whenever it changes
+  useEffect(() => {
+    // CRITICAL: Only save if moodboard is no longer null (meaning it has been loaded)
+    if (moodboard === null) return;
+
+    const saveMoodboard = async () => {
+      try {
+        await fetch("/api/moodboard", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(moodboard),
+        });
+      } catch (e) {
+        console.error("Backend moodboard save error:", e);
+      }
+    };
+
+    saveMoodboard();
+  }, [moodboard]);
 
   // Track context for the AI Curator
-  const [aiContextGarment, setAiContextGarment] = useState<ArchiveItem | null>(null);
+  const [aiContextGarment, setAiContextGarment] = useState<ArchiveItem | null>(
+    null,
+  );
   const [aiContextTrend, setAiContextTrend] = useState<TrendTopic | null>(null);
   const [isAiCuratorOpen, setIsAiCuratorOpen] = useState(false);
 
@@ -63,14 +112,6 @@ export default function App() {
     window.addEventListener("hashchange", handleHashChange);
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
-
-  useEffect(() => {
-    try {
-      localStorage.setItem("fashion_atlas_moodboard", JSON.stringify(moodboard));
-    } catch (e) {
-      console.error("Local storage save error:", e);
-    }
-  }, [moodboard]);
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
@@ -93,6 +134,11 @@ export default function App() {
     }, 200); // slight grace period
   };
 
+  // Dropdown click toggle for mobile
+  const toggleDropdown = (menu: "discover" | "archive") => {
+    setActiveDropdown((prev) => (prev === menu ? null : menu));
+  };
+
   const clearDropdown = () => {
     if (dropdownTimeoutRef.current) {
       window.clearTimeout(dropdownTimeoutRef.current);
@@ -101,10 +147,14 @@ export default function App() {
   };
 
   // Redirection dispatcher from menu items
-  const handleNavigate = (tab: "home" | "archive" | "trends" | "aesthetic" | "moodboard", subTab?: any, interactiveMode?: any) => {
+  const handleNavigate = (
+    tab: "home" | "archive" | "trends" | "aesthetic" | "moodboard",
+    subTab?: any,
+    interactiveMode?: any,
+  ) => {
     // Clear hash first to exit resource detail route if visible
     window.location.hash = "";
-    
+
     setActiveTab(tab);
     if (subTab) {
       setAestheticActiveSubTab(subTab);
@@ -118,7 +168,11 @@ export default function App() {
   };
 
   // Home Style & Scenarios cards save handler
-  const handleSaveStyleFromHome = (title: string, summary: string, tags: string[]) => {
+  const handleSaveStyleFromHome = (
+    title: string,
+    summary: string,
+    tags: string[],
+  ) => {
     const id = "home-style-" + Date.now();
     const newItem: MoodboardItem = {
       id,
@@ -134,6 +188,7 @@ export default function App() {
 
   // Digitized archives save details
   const handleSaveGarment = (garment: ArchiveItem) => {
+    if (!moodboard) return;
     if (moodboard.some((item) => item.id === garment.id)) {
       showToast(`《${garment.name}》已在您的暂存看板中。`);
       return;
@@ -171,6 +226,7 @@ export default function App() {
 
   // Movie classic save details
   const handleSaveMovie = (movie: FashionMovie) => {
+    if (!moodboard) return;
     if (moodboard.some((item) => item.id === movie.id)) {
       showToast(`《${movie.name}》已在您的灵感板中。`);
       return;
@@ -192,6 +248,7 @@ export default function App() {
 
   // Book classic save details
   const handleSaveBook = (book: FashionBook) => {
+    if (!moodboard) return;
     if (moodboard.some((item) => item.id === book.id)) {
       showToast(`该精选书籍《${book.name}》已在灵感板中。`);
       return;
@@ -213,6 +270,7 @@ export default function App() {
 
   // Runway classic show path save details
   const handleSaveRunway = (runway: RunwayShow) => {
+    if (!moodboard) return;
     if (moodboard.some((item) => item.id === runway.id)) {
       showToast(`大秀笔记《${runway.brand}》已在您的灵感板。`);
       return;
@@ -234,6 +292,7 @@ export default function App() {
 
   // Weekly Trend save details
   const handleSaveTrend = (trend: TrendTopic) => {
+    if (!moodboard) return;
     if (moodboard.some((item) => item.id === trend.id)) {
       showToast(`当前趋势话题已在您的灵感盒中。`);
       return;
@@ -255,6 +314,7 @@ export default function App() {
 
   // Outfit Formula save details
   const handleSaveFormula = (formula: OutfitFormula) => {
+    if (!moodboard) return;
     const isCustom = formula.id.includes("custom");
     const uniqueId = isCustom ? `${formula.id}-${Date.now()}` : formula.id;
 
@@ -315,11 +375,12 @@ export default function App() {
 
   // Detect route resource matches
   const isResourceDetailVisible = currentHash.startsWith("#/resource/");
-  const activeResourceId = isResourceDetailVisible ? currentHash.replace("#/resource/", "") : "";
+  const activeResourceId = isResourceDetailVisible
+    ? currentHash.replace("#/resource/", "")
+    : "";
 
   return (
     <div className="min-h-screen bg-[#F6F4E8] text-[#2A2B2A] font-sans flex flex-col justify-between selection:bg-[#2A2B2A] selection:text-[#FAF9F6] transition-colors">
-      
       {/* Floating Alerts */}
       <AnimatePresence>
         {toastMessage && (
@@ -336,15 +397,14 @@ export default function App() {
       </AnimatePresence>
 
       {/* Styled Stacked Centered Header */}
-      <header 
+      <header
         className="sticky top-0 z-30 pt-12 pb-16 px-4 sm:px-8 backdrop-blur-md transition-all duration-300"
-        style={{ 
-          backgroundColor: 'rgba(246, 244, 232, 0.70)',
-          borderBottom: '1px solid rgba(42, 43, 42, 0.06)'
+        style={{
+          backgroundColor: "rgba(246, 244, 232, 0.70)",
+          borderBottom: "1px solid rgba(42, 43, 42, 0.06)",
         }}
       >
         <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-center relative">
-          
           {/* FASHION ATLAS Logo & Icon */}
           <button
             onClick={() => handleNavigate("home")}
@@ -354,94 +414,367 @@ export default function App() {
           >
             {/* FA 线稿图标: 精准抽离透明通道，裸露浮现在 #F6F4E8 暖灰背景上 */}
             <div className="mb-6 flex justify-center text-[#2A2B2A] group-hover:scale-[1.03] transition-transform duration-300">
-              <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[66px] h-[66px] sm:w-[72px] sm:h-[72px] text-[#2A2B2A] transition-all duration-300">
+              <svg
+                viewBox="0 0 500 500"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-[66px] h-[66px] sm:w-[72px] sm:h-[72px] text-[#2A2B2A] transition-all duration-300"
+              >
                 {/* Soft outer grid border */}
-                <rect x="35" y="35" width="430" height="430" rx="80" stroke="currentColor" strokeWidth="1.5" opacity="0.25" />
-                
-                {/* Blueprint thin grid lines */}
-                <line x1="35" y1="115" x2="465" y2="115" stroke="currentColor" strokeWidth="1" opacity="0.15" />
-                <line x1="35" y1="180" x2="465" y2="180" stroke="currentColor" strokeWidth="1" opacity="0.15" />
-                <line x1="35" y1="250" x2="465" y2="250" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="35" y1="320" x2="465" y2="320" stroke="currentColor" strokeWidth="1" opacity="0.15" />
-                <line x1="35" y1="385" x2="465" y2="385" stroke="currentColor" strokeWidth="1" opacity="0.15" />
+                <rect
+                  x="35"
+                  y="35"
+                  width="430"
+                  height="430"
+                  rx="80"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  opacity="0.25"
+                />
 
-                <line x1="115" y1="35" x2="115" y2="465" stroke="currentColor" strokeWidth="1" opacity="0.15" />
-                <line x1="180" y1="35" x2="180" y2="465" stroke="currentColor" strokeWidth="1" opacity="0.15" />
-                <line x1="250" y1="35" x2="250" y2="465" stroke="currentColor" strokeWidth="1.5" opacity="0.3" />
-                <line x1="320" y1="35" x2="320" y2="465" stroke="currentColor" strokeWidth="1" opacity="0.15" />
-                <line x1="385" y1="35" x2="385" y2="465" stroke="currentColor" strokeWidth="1" opacity="0.15" />
+                {/* Blueprint thin grid lines */}
+                <line
+                  x1="35"
+                  y1="115"
+                  x2="465"
+                  y2="115"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
+                <line
+                  x1="35"
+                  y1="180"
+                  x2="465"
+                  y2="180"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
+                <line
+                  x1="35"
+                  y1="250"
+                  x2="465"
+                  y2="250"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="35"
+                  y1="320"
+                  x2="465"
+                  y2="320"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
+                <line
+                  x1="35"
+                  y1="385"
+                  x2="465"
+                  y2="385"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
+
+                <line
+                  x1="115"
+                  y1="35"
+                  x2="115"
+                  y2="465"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
+                <line
+                  x1="180"
+                  y1="35"
+                  x2="180"
+                  y2="465"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
+                <line
+                  x1="250"
+                  y1="35"
+                  x2="250"
+                  y2="465"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  opacity="0.3"
+                />
+                <line
+                  x1="320"
+                  y1="35"
+                  x2="320"
+                  y2="465"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
+                <line
+                  x1="385"
+                  y1="35"
+                  x2="385"
+                  y2="465"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.15"
+                />
 
                 {/* Diagonals */}
-                <line x1="250" y1="180" x2="115" y2="415" stroke="currentColor" strokeWidth="1" opacity="0.2" />
-                <line x1="250" y1="180" x2="385" y2="415" stroke="currentColor" strokeWidth="1" opacity="0.2" />
-                <line x1="250" y1="180" x2="250" y2="415" stroke="currentColor" strokeWidth="1" opacity="0.2" />
-                
+                <line
+                  x1="250"
+                  y1="180"
+                  x2="115"
+                  y2="415"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.2"
+                />
+                <line
+                  x1="250"
+                  y1="180"
+                  x2="385"
+                  y2="415"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.2"
+                />
+                <line
+                  x1="250"
+                  y1="180"
+                  x2="250"
+                  y2="415"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.2"
+                />
+
                 {/* Horizontal Shading Lines (Drafting/grid details) */}
-                <line x1="115" y1="260" x2="180" y2="260" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="115" y1="270" x2="180" y2="270" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="115" y1="280" x2="180" y2="280" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="115" y1="290" x2="180" y2="290" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="115" y1="300" x2="180" y2="300" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="115" y1="310" x2="180" y2="310" stroke="currentColor" strokeWidth="1" opacity="0.25" />
+                <line
+                  x1="115"
+                  y1="260"
+                  x2="180"
+                  y2="260"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="115"
+                  y1="270"
+                  x2="180"
+                  y2="270"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="115"
+                  y1="280"
+                  x2="180"
+                  y2="280"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="115"
+                  y1="290"
+                  x2="180"
+                  y2="290"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="115"
+                  y1="300"
+                  x2="180"
+                  y2="300"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="115"
+                  y1="310"
+                  x2="180"
+                  y2="310"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
 
-                <line x1="320" y1="260" x2="385" y2="260" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="320" y1="270" x2="385" y2="270" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="320" y1="280" x2="385" y2="280" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="320" y1="290" x2="385" y2="290" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="320" y1="300" x2="385" y2="300" stroke="currentColor" strokeWidth="1" opacity="0.25" />
-                <line x1="320" y1="310" x2="385" y2="310" stroke="currentColor" strokeWidth="1" opacity="0.25" />
+                <line
+                  x1="320"
+                  y1="260"
+                  x2="385"
+                  y2="260"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="320"
+                  y1="270"
+                  x2="385"
+                  y2="270"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="320"
+                  y1="280"
+                  x2="385"
+                  y2="280"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="320"
+                  y1="290"
+                  x2="385"
+                  y2="290"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="320"
+                  y1="300"
+                  x2="385"
+                  y2="300"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
+                <line
+                  x1="320"
+                  y1="310"
+                  x2="385"
+                  y2="310"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.25"
+                />
 
-                <line x1="180" y1="350" x2="320" y2="350" stroke="currentColor" strokeWidth="1" opacity="0.3" />
-                <line x1="180" y1="360" x2="320" y2="360" stroke="currentColor" strokeWidth="1" opacity="0.3" />
-                <line x1="180" y1="370" x2="320" y2="370" stroke="currentColor" strokeWidth="1" opacity="0.3" />
-                <line x1="180" y1="380" x2="320" y2="380" stroke="currentColor" strokeWidth="1" opacity="0.3" />
-                <line x1="180" y1="390" x2="320" y2="390" stroke="currentColor" strokeWidth="1" opacity="0.3" />
-                <line x1="180" y1="400" x2="320" y2="400" stroke="currentColor" strokeWidth="1" opacity="0.3" />
-                <line x1="180" y1="410" x2="320" y2="410" stroke="currentColor" strokeWidth="1" opacity="0.3" />
+                <line
+                  x1="180"
+                  y1="350"
+                  x2="320"
+                  y2="350"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
+                <line
+                  x1="180"
+                  y1="360"
+                  x2="320"
+                  y2="360"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
+                <line
+                  x1="180"
+                  y1="370"
+                  x2="320"
+                  y2="370"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
+                <line
+                  x1="180"
+                  y1="380"
+                  x2="320"
+                  y2="380"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
+                <line
+                  x1="180"
+                  y1="390"
+                  x2="320"
+                  y2="390"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
+                <line
+                  x1="180"
+                  y1="400"
+                  x2="320"
+                  y2="400"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
+                <line
+                  x1="180"
+                  y1="410"
+                  x2="320"
+                  y2="410"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.3"
+                />
 
                 {/* F & G Outer bold monogram frame */}
-                <path 
-                  d="M 115,415 L 115,145 C 115,115 140,90 170,90 L 375,90 C 395,90 410,105 410,125 L 410,165" 
-                  stroke="currentColor" 
-                  strokeWidth="32" 
-                  strokeLinecap="square" 
-                  strokeLinejoin="miter" 
-                  fill="none" 
+                <path
+                  d="M 115,415 L 115,145 C 115,115 140,90 170,90 L 375,90 C 395,90 410,105 410,125 L 410,165"
+                  stroke="currentColor"
+                  strokeWidth="32"
+                  strokeLinecap="square"
+                  strokeLinejoin="miter"
+                  fill="none"
                 />
-                <path 
-                  d="M 115,220 L 210,220" 
-                  stroke="currentColor" 
-                  strokeWidth="32" 
-                  strokeLinecap="square" 
-                  fill="none" 
+                <path
+                  d="M 115,220 L 210,220"
+                  stroke="currentColor"
+                  strokeWidth="32"
+                  strokeLinecap="square"
+                  fill="none"
                 />
                 {/* Central triangle "A" */}
-                <path 
-                  d="M 250,180 L 105,420" 
-                  stroke="currentColor" 
-                  strokeWidth="32" 
-                  strokeLinecap="square" 
-                  fill="none" 
+                <path
+                  d="M 250,180 L 105,420"
+                  stroke="currentColor"
+                  strokeWidth="32"
+                  strokeLinecap="square"
+                  fill="none"
                 />
-                <path 
-                  d="M 250,180 L 395,420" 
-                  stroke="currentColor" 
-                  strokeWidth="32" 
-                  strokeLinecap="square" 
-                  fill="none" 
+                <path
+                  d="M 250,180 L 395,420"
+                  stroke="currentColor"
+                  strokeWidth="32"
+                  strokeLinecap="square"
+                  fill="none"
                 />
-                <path 
-                  d="M 180,315 L 320,315" 
-                  stroke="currentColor" 
-                  strokeWidth="32" 
-                  strokeLinecap="square" 
-                  fill="none" 
+                <path
+                  d="M 180,315 L 320,315"
+                  stroke="currentColor"
+                  strokeWidth="32"
+                  strokeLinecap="square"
+                  fill="none"
                 />
               </svg>
             </div>
 
             <h1 className="font-sans font-black text-2.5xl sm:text-4xl tracking-[0.25em] text-[#121212] flex items-center leading-none justify-center">
-              FASHION <span className="font-serif italic font-light ml-2.5 text-[#800020] group-hover:opacity-85 transition-opacity">ATLAS</span>
+              FASHION{" "}
+              <span className="font-serif italic font-light ml-2.5 text-[#800020] group-hover:opacity-85 transition-opacity">
+                ATLAS
+              </span>
             </h1>
             <p className="text-[9.5px] text-[#2A2B2A]/45 font-mono tracking-[0.35em] uppercase mt-2 leading-none transition-all duration-300">
               时装先锋数字档案与智能映射系统
@@ -451,10 +784,9 @@ export default function App() {
           {/* Layer 2: The Curator's Menu */}
           <div className="w-full flex justify-center">
             <nav className="flex items-center gap-8 md:gap-14 text-xs font-sans font-light uppercase select-none tracking-[0.25em] text-neutral-800">
-              
               {/* Menu 1: DISCOVER (灵感) */}
               <div
-                className="relative cursor-pointer py-1"
+                className="relative py-1 flex items-center"
                 onMouseEnter={() => handleMouseEnter("discover")}
                 onMouseLeave={handleMouseLeave}
               >
@@ -462,57 +794,98 @@ export default function App() {
                   type="button"
                   onClick={() => handleNavigate("aesthetic", "guides")}
                   className={`hover:text-[#800020] transition-colors focus:outline-none flex items-center gap-1 font-bold text-[11px] cursor-pointer ${
-                    activeTab === "trends" || (activeTab === "aesthetic" && aestheticActiveSubTab !== "runways") ? "text-[#800020]" : ""
+                    activeTab === "trends" ||
+                    (activeTab === "aesthetic" &&
+                      aestheticActiveSubTab !== "runways")
+                      ? "text-[#800020]"
+                      : ""
                   }`}
                   id="nav-discover"
                 >
                   <span>灵感</span>
-                  <span className="font-sans font-semibold tracking-normal text-[8px] opacity-75 text-neutral-500">Discover</span>
-                  <ChevronDown className="w-3 h-3 text-[#121212]/45 group-hover:scale-105 duration-200" />
+                  <span className="font-sans font-semibold tracking-normal text-[8px] opacity-75 text-neutral-500">
+                    Discover
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleDropdown("discover");
+                  }}
+                  className="p-1 -mr-1 ml-0.5 focus:outline-none cursor-pointer text-[#121212]/45 hover:text-[#800020] transition-colors"
+                  aria-label="Toggle Discover Menu"
+                >
+                  <ChevronDown
+                    className={`w-3 h-3 transition-transform duration-300 ${activeDropdown === "discover" ? "rotate-180" : ""}`}
+                  />
                 </button>
 
                 {/* Discover Dropdown */}
                 <AnimatePresence>
                   {activeDropdown === "discover" && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 8 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: 8 }}
-                      transition={{ duration: 0.15 }}
-                      className="absolute left-1/2 -translate-x-1/2 top-full mt-2.5 w-64 bg-[#E5E0D8] border border-[#121212]/15 rounded-lg shadow-xl py-3 z-50 text-left cursor-default tracking-normal uppercase"
-                    >
-                      <div className="px-5 pb-2 mb-1.5 border-b border-[#121212]/10 text-[8.5px] font-mono font-bold text-[#800020] select-none tracking-widest text-[#800020]">
-                        先锋美学灵感发现
-                      </div>
-                      <button
-                        onClick={() => handleNavigate("aesthetic", "bookshelf")}
-                        className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                    <>
+                      {/* Invisible overlay to close on outside click */}
+                      <div
+                        className="fixed inset-0 z-40"
+                        onClick={clearDropdown}
+                      />
+                      <motion.div
+                        initial={{ opacity: 0, y: 8 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 8 }}
+                        transition={{ duration: 0.15 }}
+                        className="absolute left-1/2 -translate-x-1/2 top-full mt-2.5 w-64 bg-[#E5E0D8] border border-[#121212]/15 rounded-lg shadow-xl py-3 z-50 text-left cursor-default tracking-normal uppercase"
                       >
-                        <div className="font-semibold text-[11px] leading-tight">推荐清单</div>
-                        <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">史诗著作与先锋影像精选集</div>
-                      </button>
-                      <button
-                        onClick={() => handleNavigate("trends")}
-                        className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
-                      >
-                        <div className="font-semibold text-[11px] leading-tight">趋势期刊</div>
-                        <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">周度数字先锋大片与穿搭解构</div>
-                      </button>
-                      <button
-                        onClick={() => handleNavigate("home", null, "structures")}
-                        className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
-                      >
-                        <div className="font-semibold text-[11px] leading-tight">风格研究页</div>
-                        <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">20类面料解剖与日常转译指引</div>
-                      </button>
-                    </motion.div>
+                        <div className="px-5 pb-2 mb-1.5 border-b border-[#121212]/10 text-[8.5px] font-mono font-bold text-[#800020] select-none tracking-widest text-[#800020]">
+                          先锋美学灵感发现
+                        </div>
+                        <button
+                          onClick={() =>
+                            handleNavigate("aesthetic", "bookshelf")
+                          }
+                          className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                        >
+                          <div className="font-semibold text-[11px] leading-tight">
+                            推荐清单
+                          </div>
+                          <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
+                            史诗著作与先锋影像精选集
+                          </div>
+                        </button>
+                        <button
+                          onClick={() => handleNavigate("trends")}
+                          className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                        >
+                          <div className="font-semibold text-[11px] leading-tight">
+                            趋势期刊
+                          </div>
+                          <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
+                            周度数字先锋大片与穿搭解构
+                          </div>
+                        </button>
+                        <button
+                          onClick={() =>
+                            handleNavigate("home", null, "structures")
+                          }
+                          className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                        >
+                          <div className="font-semibold text-[11px] leading-tight">
+                            风格研究页
+                          </div>
+                          <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
+                            20类面料解剖与日常转译指引
+                          </div>
+                        </button>
+                      </motion.div>
+                    </>
                   )}
                 </AnimatePresence>
               </div>
 
               {/* Menu 2: ARCHIVE (档案) */}
               <div
-                className="relative cursor-pointer py-1"
+                className="relative py-1 flex items-center"
                 onMouseEnter={() => handleMouseEnter("archive")}
                 onMouseLeave={handleMouseLeave}
               >
@@ -520,57 +893,101 @@ export default function App() {
                   type="button"
                   onClick={() => handleNavigate("archive")}
                   className={`hover:text-[#800020] transition-colors focus:outline-none flex items-center gap-1 font-bold text-[11px] cursor-pointer ${
-                    activeTab === "archive" || (activeTab === "aesthetic" && (aestheticActiveSubTab === "runways" || aestheticActiveSubTab === "bookshelf")) ? "text-[#800020]" : ""
+                    activeTab === "archive" ||
+                    (activeTab === "aesthetic" &&
+                      (aestheticActiveSubTab === "runways" ||
+                        aestheticActiveSubTab === "bookshelf"))
+                      ? "text-[#800020]"
+                      : ""
                   }`}
                   id="nav-archive"
                 >
                   <span>档案</span>
-                  <span className="font-sans font-semibold tracking-normal text-[8px] opacity-75 text-neutral-500">Archive</span>
-                  <ChevronDown className="w-3 h-3 text-[#121212]/45" />
+                  <span className="font-sans font-semibold tracking-normal text-[8px] opacity-75 text-neutral-500">
+                    Archive
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleDropdown("archive");
+                  }}
+                  className="p-1 -mr-1 ml-0.5 focus:outline-none cursor-pointer text-[#121212]/45 hover:text-[#800020] transition-colors"
+                  aria-label="Toggle Archive Menu"
+                >
+                  <ChevronDown
+                    className={`w-3 h-3 transition-transform duration-300 ${activeDropdown === "archive" ? "rotate-180" : ""}`}
+                  />
                 </button>
 
                 {/* Archive Dropdown */}
                 <AnimatePresence>
                   {activeDropdown === "archive" && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 8 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: 8 }}
-                      transition={{ duration: 0.15 }}
-                      className="absolute left-1/2 -translate-x-1/2 top-full mt-2.5 w-64 bg-[#E5E0D8] border border-[#121212]/15 rounded-lg shadow-xl py-3 z-50 text-left cursor-default tracking-normal uppercase"
-                    >
-                      <div className="px-5 pb-2 mb-1.5 border-b border-[#121212]/10 text-[8.5px] font-mono font-bold text-[#800020] select-none tracking-widest">
-                        理性数字学术历史
-                      </div>
-                      <button
-                        onClick={() => handleNavigate("archive")}
-                        className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                    <>
+                      {/* Invisible overlay to close on outside click */}
+                      <div
+                        className="fixed inset-0 z-40"
+                        onClick={clearDropdown}
+                      />
+                      <motion.div
+                        initial={{ opacity: 0, y: 8 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 8 }}
+                        transition={{ duration: 0.15 }}
+                        className="absolute left-1/2 -translate-x-1/2 top-full mt-2.5 w-64 bg-[#E5E0D8] border border-[#121212]/15 rounded-lg shadow-xl py-3 z-50 text-left cursor-default tracking-normal uppercase"
                       >
-                        <div className="font-semibold text-[11px] leading-tight font-sans">资源库 (The Vault)</div>
-                        <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light font-sans text-[9px]">物理馆藏珍宝强力多维检索</div>
-                      </button>
-                      <button
-                        onClick={() => handleNavigate("aesthetic", "runways")}
-                        className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
-                      >
-                        <div className="font-semibold text-[11px] leading-tight">秀场学习路径</div>
-                        <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">30场经典至高秀场演变解码</div>
-                      </button>
-                      <button
-                        onClick={() => handleNavigate("aesthetic", "bookshelf")}
-                        className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
-                      >
-                        <div className="font-semibold text-[11px] leading-tight">时尚书架</div>
-                        <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">50本殿堂级必读著作指南</div>
-                      </button>
-                      <button
-                        onClick={() => handleNavigate("aesthetic", "guides")}
-                        className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
-                      >
-                        <div className="font-semibold text-[11px] leading-tight">学习路径页</div>
-                        <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">系统化学术知识构建框架</div>
-                      </button>
-                    </motion.div>
+                        <div className="px-5 pb-2 mb-1.5 border-b border-[#121212]/10 text-[8.5px] font-mono font-bold text-[#800020] select-none tracking-widest">
+                          理性数字学术历史
+                        </div>
+                        <button
+                          onClick={() => handleNavigate("archive")}
+                          className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                        >
+                          <div className="font-semibold text-[11px] leading-tight font-sans">
+                            资源库 (The Vault)
+                          </div>
+                          <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light font-sans text-[9px]">
+                            物理馆藏珍宝强力多维检索
+                          </div>
+                        </button>
+                        <button
+                          onClick={() => handleNavigate("aesthetic", "runways")}
+                          className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                        >
+                          <div className="font-semibold text-[11px] leading-tight">
+                            秀场学习路径
+                          </div>
+                          <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
+                            30场经典至高秀场演变解码
+                          </div>
+                        </button>
+                        <button
+                          onClick={() =>
+                            handleNavigate("aesthetic", "bookshelf")
+                          }
+                          className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                        >
+                          <div className="font-semibold text-[11px] leading-tight">
+                            时尚书架
+                          </div>
+                          <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
+                            50本殿堂级必读著作指南
+                          </div>
+                        </button>
+                        <button
+                          onClick={() => handleNavigate("aesthetic", "guides")}
+                          className="w-full px-5 py-2.5 hover:bg-white/60 text-left text-xs font-sans text-neutral-850 hover:text-[#800020] transition-colors block cursor-pointer transition-all duration-150"
+                        >
+                          <div className="font-semibold text-[11px] leading-tight">
+                            学习路径页
+                          </div>
+                          <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
+                            系统化学术知识构建框架
+                          </div>
+                        </button>
+                      </motion.div>
+                    </>
                   )}
                 </AnimatePresence>
               </div>
@@ -578,31 +995,33 @@ export default function App() {
               {/* Menu 3: SPACE (我的) —— 点击直接降落个人看板页 */}
               <button
                 type="button"
-                onClick={() => handleNavigate("moodboard")}
+                onClick={() => {
+                  clearDropdown();
+                  handleNavigate("moodboard");
+                }}
                 className={`hover:text-[#800020] transition-colors focus:outline-none flex items-center gap-1 font-bold text-[11px] cursor-pointer ${
                   activeTab === "moodboard" ? "text-[#800020]" : ""
                 }`}
                 id="nav-space"
               >
                 <span>我的</span>
-                <span className="font-sans font-semibold tracking-normal text-[8px] opacity-75 text-neutral-500">Space</span>
-                {moodboard.length > 0 && (
+                <span className="font-sans font-semibold tracking-normal text-[8px] opacity-75 text-neutral-500">
+                  Space
+                </span>
+                {moodboard && moodboard.length > 0 && (
                   <span className="text-[10px] font-mono font-medium text-neutral-400 tracking-normal ml-1">
                     [ {moodboard.length} ]
                   </span>
                 )}
               </button>
-
             </nav>
           </div>
-
         </div>
       </header>
 
       {/* Main Content Render Area */}
       <main className="flex-1 p-4 sm:p-8 max-w-7xl mx-auto w-full">
         <AnimatePresence mode="wait">
-          
           {/* Check whether we are currently displaying the custom Secret detail page */}
           {isResourceDetailVisible ? (
             <motion.div
@@ -620,11 +1039,10 @@ export default function App() {
                 }}
                 onConsultAI={(item) => handleTriggerConsultGarment(item)}
                 onSaveToMoodboard={(item) => handleSaveGarment(item)}
-                savedItemIds={moodboard.map((item) => item.id)}
+                savedItemIds={moodboard ? moodboard.map((item) => item.id) : []}
               />
             </motion.div>
           ) : (
-            
             <motion.div
               key={activeTab}
               initial={{ opacity: 0, y: 10 }}
@@ -635,7 +1053,9 @@ export default function App() {
               {activeTab === "home" && (
                 <HomeSection
                   onSaveStyleToMoodboard={handleSaveStyleFromHome}
-                  savedItemIds={moodboard.map((item) => item.id)}
+                  savedItemIds={
+                    moodboard ? moodboard.map((item) => item.id) : []
+                  }
                   interactiveMode={homeInteractiveMode}
                   onInteractiveModeChange={setHomeInteractiveMode}
                 />
@@ -645,7 +1065,9 @@ export default function App() {
                 <ArchiveSection
                   onSaveToMoodboard={handleSaveGarment}
                   onConsultAI={handleTriggerConsultGarment}
-                  savedItemIds={moodboard.map((item) => item.id)}
+                  savedItemIds={
+                    moodboard ? moodboard.map((item) => item.id) : []
+                  }
                 />
               )}
 
@@ -655,7 +1077,9 @@ export default function App() {
                   onSaveMovieToMoodboard={handleSaveMovie}
                   onSaveBookToMoodboard={handleSaveBook}
                   onSaveRunwayToMoodboard={handleSaveRunway}
-                  savedItemIds={moodboard.map((item) => item.id)}
+                  savedItemIds={
+                    moodboard ? moodboard.map((item) => item.id) : []
+                  }
                   activeSubTab={aestheticActiveSubTab}
                   onActiveSubTabChange={setAestheticActiveSubTab}
                 />
@@ -666,20 +1090,21 @@ export default function App() {
                   onSaveFormulaToMoodboard={handleSaveFormula}
                   onSaveTrendToMoodboard={handleSaveTrend}
                   onConsultAI={handleTriggerConsultTrend}
-                  savedItemIds={moodboard.map((item) => item.id)}
+                  savedItemIds={
+                    moodboard ? moodboard.map((item) => item.id) : []
+                  }
                 />
               )}
 
               {activeTab === "moodboard" && (
                 <MoodboardSection
-                  items={moodboard}
+                  items={moodboard || []}
                   onRemoveItem={handleRemoveMoodboardItem}
                   onAddNote={handleAddCustomNote}
                 />
               )}
             </motion.div>
           )}
-          
         </AnimatePresence>
       </main>
 
@@ -687,13 +1112,17 @@ export default function App() {
       <footer className="bg-[#F6F4E8] border-t border-[#121212]/10 py-8 px-4 md:px-8 mt-20 text-center">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <div className="text-left">
-            <span className="font-mono text-[#2A2B2A]/40 tracking-widest uppercase block mb-1">DESIGN FOR SHARP INTELLECTUAL SILHOUETTE</span>
+            <span className="font-mono text-[#2A2B2A]/40 tracking-widest uppercase block mb-1">
+              DESIGN FOR SHARP INTELLECTUAL SILHOUETTE
+            </span>
             <p className="text-[10.5px] text-[#2A2B2A]/60 font-sans leading-relaxed">
-              FashionAtlas 时尚之镜 • 先锋馆藏级别数字资源档案 & 结构主义双面裁剪生成映射系统。
+              FashionAtlas 时尚之镜 • 先锋馆藏级别数字资源档案 &
+              结构主义双面裁剪生成映射系统。
             </p>
           </div>
           <p className="text-[10px] text-[#2A2B2A]/40 font-mono">
-            &copy; {new Date().getFullYear()} FASHION ATLAS CO. REALTIME CURATION. ALL RIGHTS RESERVED.
+            &copy; {new Date().getFullYear()} FASHION ATLAS CO. REALTIME
+            CURATION. ALL RIGHTS RESERVED.
           </p>
         </div>
       </footer>
@@ -721,7 +1150,7 @@ export default function App() {
         <span className="opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-[10.5px] font-sans font-extralight tracking-[0.3em] text-[#800020] select-none bg-[#E5E0D8]/40 px-3 py-1.5 rounded-sm backdrop-blur-xs font-medium">
           CURATOR AI
         </span>
-        
+
         {/* Pure geometric black circle */}
         <button
           onClick={() => setIsAiCuratorOpen(!isAiCuratorOpen)}

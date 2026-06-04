@@ -1,0 +1,14 @@
+[
+  {
+    "id": "formula-armor-grace",
+    "trendId": "trend-w43-2024",
+    "name": "‘装甲重塑’ 混配公式",
+    "description": "利用最挺适且富力量感的【外壳大衣】作为美学脊梁。",
+    "pieces": [
+      { "role": "主骨架", "name": "装甲型外壳大衣", "iconName": "TrendingUp" }
+    ],
+    "styleTips": [
+      "请将大衣的纽扣全部系上，以获取最大的建筑轮廓感。"
+    ]
+  }
+]

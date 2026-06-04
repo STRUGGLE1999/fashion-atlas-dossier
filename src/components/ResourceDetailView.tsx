@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import { archiveItems } from "../data";
 import { ArchiveItem } from "../types";
 import { 
   ArrowLeft, 
@@ -11,6 +10,7 @@ import {
   Layers,
   BookOpen
 } from "lucide-react";
+import { useFashionData } from "../hooks/useFashionData";
 
 interface ResourceDetailViewProps {
   resourceId: string;
@@ -27,8 +27,24 @@ export default function ResourceDetailView({
   onSaveToMoodboard,
   savedItemIds,
 }: ResourceDetailViewProps) {
-  // Find the requested item
-  const item = archiveItems.find((x) => x.id === resourceId) || archiveItems[0];
+  const { data: archiveItems, loading } = useFashionData<ArchiveItem>("archives");
+  const [item, setItem] = useState<ArchiveItem | null>(null);
+
+  useEffect(() => {
+    if (archiveItems.length > 0) {
+      const found = archiveItems.find((x) => x.id === resourceId) || archiveItems[0];
+      setItem(found);
+    }
+  }, [archiveItems, resourceId]);
+
+  if (loading || !item) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#800020]"></div>
+      </div>
+    );
+  }
+
   const isSaved = savedItemIds.includes(item.id);
 
   // Filter out current item for "related resources"
