@@ -251,17 +251,23 @@ function drawContents(doc: PDFKit.PDFDocument, plan: DossierPlan, items: Moodboa
     const count = section.itemIds.filter((id) => items.some((item) => item.id === id)).length;
     if (count === 0) return;
     ensureSpace(doc, 54);
-    doc.fillColor("#5C1D24").fontSize(9).text(String(index + 1).padStart(2, "0"), 46, doc.y);
-    doc.fillColor("#121212").fontSize(12).text(section.title, 82, doc.y - 2, {
-      width: doc.page.width - 180,
-      continued: false,
+    const rowTop = doc.y;
+    doc.fillColor("#5C1D24").fontSize(9).text(String(index + 1).padStart(2, "0"), 46, rowTop, {
+      width: 26,
+      lineBreak: false,
     });
-    doc.fillColor("#8C7255").fontSize(8).text(`${count} assets`, doc.page.width - 112, doc.y - 1, {
+    doc.fillColor("#121212").fontSize(12).text(section.title, 82, rowTop - 2, {
+      width: doc.page.width - 180,
+    });
+    const titleHeight = textHeight(doc, section.title, 12, doc.page.width - 180);
+    doc.fillColor("#8C7255").fontSize(8).text(`${count} assets`, doc.page.width - 112, rowTop - 1, {
       width: 66,
       align: "right",
+      lineBreak: false,
     });
-    doc.moveTo(82, doc.y + 20).lineTo(doc.page.width - 46, doc.y + 20).strokeColor("#E1DAD0").lineWidth(0.5).stroke();
-    doc.y += 40;
+    doc.y = rowTop + Math.max(24, titleHeight + 8);
+    doc.moveTo(82, doc.y).lineTo(doc.page.width - 46, doc.y).strokeColor("#E1DAD0").lineWidth(0.5).stroke();
+    doc.y += 18;
   });
 
   doc.y += 18;
@@ -271,12 +277,13 @@ function drawSectionHeader(doc: PDFKit.PDFDocument, title: string, subtitle: str
   ensureSpace(doc, 118);
   doc.moveTo(46, doc.y).lineTo(doc.page.width - 46, doc.y).strokeColor("#5C1D24").lineWidth(0.8).stroke();
   doc.y += 16;
-  doc.fillColor("#5C1D24").fontSize(8).text(spacedCaps("CHAPTER"), 46, doc.y);
-  doc.y += 20;
-  doc.fillColor("#121212").fontSize(18).lineGap(3).text(title, 46, doc.y, { width: doc.page.width - 92 });
-  doc.fillColor("#8C7255").fontSize(9).text(subtitle, 46, doc.y + 8, { width: doc.page.width - 92 });
-  doc.moveDown(0.8);
-  doc.fillColor("#2A2B2A").fontSize(10).lineGap(4).text(summary, 46, doc.y, { width: doc.page.width - 92 });
+  writeFixedText(doc, spacedCaps("CHAPTER"), 46, 8, "#5C1D24", { lineBreak: false });
+  doc.y += 12;
+  writeFixedText(doc, title, 46, 18, "#121212", { lineGap: 3 });
+  doc.y += 6;
+  writeFixedText(doc, subtitle, 46, 9, "#8C7255", { lineGap: 3 });
+  doc.y += 8;
+  writeFixedText(doc, summary, 46, 10, "#2A2B2A", { lineGap: 4 });
   doc.y += 18;
 }
 
@@ -286,66 +293,64 @@ function drawMoodboardItem(doc: PDFKit.PDFDocument, item: MoodboardItem) {
   const dossierUse = item.metadata?.dossierUse;
   const questions = item.metadata?.followUpQuestions || [];
   const notes = item.notes || "此灵感尚未写入详细札记。";
-  ensureSpace(doc, 220);
+  const noteText = clampText(notes, 560);
+  const questionText = questions.slice(0, 3).map((question, index) => `${index + 1}. ${question}`);
+  const estimatedHeight = estimateMoodboardItemHeight(doc, {
+    title: item.title,
+    summary,
+    metaLine: [theme ? `主题：${theme}` : "", dossierUse ? `用途：${dossierUse}` : ""].filter(Boolean).join("    "),
+    notes: noteText,
+    questions: questionText,
+    tags: item.tags || [],
+  });
+  ensureSpace(doc, estimatedHeight);
 
   doc.moveTo(46, doc.y).lineTo(doc.page.width - 46, doc.y).strokeColor("#E4DDD3").lineWidth(0.6).stroke();
   doc.y += 14;
 
-  doc.fillColor("#5C1D24").fontSize(7).text(spacedCaps(`${item.type.toUpperCase()} // ${item.savedAt}`), 46, doc.y, {
-    width: doc.page.width - 92,
-    lineBreak: false,
-  });
+  writeFixedText(doc, spacedCaps(`${item.type.toUpperCase()} // ${item.savedAt}`), 46, 7, "#5C1D24", { lineBreak: false });
   doc.y += 16;
 
-  doc.fillColor("#121212").fontSize(14).lineGap(2).text(item.title, 46, doc.y, {
-    width: doc.page.width - 92,
-  });
+  writeFixedText(doc, item.title, 46, 14, "#121212", { lineGap: 2 });
   doc.y += 6;
 
   if (summary) {
     ensureSpace(doc, 46);
-    doc.fillColor("#8C7255").fontSize(8).text("摘要", 46, doc.y, { lineBreak: false });
+    writeFixedText(doc, "摘要", 46, 8, "#8C7255", { lineBreak: false });
     doc.y += 13;
-    doc.fillColor("#2A2B2A").fontSize(9).lineGap(3).text(summary, 46, doc.y, {
-      width: doc.page.width - 92,
-    });
+    writeFixedText(doc, summary, 46, 9, "#2A2B2A", { lineGap: 3 });
     doc.y += 6;
   }
 
   const metaLine = [theme ? `主题：${theme}` : "", dossierUse ? `用途：${dossierUse}` : ""].filter(Boolean).join("    ");
   if (metaLine) {
     ensureSpace(doc, 28);
-    doc.fillColor("#5C1D24").fontSize(8).text(metaLine, 46, doc.y, {
-      width: doc.page.width - 92,
-    });
+    writeFixedText(doc, metaLine, 46, 8, "#5C1D24", { lineGap: 3 });
     doc.y += 6;
   }
 
-  ensureSpace(doc, 80);
-  doc.fillColor("#2A2B2A").fontSize(9).lineGap(3).text(notes, 46, doc.y, {
-    width: doc.page.width - 92,
-    height: 78,
+  const noteHeight = Math.min(112, textHeight(doc, noteText, 9, doc.page.width - 92, 3));
+  ensureSpace(doc, noteHeight + 14);
+  writeFixedText(doc, noteText, 46, 9, "#2A2B2A", {
+    height: noteHeight,
     ellipsis: true,
+    lineGap: 3,
   });
   doc.y += 8;
 
-  if (questions.length > 0) {
-    ensureSpace(doc, 18 + questions.length * 14);
-    doc.fillColor("#8C7255").fontSize(8).text("可延展问题", 46, doc.y, { lineBreak: false });
+  if (questionText.length > 0) {
+    ensureSpace(doc, 18 + questionText.length * 18);
+    writeFixedText(doc, "可延展问题", 46, 8, "#8C7255", { lineBreak: false });
     doc.y += 13;
-    questions.slice(0, 3).forEach((question, index) => {
-      doc.fillColor("#2A2B2A").fontSize(8).text(`${index + 1}. ${question}`, 46, doc.y, {
-        width: doc.page.width - 92,
-      });
+    questionText.forEach((question) => {
+      writeFixedText(doc, question, 46, 8, "#2A2B2A", { lineGap: 2 });
     });
     doc.y += 6;
   }
 
   if (item.tags && item.tags.length > 0) {
     ensureSpace(doc, 22);
-    doc.fillColor("#8C7255").fontSize(8).text(item.tags.map((tag) => `#${tag}`).join("   "), 46, doc.y, {
-      width: doc.page.width - 92,
-    });
+    writeFixedText(doc, item.tags.map((tag) => `#${tag}`).join("   "), 46, 8, "#8C7255", { lineGap: 2 });
   }
 
   doc.y += 18;
@@ -377,6 +382,64 @@ function drawClosing(doc: PDFKit.PDFDocument, plan: DossierPlan) {
   });
   doc.moveDown(1.2);
   doc.fillColor("#8C7255").fontSize(8).text(`Generated by ${plan.model}${plan.simulated ? " (fallback curation)" : ""}`, 46, doc.y);
+}
+
+function writeFixedText(
+  doc: PDFKit.PDFDocument,
+  text: string,
+  x: number,
+  fontSize: number,
+  color: string,
+  options: PDFKit.Mixins.TextOptions = {},
+) {
+  const width = options.width || doc.page.width - x - 46;
+  const lineGap = Number(options.lineGap || 0);
+  const height = typeof options.height === "number"
+    ? options.height
+    : textHeight(doc, text, fontSize, width, lineGap);
+  const y = doc.y;
+
+  doc.fillColor(color).fontSize(fontSize).text(text, x, y, {
+    width,
+    ...options,
+  });
+
+  doc.y = y + height;
+}
+
+function textHeight(doc: PDFKit.PDFDocument, text: string, fontSize: number, width: number, lineGap = 0) {
+  doc.fontSize(fontSize);
+  return Math.ceil(doc.heightOfString(text || " ", { width, lineGap }));
+}
+
+function estimateMoodboardItemHeight(
+  doc: PDFKit.PDFDocument,
+  input: {
+    title: string;
+    summary: string;
+    metaLine: string;
+    notes: string;
+    questions: string[];
+    tags: string[];
+  },
+) {
+  const width = doc.page.width - 92;
+  let height = 14 + 16 + 6 + 18;
+  height += textHeight(doc, input.title, 14, width, 2) + 6;
+  if (input.summary) height += 13 + textHeight(doc, input.summary, 9, width, 3) + 6;
+  if (input.metaLine) height += textHeight(doc, input.metaLine, 8, width, 3) + 6;
+  height += Math.min(112, textHeight(doc, input.notes, 9, width, 3)) + 8;
+  if (input.questions.length > 0) {
+    height += 13 + input.questions.reduce((total, question) => total + textHeight(doc, question, 8, width, 2), 0) + 6;
+  }
+  if (input.tags.length > 0) height += textHeight(doc, input.tags.map((tag) => `#${tag}`).join("   "), 8, width, 2);
+  return Math.ceil(height + 22);
+}
+
+function clampText(value: string, maxLength: number) {
+  const normalized = value.replace(/\n{3,}/g, "\n\n").trim();
+  if (normalized.length <= maxLength) return normalized;
+  return `${normalized.slice(0, maxLength - 1).trim()}…`;
 }
 
 function addPageNumbers(doc: PDFKit.PDFDocument) {
