@@ -169,6 +169,9 @@ async function renderDossierPdf(items: MoodboardItem[], plan: DossierPlan) {
 
   const chunks: Buffer[] = [];
   doc.on("data", (chunk) => chunks.push(Buffer.from(chunk)));
+  doc.on("pageAdded", () => {
+    drawPageBase(doc);
+  });
 
   const fontPath = require.resolve("@fontsource/noto-sans-sc/files/noto-sans-sc-chinese-simplified-400-normal.woff");
   doc.registerFont("NotoSC", fontPath);
@@ -198,8 +201,10 @@ async function renderDossierPdf(items: MoodboardItem[], plan: DossierPlan) {
 }
 
 function drawPageBase(doc: PDFKit.PDFDocument) {
+  const currentY = doc.y;
   doc.rect(0, 0, doc.page.width, doc.page.height).fill("#FBFAF6");
   doc.fillColor("#2A2B2A");
+  doc.y = currentY;
 }
 
 function drawCover(doc: PDFKit.PDFDocument, plan: DossierPlan, items: MoodboardItem[]) {
