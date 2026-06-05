@@ -14,7 +14,7 @@ interface CuratorAssistantProps {
   activeGarment: ArchiveItem | null;
   activeTrend: TrendTopic | null;
   onClearActiveContext: () => void;
-  onSaveSuggestionToMoodboard: (title: string, content: string) => void;
+  onSaveSuggestionToMoodboard: (title: string, content: string) => void | Promise<void>;
 }
 
 export default function CuratorAssistant({
@@ -130,13 +130,13 @@ export default function CuratorAssistant({
     }
   };
 
-  const handleSaveToMoodboard = (messageContent: string) => {
+  const handleSaveToMoodboard = async (messageContent: string) => {
     const defaultTitle = activeGarment 
       ? `关于【${activeGarment.name}】的AI灵感笔记` 
       : activeTrend 
       ? `关于【${activeTrend.name}】的AI灵感笔记` 
       : "AI时尚策展灵感札记";
-    onSaveSuggestionToMoodboard(defaultTitle, messageContent);
+    await onSaveSuggestionToMoodboard(defaultTitle, messageContent);
   };
 
   return (

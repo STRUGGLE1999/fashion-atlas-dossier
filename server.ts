@@ -7,6 +7,7 @@ import { isDataType, readJsonData } from "./src/server/data.js";
 import { getMoodboardItems } from "./src/server/db.js";
 import { generateMoodboardDossierPdf } from "./src/server/dossier.js";
 import { getAnonymousUserId } from "./src/server/identity.js";
+import { handleCurateInsightRequest } from "./src/server/insight.js";
 import { handleGetMoodboard, handleSaveMoodboard } from "./src/server/moodboard.js";
 import { fetchAndCurateFashionNews, getPublishedDailyCuration } from "./src/server/news.js";
 
@@ -69,6 +70,11 @@ app.post("/api/moodboard", (req, res) => {
   ).then((result) => {
     res.status(result.status).json(result.body);
   });
+});
+
+app.post("/api/moodboard/curate-insight", async (req, res) => {
+  const result = await handleCurateInsightRequest(req.body || {});
+  res.status(result.status).json(result.body);
 });
 
 app.get("/api/moodboard/export", async (req, res) => {

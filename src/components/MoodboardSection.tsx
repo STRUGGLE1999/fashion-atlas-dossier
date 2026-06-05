@@ -270,9 +270,37 @@ export default function MoodboardSection({
                         <h4 className="font-serif font-normal text-lg sm:text-xl text-[#121212] leading-tight italic tracking-tight">
                           {item.title}
                         </h4>
+                        {item.metadata?.summary && (
+                          <div className="border-l-2 border-[#5C1D24]/70 pl-4 py-1 space-y-2">
+                            <p className="text-[9px] font-mono tracking-[0.18em] text-[#5C1D24]/80 uppercase">
+                              AI CURATED ASSET • 二次整理
+                            </p>
+                            <p className="text-xs text-[#121212]/75 font-sans leading-relaxed">
+                              {item.metadata.summary}
+                            </p>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-1 text-[10px] font-sans text-[#121212]/55">
+                              {item.metadata.theme && <span>主题：{item.metadata.theme}</span>}
+                              {item.metadata.dossierUse && <span>用途：{item.metadata.dossierUse}</span>}
+                            </div>
+                          </div>
+                        )}
                         <p className="text-xs sm:text-sm text-[#121212]/75 font-sans leading-relaxed whitespace-pre-wrap text-justify">
                           {item.notes}
                         </p>
+                        {item.metadata?.followUpQuestions && item.metadata.followUpQuestions.length > 0 && (
+                          <div className="pt-2">
+                            <p className="text-[9px] font-mono tracking-[0.18em] text-[#121212]/35 uppercase mb-2">
+                              EXTENDABLE QUESTIONS • 可延展问题
+                            </p>
+                            <div className="space-y-1">
+                              {item.metadata.followUpQuestions.map((question, idx) => (
+                                <p key={idx} className="text-[11px] text-[#121212]/60 font-sans">
+                                  {idx + 1}. {question}
+                                </p>
+                              ))}
+                            </div>
+                          </div>
+                        )}
                       </div>
                     </div>
 

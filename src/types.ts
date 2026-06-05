@@ -55,7 +55,14 @@ export interface MoodboardItem {
   savedAt: string;
   tags?: string[];
   notes?: string;
-  metadata?: any;
+  metadata?: {
+    theme?: string;
+    summary?: string;
+    sourceTitle?: string;
+    dossierUse?: string;
+    followUpQuestions?: string[];
+    [key: string]: any;
+  };
 }
 
 export interface Message {

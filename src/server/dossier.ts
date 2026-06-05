@@ -158,7 +158,7 @@ function fallbackDossierPlan(items: MoodboardItem[], model: string, simulated: b
 async function renderDossierPdf(items: MoodboardItem[], plan: DossierPlan) {
   const doc = new PDFDocument({
     size: "A4",
-    margin: 52,
+    margin: 46,
     bufferPages: true,
     info: {
       Title: plan.coverTitle,
@@ -174,22 +174,21 @@ async function renderDossierPdf(items: MoodboardItem[], plan: DossierPlan) {
   doc.registerFont("NotoSC", fontPath);
   doc.font("NotoSC");
 
-  drawPageBackground(doc);
   drawCover(doc, plan, items);
+  drawContents(doc, plan, items);
 
   for (const section of plan.sections) {
     const sectionItems = section.itemIds
       .map((id) => items.find((item) => item.id === id))
       .filter(Boolean) as MoodboardItem[];
 
-    doc.addPage();
-    drawPageBackground(doc);
+    if (sectionItems.length === 0) continue;
+    ensureSpace(doc, 132);
     drawSectionHeader(doc, section.title, section.subtitle, section.summary);
     for (const item of sectionItems) drawMoodboardItem(doc, item);
   }
 
-  doc.addPage();
-  drawPageBackground(doc);
+  ensureSpace(doc, 190);
   drawClosing(doc, plan);
   addPageNumbers(doc);
 
@@ -198,79 +197,158 @@ async function renderDossierPdf(items: MoodboardItem[], plan: DossierPlan) {
   return Buffer.concat(chunks);
 }
 
-function drawPageBackground(doc: PDFKit.PDFDocument) {
-  doc.rect(0, 0, doc.page.width, doc.page.height).fill("#F6F4E8");
-  doc.strokeColor("#D8D0C4").lineWidth(0.6);
-  for (let y = 64; y < doc.page.height - 48; y += 44) {
-    doc.moveTo(42, y).lineTo(doc.page.width - 42, y).stroke();
-  }
+function drawPageBase(doc: PDFKit.PDFDocument) {
+  doc.rect(0, 0, doc.page.width, doc.page.height).fill("#FBFAF6");
   doc.fillColor("#2A2B2A");
 }
 
 function drawCover(doc: PDFKit.PDFDocument, plan: DossierPlan, items: MoodboardItem[]) {
-  doc.fillColor("#5C1D24").fontSize(9).text(spacedCaps("FASHIONATLAS // PRIVATE CURATION DOSSIER"), 52, 70);
-  doc.moveTo(52, 102).lineTo(doc.page.width - 52, 102).strokeColor("#5C1D24").lineWidth(1).stroke();
+  drawPageBase(doc);
+  doc.fillColor("#5C1D24").fontSize(9).text(spacedCaps("FASHIONATLAS // PRIVATE CURATION DOSSIER"), 46, 58);
+  doc.moveTo(46, 86).lineTo(doc.page.width - 46, 86).strokeColor("#5C1D24").lineWidth(1).stroke();
 
-  doc.fillColor("#121212").fontSize(30).lineGap(6).text(plan.coverTitle, 52, 150, {
-    width: doc.page.width - 104,
+  doc.fillColor("#121212").fontSize(28).lineGap(6).text(plan.coverTitle, 46, 130, {
+    width: doc.page.width - 92,
     align: "left",
   });
 
-  doc.fillColor("#8C7255").fontSize(12).text(plan.coverSubtitle, 52, 270, {
-    width: doc.page.width - 104,
+  doc.fillColor("#8C7255").fontSize(11).text(plan.coverSubtitle, 46, 248, {
+    width: doc.page.width - 92,
   });
 
-  doc.fillColor("#2A2B2A").fontSize(12).lineGap(7).text(plan.editorLetter, 52, 340, {
+  doc.roundedRect(46, 315, doc.page.width - 92, 170, 6).fillAndStroke("#F1EDE4", "#DED6CA");
+  doc.fillColor("#5C1D24").fontSize(8).text(spacedCaps("EDITOR LETTER"), 64, 338);
+  doc.fillColor("#2A2B2A").fontSize(11).lineGap(6).text(plan.editorLetter, 64, 365, {
     width: doc.page.width - 128,
-  });
-
-  doc.fillColor("#5C1D24").fontSize(10).text(spacedCaps(`TOTAL ARCHIVES ${items.length}`), 52, 610);
-  doc.fillColor("#121212").fontSize(10).text(new Date().toLocaleDateString(), 52, 632);
-
-  const sampleImages = items.filter((item) => item.image).slice(0, 4);
-  let x = 330;
-  let y = 585;
-  sampleImages.forEach((item, idx) => {
-    drawImagePlaceholder(doc, x + idx * 38, y, 30, 42, item.title);
-  });
-}
-
-function drawSectionHeader(doc: PDFKit.PDFDocument, title: string, subtitle: string, summary: string) {
-  doc.fillColor("#5C1D24").fontSize(9).text(spacedCaps("CHAPTER INDEX"), 52, 58);
-  doc.fillColor("#121212").fontSize(22).lineGap(4).text(title, 52, 88, { width: doc.page.width - 104 });
-  doc.fillColor("#8C7255").fontSize(10).text(subtitle, 52, 146, { width: doc.page.width - 104 });
-  doc.fillColor("#2A2B2A").fontSize(11).lineGap(5).text(summary, 52, 180, { width: doc.page.width - 104 });
-  doc.moveTo(52, 230).lineTo(doc.page.width - 52, 230).strokeColor("#5C1D24").lineWidth(0.8).stroke();
-  doc.y = 254;
-}
-
-function drawMoodboardItem(doc: PDFKit.PDFDocument, item: MoodboardItem) {
-  if (doc.y > doc.page.height - 190) {
-    doc.addPage();
-    drawPageBackground(doc);
-    doc.y = 64;
-  }
-
-  const top = doc.y;
-  if (item.image) drawImagePlaceholder(doc, 52, top, 92, 72, item.title);
-
-  const textX = item.image ? 168 : 52;
-  const width = doc.page.width - textX - 52;
-  doc.fillColor("#5C1D24").fontSize(8).text(spacedCaps(`${item.type.toUpperCase()} // ${item.savedAt}`), textX, top, { width });
-  doc.fillColor("#121212").fontSize(14).lineGap(2).text(item.title, textX, top + 18, { width });
-  doc.fillColor("#2A2B2A").fontSize(10).lineGap(4).text(item.notes || "此灵感尚未写入详细札记。", textX, top + 48, {
-    width,
-    height: 92,
+    height: 88,
     ellipsis: true,
   });
 
-  if (item.tags && item.tags.length > 0) {
-    doc.fillColor("#8C7255").fontSize(8).text(item.tags.map((tag) => `#${tag}`).join("   "), textX, doc.y + 6, { width });
+  doc.fillColor("#5C1D24").fontSize(9).text(spacedCaps(`TOTAL ASSETS ${items.length}`), 46, 588);
+  doc.fillColor("#121212").fontSize(9).text(new Date().toLocaleDateString(), 46, 610);
+  doc.fillColor("#8C7255").fontSize(8).text(`Generated by ${plan.model}${plan.simulated ? " (fallback curation)" : ""}`, 46, 632);
+
+  const sampleImages = items.filter((item) => item.image).slice(0, 4);
+  let x = 346;
+  const y = 578;
+  sampleImages.forEach((item, idx) => {
+    drawImagePlaceholder(doc, x + idx * 42, y, 34, 48, item.title);
+  });
+
+  doc.addPage();
+  drawPageBase(doc);
+}
+
+function drawContents(doc: PDFKit.PDFDocument, plan: DossierPlan, items: MoodboardItem[]) {
+  doc.fillColor("#5C1D24").fontSize(8).text(spacedCaps("DOSSIER CONTENTS"), 46, 54);
+  doc.fillColor("#121212").fontSize(20).text("目录与资产概览", 46, 82);
+  doc.fillColor("#8C7255").fontSize(9).text("每条 AI 灵感会保留标题、标签、摘要、用途与延展问题，便于继续写成作品集叙事。", 46, 114, {
+    width: doc.page.width - 92,
+  });
+
+  doc.y = 162;
+  plan.sections.forEach((section, index) => {
+    const count = section.itemIds.filter((id) => items.some((item) => item.id === id)).length;
+    if (count === 0) return;
+    ensureSpace(doc, 54);
+    doc.fillColor("#5C1D24").fontSize(9).text(String(index + 1).padStart(2, "0"), 46, doc.y);
+    doc.fillColor("#121212").fontSize(12).text(section.title, 82, doc.y - 2, {
+      width: doc.page.width - 180,
+      continued: false,
+    });
+    doc.fillColor("#8C7255").fontSize(8).text(`${count} assets`, doc.page.width - 112, doc.y - 1, {
+      width: 66,
+      align: "right",
+    });
+    doc.moveTo(82, doc.y + 20).lineTo(doc.page.width - 46, doc.y + 20).strokeColor("#E1DAD0").lineWidth(0.5).stroke();
+    doc.y += 40;
+  });
+
+  doc.y += 18;
+}
+
+function drawSectionHeader(doc: PDFKit.PDFDocument, title: string, subtitle: string, summary: string) {
+  ensureSpace(doc, 118);
+  doc.moveTo(46, doc.y).lineTo(doc.page.width - 46, doc.y).strokeColor("#5C1D24").lineWidth(0.8).stroke();
+  doc.y += 16;
+  doc.fillColor("#5C1D24").fontSize(8).text(spacedCaps("CHAPTER"), 46, doc.y);
+  doc.y += 20;
+  doc.fillColor("#121212").fontSize(18).lineGap(3).text(title, 46, doc.y, { width: doc.page.width - 92 });
+  doc.fillColor("#8C7255").fontSize(9).text(subtitle, 46, doc.y + 8, { width: doc.page.width - 92 });
+  doc.moveDown(0.8);
+  doc.fillColor("#2A2B2A").fontSize(10).lineGap(4).text(summary, 46, doc.y, { width: doc.page.width - 92 });
+  doc.y += 18;
+}
+
+function drawMoodboardItem(doc: PDFKit.PDFDocument, item: MoodboardItem) {
+  const summary = item.metadata?.summary || firstParagraph(item.notes || "");
+  const theme = item.metadata?.theme;
+  const dossierUse = item.metadata?.dossierUse;
+  const questions = item.metadata?.followUpQuestions || [];
+  const notes = item.notes || "此灵感尚未写入详细札记。";
+  ensureSpace(doc, 220);
+
+  doc.moveTo(46, doc.y).lineTo(doc.page.width - 46, doc.y).strokeColor("#E4DDD3").lineWidth(0.6).stroke();
+  doc.y += 14;
+
+  doc.fillColor("#5C1D24").fontSize(7).text(spacedCaps(`${item.type.toUpperCase()} // ${item.savedAt}`), 46, doc.y, {
+    width: doc.page.width - 92,
+    lineBreak: false,
+  });
+  doc.y += 16;
+
+  doc.fillColor("#121212").fontSize(14).lineGap(2).text(item.title, 46, doc.y, {
+    width: doc.page.width - 92,
+  });
+  doc.y += 6;
+
+  if (summary) {
+    ensureSpace(doc, 46);
+    doc.fillColor("#8C7255").fontSize(8).text("摘要", 46, doc.y, { lineBreak: false });
+    doc.y += 13;
+    doc.fillColor("#2A2B2A").fontSize(9).lineGap(3).text(summary, 46, doc.y, {
+      width: doc.page.width - 92,
+    });
+    doc.y += 6;
   }
 
-  doc.y = Math.max(doc.y, top + 134);
-  doc.moveTo(52, doc.y).lineTo(doc.page.width - 52, doc.y).strokeColor("#D8D0C4").lineWidth(0.6).stroke();
-  doc.y += 22;
+  const metaLine = [theme ? `主题：${theme}` : "", dossierUse ? `用途：${dossierUse}` : ""].filter(Boolean).join("    ");
+  if (metaLine) {
+    ensureSpace(doc, 28);
+    doc.fillColor("#5C1D24").fontSize(8).text(metaLine, 46, doc.y, {
+      width: doc.page.width - 92,
+    });
+    doc.y += 6;
+  }
+
+  ensureSpace(doc, 80);
+  doc.fillColor("#2A2B2A").fontSize(9).lineGap(3).text(notes, 46, doc.y, {
+    width: doc.page.width - 92,
+    height: 78,
+    ellipsis: true,
+  });
+  doc.y += 8;
+
+  if (questions.length > 0) {
+    ensureSpace(doc, 18 + questions.length * 14);
+    doc.fillColor("#8C7255").fontSize(8).text("可延展问题", 46, doc.y, { lineBreak: false });
+    doc.y += 13;
+    questions.slice(0, 3).forEach((question, index) => {
+      doc.fillColor("#2A2B2A").fontSize(8).text(`${index + 1}. ${question}`, 46, doc.y, {
+        width: doc.page.width - 92,
+      });
+    });
+    doc.y += 6;
+  }
+
+  if (item.tags && item.tags.length > 0) {
+    ensureSpace(doc, 22);
+    doc.fillColor("#8C7255").fontSize(8).text(item.tags.map((tag) => `#${tag}`).join("   "), 46, doc.y, {
+      width: doc.page.width - 92,
+    });
+  }
+
+  doc.y += 18;
 }
 
 function drawImagePlaceholder(doc: PDFKit.PDFDocument, x: number, y: number, width: number, height: number, label: string) {
@@ -286,14 +364,19 @@ function drawImagePlaceholder(doc: PDFKit.PDFDocument, x: number, y: number, wid
 }
 
 function drawClosing(doc: PDFKit.PDFDocument, plan: DossierPlan) {
-  doc.fillColor("#5C1D24").fontSize(9).text(spacedCaps("EDITORIAL CLOSING NOTE"), 52, 88);
-  doc.fillColor("#121212").fontSize(24).text("策展尾声 / FINAL CURATORIAL NOTE", 52, 130, {
-    width: doc.page.width - 104,
+  doc.moveTo(46, doc.y).lineTo(doc.page.width - 46, doc.y).strokeColor("#5C1D24").lineWidth(0.8).stroke();
+  doc.y += 18;
+  doc.fillColor("#5C1D24").fontSize(8).text(spacedCaps("EDITORIAL CLOSING NOTE"), 46, doc.y);
+  doc.y += 28;
+  doc.fillColor("#121212").fontSize(20).text("策展尾声 / Final Note", 46, doc.y, {
+    width: doc.page.width - 92,
   });
-  doc.fillColor("#2A2B2A").fontSize(13).lineGap(8).text(plan.closingNote, 52, 220, {
-    width: doc.page.width - 120,
+  doc.moveDown(0.8);
+  doc.fillColor("#2A2B2A").fontSize(11).lineGap(6).text(plan.closingNote, 46, doc.y, {
+    width: doc.page.width - 92,
   });
-  doc.fillColor("#8C7255").fontSize(9).text(`Generated by ${plan.model}${plan.simulated ? " (fallback curation)" : ""}`, 52, 620);
+  doc.moveDown(1.2);
+  doc.fillColor("#8C7255").fontSize(8).text(`Generated by ${plan.model}${plan.simulated ? " (fallback curation)" : ""}`, 46, doc.y);
 }
 
 function addPageNumbers(doc: PDFKit.PDFDocument) {
@@ -303,8 +386,21 @@ function addPageNumbers(doc: PDFKit.PDFDocument) {
     doc.fillColor("#8C7255").fontSize(8).text(spacedCaps(`FASHIONATLAS ${String(i + 1).padStart(2, "0")}`), 52, doc.page.height - 36, {
       width: doc.page.width - 104,
       align: "right",
+      height: 10,
+      lineBreak: false,
     });
   }
+}
+
+function ensureSpace(doc: PDFKit.PDFDocument, neededHeight: number) {
+  if (doc.y + neededHeight <= doc.page.height - 62) return;
+  doc.addPage();
+  drawPageBase(doc);
+  doc.y = 54;
+}
+
+function firstParagraph(value: string) {
+  return value.split(/\n\s*\n/)[0]?.replace(/\s+/g, " ").slice(0, 120).trim() || "";
 }
 
 function spacedCaps(value: string) {

@@ -353,6 +353,31 @@ export default function App() {
     showToast("✍️ 成功添加了一篇新的学术策展笔记！");
   };
 
+  const handleSaveAiInsight = async (title: string, content: string) => {
+    try {
+      const response = await fetch("/api/moodboard/curate-insight", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title,
+          content,
+          contextGarment: aiContextGarment,
+          contextTrend: aiContextTrend,
+        }),
+      });
+
+      if (!response.ok) throw new Error("Insight curation failed");
+      const data = await response.json();
+      if (!data.item) throw new Error("Insight curation returned no item");
+
+      setMoodboard((prev) => [...prev, data.item]);
+      showToast("✨ AI回答已整理为结构化灵感资产！");
+    } catch {
+      handleAddCustomNote(title, content);
+      showToast("✨ 已保存AI回答，结构化整理暂时使用原文兜底。");
+    }
+  };
+
   const handleRemoveMoodboardItem = (id: string) => {
     setMoodboard((prev) => prev.filter((item) => item.id !== id));
     showToast("已安全从您的灵感板中移出此张卡片。");
@@ -1138,10 +1163,7 @@ export default function App() {
           setAiContextTrend(null);
           showToast("🤖 已重置关联上下文，对谈回归通用时尚探索。");
         }}
-        onSaveSuggestionToMoodboard={(title, content) => {
-          handleAddCustomNote(title, content);
-          showToast("✨ 成功将AI生成的艺术灵感卡记录在您的灵感板！");
-        }}
+        onSaveSuggestionToMoodboard={handleSaveAiInsight}
       />
 
       {/* Geometric Floating AI trigger with extreme aesthetic restraint */}
