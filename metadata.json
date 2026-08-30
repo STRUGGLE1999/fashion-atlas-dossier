@@ -1,6 +1,6 @@
 {
   "name": "FashionAtlas (时尚地图/档案)",
-  "description": "一个时尚数字档案与智能推荐系统。包含数字资源库、美学引导、周趋势、智能策展对谈助手等模块，完美适配各终端。",
+  "description": "时装数字档案与 Gemini 兼容策展助手。含风格辞典、教学馆藏、灵感板与 Dossier 导出；模型名与 API Key 由环境变量配置。",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

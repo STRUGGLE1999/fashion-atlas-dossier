@@ -107,7 +107,7 @@ export default function AestheticSection({
         <span className="text-[9px] font-mono tracking-[0.25em] text-[#800020] block mb-1">AESTHETIC & SCHOLASTIC INTELLIGENCE</span>
         <h2 className="font-serif font-normal text-2xl text-[#2A2B2A] md:text-3xl italic">时装美学引导与馆藏文字放映室</h2>
         <p className="text-xs text-[#2A2B2A]/60 mt-1 max-w-2xl font-sans font-light">
-          穿搭与裁剪背后的精神文献。我们在此为您展开结构美学引导大纲、50本常青时尚书研析以及30场殿堂级里程碑秀场路线，帮助您训练出策展人般高亢的鉴赏双眼。
+          穿搭与裁剪背后的精神文献。当前收录 1 篇结构美学大纲、10 本时尚书目与 10 场里程碑秀场，用于训练鉴赏路径，而不是假装一座完整博物馆。
         </p>
       </div>
 
@@ -116,7 +116,7 @@ export default function AestheticSection({
         {[
           { id: "guides", label: "结构美学大纲", count: aestheticGuides.length },
           { id: "bookshelf", label: "时尚精选书架", count: fashionBooks.length },
-          { id: "runways", label: "30场经典秀场路径", count: runwayShows.length },
+          { id: "runways", label: "经典秀场路径", count: runwayShows.length },
         ].map((tab) => {
           const isActive = aestheticSubTab === tab.id;
           return (

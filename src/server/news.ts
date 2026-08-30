@@ -1,11 +1,12 @@
-import { GoogleGenAI } from "@google/genai";
 import type { DailyCuration, DailyCurationItem, FashionNewsItem } from "../types.js";
+import { beijingDate, getFileCurationForToday } from "./curation-file.js";
+import { createGeminiClient, geminiContentConfig, getGeminiModel, getGeminiTimeoutMs } from "./gemini.js";
 import {
   getLatestDailyCuration,
   getRecentNewsItems,
   saveDailyCuration,
   upsertNewsItems,
-} from "./db";
+} from "./db.js";
 
 interface NewsSource {
   id: string;
@@ -30,7 +31,7 @@ const NEWS_SOURCES: NewsSource[] = [
   {
     id: "hypebeast-fashion",
     name: "Hypebeast Fashion",
-    url: "https://hypebeast.com/?feed=rss2",
+    url: "https://hypebeast.com/fashion/feed",
     tags: ["streetwear", "brand", "trend"],
   },
   {
@@ -44,6 +45,18 @@ const NEWS_SOURCES: NewsSource[] = [
     name: "The Business of Fashion",
     url: "https://www.businessoffashion.com/feed/",
     tags: ["business", "brand", "industry"],
+  },
+  {
+    id: "wwd",
+    name: "WWD",
+    url: "https://wwd.com/feed/",
+    tags: ["industry", "runway", "brand"],
+  },
+  {
+    id: "nyt-fashion",
+    name: "The New York Times Fashion & Style",
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml",
+    tags: ["style", "culture", "trend"],
   },
 ];
 
@@ -99,7 +112,7 @@ export async function fetchAndCurateFashionNews() {
 }
 
 export async function getPublishedDailyCuration() {
-  return getLatestDailyCuration();
+  return getFileCurationForToday() || getLatestDailyCuration();
 }
 
 export async function fetchFashionNews() {
@@ -245,7 +258,7 @@ function scoreRelevance(item: FashionNewsItem) {
   ), 0);
 }
 
-function dedupeNewsItems(items: FashionNewsItem[]) {
+export function dedupeNewsItems(items: FashionNewsItem[]) {
   const byUrl = new Map<string, FashionNewsItem>();
   const accepted: FashionNewsItem[] = [];
 
@@ -283,27 +296,25 @@ function dateScore(item: FashionNewsItem) {
   return item.publishedAt ? new Date(item.publishedAt).getTime() : 0;
 }
 
-async function curateDailyFashionNews(candidates: FashionNewsItem[]): Promise<DailyCuration> {
-  const date = new Date().toISOString().slice(0, 10);
+export async function curateDailyFashionNews(candidates: FashionNewsItem[], date = beijingDate()): Promise<DailyCuration> {
   if (candidates.length === 0) return emptyCuration(date);
 
-  const apiKey = process.env.GEMINI_API_KEY;
-  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-  if (!apiKey) return heuristicCuration(candidates, date, "Gemini API key missing");
+  const ai = createGeminiClient();
+  const model = getGeminiModel();
+  if (!ai) return heuristicCuration(candidates, date, "Gemini API key missing");
 
   const prompt = buildCurationPrompt(candidates);
   try {
-    const ai = new GoogleGenAI({ apiKey });
     const response = await withTimeout(
       ai.models.generateContent({
         model,
         contents: prompt,
-        config: {
+        config: geminiContentConfig({
           temperature: 0.45,
           systemInstruction: "你是 FashionAtlas 的每日时尚资讯主编。只基于输入来源做策展，不编造链接、人物、品牌或发布时间。",
-        },
+        }),
       }),
-      Number(process.env.AI_REQUEST_TIMEOUT_MS || 10000),
+      getGeminiTimeoutMs(),
     );
 
     const parsed = parseCurationJson(response.text || "");
@@ -439,6 +450,24 @@ function heuristicItems(candidates: FashionNewsItem[]): DailyCurationItem[] {
 
 function collectTags(items: DailyCurationItem[]) {
   return Array.from(new Set(items.flatMap((item) => item.tags))).slice(0, 8);
+}
+
+export function verifyCurationGrounding(
+  curation: DailyCuration,
+  candidates: FashionNewsItem[],
+) {
+  const urls = new Set(candidates.map((item) => item.url));
+  if (!Array.isArray(curation.items) || curation.items.length === 0) {
+    return { ok: false, reason: "Curation has no items" };
+  }
+
+  for (const item of curation.items) {
+    if (!item.url || !urls.has(item.url)) {
+      return { ok: false, reason: `Item URL is not in the RSS candidate pool: ${item.url || "(empty)"}` };
+    }
+  }
+
+  return { ok: true as const, reason: "All item URLs are in the candidate pool" };
 }
 
 function emptyCuration(date: string): DailyCuration {

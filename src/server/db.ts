@@ -254,8 +254,9 @@ export async function getLatestDailyCuration() {
   const sql = getSql();
   if (!sql) return fallbackCurations[0] || null;
 
-  await ensureNewsSchema();
-  const rows = await sql`
+  try {
+    await ensureNewsSchema();
+    const rows = await sql`
     SELECT
       curation_date,
       title,
@@ -274,6 +275,10 @@ export async function getLatestDailyCuration() {
   const resultRows = rows as any[];
   if (resultRows.length === 0) return null;
   return rowToDailyCuration(resultRows[0]);
+  } catch (error) {
+    console.error("getLatestDailyCuration failed:", error);
+    return fallbackCurations[0] || null;
+  }
 }
 
 function rowToNewsItem(row: any): FashionNewsItem {

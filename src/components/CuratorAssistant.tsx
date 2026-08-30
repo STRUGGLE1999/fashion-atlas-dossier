@@ -39,9 +39,9 @@ export default function CuratorAssistant({
 
   // Suggested quick prompts based on situation
   const basePrompts = [
-    "简述安特卫普六君子对解构时装的核心贡献",
-    "如何用经典高定廓形调和街头主义风貌？",
-    "推荐本年度最适合‘硬核褶皱’的配饰单品"
+    "今天有没有已发布的国外时尚资讯？有则列出标题和原始链接；没有请明确说尚未发布，不要编新闻。",
+    "用非科班能懂的话解释 Margiela Tabi Boots：分趾从哪来、为什么重要、日常怎么穿才不会像在扮演角色。",
+    "对照站内风格辞典讲 Quiet Luxury：廓形、材质和三个避坑。不要编造辞典里没有的品牌联名。",
   ];
 
   const [suggestedPrompts, setSuggestedPrompts] = useState<string[]>(basePrompts);
@@ -310,6 +310,7 @@ export default function CuratorAssistant({
                     key={idx}
                     type="button"
                     onClick={() => handleSend(p)}
+                    title={p}
                     className="text-left text-[11px] font-sans text-[#2A2B2A]/85 hover:text-[#121212] hover:bg-white/60 p-2 rounded-lg border border-[#121212]/10 hover:border-[#121212]/20 transition-all leading-snug truncate cursor-pointer bg-white/30 font-light"
                   >
                     {p}

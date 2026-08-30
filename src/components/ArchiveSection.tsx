@@ -145,6 +145,9 @@ export default function ArchiveSection({
                 <p className="text-[#FAF9F6]/75 text-[10px] font-mono mt-1 tracking-wider">
                   DESIGNED BY • {selectedItem.designer}
                 </p>
+                <p className="text-[#FAF9F6]/55 text-[8px] font-mono mt-2 tracking-[0.18em] uppercase">
+                  教学示意，非馆藏原件扫描
+                </p>
               </div>
             </div>
 

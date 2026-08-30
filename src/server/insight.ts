@@ -1,5 +1,5 @@
-import { GoogleGenAI } from "@google/genai";
 import type { ArchiveItem, MoodboardItem, TrendTopic } from "../types.js";
+import { createGeminiClient, geminiContentConfig, getGeminiModel, getGeminiTimeoutMs } from "./gemini.js";
 
 interface CurateInsightBody {
   title?: string;
@@ -51,11 +51,10 @@ export async function handleCurateInsightRequest(body: CurateInsightBody) {
 
 async function curateInsight(body: CurateInsightBody): Promise<CuratedInsight> {
   const fallback = fallbackInsight(body);
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) return fallback;
+  const ai = createGeminiClient();
+  if (!ai) return fallback;
 
-  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-  const ai = new GoogleGenAI({ apiKey });
+  const model = getGeminiModel();
   const prompt = `请把以下 AI 策展回答整理成一张可进入 FashionAtlas 灵感板和 Dossier 的结构化灵感资产。
 
 输出严格 JSON，不要 Markdown，不要代码块。格式：
@@ -98,12 +97,12 @@ ${body.content.slice(0, 5000)}`;
       ai.models.generateContent({
         model,
         contents: prompt,
-        config: {
+        config: geminiContentConfig({
           temperature: 0.35,
           systemInstruction: "你是 FashionAtlas 的灵感资产整理器。你只输出 JSON，并把 AI 回答整理为可复用的策展资料卡。",
-        },
+        }),
       }),
-      Number(process.env.AI_REQUEST_TIMEOUT_MS || 30000),
+      getGeminiTimeoutMs(),
     );
     return normalizeInsight(parseJson(response.text || ""), fallback);
   } catch {

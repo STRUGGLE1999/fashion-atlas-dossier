@@ -34,6 +34,7 @@ export default function HomeSection({
 }: HomeSectionProps) {
   const { data: styleEntries, loading } = useFashionData<StyleEntry>("styles");
   const [dailyCuration, setDailyCuration] = useState<DailyCuration | null>(null);
+  const [dailyCurationState, setDailyCurationState] = useState<"loading" | "live" | "unpublished">("loading");
 
   const [localInteractiveMode, setLocalInteractiveMode] = useState<"none" | "translator" | "structures" | "scenarios">("none");
   const activeInteractiveMode = interactiveMode !== undefined ? interactiveMode : localInteractiveMode;
@@ -55,11 +56,22 @@ export default function HomeSection({
     async function fetchDailyCuration() {
       try {
         const response = await fetch("/api/daily-curation");
-        if (!response.ok) return;
+        if (!response.ok) {
+          setDailyCuration(null);
+          setDailyCurationState("unpublished");
+          return;
+        }
         const data = await response.json();
-        setDailyCuration(data.curation || null);
+        if (data.curation && Array.isArray(data.curation.items) && data.curation.items.length > 0 && !data.fallback) {
+          setDailyCuration(data.curation);
+          setDailyCurationState("live");
+          return;
+        }
+        setDailyCuration(null);
+        setDailyCurationState("unpublished");
       } catch {
         setDailyCuration(null);
+        setDailyCurationState("unpublished");
       }
     }
 
@@ -84,19 +96,20 @@ export default function HomeSection({
 
   const selectedStyle = styleEntries.find((s) => s.id === selectedStyleId) || styleEntries[0];
   const dailyFocus = dailyCuration?.items?.[0] || null;
+  const isLiveCuration = dailyCurationState === "live" && Boolean(dailyFocus);
   const focusImage = dailyFocus?.imageUrl || "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200";
-  const focusAlt = dailyFocus?.title || "Margiela Playground Debut 1989";
-  const focusKicker = dailyCuration ? "DAILY CURATION SIGNAL" : "SEMINAL CHRONICLE MOUNT";
+  const focusAlt = dailyFocus?.title || "Margiela Playground Debut 1989 teaching sample";
+  const focusKicker = isLiveCuration ? "DAILY CURATION SIGNAL" : "ARCHIVE TEACHING SAMPLE";
   const focusMeta = dailyFocus
     ? `${dailyFocus.sourceName} • ${dailyFocus.publishedAt ? new Date(dailyFocus.publishedAt).toLocaleDateString() : "LATEST"}`
-    : "PARIS DEBUT 1989";
+    : "PARIS DEBUT 1989 · 馆藏教学样本";
   const focusTitle = dailyFocus?.title || "马吉拉 1989 儿童操场大秀：给虚伪时装秩序的废墟之吻";
   const focusQuote = dailyFocus?.summary ||
     "1989年的巴黎市郊，没有传统秀场的长笛与香槟，马吉拉让一众平民孩子挂在模特的毛边报纸碎衣角上共同奔跑。这场大秀像一粒巨无霸炸弹撞碎了法国资产阶级传统的假模假样，正式开创了解构主义服饰的百年圣殿。";
   const focusBody = dailyFocus?.recommendationReason ||
     "这场秀证明了：时装不仅仅是消费和炫耀，它是关于重力、废墟纹理、社会冲突以及穿着者如何建立精神护盾的流动戏剧。这也是为什么 FashionAtlas 在今日首推「安特卫普先锋与解构」作为大家对抗都市焦虑、获得穿衣底气的起点。";
   const focusTags = dailyFocus?.tags?.slice(0, 3) || ["安特卫普六君子", "解构圣殿", "废墟反抗"];
-  const focusHref = dailyFocus?.url || "#/resource/deconstructed-tailoring";
+  const focusHref = dailyFocus?.url || "#/resource/margiela-tabi";
 
   // Scenarios data
   const scenariosData = {
@@ -169,8 +182,8 @@ export default function HomeSection({
           </p>
         </div>
         <div className="text-[11px] font-mono text-[#121212]/40 flex items-center gap-1">
-          <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse"></span>
-          <span>CURATOR ONLINE (MUSEUM PRO ENGINE)</span>
+          <span className={`inline-block w-1.5 h-1.5 rounded-full ${isLiveCuration ? "bg-emerald-600" : "bg-[#121212]/30"}`}></span>
+          <span>{isLiveCuration ? "TODAY'S NEWS PUBLISHED" : "TODAY'S NEWS UNPUBLISHED"}</span>
         </div>
       </div>
 
@@ -182,10 +195,10 @@ export default function HomeSection({
           <div className="space-y-5">
             <div className="flex items-center justify-between">
               <span className="text-[9px] font-mono uppercase tracking-[0.2em] text-[#800020] font-bold">
-                今日焦点 • Today's Focus
+                {isLiveCuration ? "今日焦点 • Today's Focus" : "今日资讯尚未发布 • Archive Sample"}
               </span>
               <span className="text-[10px] font-mono text-[#121212]/40 flex items-center gap-1">
-                <Calendar className="w-3 h-3 text-[#121212]/55" /> {new Date().toLocaleDateString()} / EDITION #01
+                <Calendar className="w-3 h-3 text-[#121212]/55" /> {new Date().toLocaleDateString()}
               </span>
             </div>
 
@@ -196,6 +209,11 @@ export default function HomeSection({
                 alt={focusAlt}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.01]"
               />
+              {!isLiveCuration && (
+                <span className="absolute bottom-2 left-2 text-[8px] font-mono tracking-widest uppercase bg-[#F6F4E8]/90 text-[#121212]/70 px-2 py-1">
+                  教学示意，非当日新闻配图
+                </span>
+              )}
             </div>
 
             {/* Image Headline & Metadata moved out & below for absolute typography contrast */}
@@ -245,7 +263,7 @@ export default function HomeSection({
             </div>
             
             <p className="text-[10px] text-[#121212]/40 font-mono tracking-widest uppercase">
-              Curation Drafts Checked • No.13 Approved
+              {isLiveCuration ? "Curation published from public RSS" : "News unpublished · showing archive sample"}
             </p>
           </div>
         </div>
