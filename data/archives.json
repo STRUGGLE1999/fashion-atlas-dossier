@@ -78,5 +78,85 @@
       "探讨了流离失所、身份与归属感的深层社会命题",
       "融合了精密工业设计与高级时装裁剪"
     ]
+  },
+  {
+    "id": "ysl-le-smoking",
+    "name": "Yves Saint Laurent Le Smoking (1966)",
+    "category": "性别政治 / 晚装",
+    "designer": "Yves Saint Laurent",
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=600",
+    "description": "为女性剪裁的燕尾服晚装。它不是把男装缩小，而是让裤装晚装进入高级时装的合法位置，成为权力与优雅并存的视觉宣言。",
+    "history": "1966 年推出。当时晚装默认是裙，Le Smoking 把吸烟装的缎面驳领、直筒裤和香烟腰线转译给女性，后来成为圣罗兰最被复述的原型之一。",
+    "materials": "黑色羊毛或丝绒、缎面驳领、直筒长裤、丝绸衬衫",
+    "details": [
+      "缎面驳领的吸烟装结构",
+      "为女性比例重切的肩线与裤装晚装",
+      "与裙装晚装并列，而不是女装版男装缩小件",
+      "日常转译：一条黑裤 + 缎面或真丝衬衫，而不是整套戏服复制"
+    ]
+  },
+  {
+    "id": "westwood-seditionaries",
+    "name": "Westwood Seditionaries Bondage (c. 1976)",
+    "category": "亚文化 / 反叛剪裁",
+    "designer": "Vivienne Westwood",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=600",
+    "description": "SEX / Seditionaries 时期的束缚裤与撕毁 Tee，把伦敦街头的愤怒做成可穿的抗议，而不是后来流水线的塑料庞克。",
+    "history": "1970 年代中期，Westwood 与 Malcolm McLaren 在国王路的店经历 Let It Rock、Too Fast to Live、SEX、Seditionaries 几个阶段。束缚带、别针和格子是对抗消费精致的材料语言。",
+    "materials": "荔枝纹牛皮、苏格兰格呢、金属别针、棉质破坏 Tee",
+    "details": [
+      "束缚带与裤装的结构关系，不是装饰贴条",
+      "格子与皮革的粗粝对照",
+      "破坏必须看起来像穿出来的，而不是新品做旧",
+      "日常转译：一件真的旧皮衣 + 少量金属，拒绝全套 COS 风庞克套装"
+    ]
+  },
+  {
+    "id": "miyake-pleats-please",
+    "name": "Issey Miyake Pleats Please (1993)",
+    "category": "工业褶皱 / 日常可穿",
+    "designer": "Issey Miyake",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=600",
+    "description": "先做成衣服再高温压褶的工业褶皱系统。褶皱不是装饰花边，而是让一件衣服可以折叠进信封、洗完挂干、仍然保持建筑感。",
+    "history": "三宅一生从 1980 年代实验褶皱，1993 年推出 Pleats Please 成衣线，把高定思维压进可重复生产的涤纶褶皱。它是「技术服务日常」而不是秀场一次性雕塑。",
+    "materials": "聚酯纤维、成衣后压褶、轻量垂坠",
+    "details": [
+      "先裁缝、后压褶，褶皱跟随人体而不是固定死褶",
+      "可水洗、可折叠旅行",
+      "廓形来自褶的体积，而不是垫肩",
+      "日常转译：一件褶皱上衣配一条干净直筒裤，不要叠三层亮面褶"
+    ]
+  },
+  {
+    "id": "mcqueen-armadillo",
+    "name": "McQueen Armadillo Boots (2010)",
+    "category": "未来主义 / 鞋履结构",
+    "designer": "Alexander McQueen",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=600",
+    "description": "《柏拉图的亚特兰蒂斯》中的犰狳鞋：脚被抬进几乎无法行走的弧形蹄状结构，把身体变成进化后的海洋生物，而不是一双能通勤的靴子。",
+    "history": "2010 春夏 Plato's Atlantis 是麦昆生前最后一场完整大秀，也是早期全球直播的时装秀之一。犰狳鞋与数码印花、水生进化叙事绑在一起，原件极难穿，属于秀场装置而非日常鞋型。",
+    "materials": "皮革或合成皮革、极端弧形鞋楦、厚底结构",
+    "details": [
+      "蹄状/犰狳甲的连续弧线，鞋跟与鞋头几乎在同一曲率上",
+      "行走被牺牲，换来剪影",
+      "与数码印花连体，而不是单独的潮鞋联名",
+      "日常转译：不要模仿鞋型去买恨天高；学的是印花与水生色的克制使用"
+    ]
+  },
+  {
+    "id": "dior-bar-jacket",
+    "name": "Dior Bar Jacket (1947)",
+    "category": "黄金时代 / 新风貌",
+    "designer": "Christian Dior",
+    "image": "https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&q=80&w=600",
+    "description": "New Look 的核心外套：蜂腰、圆胯、用面料做出战后被节俭压抑的体积。它是轮廓宣言，不是一件普通小西装。",
+    "history": "1947 年 2 月 12 日 Dior 的 Corolle 系列被 Carmel Snow 称为 New Look。Bar 套装以短夹克配宽摆裙，用大量布料对抗战时配给审美。",
+    "materials": "羊毛华达呢、内衬垫肩与垫胯、宽摆裙所需的大量裙料",
+    "details": [
+      "夹克下摆向外扩，强调圆胯与细腰",
+      "肩线圆润，不是 80 年代硬垫肩",
+      "裙摆的体积是政治性的：用布料宣告匮乏结束",
+      "日常转译：收腰外套 + 有摆幅的裙子，而不是整套戏服复制 1947"
+    ]
   }
 ]

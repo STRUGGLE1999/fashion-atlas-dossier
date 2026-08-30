@@ -55,7 +55,7 @@ export default function CuratorAssistant({
       ]);
     } else if (activeTrend) {
       setSuggestedPrompts([
-        `如何解构本周趋势主题：${activeTrend.name} ？`,
+        `如何解构这份教学趋势样本：${activeTrend.name} ？`,
         `帮我用 ${activeTrend.keyItems[0]} 定制一套穿搭公式`,
         "这一波趋势会由于什么社会变因而演进？"
       ]);

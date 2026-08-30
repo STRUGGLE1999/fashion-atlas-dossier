@@ -1,4 +1,4 @@
-import { getLatestDailyCuration } from "./db.js";
+import { getPublishedDailyCuration } from "./news.js";
 import { retrieveContext } from "./data.js";
 import { createGeminiClient, geminiContentConfig, getGeminiModel, getGeminiTimeoutMs } from "./gemini.js";
 
@@ -20,7 +20,7 @@ export async function handleChatRequest(body: ChatBody) {
   const latestMessage = messages[messages.length - 1]?.content || "";
   let dailyCuration = null;
   try {
-    dailyCuration = await getLatestDailyCuration();
+    dailyCuration = await getPublishedDailyCuration();
   } catch {
     dailyCuration = null;
   }

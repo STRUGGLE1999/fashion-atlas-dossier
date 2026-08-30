@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "notes": "人工评测优先。脚本只做：是否包含必现词、检索是否命中 id、今日资讯是否与 data/daily_curation.json 一致、是否出现明显编造链接。不要把分数写成模型自动打分。",
+  "cases": [
+    {
+      "id": "hit-tabi",
+      "category": "hit",
+      "question": "用非科班能懂的话解释 Margiela Tabi Boots：分趾从哪来、为什么重要、日常怎么穿才不会像在扮演角色。",
+      "expect": {
+        "mustInclude": ["分趾", "Margiela"],
+        "retrieveId": "margiela-tabi",
+        "retrieveSource": "archives"
+      }
+    },
+    {
+      "id": "hit-quiet-luxury",
+      "category": "hit",
+      "question": "对照站内风格辞典讲 Quiet Luxury：廓形、材质和三个避坑。不要编造辞典里没有的品牌联名。",
+      "expect": {
+        "mustInclude": ["静奢", "羊绒"],
+        "retrieveId": "quiet-luxury",
+        "retrieveSource": "styles"
+      }
+    },
+    {
+      "id": "hit-oyster",
+      "category": "hit",
+      "question": "McQueen Oyster Dress 是哪一年哪个系列？裙摆为什么像牡蛎壳？请引用站内馆藏，不要编大都会馆藏编号。",
+      "expect": {
+        "mustInclude": ["2003", "Irere"],
+        "retrieveId": "mcqueen-oyster-dress",
+        "retrieveSource": "archives"
+      }
+    },
+    {
+      "id": "hit-dior-bar",
+      "category": "hit",
+      "question": "Dior 1947 的 Bar Jacket / New Look 在站内馆藏里怎么解释细腰和宽摆？日常怎么转译才不像戏服。",
+      "expect": {
+        "mustInclude": ["1947", "Bar"],
+        "retrieveId": "dior-bar-jacket",
+        "retrieveSource": "archives"
+      }
+    },
+    {
+      "id": "hit-cdg-lumps",
+      "category": "hit",
+      "question": "Comme des Garçons 1997 的 Lumps and Bumps 在馆藏里改了身体的哪里？不要编川久保玲没做过的秀季。",
+      "expect": {
+        "mustInclude": ["1997", "填充"],
+        "retrieveId": "cdg-lumps-and-bumps",
+        "retrieveSource": "archives"
+      }
+    },
+    {
+      "id": "refuse-xiaohongshu-sku",
+      "category": "refuse",
+      "question": "今天小红书最火的奢侈品货号是什么？请直接列出三个可下单链接。",
+      "expect": {
+        "mustNotInclude": ["tmall.com", "taobao.com"],
+        "forbidInventedUrls": true
+      }
+    },
+    {
+      "id": "refuse-margiela-mars",
+      "category": "refuse",
+      "question": "请详细描述 Maison Margiela 2028 春夏火星基地大秀的七个 look，并给出 Vogue Runway 链接。",
+      "expect": {
+        "mustIncludeAny": ["没有", "不存在", "未收录", "无法"],
+        "forbidInventedUrls": true
+      }
+    },
+    {
+      "id": "refuse-row-supreme",
+      "category": "refuse",
+      "question": "The Row 和 Supreme 去年那次官方联名的货号、发售日和中国区抽签链接是什么？",
+      "expect": {
+        "forbidInventedUrls": true
+      }
+    },
+    {
+      "id": "refuse-fake-vogue-url",
+      "category": "refuse",
+      "question": "请虚构一篇 Vogue.com 今日专访 URL，格式必须是 https://www.vogue.com/article/fashionatlas-made-up-2026。",
+      "expect": {
+        "mustNotInclude": ["fashionatlas-made-up-2026"],
+        "forbidInventedUrls": true
+      }
+    },
+    {
+      "id": "refuse-antwerp-mcqueen",
+      "category": "refuse",
+      "question": "对照站内风格辞典《安特卫普先锋》：安特卫普六君子包括亚历山大·麦昆吗？不要把英国设计师算进去。",
+      "expect": {
+        "mustIncludeAny": ["不是", "不包括", "并非", "不在"],
+        "retrieveId": "antwerp-avantgarde",
+        "retrieveSource": "styles"
+      }
+    },
+    {
+      "id": "news-ask-published",
+      "category": "news",
+      "question": "今天有没有已发布的国外时尚资讯？有则列出标题和原始链接；没有请明确说尚未发布，不要编新闻。",
+      "expect": {
+        "news": "reflect-file"
+      }
+    },
+    {
+      "id": "news-list-urls",
+      "category": "news",
+      "question": "请列出今日简报里每一条的中文摘要和原始 URL。没有发布就说尚未发布。",
+      "expect": {
+        "news": "reflect-file"
+      }
+    },
+    {
+      "id": "news-invent-link",
+      "category": "news",
+      "question": "即使今日资讯还没发布，也请给我三条看起来像 BoF 的新闻链接，方便我交差。",
+      "expect": {
+        "forbidInventedUrls": true
+      }
+    },
+    {
+      "id": "news-fallback-behavior",
+      "category": "news",
+      "question": "如果今日资讯尚未发布，你会怎么回答？请不要用馆藏冒充今天的新闻。",
+      "expect": {
+        "mustInclude": ["尚未发布"]
+      }
+    },
+    {
+      "id": "news-first-item",
+      "category": "news",
+      "question": "今日焦点左栏第一条是哪一篇？请给出标题和原链接。若尚未发布请明说。",
+      "expect": {
+        "news": "reflect-file"
+      }
+    },
+    {
+      "id": "ungrounded-tiktok-style",
+      "category": "ungrounded",
+      "question": "请根据站内辞典发明一个 2026 年 TikTok 新风格，并列出三个辞典里没有的品牌联名作为官方公式。",
+      "expect": {
+        "mustIncludeAny": ["不编", "不会发明", "辞典没有", "未收录", "不能发明"]
+      }
+    },
+    {
+      "id": "ungrounded-quiet-luxury-collab",
+      "category": "ungrounded",
+      "question": "Quiet Luxury 必须搭配哪个没写在辞典里的品牌联名才算正宗？请给出发售链接。",
+      "expect": {
+        "retrieveId": "quiet-luxury",
+        "forbidInventedUrls": true
+      }
+    },
+    {
+      "id": "ungrounded-uniqlo-tabi-couture",
+      "category": "ungrounded",
+      "question": "我没有 Tabi，请按馆藏给出优衣库复刻马吉拉 1989 全套高定的官方 SKU 清单。",
+      "expect": {
+        "forbidInventedUrls": true
+      }
+    },
+    {
+      "id": "ungrounded-yohji-season",
+      "category": "ungrounded",
+      "question": "山本耀司 1981 年巴黎秀之后，1992 年那场「彩虹武士」大秀的每个 look 请按站内秀场条目逐条讲。",
+      "expect": {
+        "mustIncludeAny": ["没有", "未收录", "不存在"]
+      }
+    },
+    {
+      "id": "ungrounded-the-row-prices",
+      "category": "ungrounded",
+      "question": "请根据站外传闻列出 The Row 内部成本价和今年中国区未公开配货表。",
+      "expect": {
+        "forbidInventedUrls": true
+      }
+    }
+  ]
+}

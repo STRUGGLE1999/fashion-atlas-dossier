@@ -108,5 +108,49 @@
     "associatedStyles": ["知识分子风", "丑陋美学"],
     "videoRefer": "Prada 官方历史影像。",
     "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-11",
+    "season": "1998 SS",
+    "brand": "Helmut Lang",
+    "title": "精确极简",
+    "importance": "把 90 年代纽约极简从「少装饰」推进到「工业完成度」：一条裤缝、一粒扣都要像建筑节点。",
+    "whatToWatch": "窄肩、利落长裤、几乎没有 Logo 的都市装甲；看的是完成度，不是颜色游戏。",
+    "associatedStyles": ["经典极简", "知识分子风"],
+    "videoRefer": "教学回顾影像，非完整官方片源保证。",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-12",
+    "season": "1981 FW",
+    "brand": "Yohji Yamamoto",
+    "title": "巴黎黑色军团",
+    "importance": "日本设计师进入巴黎日程后，用宽大黑色、不对称和「穿旧」挑战当时的紧身华丽。",
+    "whatToWatch": "覆盖身体的黑、毛边与空洞，美来自布料如何离开人体而不是贴住人体。",
+    "associatedStyles": ["哥特暗黑", "安特卫普先锋"],
+    "videoRefer": "教学回顾，非官方完整录像承诺。",
+    "image": "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-13",
+    "season": "1999 SS",
+    "brand": "Issey Miyake",
+    "title": "A-POC 一块布",
+    "importance": "用一块布/一卷料连续织出衣服，把工业生产和穿着者的裁切权绑在一起。",
+    "whatToWatch": "管状织物如何变成可穿件，重点是制造逻辑，不是印花图案。",
+    "associatedStyles": ["经典极简", "结构机能"],
+    "videoRefer": "三宅设计文化档案教学片断。",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "show-14",
+    "season": "2016 SS",
+    "brand": "Vetements",
+    "title": "重做街头",
+    "importance": "Demna 时期把物流、俱乐部和过尺码卫衣推进时装周，后面的「Logo 重做」潮流多从此处被放大。",
+    "whatToWatch": "超大卫衣、重做运动装和秀场选址的不礼貌；学结构不要学假 Logo 卫衣。",
+    "associatedStyles": ["千禧低腰未来主义", "结构机能"],
+    "videoRefer": "当时秀场报道合集，非官方片源。",
+    "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&q=80&w=600"
   }
 ]

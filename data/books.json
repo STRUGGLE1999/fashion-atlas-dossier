@@ -128,5 +128,31 @@
     "recommendationReason": "记录了 1973 年那场彻底改变时尚版图的历史性秀场。见证了美国时尚如何崛起并打破种族壁垒。",
     "availabilityNote": "普利策奖得主撰写，极具历史洞察力。",
     "availLink": "https://www.amazon.com/Battle-Versailles-American-Fashion-Spotlight/dp/1250082315"
+  },
+  {
+    "id": "book-11",
+    "name": "透过衣服看",
+    "originalName": "Seeing Through Clothes",
+    "author": "Anne Hollander",
+    "year": "1978",
+    "category": "进阶",
+    "rating": 9.0,
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=600",
+    "recommendationReason": "用艺术史方法看衣服如何在绘画里被「看成」身体。适合已经读过入门书、想理解廓形为什么会显得「对」的人。",
+    "availabilityNote": "University of California Press。学术向，建议搭配图册对照。",
+    "availLink": "https://www.ucpress.edu/books/seeing-through-clothes/paper"
+  },
+  {
+    "id": "book-12",
+    "name": "穿出来的历史",
+    "originalName": "Worn: A People's History of Clothing",
+    "author": "Sofi Thanhauser",
+    "year": "2022",
+    "category": "入门",
+    "rating": 8.8,
+    "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&q=80&w=600",
+    "recommendationReason": "从亚麻、棉花、丝绸、合成纤维讲衣服的物质史，帮非科班读者把「面料」从形容词变回产业链。",
+    "availabilityNote": "Pantheon / Vintage。叙事清楚，适合放在巴特《时尚系统》之前读。",
+    "availLink": "https://www.penguinrandomhouse.com/books/623154/worn-by-sofi-thanhauser/"
   }
 ]

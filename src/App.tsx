@@ -395,7 +395,7 @@ export default function App() {
     setAiContextTrend(trend);
     setAiContextGarment(null);
     setIsAiCuratorOpen(true);
-    showToast(`🤖 已将本周前沿趋势绑定至策展对谈中心！`);
+    showToast(`已将教学趋势样本绑定至策展对谈`);
   };
 
   // Detect route resource matches
