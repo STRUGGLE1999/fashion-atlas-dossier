@@ -31,7 +31,7 @@ const NEWS_SOURCES: NewsSource[] = [
   {
     id: "hypebeast-fashion",
     name: "Hypebeast Fashion",
-    url: "https://hypebeast.com/?feed=rss2",
+    url: "https://hypebeast.com/fashion/feed",
     tags: ["streetwear", "brand", "trend"],
   },
   {
@@ -45,6 +45,18 @@ const NEWS_SOURCES: NewsSource[] = [
     name: "The Business of Fashion",
     url: "https://www.businessoffashion.com/feed/",
     tags: ["business", "brand", "industry"],
+  },
+  {
+    id: "wwd",
+    name: "WWD",
+    url: "https://wwd.com/feed/",
+    tags: ["industry", "runway", "brand"],
+  },
+  {
+    id: "nyt-fashion",
+    name: "The New York Times Fashion & Style",
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml",
+    tags: ["style", "culture", "trend"],
   },
 ];
 
