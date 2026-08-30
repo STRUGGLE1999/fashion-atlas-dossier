@@ -973,7 +973,7 @@ export default function App() {
                             资源库 (The Vault)
                           </div>
                           <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light font-sans text-[9px]">
-                            物理馆藏珍宝强力多维检索
+                            10件教学馆藏示意检索
                           </div>
                         </button>
                         <button
@@ -984,7 +984,7 @@ export default function App() {
                             秀场学习路径
                           </div>
                           <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
-                            10场经典秀场演变解码
+                            14场经典秀场演变解码
                           </div>
                         </button>
                         <button
@@ -997,7 +997,7 @@ export default function App() {
                             时尚书架
                           </div>
                           <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
-                            10本时尚书目指南
+                            12本时尚书目指南
                           </div>
                         </button>
                         <button
