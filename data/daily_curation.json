@@ -1,0 +1,78 @@
+{
+  "date": "2026-08-30",
+  "title": "东京秀场前瞻、奢侈品艺术跨界与混合鞋履新趋势",
+  "summary": "聚焦东京2027春季成衣秀场风貌；Moynat联手艺术家打造沉浸式快闪并推出限定色帆布；独立品牌NÒMARHYTHM深耕面料创新；CLOT重构adidas经典鞋款诠释混合鞋履趋势。",
+  "items": [
+    {
+      "title": "Tamme Tokyo Spring 2027",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/tamme",
+      "publishedAt": "Sun, 30 Aug 2026 04:22:45 +0000",
+      "summary": "Tamme在东京发布2027春季成衣系列，展现独具构造感的设计轮廓与日本先锋剪裁语言。",
+      "recommendationReason": "代表东京时装周新锐设计师力量的前沿秀场，为2027春夏季趋势库提供一手视觉参考。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6a9188deaa1313f58deca56c/master/pass/00001-tamme-spring-2027-ready-to-wear-tokyo-credit-brand.jpg"
+    },
+    {
+      "title": "Moynat Plants a ‘Folding Paper Garden’ Pop-up at SKP Beijing With Artist&#160;Jojo",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/moynat-skp-beijing-pop-up-jojo-folded-paper-garden-1239174824/",
+      "publishedAt": "Sat, 29 Aug 2026 22:23:50 +0000",
+      "summary": "法国百年箱包品牌Moynat携手艺术家Jojo在北京SKP开设折纸花园快闪，并推出限定深灰色老花帆布系列。",
+      "recommendationReason": "展示经典奢侈皮具品牌通过艺术联名与独家配色快闪深耕核心高端零售市场的运营范式。",
+      "tags": [
+        "industry",
+        "runway",
+        "brand"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "New Arrivals From HBX: NÒMARHYTHM TEXTILE",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/8/new-arrivals-from-hbx-nomarhythm-textile",
+      "publishedAt": "Sun, 30 Aug 2026 00:52:21 +0000",
+      "summary": "东京品牌NÒMARHYTHM TEXTILE新季登陆HBX，以标志性印花与创新纺织面料重塑极简主义美学。",
+      "recommendationReason": "面料创新驱动型先锋品牌的代表案例，解析独立品牌如何依托独特织造工艺建立审美壁垒。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2Fhand-dye-shibori-flannel-shirt-navy-circle-product-1-96140408_1788051121.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "CLOT Pops the Trunk on Its Razor-Sharp adidas Sneaker",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/clot-adidas-superstar-sawtooth-mules/",
+      "publishedAt": "Sat, 29 Aug 2026 20:49:25 GMT",
+      "summary": "CLOT与adidas再度合作，将经典Superstar鞋款改造为带有锯齿大底的麂皮穆勒鞋，主打秋季穿搭。",
+      "recommendationReason": "印证运动经典鞋型向穆勒鞋、正装休闲鞋杂糅演变的持续热点，是联名产品创新的范本。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": ""
+    }
+  ],
+  "trendTags": [
+    "秀场前瞻",
+    "Tokyo Runway",
+    "艺术跨界",
+    "Hybrid Footwear"
+  ],
+  "sourceUrls": [
+    "https://www.vogue.com/fashion-shows/tokyo-spring-2027/tamme",
+    "https://wwd.com/fashion-news/fashion-scoops/moynat-skp-beijing-pop-up-jojo-folded-paper-garden-1239174824/",
+    "https://hypebeast.com/2026/8/new-arrivals-from-hbx-nomarhythm-textile",
+    "https://www.highsnobiety.com/p/clot-adidas-superstar-sawtooth-mules/"
+  ],
+  "model": "gemini-3.7-flash",
+  "simulated": false,
+  "createdAt": "2026-08-30T04:23:43.420Z"
+}
