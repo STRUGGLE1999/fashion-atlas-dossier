@@ -101,13 +101,22 @@ app.post("/api/chat", async (req: express.Request, res: express.Response): Promi
 });
 
 app.get("/api/daily-curation", async (_req, res) => {
-  const curation = await getPublishedDailyCuration();
-  if (!curation || curation.items.length === 0) {
-    res.json({ curation: null, fallback: true });
-    return;
-  }
+  try {
+    const curation = await getPublishedDailyCuration();
+    if (!curation || curation.items.length === 0) {
+      res.json({ curation: null, fallback: true });
+      return;
+    }
 
-  res.json({ curation, fallback: false });
+    res.json({ curation, fallback: false });
+  } catch (error: any) {
+    console.error("daily-curation failed:", error);
+    res.json({
+      curation: null,
+      fallback: true,
+      errorDetail: error?.message || "Daily curation unavailable",
+    });
+  }
 });
 
 app.get("/api/cron/fetch-fashion-news", async (req, res) => {

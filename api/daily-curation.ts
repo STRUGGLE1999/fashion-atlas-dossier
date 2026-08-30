@@ -6,11 +6,20 @@ export default async function handler(req: any, res: any) {
     return;
   }
 
-  const curation = await getPublishedDailyCuration();
-  if (!curation || curation.items.length === 0) {
-    res.status(200).json({ curation: null, fallback: true });
-    return;
-  }
+  try {
+    const curation = await getPublishedDailyCuration();
+    if (!curation || curation.items.length === 0) {
+      res.status(200).json({ curation: null, fallback: true });
+      return;
+    }
 
-  res.status(200).json({ curation, fallback: false });
+    res.status(200).json({ curation, fallback: false });
+  } catch (error: any) {
+    console.error("daily-curation failed:", error);
+    res.status(200).json({
+      curation: null,
+      fallback: true,
+      errorDetail: error?.message || "Daily curation unavailable",
+    });
+  }
 }

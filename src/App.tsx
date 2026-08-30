@@ -899,7 +899,7 @@ export default function App() {
                             风格研究页
                           </div>
                           <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
-                            20类面料解剖与日常转译指引
+                            20条风格辞典与日常转译指引
                           </div>
                         </button>
                       </motion.div>
@@ -984,7 +984,7 @@ export default function App() {
                             秀场学习路径
                           </div>
                           <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
-                            30场经典至高秀场演变解码
+                            10场经典秀场演变解码
                           </div>
                         </button>
                         <button
@@ -997,7 +997,7 @@ export default function App() {
                             时尚书架
                           </div>
                           <div className="text-[9px] text-[#2A2B2A]/60 mt-1 leading-normal capitalize font-light">
-                            50本殿堂级必读著作指南
+                            10本时尚书目指南
                           </div>
                         </button>
                         <button

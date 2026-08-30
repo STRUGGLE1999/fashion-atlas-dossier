@@ -135,6 +135,9 @@ export default function ResourceDetailView({
             <p className="text-white/55 text-[10px] font-mono mt-1.5 uppercase tracking-widest font-light">
               CURATED BY {item.designer}
             </p>
+            <p className="text-white/45 text-[8px] font-mono mt-2 tracking-[0.18em] uppercase">
+              教学示意，非馆藏原件扫描或授权展陈照片
+            </p>
           </div>
         </div>
 

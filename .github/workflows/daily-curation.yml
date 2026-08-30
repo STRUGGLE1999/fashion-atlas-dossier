@@ -1,0 +1,48 @@
+name: Daily homepage curation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Run homepage curation agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_BASE_URL: ${{ secrets.GEMINI_BASE_URL }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+        run: npm run curate:daily
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Publish today's FashionAtlas homepage briefing"
+          branch: curation/homepage
+          delete-branch: false
+          title: "今日焦点：首页策展简报"
+          body: |
+            策展 Agent 根据白名单 RSS 起草了首页「今日焦点」。
+            请核对标题、摘要和原链接后再合并。合并后 Vercel 会更新生产站。
+            若工作流没有改文件，不会打开新的内容变更。
+          add-paths: |
+            data/daily_curation.json

@@ -1,8 +1,8 @@
 import path from "path";
 import { createRequire } from "module";
 import PDFDocument from "pdfkit";
-import { GoogleGenAI } from "@google/genai";
 import type { MoodboardItem } from "../types.js";
+import { createGeminiClient, geminiContentConfig, getGeminiModel, getGeminiTimeoutMs } from "./gemini.js";
 
 const require = createRequire(path.join(process.cwd(), "package.json"));
 
@@ -33,11 +33,9 @@ export async function generateMoodboardDossierPdf(items: MoodboardItem[]) {
 }
 
 async function createDossierPlan(items: MoodboardItem[]): Promise<DossierPlan> {
-  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey || items.length === 0) return fallbackDossierPlan(items, model, !apiKey);
-
-  const ai = new GoogleGenAI({ apiKey });
+  const model = getGeminiModel();
+  const ai = createGeminiClient();
+  if (!ai || items.length === 0) return fallbackDossierPlan(items, model, !ai);
   const prompt = `请将以下 FashionAtlas 灵感板内容策展成一份中英双语私人时尚特刊 PDF 的语义排版方案。
 
 输出严格 JSON，不要 Markdown，不要代码块。格式：
@@ -77,12 +75,12 @@ ${JSON.stringify(items.map((item) => ({
       ai.models.generateContent({
         model,
         contents: prompt,
-        config: {
+        config: geminiContentConfig({
           temperature: 0.55,
           systemInstruction: "你是 FashionAtlas 的私人特刊主编。你只输出 JSON，并且只基于用户灵感板内容组织策展叙事。",
-        },
+        }),
       }),
-      Number(process.env.AI_REQUEST_TIMEOUT_MS || 10000),
+      getGeminiTimeoutMs(),
     );
     const parsed = parseJson(response.text || "");
     if (!parsed) return fallbackDossierPlan(items, model, true);

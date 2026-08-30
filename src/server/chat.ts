@@ -1,6 +1,6 @@
-import { GoogleGenAI } from "@google/genai";
 import { getLatestDailyCuration } from "./db.js";
 import { retrieveContext } from "./data.js";
+import { createGeminiClient, geminiContentConfig, getGeminiModel, getGeminiTimeoutMs } from "./gemini.js";
 
 interface ChatBody {
   messages?: { role: "user" | "assistant"; content: string }[];
@@ -18,7 +18,12 @@ export async function handleChatRequest(body: ChatBody) {
   }
 
   const latestMessage = messages[messages.length - 1]?.content || "";
-  const dailyCuration = await getLatestDailyCuration();
+  let dailyCuration = null;
+  try {
+    dailyCuration = await getLatestDailyCuration();
+  } catch {
+    dailyCuration = null;
+  }
   const retrievedDocs = retrieveContext(latestMessage, { dailyCuration, topK: 6 });
   const systemInstruction = buildSystemInstruction({
     retrievedDocs,
@@ -27,10 +32,10 @@ export async function handleChatRequest(body: ChatBody) {
     hasDailyCuration: Boolean(dailyCuration),
   });
 
-  const apiKey = process.env.GEMINI_API_KEY;
-  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-  const timeoutMs = Number(process.env.AI_REQUEST_TIMEOUT_MS || 30000);
-  if (!apiKey) {
+  const ai = createGeminiClient();
+  const model = getGeminiModel();
+  const timeoutMs = getGeminiTimeoutMs();
+  if (!ai) {
     return {
       status: 200,
       body: {
@@ -42,7 +47,6 @@ export async function handleChatRequest(body: ChatBody) {
   }
 
   try {
-    const ai = new GoogleGenAI({ apiKey });
     const response = await withTimeout(
       ai.models.generateContent({
         model,
@@ -50,10 +54,10 @@ export async function handleChatRequest(body: ChatBody) {
           role: message.role === "assistant" ? "model" : "user",
           parts: [{ text: message.content }],
         })),
-        config: {
+        config: geminiContentConfig({
           temperature: 0.65,
           systemInstruction,
-        },
+        }),
       }),
       timeoutMs,
     );
