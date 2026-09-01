@@ -33,6 +33,7 @@ jobs:
         run: npm run curate:daily
 
       - name: Open pull request
+        id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -42,7 +43,13 @@ jobs:
           title: "今日焦点：首页策展简报"
           body: |
             策展 Agent 根据白名单 RSS 起草了首页「今日焦点」。
-            请核对标题、摘要和原链接后再合并。合并后 Vercel 会更新生产站。
+            本 PR 由工作流自动合并，合并后 Vercel 会更新生产站。
             若工作流没有改文件，不会打开新的内容变更。
           add-paths: |
             data/daily_curation.json
+
+      - name: Merge pull request
+        if: steps.cpr.outputs.pull-request-operation == 'created' || steps.cpr.outputs.pull-request-operation == 'updated'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --merge "${{ steps.cpr.outputs.pull-request-number }}"
