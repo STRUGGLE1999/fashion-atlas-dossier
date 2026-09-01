@@ -1,78 +1,91 @@
 {
-  "date": "2026-08-30",
-  "title": "东京秀场前瞻、奢侈品艺术跨界与混合鞋履新趋势",
-  "summary": "聚焦东京2027春季成衣秀场风貌；Moynat联手艺术家打造沉浸式快闪并推出限定色帆布；独立品牌NÒMARHYTHM深耕面料创新；CLOT重构adidas经典鞋款诠释混合鞋履趋势。",
+  "date": "2026-09-01",
+  "title": "设计舵手更迭、争议大展叫停与先锋运动跨界",
+  "summary": "今日时尚焦点集中于重磅人事动向与跨界创新：Ib Kamara离任Off-White创意总监；大都会艺术博物馆取消Galliano大展；美网赛场催生Travis Scott网球胶囊，Ambush则带来赛博仿生芭比。",
   "items": [
     {
-      "title": "Tamme Tokyo Spring 2027",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/tamme",
-      "publishedAt": "Sun, 30 Aug 2026 04:22:45 +0000",
-      "summary": "Tamme在东京发布2027春季成衣系列，展现独具构造感的设计轮廓与日本先锋剪裁语言。",
-      "recommendationReason": "代表东京时装周新锐设计师力量的前沿秀场，为2027春夏季趋势库提供一手视觉参考。",
+      "title": "Ib Kamara Exits Off-White",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/08/ib-kamara-leaves-off-white-creative-director-exit",
+      "publishedAt": "Mon, 31 Aug 2026 14:44:57 GMT",
+      "summary": "接棒Virgil Abloh掌舵两年的创意总监Ib Kamara宣布正式离开品牌Off-White。",
+      "recommendationReason": "聚焦后Virgil时代街头奢侈品牌的核心人事变动与未来走向。",
       "tags": [
+        "品牌动态",
+        "创意总监",
+        "Off-White",
+        "trend",
+        "brand",
+        "industry"
+      ],
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzkzNjUw/ib-kamara.jpg?profile=rss"
+    },
+    {
+      "title": "The Met Cancels John Galliano Exhibition",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/8/john-galliano-met-exhibition-cancelled-info",
+      "publishedAt": "Mon, 31 Aug 2026 15:06:40 +0000",
+      "summary": "因面临外界持续舆论反弹，纽约大都会艺术博物馆宣布取消原定2026春季举办的John Galliano个展。",
+      "recommendationReason": "解析头部艺术机构与争议大师个展背后的博弈与文化考量。",
+      "tags": [
+        "时尚大展",
+        "设计师",
+        "行业动态",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F31%2Fjohn-galliano-met-exhibition-cancelled-info-0-2.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Carlos Alcaraz Took the US Open Court in New Travis Scott Nikes. Then, Travis Scott Dropped a Full \"Cactus Court\" Collection.",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/8/travis-scott-us-open-cactus-jack-nike-collab-carlos-alcaraz",
+      "publishedAt": "Mon, 31 Aug 2026 21:25:10 +0000",
+      "summary": "阿尔卡拉斯身着专属球鞋亮相美网赛场，Travis Scott随之推出全套Cactus Court网球系列。",
+      "recommendationReason": "见证顶尖说唱潮流厂牌与大满贯网球竞技的深度跨界碰撞。",
+      "tags": [
+        "跨界联名",
+        "运动潮流",
+        "网球时尚",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F31%2Fcj-lead.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "“It’s Optimism for Futurism”: Ambush’s Yoon Ahn Gives Barbie Her Own Humanoid Twist",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/yoon-ahn-ambush-barbie-collaboration-interview",
+      "publishedAt": "Mon, 31 Aug 2026 15:00:00 +0000",
+      "summary": "Ambush主理人Yoon Ahn携手芭比打造首款机械仿生原型人偶，融合银色装甲与姬发未来美学。",
+      "recommendationReason": "探索先锋潮流设计师如何颠覆经典IP并重塑未来主义概念。",
+      "tags": [
+        "潮流设计",
+        "跨界合作",
+        "未来主义",
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6a9188deaa1313f58deca56c/master/pass/00001-tamme-spring-2027-ready-to-wear-tokyo-credit-brand.jpg"
-    },
-    {
-      "title": "Moynat Plants a ‘Folding Paper Garden’ Pop-up at SKP Beijing With Artist&#160;Jojo",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/moynat-skp-beijing-pop-up-jojo-folded-paper-garden-1239174824/",
-      "publishedAt": "Sat, 29 Aug 2026 22:23:50 +0000",
-      "summary": "法国百年箱包品牌Moynat携手艺术家Jojo在北京SKP开设折纸花园快闪，并推出限定深灰色老花帆布系列。",
-      "recommendationReason": "展示经典奢侈皮具品牌通过艺术联名与独家配色快闪深耕核心高端零售市场的运营范式。",
-      "tags": [
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "New Arrivals From HBX: NÒMARHYTHM TEXTILE",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/8/new-arrivals-from-hbx-nomarhythm-textile",
-      "publishedAt": "Sun, 30 Aug 2026 00:52:21 +0000",
-      "summary": "东京品牌NÒMARHYTHM TEXTILE新季登陆HBX，以标志性印花与创新纺织面料重塑极简主义美学。",
-      "recommendationReason": "面料创新驱动型先锋品牌的代表案例，解析独立品牌如何依托独特织造工艺建立审美壁垒。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2Fhand-dye-shibori-flannel-shirt-navy-circle-product-1-96140408_1788051121.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "CLOT Pops the Trunk on Its Razor-Sharp adidas Sneaker",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/clot-adidas-superstar-sawtooth-mules/",
-      "publishedAt": "Sat, 29 Aug 2026 20:49:25 GMT",
-      "summary": "CLOT与adidas再度合作，将经典Superstar鞋款改造为带有锯齿大底的麂皮穆勒鞋，主打秋季穿搭。",
-      "recommendationReason": "印证运动经典鞋型向穆勒鞋、正装休闲鞋杂糅演变的持续热点，是联名产品创新的范本。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
+      "imageUrl": "https://assets.vogue.com/photos/6a9093534b007c0a1f7f9634/master/pass/yoon%20vogue%20exclusive.png"
     }
   ],
   "trendTags": [
-    "秀场前瞻",
-    "Tokyo Runway",
-    "艺术跨界",
-    "Hybrid Footwear"
+    "品牌重组",
+    "网球时尚",
+    "赛博美学",
+    "Brand Dynamics",
+    "Tenniscore"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/fashion-shows/tokyo-spring-2027/tamme",
-    "https://wwd.com/fashion-news/fashion-scoops/moynat-skp-beijing-pop-up-jojo-folded-paper-garden-1239174824/",
-    "https://hypebeast.com/2026/8/new-arrivals-from-hbx-nomarhythm-textile",
-    "https://www.highsnobiety.com/p/clot-adidas-superstar-sawtooth-mules/"
+    "https://fashionista.com/2026/08/ib-kamara-leaves-off-white-creative-director-exit",
+    "https://hypebeast.com/2026/8/john-galliano-met-exhibition-cancelled-info",
+    "https://hypebeast.com/2026/8/travis-scott-us-open-cactus-jack-nike-collab-carlos-alcaraz",
+    "https://www.vogue.com/article/yoon-ahn-ambush-barbie-collaboration-interview"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-08-30T04:23:43.420Z"
+  "createdAt": "2026-09-01T02:36:17.358Z"
 }
