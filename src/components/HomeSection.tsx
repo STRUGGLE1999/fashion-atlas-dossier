@@ -16,7 +16,9 @@ import {
   FolderPlus,
   HelpCircle
 } from "lucide-react";
-import { DailyCuration, StyleEntry, MoodboardItem } from "../types";
+import { StyleEntry } from "../types";
+import { HomeBriefingRest } from "./DailyBriefing";
+import { useDailyCuration } from "../hooks/useDailyCuration";
 import { useFashionData } from "../hooks/useFashionData";
 
 interface HomeSectionProps {
@@ -33,8 +35,7 @@ export default function HomeSection({
   onInteractiveModeChange,
 }: HomeSectionProps) {
   const { data: styleEntries, loading } = useFashionData<StyleEntry>("styles");
-  const [dailyCuration, setDailyCuration] = useState<DailyCuration | null>(null);
-  const [dailyCurationState, setDailyCurationState] = useState<"loading" | "live" | "unpublished">("loading");
+  const { dailyCuration, state: dailyState, isLive: isLiveCuration } = useDailyCuration();
 
   const [localInteractiveMode, setLocalInteractiveMode] = useState<"none" | "translator" | "structures" | "scenarios">("none");
   const activeInteractiveMode = interactiveMode !== undefined ? interactiveMode : localInteractiveMode;
@@ -52,33 +53,7 @@ export default function HomeSection({
     }
   }, [styleEntries]);
 
-  useEffect(() => {
-    async function fetchDailyCuration() {
-      try {
-        const response = await fetch("/api/daily-curation");
-        if (!response.ok) {
-          setDailyCuration(null);
-          setDailyCurationState("unpublished");
-          return;
-        }
-        const data = await response.json();
-        if (data.curation && Array.isArray(data.curation.items) && data.curation.items.length > 0 && !data.fallback) {
-          setDailyCuration(data.curation);
-          setDailyCurationState("live");
-          return;
-        }
-        setDailyCuration(null);
-        setDailyCurationState("unpublished");
-      } catch {
-        setDailyCuration(null);
-        setDailyCurationState("unpublished");
-      }
-    }
-
-    fetchDailyCuration();
-  }, []);
-
-  if (loading) {
+  if (loading || dailyState === "loading") {
     return (
       <div className="flex items-center justify-center h-96">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#800020]"></div>
@@ -96,7 +71,6 @@ export default function HomeSection({
 
   const selectedStyle = styleEntries.find((s) => s.id === selectedStyleId) || styleEntries[0];
   const dailyFocus = dailyCuration?.items?.[0] || null;
-  const isLiveCuration = dailyCurationState === "live" && Boolean(dailyFocus);
   const focusImage = dailyFocus?.imageUrl || "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200";
   const focusAlt = dailyFocus?.title || "Margiela Playground Debut 1989 teaching sample";
   const focusKicker = isLiveCuration ? "DAILY CURATION SIGNAL" : "ARCHIVE TEACHING SAMPLE";
@@ -352,6 +326,8 @@ export default function HomeSection({
           })}
         </div>
       </div>
+
+      {isLiveCuration && dailyCuration ? <HomeBriefingRest curation={dailyCuration} /> : null}
 
       {/* Embedded Dynamic Curation Modules Panel */}
       <AnimatePresence mode="wait">

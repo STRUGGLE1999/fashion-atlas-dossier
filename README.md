@@ -33,7 +33,7 @@ FashionAtlas 不用常规 SaaS 控制台，而向学术期刊和印刷文献靠�
    保存馆藏、笔记和 AI 整理后的灵感卡，可导出 PDF。身份为匿名 Cookie，不是账号系统。
 
 5. **每日资讯**  
-   每天北京时间 8:00 由 GitHub Actions 起草简报，自动合并写入 `data/daily_curation.json`。若当日文件未发布，首页会明确写「今日资讯尚未发布」，并展示馆藏教学样本。趋势手记是 2024 W43 教学样本，不是本周直播。
+   每天北京时间 8:00 由 GitHub Actions 起草简报，自动合并写入 `data/daily_curation.json`。首页「今日焦点」展示当日全部条目；趋势页顶部只读挂同一份简报，不改教学周报。若当日文件未发布，首页会明确写「今日资讯尚未发布」，并展示馆藏教学样本。档案、书架、秀场仍是冻结馆藏。
 
 ---
 
@@ -65,7 +65,7 @@ npm run dev
 
 ## 首页每日焦点（GitHub Actions）
 
-每天北京时间 8:00（UTC 00:00）由 GitHub Actions 跑策展 Agent，合格则打开 PR 并自动合并，随后 Vercel 更新生产站首页「今日焦点」。仓库 Secrets 需配置 `GEMINI_API_KEY`、`GEMINI_BASE_URL`、`GEMINI_MODEL`。也可在 Actions 页手动 Run workflow。
+每天北京时间 8:00（UTC 00:00）由 GitHub Actions 跑策展 Agent，合格则打开 PR 并自动合并。随后同一份 `data/daily_curation.json` 会出现在首页「今日焦点」（第一条做主稿，其余列在下方）和趋势页顶部只读简报条。馆藏 JSON 不会被改写。仓库 Secrets 需配置 `GEMINI_API_KEY`、`GEMINI_BASE_URL`、`GEMINI_MODEL`。也可在 Actions 页手动 Run workflow。
 
 ## 黄金问题评测
 

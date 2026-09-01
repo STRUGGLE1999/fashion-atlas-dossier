@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { TrendTopic, OutfitFormula } from "../types";
 import { Sparkles, Calendar, Bookmark, Flame, Sliders, Check, HelpCircle, Expand, Info } from "lucide-react";
 import { motion } from "motion/react";
+import { TrendsBriefingStrip } from "./DailyBriefing";
+import { useDailyCuration } from "../hooks/useDailyCuration";
 import { useFashionData } from "../hooks/useFashionData";
 
 interface TrendsSectionProps {
@@ -19,6 +21,7 @@ export default function TrendsSection({
 }: TrendsSectionProps) {
   const { data: weeklyTrends, loading: loadingTrends } = useFashionData<TrendTopic>("trends");
   const { data: outfitFormulas, loading: loadingFormulas } = useFashionData<OutfitFormula>("formulas");
+  const { dailyCuration, state: briefingState } = useDailyCuration();
 
   const [activeTrend, setActiveTrend] = useState<TrendTopic | null>(null);
   const [activeFormulas, setActiveFormulas] = useState<OutfitFormula[]>([]);
@@ -75,6 +78,13 @@ export default function TrendsSection({
 
   return (
     <div className="space-y-10">
+      {briefingState !== "loading" ? (
+        <TrendsBriefingStrip
+          curation={dailyCuration}
+          unpublished={briefingState === "unpublished"}
+        />
+      ) : null}
+
       {/* Editorial Header Hero Banner */}
       <div className="relative rounded-lg overflow-hidden h-80 border border-[#2A2B2A]/10 shadow-xs">
         <img
