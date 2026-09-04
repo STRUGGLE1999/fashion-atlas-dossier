@@ -1,91 +1,88 @@
 {
-  "date": "2026-09-03",
-  "title": "秀场风向与资本重组：东京时装周启幕与秋冬关键趋势",
-  "summary": "东京时装周迎来前卫新季发布，秋冬裙装趋势与纽约街头美学持续发酵；同时，时尚商业版图迎来重磅并购整合，行业在设计演变与商业流动中展现新动向。",
+  "date": "2026-09-04",
+  "title": "廓形重构与工艺美学：秋季剪裁与先锋联名新动向",
+  "summary": "今日聚焦剪裁演进与标志性设计重塑：新一代女性设计师重塑美式修身丹宁，短款风衣成为秋季核心轮廓，而CDG对AJ11的解构与BV编织穆勒鞋展现了工艺与先锋美学的碰撞。",
   "items": [
     {
-      "title": "Yushokobayashi Tokyo Spring 2027",
+      "title": "A New Generation of Women Designers Is Reinventing the Slim Look of American Denim",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/yushokobayashi",
-      "publishedAt": "Thu, 03 Sep 2026 02:01:07 +0000",
-      "summary": "Yushokobayashi 带来东京 2027 春季最新成衣秀场，展现品牌标志性手工艺与解构美学。",
-      "recommendationReason": "东京时装周前沿设计力量，为秀场趋势库与亚太先锋设计研究提供关键样本。",
+      "url": "https://www.vogue.com/article/the-new-slim-american-denim-women-designers",
+      "publishedAt": "Thu, 03 Sep 2026 19:00:00 +0000",
+      "summary": "新一代女性设计师正在打破传统的紧身牛仔定义，以女性视角重塑更精致合体的美式修身丹宁风格。",
+      "recommendationReason": "深度解析丹宁廓形演进趋势，展现女性设计力量如何重构日常必备经典单品。",
       "tags": [
-        "秀场",
-        "东京时装周",
         "趋势",
+        "丹宁",
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6a981a81c4e5193aac9f3364/master/pass/00001-yushokobayashi-spring-2027-ready-to-wear-tokyo-credit-gorunway.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6a972d7fa9ad4184229e6c89/master/pass/VO0926_FOB_Jeans_01.jpg"
     },
     {
-      "title": "10 Fall 2026 Dress Trends That Capture the Mood of the Season",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/fall-2026-dress-trends",
-      "publishedAt": "Wed, 02 Sep 2026 15:23:01 +0000",
-      "summary": "盘点 2026 秋季十大裙装趋势，从蕾丝、皮革材质到新颖廓形剪裁，提炼本季穿搭情绪与风格要点。",
-      "recommendationReason": "系统梳理秋冬核心品类趋势，适合作为知识库的季节性风格归纳与选品参考。",
-      "tags": [
-        "趋势",
-        "裙装",
-        "秋冬流行",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6a91e25f7a678e8532f60dc9/master/pass/leadholding_dresstrends.jpg"
-    },
-    {
-      "title": "Public School Reclaims NYC for FW26 Campaign",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/public-school-new-york-fw26-campaign",
-      "publishedAt": "Wed, 02 Sep 2026 18:33:38 +0000",
-      "summary": "Public School 发布 2026 秋冬“The City Is Mine”大片，重塑纽约文化态度，并为即将登场的 SS27 秀场预热。",
-      "recommendationReason": "展现经典纽约街头时装品牌的视觉叙事与重返纽约时装周后的最新品牌动态。",
+      "title": "COMME des GARÇONS Found the Air Jordan 11's Purest Form",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/cdg-homme-plus-aj11/",
+      "publishedAt": "Thu, 03 Sep 2026 16:15:52 GMT",
+      "summary": "COMME des GARÇONS HOMME PLUS 带来 Air Jordan 11 的合作版本，直击鞋款核心精髓。",
+      "recommendationReason": "先锋时装品牌与殿堂级球鞋的重磅联名，展现高级时装对街头经典轮廓的极简解构。",
       "tags": [
         "品牌动态",
-        "街头时装",
-        "秋冬大片",
+        "联名",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F02%2Fpublic-school-new-york-campaign-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": ""
     },
     {
-      "title": "Must Read: WHP Global and G-III Finalize Marc Jacobs Acquisition, Topicals Appoints New CEO",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/whp-global-g-iii-finalize-marc-jacobs-acquisition",
-      "publishedAt": "Wed, 02 Sep 2026 16:00:00 GMT",
-      "summary": "WHP Global 与 G-III 完成对 Marc Jacobs 的收购，同时行业迎来多起高管变动与渠道拓展。",
-      "recommendationReason": "标志性设计师品牌的资本整合事件，对分析商业时尚集团布局具有高价值。",
+      "title": "All These Woven Shoes Are Bottega at Its Best",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/bottega-veneta-klog/",
+      "publishedAt": "Thu, 03 Sep 2026 21:11:01 GMT",
+      "summary": "尽管编织风潮蔓延，Bottega Veneta 全新 Intrecciato 编织 Klog 穆勒鞋依然彰显其不可替代的工艺水准。",
+      "recommendationReason": "剖析品牌核心 Intrecciato 皮革工艺在现代鞋履廓形中的演变与市场引领力。",
       "tags": [
-        "商业动态",
-        "品牌收购",
-        "Marc Jacobs",
-        "trend",
+        "品牌动态",
+        "鞋履趋势",
+        "streetwear",
         "brand",
-        "industry"
+        "trend"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzkzOTk2/untitled.jpg?profile=rss&x=44&y=4"
+      "imageUrl": ""
+    },
+    {
+      "title": "Is the Cropped Trench Coat the Ultimate Transitional Hero?",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/cropped-trench-coats",
+      "publishedAt": "Thu, 03 Sep 2026 16:40:51 +0000",
+      "summary": "从秀场到街头，短款风衣在今秋强势流行，成为精简过渡季衣橱的代表性单品。",
+      "recommendationReason": "指明秋季换季关键单品趋势，提供秀场到日常穿搭的结构性设计洞察。",
+      "tags": [
+        "趋势",
+        "秀场",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/693019aeb9c1fb3b4a81a832/master/pass/00029-chanel-pre-fall-2026-credit-gorunway.jpg"
     }
   ],
   "trendTags": [
-    "东京时装周",
-    "秋冬趋势",
-    "品牌并购",
-    "Runway Insights",
-    "Fashion Business"
+    "修身丹宁",
+    "Slim Denim",
+    "编织工艺",
+    "Intrecciato",
+    "短款风衣",
+    "Cropped Trench"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/fashion-shows/tokyo-spring-2027/yushokobayashi",
-    "https://www.vogue.com/article/fall-2026-dress-trends",
-    "https://hypebeast.com/2026/9/public-school-new-york-fw26-campaign",
-    "https://fashionista.com/2026/09/whp-global-g-iii-finalize-marc-jacobs-acquisition"
+    "https://www.vogue.com/article/the-new-slim-american-denim-women-designers",
+    "https://www.highsnobiety.com/p/cdg-homme-plus-aj11/",
+    "https://www.highsnobiety.com/p/bottega-veneta-klog/",
+    "https://www.vogue.com/article/cropped-trench-coats"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-03T02:02:28.492Z"
+  "createdAt": "2026-09-04T02:02:03.505Z"
 }
