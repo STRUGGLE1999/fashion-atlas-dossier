@@ -1,88 +1,94 @@
 {
-  "date": "2026-09-04",
-  "title": "廓形重构与工艺美学：秋季剪裁与先锋联名新动向",
-  "summary": "今日聚焦剪裁演进与标志性设计重塑：新一代女性设计师重塑美式修身丹宁，短款风衣成为秋季核心轮廓，而CDG对AJ11的解构与BV编织穆勒鞋展现了工艺与先锋美学的碰撞。",
+  "date": "2026-09-05",
+  "title": "FashionAtlas 每日风向：人事更迭、新锐崛起与秀场机能新语境",
+  "summary": "今日聚焦 Off-White 创意总监离任及 2026 LVMH Prize 桂冠归属；同步关注东京时装周 Khoki 秀场发布与户外机能品牌跨界联名，洞察从行业格局到设计创新的最新动态。",
   "items": [
     {
-      "title": "A New Generation of Women Designers Is Reinventing the Slim Look of American Denim",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/the-new-slim-american-denim-women-designers",
-      "publishedAt": "Thu, 03 Sep 2026 19:00:00 +0000",
-      "summary": "新一代女性设计师正在打破传统的紧身牛仔定义，以女性视角重塑更精致合体的美式修身丹宁风格。",
-      "recommendationReason": "深度解析丹宁廓形演进趋势，展现女性设计力量如何重构日常必备经典单品。",
+      "title": "Ib Kamara Exits Off-White & The Met Cancels John Galliano Exhibition in This Week's Top Fashion News",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/9/ib-kamara-exits-off-white-the-met-cancels-john-galliano-exhibition-in-this-weeks-top-fashion-news",
+      "publishedAt": "Fri, 04 Sep 2026 20:30:16 +0000",
+      "summary": "Ib Kamara 与 Off-White 达成共识卸任创意总监一职；同时大都会艺术博物馆正式取消原定举办的 John Galliano 专题大展。",
+      "recommendationReason": "头部高街品牌创意核心调整与行业重大展览变动，是观察当代时装话语权变迁的重要指标。",
+      "tags": [
+        "品牌动态",
+        "创意总监",
+        "Off-White",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F04%2Fib-kamara-off-white-john-galliano-met-air-jordan-11-stone-island-porter-1.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Must Read: Julie Kegels Wins 2026 LVMH Prize for Young Fashion Designers, Oura Files for IPO",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/julie-kegels-2026-lvmh-prize-for-young-fashion-designers-winner",
+      "publishedAt": "Fri, 04 Sep 2026 16:00:00 GMT",
+      "summary": "2026 年度 LVMH Prize 获奖者揭晓，新锐设计师 Julie Kegels 斩获该项业内顶级青年设计师大奖。",
+      "recommendationReason": "LVMH Prize 是捕捉全球先锋设计力量的风向标，为 AI 知识库扩充关键新锐设计师档案。",
       "tags": [
         "趋势",
-        "丹宁",
-        "runway",
+        "品牌动态",
+        "LVMH Prize",
         "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6a972d7fa9ad4184229e6c89/master/pass/VO0926_FOB_Jeans_01.jpg"
-    },
-    {
-      "title": "COMME des GARÇONS Found the Air Jordan 11's Purest Form",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/cdg-homme-plus-aj11/",
-      "publishedAt": "Thu, 03 Sep 2026 16:15:52 GMT",
-      "summary": "COMME des GARÇONS HOMME PLUS 带来 Air Jordan 11 的合作版本，直击鞋款核心精髓。",
-      "recommendationReason": "先锋时装品牌与殿堂级球鞋的重磅联名，展现高级时装对街头经典轮廓的极简解构。",
-      "tags": [
-        "品牌动态",
-        "联名",
-        "streetwear",
         "brand",
-        "trend"
+        "industry"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk0MzQw/untitled.jpg?profile=rss"
     },
     {
-      "title": "All These Woven Shoes Are Bottega at Its Best",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/bottega-veneta-klog/",
-      "publishedAt": "Thu, 03 Sep 2026 21:11:01 GMT",
-      "summary": "尽管编织风潮蔓延，Bottega Veneta 全新 Intrecciato 编织 Klog 穆勒鞋依然彰显其不可替代的工艺水准。",
-      "recommendationReason": "剖析品牌核心 Intrecciato 皮革工艺在现代鞋履廓形中的演变与市场引领力。",
-      "tags": [
-        "品牌动态",
-        "鞋履趋势",
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Is the Cropped Trench Coat the Ultimate Transitional Hero?",
+      "title": "Khoki Tokyo Spring 2027",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/cropped-trench-coats",
-      "publishedAt": "Thu, 03 Sep 2026 16:40:51 +0000",
-      "summary": "从秀场到街头，短款风衣在今秋强势流行，成为精简过渡季衣橱的代表性单品。",
-      "recommendationReason": "指明秋季换季关键单品趋势，提供秀场到日常穿搭的结构性设计洞察。",
+      "url": "https://www.vogue.com/fashion-shows/tokyo-spring-2027/khoki",
+      "publishedAt": "Sat, 05 Sep 2026 01:55:51 +0000",
+      "summary": "日本先锋设计师品牌 Khoki 在东京发布 2027 春季成衣系列，展现独特的剪裁构架与当代亚洲时装语汇。",
+      "recommendationReason": "直击东京时装周秀场实况，为追踪亚洲独立设计师趋势演变提供第一手视觉样本。",
       "tags": [
-        "趋势",
         "秀场",
+        "趋势",
+        "Khoki",
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/693019aeb9c1fb3b4a81a832/master/pass/00029-chanel-pre-fall-2026-credit-gorunway.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6a9aad90f2f72e76a18314a1/master/pass/00001-khoki-spring-2027-ready-to-wear-tokyo-credit-gorunway.jpg"
+    },
+    {
+      "title": "norda and Black Diamond Enter a New Era of Alpine Performance",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/9/norda-and-black-diamond-enter-a-new-era-of-alpine-performance",
+      "publishedAt": "Fri, 04 Sep 2026 18:59:52 +0000",
+      "summary": "先锋跑鞋品牌 norda 与专业户外品牌 Black Diamond 建立长期合作，推出全新 norda 000 鞋型探索高山机能美学。",
+      "recommendationReason": "展示材料创新与高山运动美学的深度融合，反映机能潮流与专业户外联名新趋势。",
+      "tags": [
+        "趋势",
+        "品牌联名",
+        "户外机能",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F04%2FNORDA1_Featured-scaled.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "修身丹宁",
-    "Slim Denim",
-    "编织工艺",
-    "Intrecciato",
-    "短款风衣",
-    "Cropped Trench"
+    "设计师更迭",
+    "LVMH大奖",
+    "东京时装周",
+    "户外机能",
+    "Creative Directors",
+    "LVMH Prize",
+    "Tokyo Fashion Week",
+    "Gorpcore"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/article/the-new-slim-american-denim-women-designers",
-    "https://www.highsnobiety.com/p/cdg-homme-plus-aj11/",
-    "https://www.highsnobiety.com/p/bottega-veneta-klog/",
-    "https://www.vogue.com/article/cropped-trench-coats"
+    "https://hypebeast.com/2026/9/ib-kamara-exits-off-white-the-met-cancels-john-galliano-exhibition-in-this-weeks-top-fashion-news",
+    "https://fashionista.com/2026/09/julie-kegels-2026-lvmh-prize-for-young-fashion-designers-winner",
+    "https://www.vogue.com/fashion-shows/tokyo-spring-2027/khoki",
+    "https://hypebeast.com/2026/9/norda-and-black-diamond-enter-a-new-era-of-alpine-performance"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-04T02:02:03.505Z"
+  "createdAt": "2026-09-05T01:58:45.794Z"
 }
