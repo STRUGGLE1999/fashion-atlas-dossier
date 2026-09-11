@@ -1,91 +1,95 @@
 {
-  "date": "2026-09-10",
-  "title": "2027春季秀场焕新与工艺材料进化",
-  "summary": "纽约时装周迎来Ralph Lauren等经典品牌的当代焕新，CFDA公布年度权威提名；同时传统柿染面料工艺与运动廓形重构展现了从材质创新到品类升级的多元趋势。",
+  "date": "2026-09-11",
+  "title": "今日时尚策展简报",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：AI request timed out",
   "items": [
     {
-      "title": "Ralph Lauren Spring 2027: Amping It&#160;Up",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/new-york/ralph-lauren/review/",
-      "publishedAt": "Wed, 09 Sep 2026 21:30:00 +0000",
-      "summary": "Ralph Lauren发布2027春季女装系列，融合历史美学典故、经典品牌基因与年轻化性感剪裁，带来现代美式风格演绎。",
-      "recommendationReason": "洞悉经典美式时装在保持标志性品牌轮廓的同时，如何通过年轻化与性感剪裁完成当代焕新。",
+      "title": "Rick Owens and Dr. Martens Link Up Again for a Brutalist Quad Sole Collection",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/9/rick-owens-and-dr-martens-link-up-again-for-a-brutalist-quad-sole-collection",
+      "publishedAt": "Thu, 10 Sep 2026 20:42:28 +0000",
+      "summary": "Summary Rick Owens and Dr. Martens reunite for the Fall/Winter 2026 Quad Sole collection.The Pull-On Boot, the Steel Toe Boot, and Megalace Mule continue the collaboration’s tradition of blending Rick Owens’ brutalist high-fashion aesthetic with Dr. Martens’ rugged, durable footwear.The collection launches in-store on Friday, September 18, and online on Saturday, September 19. This Fall/Winter season, Rick Owens and Dr. Martens reunite for their fifth collaboration, the Quad Sole collection. Since 2021, the pairing has reimagined Dr. Martens' utilitarian silhouettes through Rick Owens' brutali",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "秀场直击",
-        "Ralph Lauren",
-        "2027春夏",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "The 2026 CFDA Fashion Award Nominees Are In",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/2026-cfda-fashion-award-nominees",
-      "publishedAt": "Wed, 09 Sep 2026 17:27:21 GMT",
-      "summary": "2026年CFDA时尚大奖提名名单揭晓，Tory Burch与Thom Browne入围年度女装设计师，Ralph Lauren角逐男装奖项。",
-      "recommendationReason": "作为美国时尚界的权威风向标，CFDA提名榜单展现了当下最具商业与创意影响力的领军设计师格局。",
-      "tags": [
-        "行业大奖",
-        "CFDA",
-        "设计师动态",
-        "trend",
+        "streetwear",
         "brand",
-        "industry"
+        "trend",
+        "runway"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk0Nzc0/2025-cfda-awards-winners-walk.jpg?profile=rss"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F10%2FIMG_5562-2.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Fruit to Fabric: How Denim Has Adopted Ancient Persimmon-Based&#160;Dyes",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/sourcing-journal/sj-denim/kakishibu-traditional-persimmon-dye-denim-1239204903/",
-      "publishedAt": "Wed, 09 Sep 2026 21:36:52 +0000",
-      "summary": "传统日本柿染（Kakishibu）工艺被引入现代丹宁制造，为经典牛仔面料带来独特的天然植物染色调与质感。",
-      "recommendationReason": "揭示古老天然染色技艺与现代面料研发的结合趋势，为可持续丹宁创新与质感表达提供参考。",
+      "title": "See Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in New York",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/see-phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-new-york",
+      "publishedAt": "Thu, 10 Sep 2026 19:41:47 +0000",
+      "summary": "Phil Oh documents New York’s best-dressed dressed fashion show-goers at the spring 2027 shows.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "面料趋势",
-        "可持续工艺",
-        "丹宁",
-        "industry",
         "runway",
+        "trend",
         "brand"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://assets.vogue.com/photos/6aa2c51fcdd9bd0c0d342614/master/pass/NYFW_SS27_streetstyle_day1_philoh_08.jpg"
     },
     {
-      "title": "Nike Is Resetting Its NBA Apparel With Oversize Logos, Modern Silhouettes and Its Newest&#160;Materials",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/footwear-news/sneaker-news/nike-nba-standard-issue-collection-category-rest-1239204243/",
-      "publishedAt": "Wed, 09 Sep 2026 23:30:00 +0000",
-      "summary": "Nike推出全新NBA Standard Issue系列，采用加大Logo、现代廓形与最新功能性面料重构篮球服饰品类。",
-      "recommendationReason": "展现运动巨头通过街头化宽松剪裁与前沿面料重塑核心体育赛事服饰的产品迭代与品牌策略。",
+      "title": "Inside the Buzziest Parties of New York Fashion Week",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/best-parties-new-york-fashion-week-september-2026",
+      "publishedAt": "Thu, 10 Sep 2026 21:49:55 +0000",
+      "summary": "Beyond the runways and presentations, the Spring 2027 season has also spelled no shortage of parties popping off across Manhattan—with plenty of celebrity names on the guest lists too. Here, Vogue’s look inside the events everyone is still talking about…",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "品牌动态",
-        "运动潮流",
-        "Nike",
-        "industry",
         "runway",
+        "trend",
         "brand"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://assets.vogue.com/photos/6aa31f8fa45807271a6ac4a1/master/pass/0-%20Becky%20G,%20Willy%20Chavarria.%20Photo%20courtesy%20of%20Matt%20Weinberger.jpg"
+    },
+    {
+      "title": "Alo Kicked Off NYFW with a Chic Night at The Twenty Two",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/alo-nyfw-party-handbag-launch",
+      "publishedAt": "Thu, 10 Sep 2026 21:48:48 +0000",
+      "summary": "To usher in New York Fashion Week and simultaneously unveil the second collection of high-end handbags, Alo hosted a dinner party and late-night bash at The Twenty Two.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aa3094a7c83ba5648eb13d0/master/pass/BFA_55460_8125763.jpg"
+    },
+    {
+      "title": "In a New Light: HOMME PLISSÉ ISSEY MIYAKE Reimagines the Pleat",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/9/in-a-new-light-homme-plisse-issey-miyake-reimagines-the-pleat",
+      "publishedAt": "Thu, 10 Sep 2026 18:41:03 +0000",
+      "summary": "Summary HOMME PLISSÉ ISSEY MIYAKE's Autumn/Winter collection, 'In A New Light', translates the interplay of light and pleated fabric into innovative textile design, blending craftsmanship with technology.The collection features subtle gradients, seasonal earthy tones, and lightweight, layerable linear structures.The approach reflects HOMME PLISSÉ's dedication to pleating technology that moves with the body. The 'In A New Light' collection reflects that principle, treating light as material and the wearer as its ever-changing form. This Autumn/Winter season, HOMME PLISSÉ ISSEY MIYAKE turns our ",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F10%2FHOMME_PLISS__ISSEY_MIYAKE-2026aw-020-1.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "纽约时装周",
-    "NYFW",
-    "柿染面料",
-    "Textile Innovation",
-    "CFDA"
+    "streetwear",
+    "brand",
+    "trend",
+    "runway"
   ],
   "sourceUrls": [
-    "https://wwd.com/runway/spring-2027/new-york/ralph-lauren/review/",
-    "https://fashionista.com/2026/09/2026-cfda-fashion-award-nominees",
-    "https://wwd.com/sourcing-journal/sj-denim/kakishibu-traditional-persimmon-dye-denim-1239204903/",
-    "https://wwd.com/footwear-news/sneaker-news/nike-nba-standard-issue-collection-category-rest-1239204243/"
+    "https://hypebeast.com/2026/9/rick-owens-and-dr-martens-link-up-again-for-a-brutalist-quad-sole-collection",
+    "https://www.vogue.com/slideshow/see-phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-new-york",
+    "https://www.vogue.com/article/best-parties-new-york-fashion-week-september-2026",
+    "https://www.vogue.com/slideshow/alo-nyfw-party-handbag-launch",
+    "https://hypebeast.com/2026/9/in-a-new-light-homme-plisse-issey-miyake-reimagines-the-pleat"
   ],
-  "model": "gemini-3.7-flash",
-  "simulated": false,
-  "createdAt": "2026-09-10T02:04:05.267Z"
+  "model": "heuristic-fallback",
+  "simulated": true,
+  "createdAt": "2026-09-11T02:02:14.428Z"
 }
