@@ -1,95 +1,91 @@
 {
-  "date": "2026-09-11",
-  "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：AI request timed out",
+  "date": "2026-09-12",
+  "title": "2027春季秀场多元探索与零售地标革新",
+  "summary": "2027春季时装周迎来丰富叙事：纽约秀场上Tory Burch与Christian Cowan分别借由色彩情绪和复古面料探索新美学；首尔展现科技与极简的交融；Moncler则启幕全球最大旗舰店。",
   "items": [
     {
-      "title": "Rick Owens and Dr. Martens Link Up Again for a Brutalist Quad Sole Collection",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/rick-owens-and-dr-martens-link-up-again-for-a-brutalist-quad-sole-collection",
-      "publishedAt": "Thu, 10 Sep 2026 20:42:28 +0000",
-      "summary": "Summary Rick Owens and Dr. Martens reunite for the Fall/Winter 2026 Quad Sole collection.The Pull-On Boot, the Steel Toe Boot, and Megalace Mule continue the collaboration’s tradition of blending Rick Owens’ brutalist high-fashion aesthetic with Dr. Martens’ rugged, durable footwear.The collection launches in-store on Friday, September 18, and online on Saturday, September 19. This Fall/Winter season, Rick Owens and Dr. Martens reunite for their fifth collaboration, the Quad Sole collection. Since 2021, the pairing has reimagined Dr. Martens' utilitarian silhouettes through Rick Owens' brutali",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "title": "Moncler Cut the Ribbon on its New Manhattan Flagship with Help From Some Very Famous Friends",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/moncler-manhattan-flagship-opening-party",
+      "publishedAt": "Fri, 11 Sep 2026 21:22:46 +0000",
+      "summary": "Moncler于曼哈顿第五大道开设占地23,680平方英尺的新旗舰店，成为其全球最大门店。",
+      "recommendationReason": "展现头部高端品牌在线下顶级商圈扩张超级旗舰店的零售战略与品牌势能布局。",
       "tags": [
-        "streetwear",
+        "品牌动态",
+        "Moncler",
+        "零售空间",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aa4aaa7058ab3c425933aae/master/pass/BFA_55675_8149004.jpg"
+    },
+    {
+      "title": "From Robot Models to Bold Minimalism: Seoul Fashion Week Shows Another Side of K-Culture",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/from-robot-models-to-bold-minimalism-seoul-fashion-week-shows-another-side-of-k-culture",
+      "publishedAt": "Fri, 11 Sep 2026 20:51:15 +0000",
+      "summary": "回顾2027春季首尔时装周，呈现了从机器人模特走秀到大胆极简主义设计等多维韩国时尚生态。",
+      "recommendationReason": "洞察亚洲时尚枢纽首尔在科技实验秀场与极简剪裁层面的前沿探索与设计新趋势。",
+      "tags": [
+        "时装周",
+        "首尔时装周",
+        "趋势观察",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aa44d151b3177d09a6383ce/master/pass/KIMHEKIM-F048.jpg"
+    },
+    {
+      "title": "Tory Burch Spring 2027 Offers a Joyful, Colorful Escape From Our Modern Dystopia",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/tory-burch-spring-2027-review",
+      "publishedAt": "Fri, 11 Sep 2026 20:46:13 GMT",
+      "summary": "Tory Burch 2027春季系列通过饱满色彩与丰富肌理质感，提供了一种愉悦的情绪疗愈与穿搭表达。",
+      "recommendationReason": "解读当代核心女装品牌如何运用色彩心理学与触觉质感重构新一季成衣的情绪价值。",
+      "tags": [
+        "秀场直击",
+        "Tory Burch",
+        "色彩趋势",
+        "trend",
         "brand",
-        "trend",
-        "runway"
+        "industry"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F10%2FIMG_5562-2.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk1NTc2/tory-burch-spring-2027.jpg?profile=rss&x=46&y=22"
     },
     {
-      "title": "See Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in New York",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/see-phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-new-york",
-      "publishedAt": "Thu, 10 Sep 2026 19:41:47 +0000",
-      "summary": "Phil Oh documents New York’s best-dressed dressed fashion show-goers at the spring 2027 shows.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "title": "A Haunting Marilyn Monroe Quote Inspired Christian Cowan for Spring 2027",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/christian-cowan-spring-2027-review",
+      "publishedAt": "Sat, 12 Sep 2026 01:37:47 GMT",
+      "summary": "Christian Cowan 2027春季系列汲取老好莱坞华丽风范，赋予百年历史面料全新生命力。",
+      "recommendationReason": "观察复古华丽美学与历史档案级织物面料在当代先锋秀场中的解构与重塑方式。",
       "tags": [
-        "runway",
+        "秀场直击",
+        "Christian Cowan",
+        "复古风潮",
         "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aa2c51fcdd9bd0c0d342614/master/pass/NYFW_SS27_streetstyle_day1_philoh_08.jpg"
-    },
-    {
-      "title": "Inside the Buzziest Parties of New York Fashion Week",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/best-parties-new-york-fashion-week-september-2026",
-      "publishedAt": "Thu, 10 Sep 2026 21:49:55 +0000",
-      "summary": "Beyond the runways and presentations, the Spring 2027 season has also spelled no shortage of parties popping off across Manhattan—with plenty of celebrity names on the guest lists too. Here, Vogue’s look inside the events everyone is still talking about…",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aa31f8fa45807271a6ac4a1/master/pass/0-%20Becky%20G,%20Willy%20Chavarria.%20Photo%20courtesy%20of%20Matt%20Weinberger.jpg"
-    },
-    {
-      "title": "Alo Kicked Off NYFW with a Chic Night at The Twenty Two",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/alo-nyfw-party-handbag-launch",
-      "publishedAt": "Thu, 10 Sep 2026 21:48:48 +0000",
-      "summary": "To usher in New York Fashion Week and simultaneously unveil the second collection of high-end handbags, Alo hosted a dinner party and late-night bash at The Twenty Two.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aa3094a7c83ba5648eb13d0/master/pass/BFA_55460_8125763.jpg"
-    },
-    {
-      "title": "In a New Light: HOMME PLISSÉ ISSEY MIYAKE Reimagines the Pleat",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/in-a-new-light-homme-plisse-issey-miyake-reimagines-the-pleat",
-      "publishedAt": "Thu, 10 Sep 2026 18:41:03 +0000",
-      "summary": "Summary HOMME PLISSÉ ISSEY MIYAKE's Autumn/Winter collection, 'In A New Light', translates the interplay of light and pleated fabric into innovative textile design, blending craftsmanship with technology.The collection features subtle gradients, seasonal earthy tones, and lightweight, layerable linear structures.The approach reflects HOMME PLISSÉ's dedication to pleating technology that moves with the body. The 'In A New Light' collection reflects that principle, treating light as material and the wearer as its ever-changing form. This Autumn/Winter season, HOMME PLISSÉ ISSEY MIYAKE turns our ",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
         "brand",
-        "trend",
-        "runway"
+        "industry"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F10%2FHOMME_PLISS__ISSEY_MIYAKE-2026aw-020-1.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk1OTUw/cowan-s27-035.jpg?profile=rss"
     }
   ],
   "trendTags": [
-    "streetwear",
-    "brand",
-    "trend",
-    "runway"
+    "秀场直击",
+    "色彩疗愈",
+    "科技极简",
+    "Runway Review",
+    "Retail Expansion"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/9/rick-owens-and-dr-martens-link-up-again-for-a-brutalist-quad-sole-collection",
-    "https://www.vogue.com/slideshow/see-phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-new-york",
-    "https://www.vogue.com/article/best-parties-new-york-fashion-week-september-2026",
-    "https://www.vogue.com/slideshow/alo-nyfw-party-handbag-launch",
-    "https://hypebeast.com/2026/9/in-a-new-light-homme-plisse-issey-miyake-reimagines-the-pleat"
+    "https://www.vogue.com/slideshow/moncler-manhattan-flagship-opening-party",
+    "https://www.vogue.com/article/from-robot-models-to-bold-minimalism-seoul-fashion-week-shows-another-side-of-k-culture",
+    "https://fashionista.com/2026/09/tory-burch-spring-2027-review",
+    "https://fashionista.com/2026/09/christian-cowan-spring-2027-review"
   ],
-  "model": "heuristic-fallback",
-  "simulated": true,
-  "createdAt": "2026-09-11T02:02:14.428Z"
+  "model": "gemini-3.7-flash",
+  "simulated": false,
+  "createdAt": "2026-09-12T02:06:58.828Z"
 }
