@@ -1,91 +1,90 @@
 {
-  "date": "2026-09-12",
-  "title": "2027春季秀场多元探索与零售地标革新",
-  "summary": "2027春季时装周迎来丰富叙事：纽约秀场上Tory Burch与Christian Cowan分别借由色彩情绪和复古面料探索新美学；首尔展现科技与极简的交融；Moncler则启幕全球最大旗舰店。",
+  "date": "2026-09-13",
+  "title": "纽约时装周前沿洞察：性别边界解构、老牌重塑与历史档案回溯",
+  "summary": "本期聚焦2027春夏纽约时装周的多维演进：Altuzarra以酷儿历史解构性别规范，DVF迎来近十年后的回归重塑，Anna Sui深入1970年代档案汲取灵感，Conner Ives则带来跨大西洋的美式张扬表达。",
   "items": [
     {
-      "title": "Moncler Cut the Ribbon on its New Manhattan Flagship with Help From Some Very Famous Friends",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/moncler-manhattan-flagship-opening-party",
-      "publishedAt": "Fri, 11 Sep 2026 21:22:46 +0000",
-      "summary": "Moncler于曼哈顿第五大道开设占地23,680平方英尺的新旗舰店，成为其全球最大门店。",
-      "recommendationReason": "展现头部高端品牌在线下顶级商圈扩张超级旗舰店的零售战略与品牌势能布局。",
+      "title": "Altuzarra Gets a 'Vibe Shift,' Plays With Gender Codes for Spring 2027",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/altuzarra-spring-2027-review",
+      "publishedAt": "Sat, 12 Sep 2026 20:47:11 GMT",
+      "summary": "Altuzarra 2027春夏系列以1960年代庇护所Casa Susanna为灵感，打破传统男女着装界限，探索真实的自我表达。",
+      "recommendationReason": "展现品牌突破固有叙事向性别流动美学的深度转变，是秀场趋势分析的绝佳范本。",
+      "tags": [
+        "秀场趋势",
+        "Altuzarra",
+        "trend",
+        "brand",
+        "industry",
+        "runway"
+      ],
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2Mjcz/untitled.jpg?profile=rss"
+    },
+    {
+      "title": "The Most Anticipated Debut at NYFW",
+      "sourceName": "The New York Times Fashion & Style",
+      "url": "https://www.nytimes.com/video/style/100000011132036/the-most-anticipated-debut-at-nyfw.html",
+      "publishedAt": "Sat, 12 Sep 2026 20:59:15 +0000",
+      "summary": "Diane von Furstenberg在缺席近十年后重返纽约时装周，评论界深入审视其新任设计师带来的品牌重塑力度。",
+      "recommendationReason": "经典美国老牌复出与创意权力更迭的重量级行业评论，具备极高的行业档案价值。",
       "tags": [
         "品牌动态",
-        "Moncler",
-        "零售空间",
-        "runway",
+        "Diane von Furstenberg",
+        "style",
+        "culture",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6aa4aaa7058ab3c425933aae/master/pass/BFA_55675_8149004.jpg"
+      "imageUrl": ""
     },
     {
-      "title": "From Robot Models to Bold Minimalism: Seoul Fashion Week Shows Another Side of K-Culture",
+      "title": "See the 1972 Vogue Story That Inspired Anna Sui’s Dreamy Spring 2027 Collection",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/from-robot-models-to-bold-minimalism-seoul-fashion-week-shows-another-side-of-k-culture",
-      "publishedAt": "Fri, 11 Sep 2026 20:51:15 +0000",
-      "summary": "回顾2027春季首尔时装周，呈现了从机器人模特走秀到大胆极简主义设计等多维韩国时尚生态。",
-      "recommendationReason": "洞察亚洲时尚枢纽首尔在科技实验秀场与极简剪裁层面的前沿探索与设计新趋势。",
+      "url": "https://www.vogue.com/slideshow/see-the-1972-vogue-story-that-inspired-anna-sui-s-dreamy-spring-2027-collection",
+      "publishedAt": "Sat, 12 Sep 2026 22:01:05 +0000",
+      "summary": "Anna Sui 2027春夏系列以1972年Vogue历史报道与Howard Gardiner Cushing绘画为线索，构建梦幻浪漫叙事。",
+      "recommendationReason": "系统呈现当代秀场与历史档案、艺术画作的互文关系，极具设计知识库沉淀价值。",
       "tags": [
-        "时装周",
-        "首尔时装周",
-        "趋势观察",
+        "设计灵感",
+        "Anna Sui",
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6aa44d151b3177d09a6383ce/master/pass/KIMHEKIM-F048.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6aa5c3c294d2267b967c205e/master/pass/Vogue_19721101_0160_008_0173_r.jpg"
     },
     {
-      "title": "Tory Burch Spring 2027 Offers a Joyful, Colorful Escape From Our Modern Dystopia",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/tory-burch-spring-2027-review",
-      "publishedAt": "Fri, 11 Sep 2026 20:46:13 GMT",
-      "summary": "Tory Burch 2027春季系列通过饱满色彩与丰富肌理质感，提供了一种愉悦的情绪疗愈与穿搭表达。",
-      "recommendationReason": "解读当代核心女装品牌如何运用色彩心理学与触觉质感重构新一季成衣的情绪价值。",
+      "title": "Conner Ives Spring 2027: American ‘Flamboyance’",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/new-york/conner-ives/review/",
+      "publishedAt": "Sat, 12 Sep 2026 20:30:37 +0000",
+      "summary": "纽约设计师Conner Ives自英国重回本土，以“Across the Pond”系列展现极具个人标识的美式张扬设计风格。",
+      "recommendationReason": "记录新锐设计师跨地域回归本土办秀的关键时刻，展现新生代美式美学。",
       "tags": [
-        "秀场直击",
-        "Tory Burch",
-        "色彩趋势",
-        "trend",
-        "brand",
-        "industry"
+        "秀场趋势",
+        "Conner Ives",
+        "industry",
+        "runway",
+        "brand"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk1NTc2/tory-burch-spring-2027.jpg?profile=rss&x=46&y=22"
-    },
-    {
-      "title": "A Haunting Marilyn Monroe Quote Inspired Christian Cowan for Spring 2027",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/christian-cowan-spring-2027-review",
-      "publishedAt": "Sat, 12 Sep 2026 01:37:47 GMT",
-      "summary": "Christian Cowan 2027春季系列汲取老好莱坞华丽风范，赋予百年历史面料全新生命力。",
-      "recommendationReason": "观察复古华丽美学与历史档案级织物面料在当代先锋秀场中的解构与重塑方式。",
-      "tags": [
-        "秀场直击",
-        "Christian Cowan",
-        "复古风潮",
-        "trend",
-        "brand",
-        "industry"
-      ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk1OTUw/cowan-s27-035.jpg?profile=rss"
+      "imageUrl": ""
     }
   ],
   "trendTags": [
-    "秀场直击",
-    "色彩疗愈",
-    "科技极简",
-    "Runway Review",
-    "Retail Expansion"
+    "纽约时装周",
+    "NYFW",
+    "性别流动",
+    "Gender Codes",
+    "品牌重塑",
+    "档案溯源"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/slideshow/moncler-manhattan-flagship-opening-party",
-    "https://www.vogue.com/article/from-robot-models-to-bold-minimalism-seoul-fashion-week-shows-another-side-of-k-culture",
-    "https://fashionista.com/2026/09/tory-burch-spring-2027-review",
-    "https://fashionista.com/2026/09/christian-cowan-spring-2027-review"
+    "https://fashionista.com/2026/09/altuzarra-spring-2027-review",
+    "https://www.nytimes.com/video/style/100000011132036/the-most-anticipated-debut-at-nyfw.html",
+    "https://www.vogue.com/slideshow/see-the-1972-vogue-story-that-inspired-anna-sui-s-dreamy-spring-2027-collection",
+    "https://wwd.com/runway/spring-2027/new-york/conner-ives/review/"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-12T02:06:58.828Z"
+  "createdAt": "2026-09-13T02:02:35.009Z"
 }
