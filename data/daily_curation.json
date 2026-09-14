@@ -1,90 +1,91 @@
 {
-  "date": "2026-09-13",
-  "title": "纽约时装周前沿洞察：性别边界解构、老牌重塑与历史档案回溯",
-  "summary": "本期聚焦2027春夏纽约时装周的多维演进：Altuzarra以酷儿历史解构性别规范，DVF迎来近十年后的回归重塑，Anna Sui深入1970年代档案汲取灵感，Conner Ives则带来跨大西洋的美式张扬表达。",
+  "date": "2026-09-14",
+  "title": "2027春夏纽约时装周：实用浪漫与女性力量剪裁",
+  "summary": "本期聚焦纽约时装周趋势：Khaite与Sandy Liang分别以柔美浪漫与机能实用重塑日常着装；Dauphinette带来创新压花真丝面料；Sergio Hudson则打造性感干练的女性力量西装廓形。",
   "items": [
     {
-      "title": "Altuzarra Gets a 'Vibe Shift,' Plays With Gender Codes for Spring 2027",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/altuzarra-spring-2027-review",
-      "publishedAt": "Sat, 12 Sep 2026 20:47:11 GMT",
-      "summary": "Altuzarra 2027春夏系列以1960年代庇护所Casa Susanna为灵感，打破传统男女着装界限，探索真实的自我表达。",
-      "recommendationReason": "展现品牌突破固有叙事向性别流动美学的深度转变，是秀场趋势分析的绝佳范本。",
+      "title": "Khaite Spring 2027: Feeling the&#160;Romance",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/new-york/khaite/review/",
+      "publishedAt": "Sun, 13 Sep 2026 20:17:00 +0000",
+      "summary": "Catherine Holstein在延续冷峻克制剪裁的同时，全面融入柔和浪漫的女性化设计元素。",
+      "recommendationReason": "纽约极简代表品牌向浪漫主义的风格演进，是解析高端日常女装风向的关键参考。",
       "tags": [
-        "秀场趋势",
-        "Altuzarra",
+        "Khaite",
+        "纽约时装周",
+        "极简浪漫",
+        "industry",
+        "runway",
+        "brand"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "Sandy Liang Does Precious Practicality for Spring 2027",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/sandy-liang-spring-2027-collection",
+      "publishedAt": "Mon, 14 Sep 2026 00:05:31 GMT",
+      "summary": "Sandy Liang在2027春夏系列中推出海豚印花运动夹克与粉色战术腰包，融合精致少女感与日常机能。",
+      "recommendationReason": "精准示范如何将少女美学与战术机能元素结合，为年轻化配饰与运动时装提供灵感。",
+      "tags": [
+        "Sandy Liang",
+        "机能实用",
+        "趋势解析",
         "trend",
         "brand",
-        "industry",
-        "runway"
+        "industry"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2Mjcz/untitled.jpg?profile=rss"
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2NjI1/sandy-liang-spring-2027.jpg?profile=rss&x=50&y=17"
     },
     {
-      "title": "The Most Anticipated Debut at NYFW",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/video/style/100000011132036/the-most-anticipated-debut-at-nyfw.html",
-      "publishedAt": "Sat, 12 Sep 2026 20:59:15 +0000",
-      "summary": "Diane von Furstenberg在缺席近十年后重返纽约时装周，评论界深入审视其新任设计师带来的品牌重塑力度。",
-      "recommendationReason": "经典美国老牌复出与创意权力更迭的重量级行业评论，具备极高的行业档案价值。",
+      "title": "Dauphinette's Spring 2027 Show Finds Beauty in Returning to Itself",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/dauphinette-spring-2027-collection",
+      "publishedAt": "Sun, 13 Sep 2026 21:34:26 GMT",
+      "summary": "Olivia Cheng重拾标志性纽扣与昆虫元素，并首次推出压花真丝面料Florganza。",
+      "recommendationReason": "展示独立设计师在延续品牌标志性手工艺的同时，通过研发新型面料拓宽设计维度。",
       "tags": [
-        "品牌动态",
-        "Diane von Furstenberg",
-        "style",
-        "culture",
+        "Dauphinette",
+        "面料创新",
+        "独立设计师",
         "trend",
-        "brand"
+        "brand",
+        "industry"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2NjYy/dauphinette-spring-2027.jpg?profile=rss"
     },
     {
-      "title": "See the 1972 Vogue Story That Inspired Anna Sui’s Dreamy Spring 2027 Collection",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/see-the-1972-vogue-story-that-inspired-anna-sui-s-dreamy-spring-2027-collection",
-      "publishedAt": "Sat, 12 Sep 2026 22:01:05 +0000",
-      "summary": "Anna Sui 2027春夏系列以1972年Vogue历史报道与Howard Gardiner Cushing绘画为线索，构建梦幻浪漫叙事。",
-      "recommendationReason": "系统呈现当代秀场与历史档案、艺术画作的互文关系，极具设计知识库沉淀价值。",
+      "title": "If James Bond Were a Woman, She'd Wear Sergio Hudson Spring 2027",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/sergio-hudson-spring-2027-review",
+      "publishedAt": "Mon, 14 Sep 2026 02:13:15 GMT",
+      "summary": "Sergio Hudson以女性特工为灵感，呈献兼具性感、干练与强大气场的2027春夏力量剪裁系列。",
+      "recommendationReason": "生动诠释当代女性力量着装（Power Dressing）与利落剪裁的完美平衡。",
       "tags": [
-        "设计灵感",
-        "Anna Sui",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aa5c3c294d2267b967c205e/master/pass/Vogue_19721101_0160_008_0173_r.jpg"
-    },
-    {
-      "title": "Conner Ives Spring 2027: American ‘Flamboyance’",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/new-york/conner-ives/review/",
-      "publishedAt": "Sat, 12 Sep 2026 20:30:37 +0000",
-      "summary": "纽约设计师Conner Ives自英国重回本土，以“Across the Pond”系列展现极具个人标识的美式张扬设计风格。",
-      "recommendationReason": "记录新锐设计师跨地域回归本土办秀的关键时刻，展现新生代美式美学。",
-      "tags": [
+        "Sergio Hudson",
+        "力量剪裁",
         "秀场趋势",
-        "Conner Ives",
-        "industry",
-        "runway",
-        "brand"
+        "trend",
+        "brand",
+        "industry"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2ODIx/sergio-hudson-spring-2027.jpg?profile=rss"
     }
   ],
   "trendTags": [
-    "纽约时装周",
-    "NYFW",
-    "性别流动",
-    "Gender Codes",
-    "品牌重塑",
-    "档案溯源"
+    "浪漫极简",
+    "机能少女感",
+    "面料创新",
+    "力量剪裁",
+    "Romantic Tailoring"
   ],
   "sourceUrls": [
-    "https://fashionista.com/2026/09/altuzarra-spring-2027-review",
-    "https://www.nytimes.com/video/style/100000011132036/the-most-anticipated-debut-at-nyfw.html",
-    "https://www.vogue.com/slideshow/see-the-1972-vogue-story-that-inspired-anna-sui-s-dreamy-spring-2027-collection",
-    "https://wwd.com/runway/spring-2027/new-york/conner-ives/review/"
+    "https://wwd.com/runway/spring-2027/new-york/khaite/review/",
+    "https://fashionista.com/2026/09/sandy-liang-spring-2027-collection",
+    "https://fashionista.com/2026/09/dauphinette-spring-2027-collection",
+    "https://fashionista.com/2026/09/sergio-hudson-spring-2027-review"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-13T02:02:35.009Z"
+  "createdAt": "2026-09-14T02:20:42.920Z"
 }
