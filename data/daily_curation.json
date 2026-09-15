@@ -1,91 +1,92 @@
 {
-  "date": "2026-09-14",
-  "title": "2027春夏纽约时装周：实用浪漫与女性力量剪裁",
-  "summary": "本期聚焦纽约时装周趋势：Khaite与Sandy Liang分别以柔美浪漫与机能实用重塑日常着装；Dauphinette带来创新压花真丝面料；Sergio Hudson则打造性感干练的女性力量西装廓形。",
+  "date": "2026-09-15",
+  "title": "2027春夏纽约新秀探索与潮流商业演进",
+  "summary": "今日聚焦2027春夏纽约时装周新锐品牌首秀与剪裁突破，涵盖前卫轮廓探索与珠宝首秀，同时洞察耐克与Cactus Jack的联名体系升级以及巴黎展会带动的批发渠道复苏信号。",
   "items": [
     {
-      "title": "Khaite Spring 2027: Feeling the&#160;Romance",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/new-york/khaite/review/",
-      "publishedAt": "Sun, 13 Sep 2026 20:17:00 +0000",
-      "summary": "Catherine Holstein在延续冷峻克制剪裁的同时，全面融入柔和浪漫的女性化设计元素。",
-      "recommendationReason": "纽约极简代表品牌向浪漫主义的风格演进，是解析高端日常女装风向的关键参考。",
-      "tags": [
-        "Khaite",
-        "纽约时装周",
-        "极简浪漫",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Sandy Liang Does Precious Practicality for Spring 2027",
+      "title": "Emily Dawn Long Introduces 'Southern Cleavage' for Spring 2027",
       "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/sandy-liang-spring-2027-collection",
-      "publishedAt": "Mon, 14 Sep 2026 00:05:31 GMT",
-      "summary": "Sandy Liang在2027春夏系列中推出海豚印花运动夹克与粉色战术腰包，融合精致少女感与日常机能。",
-      "recommendationReason": "精准示范如何将少女美学与战术机能元素结合，为年轻化配饰与运动时装提供灵感。",
+      "url": "https://fashionista.com/2026/09/emily-dawn-long-spring-2027-nyfw-debut",
+      "publishedAt": "Tue, 15 Sep 2026 00:07:52 GMT",
+      "summary": "设计师Emily Dawn Long在纽约时装周首秀发布短片，推出将领口剪裁概念转移至下背部的创新实验性轮廓。",
+      "recommendationReason": "展现独立设计师对身体部位与服装结构的先锋重塑，为春夏秀场趋势提供新颖切入点。",
       "tags": [
-        "Sandy Liang",
-        "机能实用",
-        "趋势解析",
+        "纽约时装周",
+        "剪裁趋势",
+        "新锐设计",
         "trend",
         "brand",
         "industry"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2NjI1/sandy-liang-spring-2027.jpg?profile=rss&x=50&y=17"
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk3MDEw/emily-dawn-long-spring-2027.jpg?profile=rss"
     },
     {
-      "title": "Dauphinette's Spring 2027 Show Finds Beauty in Returning to Itself",
+      "title": "Benjamin Seidler Debuts His Namesake Jewelry Label at New York Fashion Week",
       "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/dauphinette-spring-2027-collection",
-      "publishedAt": "Sun, 13 Sep 2026 21:34:26 GMT",
-      "summary": "Olivia Cheng重拾标志性纽扣与昆虫元素，并首次推出压花真丝面料Florganza。",
-      "recommendationReason": "展示独立设计师在延续品牌标志性手工艺的同时，通过研发新型面料拓宽设计维度。",
+      "url": "https://fashionista.com/2026/09/seidler-spring-2027-collection",
+      "publishedAt": "Tue, 15 Sep 2026 00:33:12 GMT",
+      "summary": "设计师Benjamin Seidler在纽约时装周推出同名珠宝品牌首个系列，将玩具车等童趣与情感元素融入高级配饰。",
+      "recommendationReason": "关注时装周期间涌现的独立配饰力量，呈现情感叙事与童趣美学在珠宝品类中的融合。",
       "tags": [
-        "Dauphinette",
-        "面料创新",
+        "品牌首秀",
+        "珠宝配饰",
         "独立设计师",
         "trend",
         "brand",
         "industry"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2NjYy/dauphinette-spring-2027.jpg?profile=rss"
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk3MTgw/seidler-spring-2027-9.jpg?profile=rss"
     },
     {
-      "title": "If James Bond Were a Woman, She'd Wear Sergio Hudson Spring 2027",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/sergio-hudson-spring-2027-review",
-      "publishedAt": "Mon, 14 Sep 2026 02:13:15 GMT",
-      "summary": "Sergio Hudson以女性特工为灵感，呈献兼具性感、干练与强大气场的2027春夏力量剪裁系列。",
-      "recommendationReason": "生动诠释当代女性力量着装（Power Dressing）与利落剪裁的完美平衡。",
+      "title": "Sole Food: Nike's Cactus Jack Collab Always Has Perfect Timing",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/cactus-jack-nike-collabs/",
+      "publishedAt": "Mon, 14 Sep 2026 23:58:08 GMT",
+      "summary": "Cactus Jack已从Travis Scott的标志性球鞋扩展为耐克旗下覆盖网球等多领域的全天候潮流合作标签。",
+      "recommendationReason": "深度剖析运动巨头与明星IP联名模式的长期演进与品类跨界，对潮流商业极具参考价值。",
       "tags": [
-        "Sergio Hudson",
-        "力量剪裁",
-        "秀场趋势",
-        "trend",
+        "街头潮流",
+        "品牌联名",
+        "运动商业",
+        "streetwear",
         "brand",
-        "industry"
+        "trend"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk2ODIx/sergio-hudson-spring-2027.jpg?profile=rss"
+      "imageUrl": ""
+    },
+    {
+      "title": "Who’s Next Cultivates Renewed Demand for&#160;Wholesale",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-features/whos-next-paris-trade-show-renewed-demand-wholesale-1239230452/",
+      "publishedAt": "Mon, 14 Sep 2026 23:28:26 +0000",
+      "summary": "巴黎订货展Who's Next扩大家居生活板块并强化数字服务，助力品牌与零售商应对市场变化并重振批发需求。",
+      "recommendationReason": "把握欧洲订货季最新动态与B2B批发渠道回暖趋势，是了解全球零售供应链的关键信号。",
+      "tags": [
+        "产业动态",
+        "订货展会",
+        "批发零售",
+        "industry",
+        "runway",
+        "brand"
+      ],
+      "imageUrl": ""
     }
   ],
   "trendTags": [
-    "浪漫极简",
-    "机能少女感",
-    "面料创新",
-    "力量剪裁",
-    "Romantic Tailoring"
+    "纽约时装周",
+    "新锐设计",
+    "联名策略",
+    "订货展会",
+    "NYFW SS27",
+    "Streetwear Collab"
   ],
   "sourceUrls": [
-    "https://wwd.com/runway/spring-2027/new-york/khaite/review/",
-    "https://fashionista.com/2026/09/sandy-liang-spring-2027-collection",
-    "https://fashionista.com/2026/09/dauphinette-spring-2027-collection",
-    "https://fashionista.com/2026/09/sergio-hudson-spring-2027-review"
+    "https://fashionista.com/2026/09/emily-dawn-long-spring-2027-nyfw-debut",
+    "https://fashionista.com/2026/09/seidler-spring-2027-collection",
+    "https://www.highsnobiety.com/p/cactus-jack-nike-collabs/",
+    "https://wwd.com/fashion-news/fashion-features/whos-next-paris-trade-show-renewed-demand-wholesale-1239230452/"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-14T02:20:42.920Z"
+  "createdAt": "2026-09-15T02:25:59.609Z"
 }
