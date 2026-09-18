@@ -1,92 +1,91 @@
 {
-  "date": "2026-09-17",
-  "title": "跨界重组与智能研发重构时尚生态",
-  "summary": "今日聚焦品牌重组与前沿产业动向：Alexandre Arnault加入Nike董事会助力复苏；PDF 2027春夏秀场与联名发售深耕复古运动潮流；Lectra推出AI智能体加速时尚全流程研发。",
+  "date": "2026-09-18",
+  "title": "秀场叙事重构与重磅联名：今日时尚核心策展",
+  "summary": "今日焦点聚焦于跨界重塑与秀场叙事：Levi’s与sacai再度联手解构丹宁美学；H&M与Nick Knight借AI与电影感探索视觉实验；纽约时装周则涌现古希腊垂坠风潮与多幕式叙事秀场。",
   "items": [
     {
-      "title": "Alexandre Arnault Joins Nike Board of Directors Amid Corporate Restructuring",
+      "title": "Levi’s and sacai Partner for Third Collaborative Denim Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/alexandre-arnault-joins-nike-board-of-directors-announcement",
-      "publishedAt": "Thu, 17 Sep 2026 01:58:36 +0000",
-      "summary": "LVMH高管Alexandre Arnault正式加入Nike董事会，正值该运动巨头面临财务挑战并展开战略重组的关键时期。",
-      "recommendationReason": "观察奢侈品核心操盘手赋能传统运动巨头品牌焕新与战略重构的重要风向标。",
+      "url": "https://hypebeast.com/2026/9/levis-sacai-third-collaborative-denim-collection-release-info",
+      "publishedAt": "Fri, 18 Sep 2026 01:46:28 +0000",
+      "summary": "Levi’s与sacai推出第三季联名系列，涵盖12款男女单品，通过重构经典轮廓推出羊羔绒夹克与腰带微喇裤等设计。",
+      "recommendationReason": "两大品牌的第三度携手，展现了传统工装经典与解构主义剪裁融合的标杆性联名趋势。",
       "tags": [
-        "品牌动态",
-        "高管任命",
-        "Nike",
-        "LVMH",
+        "联名合作",
+        "丹宁趋势",
+        "sacai",
+        "Levi's",
         "streetwear",
         "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F16%2Falexandre-arnault-joins-nike-board-of-directors-announcement-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F17%2Flevis-sacai-third-collaborative-denim-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "PDF SS27 Celebrates Basketball's Bridging Power in NYC",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/pdf-ss27-runway-show-collection-new-york-fashion-week-nyfw",
-      "publishedAt": "Wed, 16 Sep 2026 17:18:53 +0000",
-      "summary": "Domenico Formichetti在纽约时装周呈献PDF 2027春夏系列，以夸张剪裁与复古元素致敬篮球文化。",
-      "recommendationReason": "展现90年代运动风貌与街头文化在高级时装周秀场上的创新表达与融合。",
-      "tags": [
-        "秀场直击",
-        "SS27",
-        "街头风尚",
-        "PDF",
-        "streetwear",
-        "brand"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F16%2Fpdf-ss27-runway-show-collection-new-york-fashion-week-nyfw-0.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "8 Drops You Don't Want to Miss This Week",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/best-drops-september-week-3-palace-skateboards-balenciaga-ambush-nikeskims",
-      "publishedAt": "Thu, 17 Sep 2026 00:30:41 +0000",
-      "summary": "本周焦点发售盘点，囊括Palace联名、Balenciaga索尼克胶囊以及UNDERCOVER重释经典之作。",
-      "recommendationReason": "全方位速览街头、奢华品牌与流行IP跨界合作的当季最新产品趋势。",
-      "tags": [
-        "潮流趋势",
-        "新品发售",
-        "联名胶囊",
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F16%2Fbest-drops-september-week-3-palace-skateboards-balenciaga-ambush-nikeskims-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Lectra Launches Agentic AI for Fashion Product&#160;Development",
+      "title": "Fashion Is Not a Contact Sport: H&#038;M Holds the Line in London as PETA Protesters Crash Runway&#160;Show",
       "sourceName": "WWD",
-      "url": "https://wwd.com/sourcing-journal/industry-news/lectra-agentic-artificial-intelligence-apogy-fashion-1239240732/",
-      "publishedAt": "Wed, 16 Sep 2026 22:20:11 +0000",
-      "summary": "Lectra推出时尚AI智能体Apogy，旨在全面辅助设计与供应链团队进行产品生命周期开发。",
-      "recommendationReason": "AI Agent技术深度切入时尚研发供应链的典型范例，适合沉淀为行业知识库资料。",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/peta-protesters-crash-hm-london-runway-show-1239243577/",
+      "publishedAt": "Thu, 17 Sep 2026 21:54:17 +0000",
+      "summary": "H&M在伦敦大秀上首发与Nick Knight的合作系列，将历史浪漫主义、电影感男装与AI生成视觉深度融合。",
+      "recommendationReason": "快时尚巨头联合传奇摄影师，探索AI视觉与高级成衣概念在大秀中的跨界实践。",
       "tags": [
-        "时尚科技",
-        "AI研发",
-        "供应链",
+        "秀场发布",
+        "AI时尚",
+        "品牌合作",
+        "H&M",
+        "industry",
+        "runway"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "It&#8217;s All Greek to Me: Eveningwear Continues ‘The Odyssey’ at NYFW Spring&#160;2027",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/fashion-news/shows-reviews/eveningwear-nyfw-spring-2027-1239238468/",
+      "publishedAt": "Thu, 17 Sep 2026 20:15:36 +0000",
+      "summary": "纽约时装周延续古希腊美学风潮，Dennis Basso等设计师主打飘逸长裙、雕塑感垂坠剪裁与做旧金色点缀。",
+      "recommendationReason": "深度剖析2027春季晚装核心趋势，古希腊式垂褶与古典廓形再度成为设计焦点。",
+      "tags": [
+        "晚装趋势",
+        "纽约时装周",
+        "秀场趋势",
         "industry",
         "runway",
         "brand"
       ],
       "imageUrl": ""
+    },
+    {
+      "title": "Advisry SS27 'AMERICA, STILL' Is a Three-Act Ode to American Resilience",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/9/advisrys-ss27-collection-america-still-nyfw-runway",
+      "publishedAt": "Thu, 17 Sep 2026 19:26:55 +0000",
+      "summary": "Advisry以詹姆斯·鲍德温的声音为引，通过三幕式叙事呈现破损牛仔、棋盘格西装及珠片华服的蜕变。",
+      "recommendationReason": "新锐设计师将文学概念与历史叙事注入时装秀，展现了青年文化与深刻叙事结合的设计范式。",
+      "tags": [
+        "新锐品牌",
+        "秀场叙事",
+        "纽约时装周",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F17%2FUntitled-3.png?w=800&cbr=1&q=90&format=png&fit=max"
     }
   ],
   "trendTags": [
-    "高层变动",
-    "复古运动风",
-    "AI时尚研发",
-    "跨界联名",
-    "Runway SS27",
-    "Executive Moves"
+    "丹宁解构",
+    "古希腊风潮",
+    "AI秀场视觉",
+    "Denim Reconstruction",
+    "Grecian Revival"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/9/alexandre-arnault-joins-nike-board-of-directors-announcement",
-    "https://hypebeast.com/2026/9/pdf-ss27-runway-show-collection-new-york-fashion-week-nyfw",
-    "https://hypebeast.com/2026/9/best-drops-september-week-3-palace-skateboards-balenciaga-ambush-nikeskims",
-    "https://wwd.com/sourcing-journal/industry-news/lectra-agentic-artificial-intelligence-apogy-fashion-1239240732/"
+    "https://hypebeast.com/2026/9/levis-sacai-third-collaborative-denim-collection-release-info",
+    "https://wwd.com/fashion-news/fashion-scoops/peta-protesters-crash-hm-london-runway-show-1239243577/",
+    "https://wwd.com/fashion-news/shows-reviews/eveningwear-nyfw-spring-2027-1239238468/",
+    "https://hypebeast.com/2026/9/advisrys-ss27-collection-america-still-nyfw-runway"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-17T02:23:37.966Z"
+  "createdAt": "2026-09-18T02:09:16.977Z"
 }
