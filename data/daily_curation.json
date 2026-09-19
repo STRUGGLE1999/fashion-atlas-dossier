@@ -1,91 +1,88 @@
 {
-  "date": "2026-09-18",
-  "title": "秀场叙事重构与重磅联名：今日时尚核心策展",
-  "summary": "今日焦点聚焦于跨界重塑与秀场叙事：Levi’s与sacai再度联手解构丹宁美学；H&M与Nick Knight借AI与电影感探索视觉实验；纽约时装周则涌现古希腊垂坠风潮与多幕式叙事秀场。",
+  "date": "2026-09-19",
+  "title": "FashionAtlas 每日策展：产业组织变动与2027春夏美学演进",
+  "summary": "今日聚焦时尚产业关键动向：CFDA掌舵人更迭引发行业关注；Armani配饰线迎来创意焕新；同时伦敦2027春夏秀场后台与新一代Art Deco复古珠宝风潮展现最新美学趋势。",
   "items": [
     {
-      "title": "Levi’s and sacai Partner for Third Collaborative Denim Collection",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/levis-sacai-third-collaborative-denim-collection-release-info",
-      "publishedAt": "Fri, 18 Sep 2026 01:46:28 +0000",
-      "summary": "Levi’s与sacai推出第三季联名系列，涵盖12款男女单品，通过重构经典轮廓推出羊羔绒夹克与腰带微喇裤等设计。",
-      "recommendationReason": "两大品牌的第三度携手，展现了传统工装经典与解构主义剪裁融合的标杆性联名趋势。",
+      "title": "Steven Kolb, CFDA Head, Resigns After Confrontation With PETA Protesters",
+      "sourceName": "The New York Times Fashion & Style",
+      "url": "https://www.nytimes.com/2026/09/18/style/steven-kolb-cfda-resignation-peta.html",
+      "publishedAt": "Sat, 19 Sep 2026 02:04:02 +0000",
+      "summary": "美国时装设计师协会（CFDA）负责人Steven Kolb在时装秀现场与抗议者发生肢体冲突后正式辞职。",
+      "recommendationReason": "掌舵核心行业机构20年的领袖突发离任，是时尚产业管理层与公关应对的重要观察案例。",
       "tags": [
-        "联名合作",
-        "丹宁趋势",
-        "sacai",
-        "Levi's",
-        "streetwear",
-        "brand"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F17%2Flevis-sacai-third-collaborative-denim-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Fashion Is Not a Contact Sport: H&#038;M Holds the Line in London as PETA Protesters Crash Runway&#160;Show",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/peta-protesters-crash-hm-london-runway-show-1239243577/",
-      "publishedAt": "Thu, 17 Sep 2026 21:54:17 +0000",
-      "summary": "H&M在伦敦大秀上首发与Nick Knight的合作系列，将历史浪漫主义、电影感男装与AI生成视觉深度融合。",
-      "recommendationReason": "快时尚巨头联合传奇摄影师，探索AI视觉与高级成衣概念在大秀中的跨界实践。",
-      "tags": [
-        "秀场发布",
-        "AI时尚",
-        "品牌合作",
-        "H&M",
-        "industry",
+        "行业动态",
+        "机构人事",
+        "style",
+        "culture",
+        "trend",
         "runway"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://static01.nyt.com/images/2026/09/18/multimedia/ST-KOLB-mtjq/ST-KOLB-mtjq-mediumSquareAt3X.jpg"
     },
     {
-      "title": "It&#8217;s All Greek to Me: Eveningwear Continues ‘The Odyssey’ at NYFW Spring&#160;2027",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/fashion-news/shows-reviews/eveningwear-nyfw-spring-2027-1239238468/",
-      "publishedAt": "Thu, 17 Sep 2026 20:15:36 +0000",
-      "summary": "纽约时装周延续古希腊美学风潮，Dennis Basso等设计师主打飘逸长裙、雕塑感垂坠剪裁与做旧金色点缀。",
-      "recommendationReason": "深度剖析2027春季晚装核心趋势，古希腊式垂褶与古典廓形再度成为设计焦点。",
-      "tags": [
-        "晚装趋势",
-        "纽约时装周",
-        "秀场趋势",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Advisry SS27 'AMERICA, STILL' Is a Three-Act Ode to American Resilience",
+      "title": "Dartio Vitale Joins Armani Group & Kai Cenat Makes NYFW Debut in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/advisrys-ss27-collection-america-still-nyfw-runway",
-      "publishedAt": "Thu, 17 Sep 2026 19:26:55 +0000",
-      "summary": "Advisry以詹姆斯·鲍德温的声音为引，通过三幕式叙事呈现破损牛仔、棋盘格西装及珠片华服的蜕变。",
-      "recommendationReason": "新锐设计师将文学概念与历史叙事注入时装秀，展现了青年文化与深刻叙事结合的设计范式。",
+      "url": "https://hypebeast.com/2026/9/armani-dario-vitale-nike-skims-vivet-kai-cenat-gap-apc-village-pm-kith-info",
+      "publishedAt": "Fri, 18 Sep 2026 20:30:01 +0000",
+      "summary": "Armani集团任命Dario Vitale为配饰创意总监，同时Gap联手A.P.C.、SKIMS拓展大中华市场。",
+      "recommendationReason": "汇聚老牌时装屋年轻化人事任命与最新商业联名动态，适合作为知识库的品牌布局参考。",
       "tags": [
-        "新锐品牌",
-        "秀场叙事",
-        "纽约时装周",
+        "创意总监",
+        "品牌动态",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F17%2FUntitled-3.png?w=800&cbr=1&q=90&format=png&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F18%2Farmani-dario-vitale-nike-skims-vivet-kai-cenat-gap-apc-village-pm-kith-info-0-2.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "A New Generation of Jewelry Designers Is Bringing Back Art Deco",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/art-deco-jewelry-trend",
+      "publishedAt": "Fri, 18 Sep 2026 19:38:47 +0000",
+      "summary": "新锐珠宝设计师将古典装饰艺术与当代造型融合，重新诠释几何线条美学，掀起复古新风潮。",
+      "recommendationReason": "精准捕捉配饰领域的细分美学走向，为趋势分析与产品设计提供风格参考。",
+      "tags": [
+        "设计趋势",
+        "珠宝配饰",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aad7d0443b11adf0837333b/master/pass/MG_4057_1512x.jpg"
+    },
+    {
+      "title": "The Best Behind-the-Scenes Moments From the Spring 2027 Shows in London",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/the-best-behind-the-scenes-moments-from-the-spring-2027-shows-in-london",
+      "publishedAt": "Fri, 18 Sep 2026 19:04:56 +0000",
+      "summary": "摄影师Acielle Tanbetova直击2027春夏伦敦时装周，定格秀场后台的服饰细节与创作氛围。",
+      "recommendationReason": "从幕后视角呈现未经过滤的新季剪裁、面料与妆造细节，具备高审美与视觉参考价值。",
+      "tags": [
+        "秀场直击",
+        "2027春夏",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aad8a281233d84a958bdf05/master/pass/FashionEast_LondonFashionweek_SS27_backstage_acielle_35.jpg"
     }
   ],
   "trendTags": [
-    "丹宁解构",
-    "古希腊风潮",
-    "AI秀场视觉",
-    "Denim Reconstruction",
-    "Grecian Revival"
+    "秀场直击",
+    "品牌人事",
+    "装饰艺术",
+    "Runway Trend",
+    "Brand Dynamics"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/9/levis-sacai-third-collaborative-denim-collection-release-info",
-    "https://wwd.com/fashion-news/fashion-scoops/peta-protesters-crash-hm-london-runway-show-1239243577/",
-    "https://wwd.com/fashion-news/shows-reviews/eveningwear-nyfw-spring-2027-1239238468/",
-    "https://hypebeast.com/2026/9/advisrys-ss27-collection-america-still-nyfw-runway"
+    "https://www.nytimes.com/2026/09/18/style/steven-kolb-cfda-resignation-peta.html",
+    "https://hypebeast.com/2026/9/armani-dario-vitale-nike-skims-vivet-kai-cenat-gap-apc-village-pm-kith-info",
+    "https://www.vogue.com/article/art-deco-jewelry-trend",
+    "https://www.vogue.com/slideshow/the-best-behind-the-scenes-moments-from-the-spring-2027-shows-in-london"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-18T02:09:16.977Z"
+  "createdAt": "2026-09-19T02:13:09.423Z"
 }
