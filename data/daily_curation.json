@@ -1,88 +1,90 @@
 {
-  "date": "2026-09-19",
-  "title": "FashionAtlas 每日策展：产业组织变动与2027春夏美学演进",
-  "summary": "今日聚焦时尚产业关键动向：CFDA掌舵人更迭引发行业关注；Armani配饰线迎来创意焕新；同时伦敦2027春夏秀场后台与新一代Art Deco复古珠宝风潮展现最新美学趋势。",
+  "date": "2026-09-20",
+  "title": "全球时尚前沿：Loro Piana供应链深化、Skims欧洲扩张与伦敦时装周趋势",
+  "summary": "今日聚焦顶级奢华品牌制造壁垒与商业零售扩张：Loro Piana深化针织垂直整合，Skims进军欧洲零售市场；同时聚焦伦敦时装周街拍风向与运动时尚跨界联名。",
   "items": [
     {
-      "title": "Steven Kolb, CFDA Head, Resigns After Confrontation With PETA Protesters",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/2026/09/18/style/steven-kolb-cfda-resignation-peta.html",
-      "publishedAt": "Sat, 19 Sep 2026 02:04:02 +0000",
-      "summary": "美国时装设计师协会（CFDA）负责人Steven Kolb在时装秀现场与抗议者发生肢体冲突后正式辞职。",
-      "recommendationReason": "掌舵核心行业机构20年的领袖突发离任，是时尚产业管理层与公关应对的重要观察案例。",
+      "title": "Frédéric Arnault Inaugurates Loro Piana’s New Knitwear Plant",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/frederic-arnault-inaugurates-loro-pianas-new-knitwear-plant",
+      "publishedAt": "Sat, 19 Sep 2026 18:07:24 +0000",
+      "summary": "Loro Piana首席执行官Frédéric Arnault为品牌全新针织工厂揭幕，推进垂直整合策略以确保品质与稳健增长。",
+      "recommendationReason": "揭示顶级奢侈品牌通过强化上游制造供应链与垂直整合壁垒，巩固核心竞争力的关键战略动态。",
       "tags": [
-        "行业动态",
-        "机构人事",
-        "style",
-        "culture",
+        "供应链",
+        "奢侈品",
+        "品牌动态",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://static01.nyt.com/images/2026/09/18/multimedia/ST-KOLB-mtjq/ST-KOLB-mtjq-mediumSquareAt3X.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6aaec325d329c6a2062c6e32/master/pass/ARNAULT-SOCIAL%20(1).jpg"
     },
     {
-      "title": "Dartio Vitale Joins Armani Group & Kai Cenat Makes NYFW Debut in This Week's Top Fashion News",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/armani-dario-vitale-nike-skims-vivet-kai-cenat-gap-apc-village-pm-kith-info",
-      "publishedAt": "Fri, 18 Sep 2026 20:30:01 +0000",
-      "summary": "Armani集团任命Dario Vitale为配饰创意总监，同时Gap联手A.P.C.、SKIMS拓展大中华市场。",
-      "recommendationReason": "汇聚老牌时装屋年轻化人事任命与最新商业联名动态，适合作为知识库的品牌布局参考。",
+      "title": "“Immerse Yourself in the Skims World”: Kim Kardashian and Jens Grede Talk Global Expansion",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/immerse-yourself-in-the-skims-world-kim-kardashian-and-jens-grede-talk-global-expansion",
+      "publishedAt": "Sat, 19 Sep 2026 14:26:11 +0000",
+      "summary": "在完成新一轮融资且估值达50亿美元后，Skims在伦敦开设首家欧洲旗舰店，创始人解析全球扩张规划。",
+      "recommendationReason": "深度观察现象级生活方式品牌从DTC迈向全球线下实体零售旗舰的重要商业范式。",
       "tags": [
-        "创意总监",
-        "品牌动态",
+        "零售扩张",
+        "商业动态",
+        "Skims",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aae97620b3dc4119d6d0dbb/master/pass/Story.png"
+    },
+    {
+      "title": "Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in London",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-london",
+      "publishedAt": "Sun, 20 Sep 2026 00:58:12 +0000",
+      "summary": "街拍摄影师Phil Oh捕捉2027春季伦敦时装周秀场外的精彩着装，呈现鲜活前沿的搭配趋势。",
+      "recommendationReason": "时装周秀场外的真实穿搭生态，是捕捉新兴流行元素与先锋造型语汇的核心灵感库。",
+      "tags": [
+        "街拍趋势",
+        "伦敦时装周",
+        "秀场趋势",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aaf2f74cd0a54e4b235410e/master/pass/LondonFashionWeek_SS27_StreetStyle_Day2_PhilOh_01.jpg"
+    },
+    {
+      "title": "Stella McCartney's Latest adidas Runner Is a Fluffy Winter Wonder",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/adidas-stella-mccartney-76-teddy-grey/",
+      "publishedAt": "Sat, 19 Sep 2026 20:22:00 GMT",
+      "summary": "Stella McCartney与adidas再度携手，以1976年蒙特利尔奥运会为灵感推出毛绒质感运动跑鞋。",
+      "recommendationReason": "呈现运动先锋品牌与设计师在复古档案重塑及冬季触感材质创新上的持续探索。",
+      "tags": [
+        "联名合作",
+        "球鞋趋势",
+        "运动时尚",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F18%2Farmani-dario-vitale-nike-skims-vivet-kai-cenat-gap-apc-village-pm-kith-info-0-2.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "A New Generation of Jewelry Designers Is Bringing Back Art Deco",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/art-deco-jewelry-trend",
-      "publishedAt": "Fri, 18 Sep 2026 19:38:47 +0000",
-      "summary": "新锐珠宝设计师将古典装饰艺术与当代造型融合，重新诠释几何线条美学，掀起复古新风潮。",
-      "recommendationReason": "精准捕捉配饰领域的细分美学走向，为趋势分析与产品设计提供风格参考。",
-      "tags": [
-        "设计趋势",
-        "珠宝配饰",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aad7d0443b11adf0837333b/master/pass/MG_4057_1512x.jpg"
-    },
-    {
-      "title": "The Best Behind-the-Scenes Moments From the Spring 2027 Shows in London",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/the-best-behind-the-scenes-moments-from-the-spring-2027-shows-in-london",
-      "publishedAt": "Fri, 18 Sep 2026 19:04:56 +0000",
-      "summary": "摄影师Acielle Tanbetova直击2027春夏伦敦时装周，定格秀场后台的服饰细节与创作氛围。",
-      "recommendationReason": "从幕后视角呈现未经过滤的新季剪裁、面料与妆造细节，具备高审美与视觉参考价值。",
-      "tags": [
-        "秀场直击",
-        "2027春夏",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aad8a281233d84a958bdf05/master/pass/FashionEast_LondonFashionweek_SS27_backstage_acielle_35.jpg"
+      "imageUrl": ""
     }
   ],
   "trendTags": [
-    "秀场直击",
-    "品牌人事",
-    "装饰艺术",
-    "Runway Trend",
-    "Brand Dynamics"
+    "秀场与街拍趋势",
+    "品牌扩张与供应链",
+    "Runway Trends",
+    "Brand Strategy"
   ],
   "sourceUrls": [
-    "https://www.nytimes.com/2026/09/18/style/steven-kolb-cfda-resignation-peta.html",
-    "https://hypebeast.com/2026/9/armani-dario-vitale-nike-skims-vivet-kai-cenat-gap-apc-village-pm-kith-info",
-    "https://www.vogue.com/article/art-deco-jewelry-trend",
-    "https://www.vogue.com/slideshow/the-best-behind-the-scenes-moments-from-the-spring-2027-shows-in-london"
+    "https://www.vogue.com/article/frederic-arnault-inaugurates-loro-pianas-new-knitwear-plant",
+    "https://www.vogue.com/article/immerse-yourself-in-the-skims-world-kim-kardashian-and-jens-grede-talk-global-expansion",
+    "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-london",
+    "https://www.highsnobiety.com/p/adidas-stella-mccartney-76-teddy-grey/"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-19T02:13:09.423Z"
+  "createdAt": "2026-09-20T02:21:10.558Z"
 }
