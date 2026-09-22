@@ -1,53 +1,19 @@
 {
-  "date": "2026-09-21",
-  "title": "伦敦时装周艺术手工艺叙事与品牌商业扩张",
-  "summary": "今日聚焦伦敦春夏秀场与品牌动态：Roksanda 与 Emilia Wickstead 探索艺术与手工艺的深度融合，Mulberry 重塑皮具经典，Skims 则加速海外旗舰店布局。",
+  "date": "2026-09-22",
+  "title": "2027春夏伦敦与纽约时装周趋势洞察与品牌重构",
+  "summary": "聚焦2027春夏最新秀场动态与街头趋势：从Burberry的繁花色彩到McQueen回归萨维尔街裁缝传统，结合英伦学院风街拍与纽约时装周热门单品，提炼当季设计语言与风格走向。",
   "items": [
     {
-      "title": "Roksanda Spring 2027: Showing the&#160;Ropes",
+      "title": "Burberry Spring 2027: In&#160;Bloom",
       "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/london/roksanda/review/",
-      "publishedAt": "Sun, 20 Sep 2026 21:26:01 +0000",
-      "summary": "设计师从纺织雕塑家 Françoise Grossen 的绳结与编织艺术中汲取灵感，为日常日装赋予浓厚艺术气息。",
-      "recommendationReason": "展示了手工编织肌理与现代时装剪裁的巧妙融合，是把握春夏面料与质感趋势的重要参考。",
-      "tags": [
-        "秀场",
-        "趋势",
-        "Roksanda",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Mulberry Spring 2027: Back in the&#160;Game",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/london/mulberry/review/",
-      "publishedAt": "Sun, 20 Sep 2026 19:31:20 +0000",
-      "summary": "Christopher Kane 延续 Mulberry 核心风格基因，推出大量精细皮革、利落线条及复古回潮设计。",
-      "recommendationReason": "深度解析英伦经典皮具品牌在当代语境下的成衣重塑，适合追踪品牌焕新与秀场动态。",
+      "url": "https://wwd.com/runway/spring-2027/london/burberry/review/",
+      "publishedAt": "Mon, 21 Sep 2026 21:27:58 +0000",
+      "summary": "设计师Daniel Lee与英国纺织设计师Celia Birtwell合作，呈现充满花卉图案与春季明亮色彩的Burberry 2027春夏系列。",
+      "recommendationReason": "解析英伦老牌在印花与色彩上的革新尝试，是了解奢侈品牌季候设计方向的重要秀评参考。",
       "tags": [
         "秀场",
         "品牌动态",
-        "Mulberry",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Emilia Wickstead Spring 2027: Feathers, Daisies and Lee&#160;Krasner",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/london/emilia-wickstead/review/",
-      "publishedAt": "Sun, 20 Sep 2026 18:57:39 +0000",
-      "summary": "以艺术家 Lee Krasner 工装为灵感，结合羽毛花呢、斜裁长裙与手工手绘雏菊印花，展现优雅张力。",
-      "recommendationReason": "呈现女性艺术家灵感与高定质感手工艺的结合，为精致日常与晚装趋势提供灵感库积累。",
-      "tags": [
-        "秀场",
         "趋势",
-        "Emilia Wickstead",
         "industry",
         "runway",
         "brand"
@@ -55,37 +21,72 @@
       "imageUrl": ""
     },
     {
-      "title": "Perfect Fit: Kim Kardashian Celebrates Skims’s First International Flagship in London",
+      "title": "Inside McQueen’s Savile Row Reunion With Huntsman",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/kim-kardashian-celebrates-skims-first-international-flagship-london",
-      "publishedAt": "Sun, 20 Sep 2026 13:34:53 +0000",
-      "summary": "Kim Kardashian 在伦敦时装周期间庆祝 Skims 首家国际旗舰店开业，多位名流与音乐人到场助阵。",
-      "recommendationReason": "展现头部塑形内衣品牌的全球线下零售扩张进程，是研究新消费品牌商业化落地的典型案例。",
+      "url": "https://www.vogue.com/article/inside-mcqueens-savile-row-reunion-with-huntsman",
+      "publishedAt": "Mon, 21 Sep 2026 18:35:04 +0000",
+      "summary": "创意总监Seán McGirr带领McQueen重返伦敦时装周，并与曾为Alexander McQueen定制服装的萨维尔街名坊Huntsman再度合作。",
+      "recommendationReason": "深入挖掘品牌档案与顶级男装剪裁传统的交汇点，对研究高定时裁工艺与品牌传承极具价值。",
       "tags": [
         "品牌动态",
-        "商业扩张",
-        "Skims",
+        "剪裁工艺",
+        "伦敦时装周",
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6aafdfea24208572c94be7a0/master/pass/20260918_SKIMS_RowbenLantion_0941.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ab17397a720d9f74445fa2b/master/pass/Hi%20RES%20Edit%208.00_00_52_16.Still_3378.0003378.jpg"
+    },
+    {
+      "title": "Street Style Goes Back to School at London Fashion Week",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/lfw-spring-2027-street-style-preppy-school-trend",
+      "publishedAt": "Mon, 21 Sep 2026 17:36:11 GMT",
+      "summary": "2027春夏伦敦时装周场外街拍中，菱格纹、格子、百褶裙、过膝袜、玛丽珍鞋与橄榄球衫等经典学院风单品全面回潮。",
+      "recommendationReason": "直击场外穿搭的核心流行元素，为即季与下季的学院风穿搭趋势提供详实的造型范本。",
+      "tags": [
+        "街拍趋势",
+        "学院风",
+        "伦敦时装周",
+        "trend",
+        "brand",
+        "industry"
+      ],
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk5MzMz/lfw-spring-2027-street-style.jpg?profile=rss&x=50&y=37"
+    },
+    {
+      "title": "Everyone Wore These 4 Things at New York Fashion Week",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/top-of-the-carts-fashion-week",
+      "publishedAt": "Mon, 21 Sep 2026 16:29:19 +0000",
+      "summary": "纽约时装周期间，夸张胸针、腹带腰封、亮眼皇家紫以及Conner Ives当季秀场单品成为最受欢迎的流行焦点。",
+      "recommendationReason": "快速提炼时装周期间高频出现的标志性配饰与色彩趋势，适合沉淀为流行趋势知识库条目。",
+      "tags": [
+        "流行趋势",
+        "纽约时装周",
+        "配饰趋势",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aad7abd8a0fcb0c51ea47b5/master/pass/091726_FW%20It%20Items%20holding%20filmstrip%203x4_v1.jpg"
     }
   ],
   "trendTags": [
+    "伦敦时装周",
+    "英伦学院风",
     "秀场趋势",
-    "Runway SS27",
-    "面料工艺",
-    "品牌动态",
-    "London Fashion Week"
+    "London Fashion Week",
+    "Preppy Style",
+    "Tailoring"
   ],
   "sourceUrls": [
-    "https://wwd.com/runway/spring-2027/london/roksanda/review/",
-    "https://wwd.com/runway/spring-2027/london/mulberry/review/",
-    "https://wwd.com/runway/spring-2027/london/emilia-wickstead/review/",
-    "https://www.vogue.com/slideshow/kim-kardashian-celebrates-skims-first-international-flagship-london"
+    "https://wwd.com/runway/spring-2027/london/burberry/review/",
+    "https://www.vogue.com/article/inside-mcqueens-savile-row-reunion-with-huntsman",
+    "https://fashionista.com/2026/09/lfw-spring-2027-street-style-preppy-school-trend",
+    "https://www.vogue.com/article/top-of-the-carts-fashion-week"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-21T02:19:38.111Z"
+  "createdAt": "2026-09-22T02:23:28.646Z"
 }
