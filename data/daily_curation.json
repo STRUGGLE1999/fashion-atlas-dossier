@@ -1,19 +1,36 @@
 {
-  "date": "2026-09-22",
-  "title": "2027春夏伦敦与纽约时装周趋势洞察与品牌重构",
-  "summary": "聚焦2027春夏最新秀场动态与街头趋势：从Burberry的繁花色彩到McQueen回归萨维尔街裁缝传统，结合英伦学院风街拍与纽约时装周热门单品，提炼当季设计语言与风格走向。",
+  "date": "2026-09-23",
+  "title": "米兰盛典秀场趋势聚焦与顶级品牌动向",
+  "summary": "今日聚焦 Vogue World 米兰大秀催生的前瞻流行趋势与工艺复兴，涵盖 Prada 2027 春夏系列突破性鞋履创新、Tod's 最新品牌大使官宣，以及 Stone Island 开拓与核心藏家的档案共创模式。",
   "items": [
     {
-      "title": "Burberry Spring 2027: In&#160;Bloom",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/london/burberry/review/",
-      "publishedAt": "Mon, 21 Sep 2026 21:27:58 +0000",
-      "summary": "设计师Daniel Lee与英国纺织设计师Celia Birtwell合作，呈现充满花卉图案与春季明亮色彩的Burberry 2027春夏系列。",
-      "recommendationReason": "解析英伦老牌在印花与色彩上的革新尝试，是了解奢侈品牌季候设计方向的重要秀评参考。",
+      "title": "6 Fashion Trends to Try From the Vogue World: Milan Runway",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/vogue-world-milan-runway-trends",
+      "publishedAt": "Tue, 22 Sep 2026 20:56:33 +0000",
+      "summary": "梳理了 Vogue World 米兰大秀呈现的核心设计语言，涵盖鲜艳运动机能风与空灵白色蕾丝等秋季关键穿搭灵感。",
+      "recommendationReason": "深度提炼顶级大秀的可落地穿搭与设计元素，为未来两季风格趋势提供直接参考。",
       "tags": [
-        "秀场",
-        "品牌动态",
-        "趋势",
+        "秀场趋势",
+        "趋势分析",
+        "米兰时装周",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ab2e7ea470e67174cf5759d/master/pass/Vogue%20World%20Batch%202%20by%20Acielle%20STYLEDUMONDE0K3A0367FullRes.jpg"
+    },
+    {
+      "title": "Prada’s Spring 2027 Runway Pumps Might Test Your&#160;Trypophobia",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/footwear-news/shoe-trends/prada-spring-2027-shoes-typophobia-pumps-1239253751/",
+      "publishedAt": "Tue, 22 Sep 2026 20:24:05 +0000",
+      "summary": "Prada 2027 春夏系列将立体花卉缀饰与蜂巢状镂空结构融合，以抽象概念重塑新季鞋履语言。",
+      "recommendationReason": "展示 Prada 在鞋履廓形与前卫结构上的创新突破，是解读新季配饰趋势的必读案例。",
+      "tags": [
+        "Prada",
+        "鞋履设计",
+        "秀场分析",
         "industry",
         "runway",
         "brand"
@@ -21,72 +38,54 @@
       "imageUrl": ""
     },
     {
-      "title": "Inside McQueen’s Savile Row Reunion With Huntsman",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/inside-mcqueens-savile-row-reunion-with-huntsman",
-      "publishedAt": "Mon, 21 Sep 2026 18:35:04 +0000",
-      "summary": "创意总监Seán McGirr带领McQueen重返伦敦时装周，并与曾为Alexander McQueen定制服装的萨维尔街名坊Huntsman再度合作。",
-      "recommendationReason": "深入挖掘品牌档案与顶级男装剪裁传统的交汇点，对研究高定时裁工艺与品牌传承极具价值。",
+      "title": "EXCLUSIVE: Tod’s Taps Chinese Actress Zhu Zhu as New House&#160;Ambassador",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/tods-chinese-actress-zhu-zhu-new-house-ambassador-1239251594/",
+      "publishedAt": "Wed, 23 Sep 2026 01:01:00 +0000",
+      "summary": "意大利奢牌 Tod’s 宣布朱珠成为新任品牌大使，她将出席品牌即将于米兰举办的 2027 春夏时装秀。",
+      "recommendationReason": "直击经典奢牌在亚太市场的品牌定位演进与核心传播人群布局。",
       "tags": [
         "品牌动态",
-        "剪裁工艺",
-        "伦敦时装周",
+        "Tod's",
+        "代言人",
+        "industry",
         "runway",
-        "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ab17397a720d9f74445fa2b/master/pass/Hi%20RES%20Edit%208.00_00_52_16.Still_3378.0003378.jpg"
+      "imageUrl": ""
     },
     {
-      "title": "Street Style Goes Back to School at London Fashion Week",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/lfw-spring-2027-street-style-preppy-school-trend",
-      "publishedAt": "Mon, 21 Sep 2026 17:36:11 GMT",
-      "summary": "2027春夏伦敦时装周场外街拍中，菱格纹、格子、百褶裙、过膝袜、玛丽珍鞋与橄榄球衫等经典学院风单品全面回潮。",
-      "recommendationReason": "直击场外穿搭的核心流行元素，为即季与下季的学院风穿搭趋势提供详实的造型范本。",
+      "title": "Stone Island Turned Its Fans Into Collaborators (EXCLUSIVE)",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/stone-island-collectors-interview/",
+      "publishedAt": "Tue, 22 Sep 2026 20:02:31 GMT",
+      "summary": "Stone Island 邀请其全球顶级私人藏家参与合作，将历史经典档案藏品与全新产品形成前沿设计对话。",
+      "recommendationReason": "展示机能高端品牌如何将粉丝社群资产与品牌档案文化转化为前沿叙事实践。",
       "tags": [
-        "街拍趋势",
-        "学院风",
-        "伦敦时装周",
-        "trend",
+        "品牌策略",
+        "Stone Island",
+        "潮流文化",
+        "streetwear",
         "brand",
-        "industry"
+        "trend"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzk5MzMz/lfw-spring-2027-street-style.jpg?profile=rss&x=50&y=37"
-    },
-    {
-      "title": "Everyone Wore These 4 Things at New York Fashion Week",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/top-of-the-carts-fashion-week",
-      "publishedAt": "Mon, 21 Sep 2026 16:29:19 +0000",
-      "summary": "纽约时装周期间，夸张胸针、腹带腰封、亮眼皇家紫以及Conner Ives当季秀场单品成为最受欢迎的流行焦点。",
-      "recommendationReason": "快速提炼时装周期间高频出现的标志性配饰与色彩趋势，适合沉淀为流行趋势知识库条目。",
-      "tags": [
-        "流行趋势",
-        "纽约时装周",
-        "配饰趋势",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aad7abd8a0fcb0c51ea47b5/master/pass/091726_FW%20It%20Items%20holding%20filmstrip%203x4_v1.jpg"
+      "imageUrl": ""
     }
   ],
   "trendTags": [
-    "伦敦时装周",
-    "英伦学院风",
+    "米兰时装周",
     "秀场趋势",
-    "London Fashion Week",
-    "Preppy Style",
-    "Tailoring"
+    "品牌共创",
+    "Milan Fashion Week",
+    "Footwear Design"
   ],
   "sourceUrls": [
-    "https://wwd.com/runway/spring-2027/london/burberry/review/",
-    "https://www.vogue.com/article/inside-mcqueens-savile-row-reunion-with-huntsman",
-    "https://fashionista.com/2026/09/lfw-spring-2027-street-style-preppy-school-trend",
-    "https://www.vogue.com/article/top-of-the-carts-fashion-week"
+    "https://www.vogue.com/article/vogue-world-milan-runway-trends",
+    "https://wwd.com/footwear-news/shoe-trends/prada-spring-2027-shoes-typophobia-pumps-1239253751/",
+    "https://wwd.com/fashion-news/fashion-scoops/tods-chinese-actress-zhu-zhu-new-house-ambassador-1239251594/",
+    "https://www.highsnobiety.com/p/stone-island-collectors-interview/"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-22T02:23:28.646Z"
+  "createdAt": "2026-09-23T02:23:46.639Z"
 }
