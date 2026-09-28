@@ -1,90 +1,91 @@
 {
-  "date": "2026-09-27",
-  "title": "米兰时装周春夏前瞻：经典重构与先锋实验的碰撞",
-  "summary": "米兰时装周迎来深度演进：Bottega Veneta与Ferragamo分别在工艺轻量化与功能廓形上实现创新；同时，先锋解构实验与Z世代设计语言正在重塑当代秀场美学。",
+  "date": "2026-09-28",
+  "title": "米兰SS27趋势复盘与品牌独立新动向",
+  "summary": "本期聚焦米兰2027春夏时装周务实复归趋势、Giambattista Valli收回品牌控制权的独立浪潮、Giorgio Armani最新成衣秀，以及Gianvito Rossi二十周年里程碑。",
   "items": [
     {
-      "title": "Bottega Veneta Spring 2027: Lightening&#160;Up",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/milan/bottega-veneta/review/",
-      "publishedAt": "Sat, 26 Sep 2026 21:08:14 +0000",
-      "summary": "品牌减少对厚重编织皮革的依赖，转向威尼斯蕾丝与手工艺细节，展现轻盈随性的新季美学。",
-      "recommendationReason": "解析头部奢侈品牌在核心皮革工艺之外的面料革新与风格轻量化趋势。",
-      "tags": [
-        "秀场",
-        "品牌动态",
-        "Bottega Veneta",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Olivia Rodrigo’s Melting Dress Revives One of Fashion’s Great Runway Experiments",
+      "title": "Rooted in Reality: Key Takeaways From Milan Fashion Week Spring/Summer 2027",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/olivia-rodrigo-melting-dress-unraveled-tour",
-      "publishedAt": "Sat, 26 Sep 2026 21:47:46 +0000",
-      "summary": "先锋设计师Hussein Chalayan为巡演打造遇水溶解裙装，重现经典秀场实验技术。",
-      "recommendationReason": "展现时尚先锋科技与流行文化的深度融合，是了解实验性时装历史与当代演变的绝佳案例。",
+      "url": "https://www.vogue.com/article/rooted-in-reality-3-key-takeaways-for-milan-fashion-week-spring-summer-2027",
+      "publishedAt": "Sun, 27 Sep 2026 20:29:08 +0000",
+      "summary": "米兰时装周展现出清晰务实的设计路径，新锐力量登场与头部品牌演进共同构建了2027春夏的核心风向。",
+      "recommendationReason": "深度提炼米兰时装周关键趋势与秀场动向，是把控下季行业审美与商业落地的必读综述。",
       "tags": [
-        "趋势",
-        "先锋设计",
-        "Hussein Chalayan",
+        "时装周",
+        "秀场趋势",
+        "米兰时装周",
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ab8329e942440ceaa35e705/master/pass/2296595621"
+      "imageUrl": "https://assets.vogue.com/photos/6ab94937607efe7fa1a2d0cc/master/pass/Marni_MilanFashionweek_SS27_backstage_acielle_15.jpg"
     },
     {
-      "title": "Ferragamo Spring 2027: Pocket&#160;Calls",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/milan/salvatore-ferragamo/review/",
-      "publishedAt": "Sat, 26 Sep 2026 14:31:58 +0000",
-      "summary": "创意总监Maximilian Davis将游猎功能风与性感剪裁结合，呈现兼具实用与优雅的系列。",
-      "recommendationReason": "展示高级时装屋如何重新定义实用主义工装风格与优雅轮廓的平衡。",
+      "title": "Giambattista Valli Acquires Full Ownership of His Brand From Artémis",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/giambattista-valli-acquires-full-ownership-of-his-brand-from-artemis",
+      "publishedAt": "Sun, 27 Sep 2026 20:59:45 +0000",
+      "summary": "意大利设计师 Giambattista Valli 宣布从皮诺家族控股公司 Artémis 回购全部股权，重获品牌完全独立控制权。",
+      "recommendationReason": "揭示当前奢侈品牌资本运作与设计师重获独立自主权的关键范例，具行业风向标意义。",
       "tags": [
-        "秀场",
-        "趋势",
-        "Ferragamo",
-        "industry",
+        "品牌动态",
+        "商业资本",
+        "设计师品牌",
         "runway",
+        "trend",
         "brand"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://assets.vogue.com/photos/6a0d8fbe5b470429c6c67bad/master/pass/GIAMBATTISTA-VALLI-STORY.jpg"
     },
     {
-      "title": "Gen Z Chaos Hits the Runway",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/2026/09/26/style/milan-fashion-week-gen-z-marni.html",
-      "publishedAt": "Sat, 26 Sep 2026 17:02:34 +0000",
-      "summary": "Meryll Rogge在Marni秀场精准捕捉当下年轻世代的混乱美学与反叛情绪。",
-      "recommendationReason": "深度剖析Z世代次文化与非传统解构设计对米兰经典秀场秩序的冲击与重塑。",
+      "title": "Giorgio Armani Spring 2027 Ready-to-Wear",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/giorgio-armani",
+      "publishedAt": "Mon, 28 Sep 2026 02:30:24 +0000",
+      "summary": "Giorgio Armani 呈献 2027 春夏成衣系列，延续品牌标志性的优雅剪裁与流动质感，演绎永恒意式美学。",
+      "recommendationReason": "米兰标杆品牌的全新发布，为分析经典奢华与高级成衣廓形演化提供核心秀场素材。",
       "tags": [
-        "秀场",
-        "趋势",
-        "Marni",
-        "style",
-        "culture",
-        "trend"
+        "秀场发布",
+        "高级成衣",
+        "Giorgio Armani",
+        "runway",
+        "trend",
+        "brand"
       ],
-      "imageUrl": "https://static01.nyt.com/images/2026/09/26/multimedia/26NL-FASH-marni-01-mltw/26NL-FASH-marni-01-mltw-mediumSquareAt3X.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ab8f72e257cc6347b00fde6/master/pass/00001-giorgio-armani-spring-2027-ready-to-wear-credit-gorunway.jpg"
+    },
+    {
+      "title": "Gianvito Rossi Marked 20 Years of Fabulous Footwear and a New Rizzoli Tome",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/gianvito-rossi-20-anniversary-new-rizzoli-book",
+      "publishedAt": "Sun, 27 Sep 2026 14:03:09 +0000",
+      "summary": "意大利高级鞋履品牌 Gianvito Rossi 于米兰塞尔贝洛尼宫庆祝创立20周年，并联合 Rizzoli 出版纪念图册。",
+      "recommendationReason": "记录意大利殿堂级制鞋品牌的历史积淀与重要里程碑，适合沉淀为品牌档案资料。",
+      "tags": [
+        "品牌动态",
+        "奢华鞋履",
+        "周年庆典",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ab91eaf321e2dd6f92d8699/master/pass/L2470506.jpg"
     }
   ],
   "trendTags": [
     "米兰时装周",
+    "秀场趋势",
+    "品牌独立",
     "Milan Fashion Week",
-    "实验性时装",
-    "Sensual Utility"
+    "Ready-to-Wear"
   ],
   "sourceUrls": [
-    "https://wwd.com/runway/spring-2027/milan/bottega-veneta/review/",
-    "https://www.vogue.com/article/olivia-rodrigo-melting-dress-unraveled-tour",
-    "https://wwd.com/runway/spring-2027/milan/salvatore-ferragamo/review/",
-    "https://www.nytimes.com/2026/09/26/style/milan-fashion-week-gen-z-marni.html"
+    "https://www.vogue.com/article/rooted-in-reality-3-key-takeaways-for-milan-fashion-week-spring-summer-2027",
+    "https://www.vogue.com/article/giambattista-valli-acquires-full-ownership-of-his-brand-from-artemis",
+    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/giorgio-armani",
+    "https://www.vogue.com/slideshow/gianvito-rossi-20-anniversary-new-rizzoli-book"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-27T02:29:24.087Z"
+  "createdAt": "2026-09-28T02:33:00.615Z"
 }
