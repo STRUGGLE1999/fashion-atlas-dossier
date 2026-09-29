@@ -1,91 +1,90 @@
 {
-  "date": "2026-09-28",
-  "title": "米兰SS27趋势复盘与品牌独立新动向",
-  "summary": "本期聚焦米兰2027春夏时装周务实复归趋势、Giambattista Valli收回品牌控制权的独立浪潮、Giorgio Armani最新成衣秀，以及Gianvito Rossi二十周年里程碑。",
+  "date": "2026-09-29",
+  "title": "2027春夏米兰秀场收官复盘与最新品牌风向",
+  "summary": "米兰时装周释出2027春夏核心趋势，从Bottega Veneta的轻盈剪裁到席卷秀场的动物纹鞋履，展现松弛与个性的平衡；同时运动与时尚跨界大片频出，呈现多元风格动向。",
   "items": [
     {
-      "title": "Rooted in Reality: Key Takeaways From Milan Fashion Week Spring/Summer 2027",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/rooted-in-reality-3-key-takeaways-for-milan-fashion-week-spring-summer-2027",
-      "publishedAt": "Sun, 27 Sep 2026 20:29:08 +0000",
-      "summary": "米兰时装周展现出清晰务实的设计路径，新锐力量登场与头部品牌演进共同构建了2027春夏的核心风向。",
-      "recommendationReason": "深度提炼米兰时装周关键趋势与秀场动向，是把控下季行业审美与商业落地的必读综述。",
+      "title": "Bottega Veneta SS27 Is About Wearing Less & Feeling More",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/9/bottega-veneta-ss27-is-about-wearing-less-feeling-more",
+      "publishedAt": "Mon, 28 Sep 2026 17:04:41 +0000",
+      "summary": "Bottega Veneta 2027春夏系列以轻盈透气层搭与解构大衣取代厚重皮草，结合蕾丝领与流苏细节，展现松弛自由的工艺美学。",
+      "recommendationReason": "解析米兰时装周头部大牌的核心秀场语言与剪裁演变，极具知识库沉淀价值。",
       "tags": [
-        "时装周",
-        "秀场趋势",
-        "米兰时装周",
-        "runway",
-        "trend",
-        "brand"
+        "秀场",
+        "品牌动态",
+        "趋势",
+        "streetwear",
+        "brand",
+        "trend"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ab94937607efe7fa1a2d0cc/master/pass/Marni_MilanFashionweek_SS27_backstage_acielle_15.jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F28%2Fbottega-veneta-ss27-spring-summer-2027-milan-fashion-week-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Giambattista Valli Acquires Full Ownership of His Brand From Artémis",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/giambattista-valli-acquires-full-ownership-of-his-brand-from-artemis",
-      "publishedAt": "Sun, 27 Sep 2026 20:59:45 +0000",
-      "summary": "意大利设计师 Giambattista Valli 宣布从皮诺家族控股公司 Artémis 回购全部股权，重获品牌完全独立控制权。",
-      "recommendationReason": "揭示当前奢侈品牌资本运作与设计师重获独立自主权的关键范例，具行业风向标意义。",
+      "title": "Fashionista's 9 Favorite Spring 2027 Collections From Milan Fashion Week",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/09/milan-fashion-week-spring-2027-best-collections",
+      "publishedAt": "Mon, 28 Sep 2026 20:15:46 GMT",
+      "summary": "盘点米兰时装周9大精彩系列，涵盖Diesel的享乐主义谢幕秀、Alberta Ferretti的流动宝石色调及Prada半身裙廓形。",
+      "recommendationReason": "全景式梳理米兰时装周重点品牌的代表性设计，便于快速掌握整季秀场脉络。",
+      "tags": [
+        "秀场",
+        "趋势",
+        "trend",
+        "brand",
+        "industry",
+        "runway"
+      ],
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODAxODU5/mfw-spring-2027-favorite-collections.png?profile=rss"
+    },
+    {
+      "title": "Shoes Went Wild With Animal Print During Spring 2027 Milan Fashion&#160;Week",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/footwear-news/shoe-trends/animal-print-shoe-trend-milan-fashion-week-spring-2027-1239265327/",
+      "publishedAt": "Mon, 28 Sep 2026 21:12:44 +0000",
+      "summary": "2027春夏米兰时装周期间，各大品牌鞋履广泛采用野性动物纹印花，该鞋履趋势预计将延续至来年。",
+      "recommendationReason": "精准捕捉配饰品类的细分趋势走向，为下一季鞋履流行提供明确参考。",
+      "tags": [
+        "趋势",
+        "鞋履",
+        "industry",
+        "runway",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "EXCLUSIVE: Chris Lee Joins Lewis Hamilton for Lululemon’s Latest Outerwear&#160;Campaign",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/fashion-news/activewear/chris-lee-lewis-hamilton-lululemon-outerwear-campaign-1239282023/",
+      "publishedAt": "Tue, 29 Sep 2026 01:01:00 +0000",
+      "summary": "李宇春携手Lewis Hamilton出镜Lululemon最新秋季外套广告大片，主打轻量防护款式与运动机能理念。",
+      "recommendationReason": "关注全球运动生活方式品牌的重磅代言动态与最新秋季产品线推广策略。",
       "tags": [
         "品牌动态",
-        "商业资本",
-        "设计师品牌",
+        "运动时尚",
+        "industry",
         "runway",
-        "trend",
-        "brand"
+        "brand",
+        "trend"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6a0d8fbe5b470429c6c67bad/master/pass/GIAMBATTISTA-VALLI-STORY.jpg"
-    },
-    {
-      "title": "Giorgio Armani Spring 2027 Ready-to-Wear",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/giorgio-armani",
-      "publishedAt": "Mon, 28 Sep 2026 02:30:24 +0000",
-      "summary": "Giorgio Armani 呈献 2027 春夏成衣系列，延续品牌标志性的优雅剪裁与流动质感，演绎永恒意式美学。",
-      "recommendationReason": "米兰标杆品牌的全新发布，为分析经典奢华与高级成衣廓形演化提供核心秀场素材。",
-      "tags": [
-        "秀场发布",
-        "高级成衣",
-        "Giorgio Armani",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ab8f72e257cc6347b00fde6/master/pass/00001-giorgio-armani-spring-2027-ready-to-wear-credit-gorunway.jpg"
-    },
-    {
-      "title": "Gianvito Rossi Marked 20 Years of Fabulous Footwear and a New Rizzoli Tome",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/gianvito-rossi-20-anniversary-new-rizzoli-book",
-      "publishedAt": "Sun, 27 Sep 2026 14:03:09 +0000",
-      "summary": "意大利高级鞋履品牌 Gianvito Rossi 于米兰塞尔贝洛尼宫庆祝创立20周年，并联合 Rizzoli 出版纪念图册。",
-      "recommendationReason": "记录意大利殿堂级制鞋品牌的历史积淀与重要里程碑，适合沉淀为品牌档案资料。",
-      "tags": [
-        "品牌动态",
-        "奢华鞋履",
-        "周年庆典",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ab91eaf321e2dd6f92d8699/master/pass/L2470506.jpg"
+      "imageUrl": ""
     }
   ],
   "trendTags": [
     "米兰时装周",
     "秀场趋势",
-    "品牌独立",
     "Milan Fashion Week",
-    "Ready-to-Wear"
+    "Animal Print"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/article/rooted-in-reality-3-key-takeaways-for-milan-fashion-week-spring-summer-2027",
-    "https://www.vogue.com/article/giambattista-valli-acquires-full-ownership-of-his-brand-from-artemis",
-    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/giorgio-armani",
-    "https://www.vogue.com/slideshow/gianvito-rossi-20-anniversary-new-rizzoli-book"
+    "https://hypebeast.com/2026/9/bottega-veneta-ss27-is-about-wearing-less-feeling-more",
+    "https://fashionista.com/2026/09/milan-fashion-week-spring-2027-best-collections",
+    "https://wwd.com/footwear-news/shoe-trends/animal-print-shoe-trend-milan-fashion-week-spring-2027-1239265327/",
+    "https://wwd.com/fashion-news/activewear/chris-lee-lewis-hamilton-lululemon-outerwear-campaign-1239282023/"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-28T02:33:00.615Z"
+  "createdAt": "2026-09-29T03:16:21.104Z"
 }
