@@ -1,90 +1,91 @@
 {
-  "date": "2026-09-29",
-  "title": "2027春夏米兰秀场收官复盘与最新品牌风向",
-  "summary": "米兰时装周释出2027春夏核心趋势，从Bottega Veneta的轻盈剪裁到席卷秀场的动物纹鞋履，展现松弛与个性的平衡；同时运动与时尚跨界大片频出，呈现多元风格动向。",
+  "date": "2026-09-30",
+  "title": "巴黎秀场解构叙事与焦点单品风向",
+  "summary": "今日重点聚焦巴黎时装周最新发布：Maison Margiela 以解构手法重塑日常场景，Saint Laurent 探索金色语汇，Prada 春夏半裙引发热潮，以及 POGGY 联合日本九大品牌开启全新联名企划。",
   "items": [
     {
-      "title": "Bottega Veneta SS27 Is About Wearing Less & Feeling More",
+      "title": "Maison Margiela SS27 Deconstructs a Garden Tea Party",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/bottega-veneta-ss27-is-about-wearing-less-feeling-more",
-      "publishedAt": "Mon, 28 Sep 2026 17:04:41 +0000",
-      "summary": "Bottega Veneta 2027春夏系列以轻盈透气层搭与解构大衣取代厚重皮草，结合蕾丝领与流苏细节，展现松弛自由的工艺美学。",
-      "recommendationReason": "解析米兰时装周头部大牌的核心秀场语言与剪裁演变，极具知识库沉淀价值。",
+      "url": "https://hypebeast.com/2026/9/maison-margiela-ss27-spring-summer-2027-paris-fashion-week-glenn-martens-info",
+      "publishedAt": "Tue, 29 Sep 2026 21:02:31 +0000",
+      "summary": "Maison Margiela 发布 2027 春夏系列，通过解构被压碎的银器与 60 年代复古印花面料，将日常家庭主题融入先锋设计中。",
+      "recommendationReason": "展现了顶级时装屋在解构日常美学上的最新演进，是巴黎时装周不可错过的秀场范例。",
       "tags": [
+        "Maison Margiela",
         "秀场",
-        "品牌动态",
-        "趋势",
+        "解构主义",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F28%2Fbottega-veneta-ss27-spring-summer-2027-milan-fashion-week-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F29%2Fmaison-margiela-ss27-spring-summer-2027-paris-fashion-week-glenn-martens-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Fashionista's 9 Favorite Spring 2027 Collections From Milan Fashion Week",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/milan-fashion-week-spring-2027-best-collections",
-      "publishedAt": "Mon, 28 Sep 2026 20:15:46 GMT",
-      "summary": "盘点米兰时装周9大精彩系列，涵盖Diesel的享乐主义谢幕秀、Alberta Ferretti的流动宝石色调及Prada半身裙廓形。",
-      "recommendationReason": "全景式梳理米兰时装周重点品牌的代表性设计，便于快速掌握整季秀场脉络。",
+      "title": "Saint Laurent Spring 2027: Gold&#160;Standard",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/paris/yves-saint-laurent/review/",
+      "publishedAt": "Tue, 29 Sep 2026 23:14:38 +0000",
+      "summary": "Anthony Vaccarello 在 Saint Laurent 2027 春夏系列中深入探索金色的多样可能，呈现兼具戏剧性与忧郁美感的廓形。",
+      "recommendationReason": "WWD 权威复盘圣罗兰最新大秀，解析品牌对经典色彩与奢华廓形的全新诠释。",
       "tags": [
+        "Saint Laurent",
         "秀场",
+        "色彩趋势",
+        "industry",
+        "runway",
+        "brand"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "The Prada Spring 2027 Collection Is Already Causing a Run on Skirts",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/the-prada-spring-2027-skirt-show-is-already-causing-a-run-on-skirts",
+      "publishedAt": "Tue, 29 Sep 2026 20:43:51 +0000",
+      "summary": "Prada 2027 春夏秀后迅速引爆半裙风潮，再次印证品牌引领关键单品消费趋势的强大驱动力。",
+      "recommendationReason": "揭示顶级品牌如何通过秀场设计带动特定核心单品的市场需求，具备极高的商业参考价值。",
+      "tags": [
+        "Prada",
         "趋势",
+        "裙装",
+        "runway",
         "trend",
-        "brand",
-        "industry",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODAxODU5/mfw-spring-2027-favorite-collections.png?profile=rss"
+      "imageUrl": "https://assets.vogue.com/photos/6ababe0af30c25b8f4cab611/master/pass/GettyImages-2296569198.jpg"
     },
     {
-      "title": "Shoes Went Wild With Animal Print During Spring 2027 Milan Fashion&#160;Week",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/footwear-news/shoe-trends/animal-print-shoe-trend-milan-fashion-week-spring-2027-1239265327/",
-      "publishedAt": "Mon, 28 Sep 2026 21:12:44 +0000",
-      "summary": "2027春夏米兰时装周期间，各大品牌鞋履广泛采用野性动物纹印花，该鞋履趋势预计将延续至来年。",
-      "recommendationReason": "精准捕捉配饰品类的细分趋势走向，为下一季鞋履流行提供明确参考。",
+      "title": "POGGY Launches '47 Collaboration Project \"JAPAN 9\" Featuring Nine Japanese Brands",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/9/47-poggy-japan-9-collaboration",
+      "publishedAt": "Wed, 30 Sep 2026 02:21:09 +0000",
+      "summary": "知名时尚策展人 POGGY 携手 '47 推出 JAPAN 9 企划，集结九个日本新锐品牌打造棒球帽限定系列并在伊势丹首发。",
+      "recommendationReason": "展示经典美式运动品牌与日本设计师矩阵的策展型联名模式，适合街头与品牌动态知识储备。",
       "tags": [
-        "趋势",
-        "鞋履",
-        "industry",
-        "runway",
+        "POGGY",
+        "联名",
+        "街头潮流",
+        "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": ""
-    },
-    {
-      "title": "EXCLUSIVE: Chris Lee Joins Lewis Hamilton for Lululemon’s Latest Outerwear&#160;Campaign",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/fashion-news/activewear/chris-lee-lewis-hamilton-lululemon-outerwear-campaign-1239282023/",
-      "publishedAt": "Tue, 29 Sep 2026 01:01:00 +0000",
-      "summary": "李宇春携手Lewis Hamilton出镜Lululemon最新秋季外套广告大片，主打轻量防护款式与运动机能理念。",
-      "recommendationReason": "关注全球运动生活方式品牌的重磅代言动态与最新秋季产品线推广策略。",
-      "tags": [
-        "品牌动态",
-        "运动时尚",
-        "industry",
-        "runway",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F47-poggy-japan-9-collaboration-00.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "米兰时装周",
-    "秀场趋势",
-    "Milan Fashion Week",
-    "Animal Print"
+    "巴黎时装周",
+    "解构主义",
+    "趋势单品",
+    "Paris Fashion Week",
+    "Deconstruction"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/9/bottega-veneta-ss27-is-about-wearing-less-feeling-more",
-    "https://fashionista.com/2026/09/milan-fashion-week-spring-2027-best-collections",
-    "https://wwd.com/footwear-news/shoe-trends/animal-print-shoe-trend-milan-fashion-week-spring-2027-1239265327/",
-    "https://wwd.com/fashion-news/activewear/chris-lee-lewis-hamilton-lululemon-outerwear-campaign-1239282023/"
+    "https://hypebeast.com/2026/9/maison-margiela-ss27-spring-summer-2027-paris-fashion-week-glenn-martens-info",
+    "https://wwd.com/runway/spring-2027/paris/yves-saint-laurent/review/",
+    "https://www.vogue.com/article/the-prada-spring-2027-skirt-show-is-already-causing-a-run-on-skirts",
+    "https://hypebeast.com/2026/9/47-poggy-japan-9-collaboration"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-09-29T03:16:21.104Z"
+  "createdAt": "2026-09-30T02:58:13.563Z"
 }
