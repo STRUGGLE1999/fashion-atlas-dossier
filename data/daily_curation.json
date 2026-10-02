@@ -1,19 +1,36 @@
 {
-  "date": "2026-10-01",
-  "title": "2027春夏秀场剪裁重塑与先锋联名动向",
-  "summary": "本期聚焦2027春夏大秀核心亮点：Tom Ford的锋利性感与Ferragamo对40年代工装的重塑；同时涵盖John Galliano联手Zara的解构合作及Stone Island实验性丹宁研发。",
+  "date": "2026-10-02",
+  "title": "巴黎时装周高定日常化与科技巨头涉足虚拟试衣",
+  "summary": "今日焦点涵盖Balenciaga与AWGE在巴黎时装周的重磅大秀，展示高级定制融入日常与街头机能的演变；同时耐克拓展纯银高级珠宝线，ChatGPT则正式上线虚拟试衣功能加速时尚与AI融合。",
   "items": [
     {
-      "title": "Tom Ford Spring 2027: In the&#160;Flesh",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/paris/tom-ford/review/",
-      "publishedAt": "Wed, 30 Sep 2026 21:18:05 +0000",
-      "summary": "Haider Ackermann在Tom Ford 2027春夏系列中突破边界，呈现大胆泳装、丝绸睡袍以及内里真空搭配的锋利西装。",
-      "recommendationReason": "解读Ackermann执掌下对Tom Ford经典性感基因与极致利落剪裁的最新诠释，为本季巴黎焦点。",
+      "title": "Balenciaga SS27 Shows That Couture Can Be Casual Too",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/balenciaga-ss27-spring-summer-2027-runway-show-info",
+      "publishedAt": "Thu, 01 Oct 2026 19:40:40 +0000",
+      "summary": "Balenciaga 2027春夏成衣系列将高定工艺融入牛仔与飞行员夹克等日常单品，平衡街头感与华丽晚装。",
+      "recommendationReason": "解析高级定制工艺向日常街头服饰渗透的关键趋势，适合作为秀场趋势沉淀入库。",
       "tags": [
         "秀场",
-        "Tom Ford",
-        "剪裁趋势",
+        "趋势",
+        "Balenciaga",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F01%2Fbalenciaga-ss27-spring-summer-2027-runway-show-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "ChatGPT Is Now Ready to Dress You With Virtual&#160;Try-on",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/business-news/technology/chatgpt-virtual-try-on-fashion-shopping-1239302870/",
+      "publishedAt": "Thu, 01 Oct 2026 21:19:47 +0000",
+      "summary": "AI巨头ChatGPT正式推出虚拟试衣功能，并支持消费者保存喜爱的造型以促进购物决策。",
+      "recommendationReason": "生成式AI在时尚零售与穿搭场景的里程碑式落地，对时尚科技知识库极具参考价值。",
+      "tags": [
+        "趋势",
+        "科技",
+        "虚拟试衣",
         "industry",
         "runway",
         "brand"
@@ -21,71 +38,54 @@
       "imageUrl": ""
     },
     {
-      "title": "Ferragamo SS27 Revisits the 1940s With a Fresh Eye",
+      "title": "Nike Expands Into Fine Accessories With Official Swoosh Jewelry Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/ferragamo-ss27-milan-fashion-week-spring-summer-2027-runway-show-info",
-      "publishedAt": "Wed, 30 Sep 2026 18:43:41 +0000",
-      "summary": "创意总监Maximilian Davis重溯1940年代复古工装，以轻透面料、镂空细节与单色皮革结合现代剪裁呈现感性优雅。",
-      "recommendationReason": "深度呈现如何将历史复古工装与高级时装剪裁融合，提供米兰时装周关键美学参考。",
+      "url": "https://hypebeast.com/2026/10/nike-accessories-official-swoosh-jewelry-collection-release-info",
+      "publishedAt": "Fri, 02 Oct 2026 02:16:27 +0000",
+      "summary": "Nike拓展生活方式配饰版图，推出采用S925纯银打造的官方Swoosh高级珠宝系列。",
+      "recommendationReason": "运动巨头跨界高级配饰领域的战略动向，展示出经典Logo在珠宝品类的全新商业延展。",
+      "tags": [
+        "品牌动态",
+        "趋势",
+        "Nike",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F01%2Fnike-accessories-official-swoosh-jewelry-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "A$AP Rocky's AWGE SS27 Takes Over Paris",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/asap-rocky-awge-ss27-pfw",
+      "publishedAt": "Thu, 01 Oct 2026 20:14:06 +0000",
+      "summary": "AWGE在巴黎发布2027春夏系列，融合战术背心、防毒面具风衣等军事意象，将秀场与演唱会无缝结合。",
+      "recommendationReason": "展现音乐、先锋街头与时装周大秀的高维融合，代表当代跨界青年文化的先锋形态。",
       "tags": [
         "秀场",
-        "Ferragamo",
-        "复古工装",
+        "街头潮流",
+        "AWGE",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F30%2Fferragamo-ss27-milan-fashion-week-spring-summer-2027-runway-show-info-0.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Unlike His Met Exhibit, John Galliano’s Zara Collab Has Come to Fruition",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/09/john-galliano-zara-collection-shop",
-      "publishedAt": "Wed, 30 Sep 2026 19:00:00 GMT",
-      "summary": "著名设计师John Galliano与Zara展开全新合作系列，通过解构快时尚零售商的历史档案打造先锋单品。",
-      "recommendationReason": "高级时装大师与快时尚的跨界重磅事件，展示顶级解构设计下沉商业市场的实践案例。",
-      "tags": [
-        "品牌联名",
-        "John Galliano",
-        "Zara",
-        "trend",
-        "brand",
-        "industry"
-      ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODAyMTUw/copy-of-sme_26008_0120_081_v4_qc_srgb_300.jpg?profile=rss&x=48&y=27"
-    },
-    {
-      "title": "Stone Island Unveils Its DENIM RESEARCH Fall/Winter 2026-27 Collection",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/9/stone-island-denim-research-2026-27-autumn-winter-collection-release-info",
-      "publishedAt": "Thu, 01 Oct 2026 02:20:58 +0000",
-      "summary": "Stone Island发布2026-27秋冬DENIM RESEARCH实验系列，将创新面料开发与先进技术融入四种色调的经典丹宁中。",
-      "recommendationReason": "展现机能美学品牌在传统牛仔品类上的材料重塑与水洗实验，具很高的工艺研发参考价值。",
-      "tags": [
-        "面料创新",
-        "Stone Island",
-        "丹宁",
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2Fstone-island-denim-research-2026-27-autumn-winter-collection-release-info-01-1.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F01%2Fhed.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "2027春夏时装周",
-    "Spring 2027",
-    "设计师联名",
-    "面料研发",
-    "秀场趋势"
+    "巴黎时装周",
+    "Paris Fashion Week",
+    "高级定制日常化",
+    "Virtual Try-on",
+    "品牌跨界"
   ],
   "sourceUrls": [
-    "https://wwd.com/runway/spring-2027/paris/tom-ford/review/",
-    "https://hypebeast.com/2026/9/ferragamo-ss27-milan-fashion-week-spring-summer-2027-runway-show-info",
-    "https://fashionista.com/2026/09/john-galliano-zara-collection-shop",
-    "https://hypebeast.com/2026/9/stone-island-denim-research-2026-27-autumn-winter-collection-release-info"
+    "https://hypebeast.com/2026/10/balenciaga-ss27-spring-summer-2027-runway-show-info",
+    "https://wwd.com/business-news/technology/chatgpt-virtual-try-on-fashion-shopping-1239302870/",
+    "https://hypebeast.com/2026/10/nike-accessories-official-swoosh-jewelry-collection-release-info",
+    "https://hypebeast.com/2026/10/asap-rocky-awge-ss27-pfw"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-10-01T03:04:37.342Z"
+  "createdAt": "2026-10-02T03:06:42.595Z"
 }
