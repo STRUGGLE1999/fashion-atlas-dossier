@@ -1,91 +1,92 @@
 {
-  "date": "2026-10-02",
-  "title": "巴黎时装周高定日常化与科技巨头涉足虚拟试衣",
-  "summary": "今日焦点涵盖Balenciaga与AWGE在巴黎时装周的重磅大秀，展示高级定制融入日常与街头机能的演变；同时耐克拓展纯银高级珠宝线，ChatGPT则正式上线虚拟试衣功能加速时尚与AI融合。",
+  "date": "2026-10-03",
+  "title": "巴黎2027春夏秀场焦点：形态哲学、运动奢华与工艺颠覆",
+  "summary": "今日聚焦巴黎时装周2027春夏最新动向：三宅一生探寻空间美学，Loewe重构运动成衣，Saint Laurent以金色定调秀场；同时秀场手工艺迎来反叛回潮。",
   "items": [
     {
-      "title": "Balenciaga SS27 Shows That Couture Can Be Casual Too",
+      "title": "ISSEY MIYAKE SS27 Is a Breath of Fresh Air",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/balenciaga-ss27-spring-summer-2027-runway-show-info",
-      "publishedAt": "Thu, 01 Oct 2026 19:40:40 +0000",
-      "summary": "Balenciaga 2027春夏成衣系列将高定工艺融入牛仔与飞行员夹克等日常单品，平衡街头感与华丽晚装。",
-      "recommendationReason": "解析高级定制工艺向日常街头服饰渗透的关键趋势，适合作为秀场趋势沉淀入库。",
+      "url": "https://hypebeast.com/2026/10/issey-miyake-ss27-paris-fashion-week-show-runway",
+      "publishedAt": "Fri, 02 Oct 2026 20:36:54 +0000",
+      "summary": "Issey Miyake 2027春夏系列以日本美学“间”为灵感，探索面料与身体之间的空间流动性，推出膨胀感风衣与全新褶皱设计。",
+      "recommendationReason": "展示了东方空间哲学与现代剪裁的深度融合，为研究服装廓形与人体交互提供了重要案例。",
       "tags": [
-        "秀场",
-        "趋势",
-        "Balenciaga",
+        "秀场直击",
+        "Issey Miyake",
+        "空间美学",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F01%2Fbalenciaga-ss27-spring-summer-2027-runway-show-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F02%2FUntitled-2.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "ChatGPT Is Now Ready to Dress You With Virtual&#160;Try-on",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/business-news/technology/chatgpt-virtual-try-on-fashion-shopping-1239302870/",
-      "publishedAt": "Thu, 01 Oct 2026 21:19:47 +0000",
-      "summary": "AI巨头ChatGPT正式推出虚拟试衣功能，并支持消费者保存喜爱的造型以促进购物决策。",
-      "recommendationReason": "生成式AI在时尚零售与穿搭场景的里程碑式落地，对时尚科技知识库极具参考价值。",
+      "title": "LOEWE Distills a Sporty Spanish Summer for SS27",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/loewe-ss27-spring-summer-2027-paris-fashion-week-runway-show-info",
+      "publishedAt": "Fri, 02 Oct 2026 18:14:49 +0000",
+      "summary": "LOEWE 2027春夏系列以西班牙夏日为灵感，结合高光泽材质与低调标识，打造包含金属领夹克与潜水风鞋履的运动感成衣。",
+      "recommendationReason": "精准呈现奢侈品牌将运动功能与高级剪裁相融合的新思路，具有极高趋势参考价值。",
       "tags": [
-        "趋势",
-        "科技",
-        "虚拟试衣",
-        "industry",
+        "秀场直击",
+        "LOEWE",
+        "运动奢华",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F02%2Floewe-ss27-spring-summer-2027-paris-fashion-week-runway-show-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "This DIY Boardwalk Style Is Getting the High-Fashion Treatment on the Spring 2027 Runways",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/airbrushing-spring-2027-runways",
+      "publishedAt": "Fri, 02 Oct 2026 19:05:53 +0000",
+      "summary": "原本多见于海滨纪念T恤的DIY喷绘工艺在2027春夏秀场被高级时装重新诠释，成为当季备受关注的工艺颠覆趋势。",
+      "recommendationReason": "揭示了大众手工艺向高级时装渗透的设计路径，是把控新一季面料工艺细节的重要线索。",
+      "tags": [
+        "趋势预测",
+        "面料工艺",
+        "秀场趋势",
         "runway",
+        "trend",
         "brand"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://assets.vogue.com/photos/6abea9c3f5f28b09808da33a/master/pass/Scan%209%20copy.jpg"
     },
     {
-      "title": "Nike Expands Into Fine Accessories With Official Swoosh Jewelry Collection",
+      "title": "Saint Laurent Presents a Golden SS27 & NikeSKIMS Opens Shanghai Pop-up in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/nike-accessories-official-swoosh-jewelry-collection-release-info",
-      "publishedAt": "Fri, 02 Oct 2026 02:16:27 +0000",
-      "summary": "Nike拓展生活方式配饰版图，推出采用S925纯银打造的官方Swoosh高级珠宝系列。",
-      "recommendationReason": "运动巨头跨界高级配饰领域的战略动向，展示出经典Logo在珠宝品类的全新商业延展。",
+      "url": "https://hypebeast.com/2026/10/saint-laurent-presents-a-golden-ss27-nikeskims-opens-shanghai-pop-up-in-this-weeks-top-fashion-news",
+      "publishedAt": "Fri, 02 Oct 2026 20:30:12 +0000",
+      "summary": "本周时尚焦点汇总：Saint Laurent在埃菲尔铁塔下呈现金色主题SS27大秀，NikeSKIMS落地上海快闪空间。",
+      "recommendationReason": "快速梳理头部品牌的宏大秀场叙事与商业跨界动向，适合全局掌握本周行业动向。",
       "tags": [
         "品牌动态",
-        "趋势",
-        "Nike",
+        "Saint Laurent",
+        "联名企划",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F01%2Fnike-accessories-official-swoosh-jewelry-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "A$AP Rocky's AWGE SS27 Takes Over Paris",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/asap-rocky-awge-ss27-pfw",
-      "publishedAt": "Thu, 01 Oct 2026 20:14:06 +0000",
-      "summary": "AWGE在巴黎发布2027春夏系列，融合战术背心、防毒面具风衣等军事意象，将秀场与演唱会无缝结合。",
-      "recommendationReason": "展现音乐、先锋街头与时装周大秀的高维融合，代表当代跨界青年文化的先锋形态。",
-      "tags": [
-        "秀场",
-        "街头潮流",
-        "AWGE",
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F01%2Fhed.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F02%2Fsaint-laurent-nikeskims-john-galliano-zara-on-zendaya-kader-sylla-adidas-1.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "巴黎时装周",
-    "Paris Fashion Week",
-    "高级定制日常化",
-    "Virtual Try-on",
-    "品牌跨界"
+    "2027春夏秀场",
+    "空间美学",
+    "运动奢华",
+    "喷绘工艺",
+    "SS27 Runway",
+    "Runway Trends"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/balenciaga-ss27-spring-summer-2027-runway-show-info",
-    "https://wwd.com/business-news/technology/chatgpt-virtual-try-on-fashion-shopping-1239302870/",
-    "https://hypebeast.com/2026/10/nike-accessories-official-swoosh-jewelry-collection-release-info",
-    "https://hypebeast.com/2026/10/asap-rocky-awge-ss27-pfw"
+    "https://hypebeast.com/2026/10/issey-miyake-ss27-paris-fashion-week-show-runway",
+    "https://hypebeast.com/2026/10/loewe-ss27-spring-summer-2027-paris-fashion-week-runway-show-info",
+    "https://www.vogue.com/article/airbrushing-spring-2027-runways",
+    "https://hypebeast.com/2026/10/saint-laurent-presents-a-golden-ss27-nikeskims-opens-shanghai-pop-up-in-this-weeks-top-fashion-news"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-10-02T03:06:42.595Z"
+  "createdAt": "2026-10-03T02:53:26.851Z"
 }
