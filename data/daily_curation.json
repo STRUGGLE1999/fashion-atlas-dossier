@@ -1,92 +1,87 @@
 {
-  "date": "2026-10-04",
-  "title": "2027春夏巴黎秀场与行业震荡：先锋解构、实穿主义与人事回响",
-  "summary": "巴黎时装周呈现对立与重构的趋势：CDG解构王权与日常边界，Celine开启直觉式实穿新纪元，Tom Ford引发裸露美学反思；前Chanel总监发声则为行业变迁提供了关键视角。",
+  "date": "2026-10-05",
+  "title": "巴黎秀场的叙事重构与跨界符号演进",
+  "summary": "巴黎时装周展现多维叙事：Valentino借藏书概念呼唤人文温度，Mugler与Björk共塑先锋自然张力；同时Miu Miu延展运动鞋联名谱系，爱彼将标志性皇家橡树几何解构进军高级珠宝。",
   "items": [
     {
-      "title": "Virginie Viard Breaks Her Silence For the First Time Since Being Fired By&#160;Chanel",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/fashion-news/fashion-features/virginie-viard-breaks-silence-chanel-firing-karl-lagerfeld-1239308011/",
-      "publishedAt": "Sat, 03 Oct 2026 15:21:30 +0000",
-      "summary": "前 Chanel 创意总监在新书中首次公开谈及离职内幕、与 Karl Lagerfeld 的复杂关系以及与 Hedi Slimane 的联络。",
-      "recommendationReason": "顶级奢侈品牌人事动荡的一手复盘，为了解当代时装屋权力交接与幕后运作提供了罕见的行业档案记录。",
+      "title": "Plot Twist! All the Books Guests Brought to the Valentino Show",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/valentino-spring-2027-show-guests-books",
+      "publishedAt": "Sun, 04 Oct 2026 21:48:25 +0000",
+      "summary": "Alessandro Michele在Valentino 2027春夏大秀以“未读书目”为题，要求受邀嘉宾携带书籍并统一捐赠，重申实体阅读与人文温度。",
+      "recommendationReason": "展现顶级时装屋如何借概念化策展反思数字化浪潮，是洞察品牌文化叙事与秀场创意的绝佳案例。",
+      "tags": [
+        "秀场",
+        "品牌动态",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ac2c0178964c0ba6f9f085c/master/pass/GettyImages-2298533137.jpg"
+    },
+    {
+      "title": "Björk Performs in the Mugler Collection She Inspired, the Same Day It Debuts in Paris",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/bjork-mugler-miguel-castro-freitas-10-04-2026",
+      "publishedAt": "Sun, 04 Oct 2026 20:22:52 +0000",
+      "summary": "Mugler 2027春夏系列以自然本能与音乐人Björk为灵感，Björk在秀场同日直接身着秀款登台表演，展现先锋服装的生命力。",
+      "recommendationReason": "解析先锋剪裁与音乐缪斯的深度共生，展示品牌如何保持前卫性感基因与现场张力。",
+      "tags": [
+        "秀场",
+        "趋势",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ac27fba51fd464234465e10/master/pass/DSCF4387%201%20copy.jpg"
+    },
+    {
+      "title": "Audemars Piguet Turns the Royal Oak Into High Jewelry",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/audemars-piguet-royal-oak-joaillerie-collection",
+      "publishedAt": "Mon, 05 Oct 2026 02:00:15 +0000",
+      "summary": "爱彼推出Royal Oak Joaillerie高级珠宝系列，将经典皇家橡树一体化表链与八角形轮廓重塑为雕塑感手镯与项圈。",
+      "recommendationReason": "关注钟表巨头将标志性工业设计代码延伸至高级珠宝品类，为硬奢跨品类叙事提供重要样本。",
       "tags": [
         "品牌动态",
-        "Chanel",
-        "行业观察",
-        "industry",
-        "runway",
-        "brand"
+        "趋势",
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F04%2Faudemars-piguet-royal-oak-joaillerie-collection-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Celine Spring 2027: Real Clothes, Worn&#160;Spontaneously",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/paris/celine/review/",
-      "publishedAt": "Sat, 03 Oct 2026 16:47:24 +0000",
-      "summary": "Michael Rider 阐述其直觉化的创作方法，以随性真实的穿搭哲学重塑品牌高级成衣体系。",
-      "recommendationReason": "展现 Celine 新阶段的风格定调与实穿奢华转向，是商业成衣设计与日常趋势演进的重要参考样本。",
+      "title": "A Rare New Balance Runner Becomes Miu Miu's Newest Muse (EXCLUSIVE)",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/miu-miu-new-balance-rc150-collab/",
+      "publishedAt": "Sun, 04 Oct 2026 19:30:25 GMT",
+      "summary": "Miu Miu在2027春夏系列中带来与New Balance合作的全新RC150跑鞋，继续深化品牌在高端复古运动鞋履上的爆款逻辑。",
+      "recommendationReason": "持续跟踪现象级奢华运动联名走向，洞悉当代青年文化与运动鞋在秀场上的进化轨迹。",
       "tags": [
-        "秀场直击",
-        "Celine",
-        "实穿主义",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Comme des Garçons Spring 2027: We&#8217;ll Never Be&#160;Royals",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/paris/comme-des-garcons/review/",
-      "publishedAt": "Sat, 03 Oct 2026 19:47:30 +0000",
-      "summary": "川久保玲将君主王权元素与日常基础款进行先锋重构，带来发人深省的结构冲突与概念美学。",
-      "recommendationReason": "大师级概念解构的代表作，深入探讨阶级符号与日常着装边界，极具秀场趋势与知识库归档价值。",
-      "tags": [
-        "秀场直击",
-        "Comme des Garçons",
-        "解构主义",
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Tom Ford: Is Naked That Sexy?",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/video/style/100000011131904/tom-ford-is-naked-that-sexy.html",
-      "publishedAt": "Sat, 03 Oct 2026 13:47:55 +0000",
-      "summary": "时装评论人 Vanessa Friedman 针对 Tom Ford 秀场剖析延续多季的“裸露风潮”，反思性感内涵与表现边界。",
-      "recommendationReason": "权威时评人对近年席卷红毯与秀场的透视裸露趋势做出犀利审视，为趋势研究提供了批判性视角。",
-      "tags": [
-        "趋势分析",
-        "Tom Ford",
-        "时装评论",
-        "style",
-        "culture",
+        "趋势",
+        "品牌动态",
+        "streetwear",
+        "brand",
         "trend"
       ],
       "imageUrl": ""
     }
   ],
   "trendTags": [
-    "2027春夏秀场",
-    "巴黎时装周",
-    "实穿主义",
-    "解构美学",
-    "Paris Fashion Week",
-    "Runway Trend"
+    "秀场叙事",
+    "Runway Concept",
+    "硬奢跨界",
+    "Sneaker Collab"
   ],
   "sourceUrls": [
-    "https://wwd.com/fashion-news/fashion-features/virginie-viard-breaks-silence-chanel-firing-karl-lagerfeld-1239308011/",
-    "https://wwd.com/runway/spring-2027/paris/celine/review/",
-    "https://wwd.com/runway/spring-2027/paris/comme-des-garcons/review/",
-    "https://www.nytimes.com/video/style/100000011131904/tom-ford-is-naked-that-sexy.html"
+    "https://www.vogue.com/article/valentino-spring-2027-show-guests-books",
+    "https://www.vogue.com/article/bjork-mugler-miguel-castro-freitas-10-04-2026",
+    "https://hypebeast.com/2026/10/audemars-piguet-royal-oak-joaillerie-collection",
+    "https://www.highsnobiety.com/p/miu-miu-new-balance-rc150-collab/"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-10-04T03:23:03.090Z"
+  "createdAt": "2026-10-05T03:00:12.082Z"
 }
