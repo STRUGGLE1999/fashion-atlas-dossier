@@ -1,87 +1,91 @@
 {
-  "date": "2026-10-05",
-  "title": "巴黎秀场的叙事重构与跨界符号演进",
-  "summary": "巴黎时装周展现多维叙事：Valentino借藏书概念呼唤人文温度，Mugler与Björk共塑先锋自然张力；同时Miu Miu延展运动鞋联名谱系，爱彼将标志性皇家橡树几何解构进军高级珠宝。",
+  "date": "2026-10-06",
+  "title": "巴黎2027春夏秀场高光与联名新动向",
+  "summary": "巴黎时装周持续发力，Valentino呈现极繁主义新叙事，Chanel探索品牌历史风格演进；同时，户外机能零售与独立支线联名拓展了当下街头与时尚品牌的商业维度。",
   "items": [
     {
-      "title": "Plot Twist! All the Books Guests Brought to the Valentino Show",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/valentino-spring-2027-show-guests-books",
-      "publishedAt": "Sun, 04 Oct 2026 21:48:25 +0000",
-      "summary": "Alessandro Michele在Valentino 2027春夏大秀以“未读书目”为题，要求受邀嘉宾携带书籍并统一捐赠，重申实体阅读与人文温度。",
-      "recommendationReason": "展现顶级时装屋如何借概念化策展反思数字化浪潮，是洞察品牌文化叙事与秀场创意的绝佳案例。",
-      "tags": [
-        "秀场",
-        "品牌动态",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ac2c0178964c0ba6f9f085c/master/pass/GettyImages-2298533137.jpg"
-    },
-    {
-      "title": "Björk Performs in the Mugler Collection She Inspired, the Same Day It Debuts in Paris",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/bjork-mugler-miguel-castro-freitas-10-04-2026",
-      "publishedAt": "Sun, 04 Oct 2026 20:22:52 +0000",
-      "summary": "Mugler 2027春夏系列以自然本能与音乐人Björk为灵感，Björk在秀场同日直接身着秀款登台表演，展现先锋服装的生命力。",
-      "recommendationReason": "解析先锋剪裁与音乐缪斯的深度共生，展示品牌如何保持前卫性感基因与现场张力。",
-      "tags": [
-        "秀场",
-        "趋势",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ac27fba51fd464234465e10/master/pass/DSCF4387%201%20copy.jpg"
-    },
-    {
-      "title": "Audemars Piguet Turns the Royal Oak Into High Jewelry",
+      "title": "Valentino SS27 Brought the Noise to the Library",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/audemars-piguet-royal-oak-joaillerie-collection",
-      "publishedAt": "Mon, 05 Oct 2026 02:00:15 +0000",
-      "summary": "爱彼推出Royal Oak Joaillerie高级珠宝系列，将经典皇家橡树一体化表链与八角形轮廓重塑为雕塑感手镯与项圈。",
-      "recommendationReason": "关注钟表巨头将标志性工业设计代码延伸至高级珠宝品类，为硬奢跨品类叙事提供重要样本。",
+      "url": "https://hypebeast.com/2026/10/valentino-ss27-spring-summer-2027-runway-show-info",
+      "publishedAt": "Mon, 05 Oct 2026 20:28:36 +0000",
+      "summary": "Valentino于巴黎圣日内维耶图书馆发布2027春夏系列，以极繁女装与随性男装形成鲜明反差，探索超越商业功能的服饰美学。",
+      "recommendationReason": "解读Alessandro Michele在Valentino的全新秀场叙事与极繁主义设计语言。",
       "tags": [
-        "品牌动态",
+        "秀场",
         "趋势",
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F04%2Faudemars-piguet-royal-oak-joaillerie-collection-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "A Rare New Balance Runner Becomes Miu Miu's Newest Muse (EXCLUSIVE)",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/miu-miu-new-balance-rc150-collab/",
-      "publishedAt": "Sun, 04 Oct 2026 19:30:25 GMT",
-      "summary": "Miu Miu在2027春夏系列中带来与New Balance合作的全新RC150跑鞋，继续深化品牌在高端复古运动鞋履上的爆款逻辑。",
-      "recommendationReason": "持续跟踪现象级奢华运动联名走向，洞悉当代青年文化与运动鞋在秀场上的进化轨迹。",
-      "tags": [
-        "趋势",
-        "品牌动态",
+        "品牌",
         "streetwear",
         "brand",
         "trend"
       ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F05%2Fvalentino-ss27-spring-summer-2027-runway-show-info-100.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Chanel Spring 2027: Free as a&#160;Bird",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/paris/chanel/review/",
+      "publishedAt": "Mon, 05 Oct 2026 22:14:11 +0000",
+      "summary": "Chanel 2027春夏系列从品牌创始人Gabrielle Chanel的风格演变中汲取灵感，展现出兼具自由与实穿特质的多功能系列。",
+      "recommendationReason": "深度评析Chanel最新季度的核心设计理念与品牌经典风格的新生表达。",
+      "tags": [
+        "秀场",
+        "品牌",
+        "趋势",
+        "industry",
+        "runway",
+        "brand"
+      ],
       "imageUrl": ""
+    },
+    {
+      "title": "RHC Ron Herman Launches the World's First Exclusive Pieces from PEACEMAKER OAMC",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/rhc-ron-herman-peacemaker-oamc-exclusive-item-release-info",
+      "publishedAt": "Tue, 06 Oct 2026 01:41:37 +0000",
+      "summary": "RHC Ron Herman全球首发PEACEMAKER OAMC独家单品，以全新面料与创新设计重塑经典衬衫与长裤。",
+      "recommendationReason": "呈现OAMC独立支线的商业与设计新动作，是街头与高级时装融合的重要样本。",
+      "tags": [
+        "品牌",
+        "街头",
+        "趋势",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Frhc-ron-herman-peacemaker-oamc-exclusive-item-release-info-ft.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "GEED, a Specialty Store Dedicated to GORE-TEX, Opens in Sapporo",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/gore-tex-geed-sapporo-new-open-release-info",
+      "publishedAt": "Tue, 06 Oct 2026 03:00:04 +0000",
+      "summary": "Beans在札幌开设全GORE-TEX产品专门店GEED，聚焦防水防风透气科技，打造专业机能生活方式零售空间。",
+      "recommendationReason": "展示功能性面料与专卖零售的深度结合，反映机能时尚线下零售新趋势。",
+      "tags": [
+        "品牌",
+        "零售",
+        "趋势",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2FIMG_6729-1-scaled-1.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "秀场叙事",
-    "Runway Concept",
-    "硬奢跨界",
-    "Sneaker Collab"
+    "巴黎时装周",
+    "秀场趋势",
+    "机能美学",
+    "Paris Fashion Week",
+    "Runway Trends"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/article/valentino-spring-2027-show-guests-books",
-    "https://www.vogue.com/article/bjork-mugler-miguel-castro-freitas-10-04-2026",
-    "https://hypebeast.com/2026/10/audemars-piguet-royal-oak-joaillerie-collection",
-    "https://www.highsnobiety.com/p/miu-miu-new-balance-rc150-collab/"
+    "https://hypebeast.com/2026/10/valentino-ss27-spring-summer-2027-runway-show-info",
+    "https://wwd.com/runway/spring-2027/paris/chanel/review/",
+    "https://hypebeast.com/2026/10/rhc-ron-herman-peacemaker-oamc-exclusive-item-release-info",
+    "https://hypebeast.com/2026/10/gore-tex-geed-sapporo-new-open-release-info"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-10-05T03:00:12.082Z"
+  "createdAt": "2026-10-06T03:49:31.385Z"
 }
