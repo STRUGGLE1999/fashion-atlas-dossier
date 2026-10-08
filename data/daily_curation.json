@@ -1,92 +1,90 @@
 {
-  "date": "2026-10-07",
-  "title": "2027春夏秀场新叙事与经典品牌重塑",
-  "summary": "今日资讯聚焦2027春夏秀场的风格转向：Haider Ackermann执掌Tom Ford后的突破表达、Miu Miu引领的反精致凌乱美学、秀场印花T恤的复兴，以及Dr. Martens润物细无声的品牌重构策略。",
+  "date": "2026-10-08",
+  "title": "巴黎秀场回响与街头联名新纪元",
+  "summary": "今日焦点聚焦巴黎时装周重量级大秀复盘、Telfar跨大西洋双城发布，以及NikeSKIMS与Stüssy×Our Legacy等跨界联名的线下场景与设计突破，展现高级时装与街头文化的深度融合。",
   "items": [
     {
-      "title": "On the Podcast: Haider Ackermann’s Tom Ford Is About Risk and Freedom",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/on-the-podcast-haider-ackermanns-tom-ford-is-about-risk-and-freedom",
-      "publishedAt": "Tue, 06 Oct 2026 20:25:37 +0000",
-      "summary": "Haider Ackermann在播客中深入拆解其为Tom Ford呈现的2027春夏首秀，探讨关于冒险、自由与个人设计脉络。",
-      "recommendationReason": "深度了解顶级奢侈品牌换帅后的设计哲学演进与全新美学定位，极具行业参考价值。",
+      "title": "Paris Review: Celine, Dries Van Noten, Comme des Garçons",
+      "sourceName": "The New York Times Fashion & Style",
+      "url": "https://www.nytimes.com/2026/10/04/style/celine-michael-rider-paris-fashion-week.html",
+      "publishedAt": "Thu, 08 Oct 2026 02:34:30 +0000",
+      "summary": "纽约时报深度评述巴黎时装周，涵盖Celine新篇章、Dries Van Noten秀场明星以及Comme des Garçons引发关注的牛仔单品设计。",
+      "recommendationReason": "解析头部时装屋在新季展现的设计语言与人事交替看点，为AI知识库提供权威秀场评述。",
       "tags": [
         "秀场",
-        "品牌动态",
-        "设计师访谈",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ac5563d1d7d0f4f012f7abe/master/pass/00067-tom-ford-spring-2027-ready-to-wear-credit-brand.jpeg"
-    },
-    {
-      "title": "Forget Clean Girl—Miu Miu Wants You To Embrace Messy Beauty",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/forget-clean-girl-miu-miu-wants-you-to-embrace-messy-beauty",
-      "publishedAt": "Tue, 06 Oct 2026 21:24:52 +0000",
-      "summary": "美甲师Mei Kawajiri解析Miu Miu 2027春夏秀场的不完美溢色美甲，打破“Clean Girl”模式拥抱凌乱美学。",
-      "recommendationReason": "敏锐捕捉秀场延伸出的反向审美趋势，展现从极端规整到松弛个性的风格转向。",
-      "tags": [
         "趋势",
-        "秀场",
-        "美学风向",
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ac535e3b4f781883e84b959/master/pass/IMG_0420.jpeg"
-    },
-    {
-      "title": "Dr. Martens Is Changing. You're Not Supposed to Notice.",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/dr-martens-rebrand-interview/",
-      "publishedAt": "Tue, 06 Oct 2026 22:32:29 GMT",
-      "summary": "创意总监Neil Cummings揭示Dr. Martens微调重塑计划：在保留经典鞋型精髓的同时进行不易察觉的现代化革新。",
-      "recommendationReason": "解析经典品牌如何在不破坏受众认知前提下完成现代化重塑，是品牌资产运营的绝佳案例。",
-      "tags": [
-        "品牌动态",
-        "品牌重塑",
-        "街头潮流",
-        "streetwear",
-        "brand",
+        "Celine",
+        "style",
+        "culture",
         "trend"
       ],
       "imageUrl": ""
     },
     {
-      "title": "Here Are the Best Graphic T-Shirts From the Spring 2027 Runways",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/best-graphic-t-shirts-spring-2027-runways",
-      "publishedAt": "Tue, 06 Oct 2026 19:13:29 +0000",
-      "summary": "盘点2027春夏秀场最佳图腾印花T恤，解析高级时装通过街头基底单品平衡日常感与奢华态度的趋势。",
-      "recommendationReason": "直观提炼新一季成衣的实穿核心微趋势，为产品研发与日常穿搭提供灵感线索。",
+      "title": "Telfar Spring 2027: A Tale of Two&#160;Cities",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/new-york/telfar/review/",
+      "publishedAt": "Wed, 07 Oct 2026 21:20:31 +0000",
+      "summary": "Telfar Clemens携2027春夏系列重返实体秀场，在布鲁克林举办大型时装盛会并同步向巴黎进行公开直播联动。",
+      "recommendationReason": "探讨包容性先锋品牌如何打破传统时装周壁垒，通过双城互联重新定义秀场发布模式。",
       "tags": [
         "秀场",
-        "流行趋势",
-        "单品解析",
+        "品牌动态",
+        "Telfar",
+        "industry",
         "runway",
-        "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ac5405ef407329037d3960c/master/pass/Tshirts_9x16.jpg"
+      "imageUrl": ""
+    },
+    {
+      "title": "NikeSKIMS Opens Limited-Time Pop-up Space and Cafe in Tokyo's Jingumae District",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/nikeskims-limited-time-pop-up-cafe-tokyo-info",
+      "publishedAt": "Thu, 08 Oct 2026 03:26:31 +0000",
+      "summary": "Nike与SKIMS在东京神宫前开设限时咖啡馆与快闪店，将传统日式茶歇与2026秋冬运动机能服饰空间相结合。",
+      "recommendationReason": "展示顶级运动品牌与塑身内衣巨头的跨界线下零售实验，是商业体验创新的典范案例。",
+      "tags": [
+        "品牌动态",
+        "趋势",
+        "NikeSKIMS",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F07%2Fnikeskims-limited-time-pop-up-cafe-tokyo-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Stüssy and Our Legacy Work Shop Unveil Vol. 11 Collection",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/stussy-our-legacy-work-shop-vol-11-collection-release-info",
+      "publishedAt": "Thu, 08 Oct 2026 01:14:35 +0000",
+      "summary": "Stüssy与Our Legacy Work Shop推出第11辑联名系列，主打消防员夹克、重磅外套与全新工装靴履。",
+      "recommendationReason": "经典街头与北欧实验工装美学的长青合作范例，对理解当下高品质街头服饰趋势极具参考价值。",
+      "tags": [
+        "街头潮流",
+        "品牌动态",
+        "Stüssy",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F07%2Fstussy-our-legacy-work-shop-vol-11-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "秀场趋势",
-    "品牌重塑",
-    "反精致美学",
-    "Runway Trends",
-    "Rebranding",
-    "Messy Beauty"
+    "秀场解析",
+    "跨界联名",
+    "Runway Review",
+    "Collaborations"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/article/on-the-podcast-haider-ackermanns-tom-ford-is-about-risk-and-freedom",
-    "https://www.vogue.com/article/forget-clean-girl-miu-miu-wants-you-to-embrace-messy-beauty",
-    "https://www.highsnobiety.com/p/dr-martens-rebrand-interview/",
-    "https://www.vogue.com/slideshow/best-graphic-t-shirts-spring-2027-runways"
+    "https://www.nytimes.com/2026/10/04/style/celine-michael-rider-paris-fashion-week.html",
+    "https://wwd.com/runway/spring-2027/new-york/telfar/review/",
+    "https://hypebeast.com/2026/10/nikeskims-limited-time-pop-up-cafe-tokyo-info",
+    "https://hypebeast.com/2026/10/stussy-our-legacy-work-shop-vol-11-collection-release-info"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-10-07T03:17:16.612Z"
+  "createdAt": "2026-10-08T03:32:41.592Z"
 }
