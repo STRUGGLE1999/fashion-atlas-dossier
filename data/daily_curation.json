@@ -1,90 +1,92 @@
 {
-  "date": "2026-10-08",
-  "title": "巴黎秀场回响与街头联名新纪元",
-  "summary": "今日焦点聚焦巴黎时装周重量级大秀复盘、Telfar跨大西洋双城发布，以及NikeSKIMS与Stüssy×Our Legacy等跨界联名的线下场景与设计突破，展现高级时装与街头文化的深度融合。",
+  "date": "2026-10-09",
+  "title": "2027春夏秀场盘点与秋冬先锋联名动态",
+  "summary": "本期聚焦2027春夏时装周重点秀场复盘，同步关注秋冬先锋跨界：Junya Watanabe联名STÜSSY工装、Haider Ackermann重塑羽绒机能，以及男装剪裁结构的创新突破。",
   "items": [
     {
-      "title": "Paris Review: Celine, Dries Van Noten, Comme des Garçons",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/2026/10/04/style/celine-michael-rider-paris-fashion-week.html",
-      "publishedAt": "Thu, 08 Oct 2026 02:34:30 +0000",
-      "summary": "纽约时报深度评述巴黎时装周，涵盖Celine新篇章、Dries Van Noten秀场明星以及Comme des Garçons引发关注的牛仔单品设计。",
-      "recommendationReason": "解析头部时装屋在新季展现的设计语言与人事交替看点，为AI知识库提供权威秀场评述。",
+      "title": "Vogue Editors Pick Their Favorite Spring 2027 Shows",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/vogue-editors-pick-their-favorite-spring-2027-shows",
+      "publishedAt": "Thu, 08 Oct 2026 17:55:05 +0000",
+      "summary": "Vogue编辑部从纽约至巴黎440场2027春夏大秀中，提炼出本季最具代表性与前瞻性的焦点发布。",
+      "recommendationReason": "权威全景复盘2027春夏时装周核心亮点，为趋势预测与知识库沉淀重要参考。",
       "tags": [
-        "秀场",
-        "趋势",
-        "Celine",
-        "style",
-        "culture",
-        "trend"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Telfar Spring 2027: A Tale of Two&#160;Cities",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/runway/spring-2027/new-york/telfar/review/",
-      "publishedAt": "Wed, 07 Oct 2026 21:20:31 +0000",
-      "summary": "Telfar Clemens携2027春夏系列重返实体秀场，在布鲁克林举办大型时装盛会并同步向巴黎进行公开直播联动。",
-      "recommendationReason": "探讨包容性先锋品牌如何打破传统时装周壁垒，通过双城互联重新定义秀场发布模式。",
-      "tags": [
-        "秀场",
-        "品牌动态",
-        "Telfar",
-        "industry",
+        "秀场精选",
+        "2027春夏",
+        "趋势洞察",
         "runway",
+        "trend",
         "brand"
       ],
+      "imageUrl": "https://assets.vogue.com/photos/6abd4792941fb4dc3138e93c/master/pass/DriesVanNoten_ParisFashionweek_SS27_backstage_acielle_06.jpg"
+    },
+    {
+      "title": "eYe JUNYA WATANABE MAN x STÜSSY Fall/Winter 2026 Final Collab Arrives",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/eye-junya-watanabe-man-stussy-chore-coat-release-info",
+      "publishedAt": "Fri, 09 Oct 2026 00:00:15 +0000",
+      "summary": "渡边淳弥携手STÜSSY推出2026秋冬压轴系列，以重磅牛津布工装外套融合精致剪裁细节。",
+      "recommendationReason": "先锋设计师剪裁与经典街头品牌的深度碰撞，展现顶级工装美学的水准。",
+      "tags": [
+        "品牌联名",
+        "工装美学",
+        "秋冬胶囊",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Feye-junya-watanabe-man-stussy-chore-coat-release-info-ft.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "You Can Still Be Sexy in Your Winter Jacket",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/canada-goose-fw26-haider-ackermann-new/",
+      "publishedAt": "Thu, 08 Oct 2026 15:53:32 GMT",
+      "summary": "Haider Ackermann为Canada Goose打造的2026秋冬胶囊，为硬核保暖机能注入性感流线廓形。",
+      "recommendationReason": "高定设计师打破传统防寒服饰沉闷框架，为户外羽绒时尚开辟高级美学路径。",
+      "tags": [
+        "设计师胶囊",
+        "户外机能",
+        "秋冬趋势",
+        "streetwear",
+        "brand",
+        "trend"
+      ],
       "imageUrl": ""
     },
     {
-      "title": "NikeSKIMS Opens Limited-Time Pop-up Space and Cafe in Tokyo's Jingumae District",
+      "title": "SOSHIOTSUKI and CAMISAS MANOLO Unveil Collaborative Shirt Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/nikeskims-limited-time-pop-up-cafe-tokyo-info",
-      "publishedAt": "Thu, 08 Oct 2026 03:26:31 +0000",
-      "summary": "Nike与SKIMS在东京神宫前开设限时咖啡馆与快闪店，将传统日式茶歇与2026秋冬运动机能服饰空间相结合。",
-      "recommendationReason": "展示顶级运动品牌与塑身内衣巨头的跨界线下零售实验，是商业体验创新的典范案例。",
+      "url": "https://hypebeast.com/2026/10/soshiotsuki-camisas-manolo-collabo-shirts-release-info",
+      "publishedAt": "Fri, 09 Oct 2026 01:25:58 +0000",
+      "summary": "SOSHIOTSUKI联合马德里衬衫工坊，将意大利真丝领带领巾融入垂坠门襟结构中。",
+      "recommendationReason": "展现男装正装剪裁与解构工艺的精妙结合，适合收录于版型设计知识库。",
       "tags": [
-        "品牌动态",
-        "趋势",
-        "NikeSKIMS",
+        "男装剪裁",
+        "设计创新",
+        "工坊合作",
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F07%2Fnikeskims-limited-time-pop-up-cafe-tokyo-info-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Stüssy and Our Legacy Work Shop Unveil Vol. 11 Collection",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/stussy-our-legacy-work-shop-vol-11-collection-release-info",
-      "publishedAt": "Thu, 08 Oct 2026 01:14:35 +0000",
-      "summary": "Stüssy与Our Legacy Work Shop推出第11辑联名系列，主打消防员夹克、重磅外套与全新工装靴履。",
-      "recommendationReason": "经典街头与北欧实验工装美学的长青合作范例，对理解当下高品质街头服饰趋势极具参考价值。",
-      "tags": [
-        "街头潮流",
-        "品牌动态",
-        "Stüssy",
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F07%2Fstussy-our-legacy-work-shop-vol-11-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fsoshiotsuki-camisas-manolo-collabo-shirts-release-info-ft.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "秀场解析",
-    "跨界联名",
-    "Runway Review",
-    "Collaborations"
+    "2027春夏秀场",
+    "Spring 2027",
+    "工装解构",
+    "Workwear",
+    "户外奢华",
+    "Haider Ackermann"
   ],
   "sourceUrls": [
-    "https://www.nytimes.com/2026/10/04/style/celine-michael-rider-paris-fashion-week.html",
-    "https://wwd.com/runway/spring-2027/new-york/telfar/review/",
-    "https://hypebeast.com/2026/10/nikeskims-limited-time-pop-up-cafe-tokyo-info",
-    "https://hypebeast.com/2026/10/stussy-our-legacy-work-shop-vol-11-collection-release-info"
+    "https://www.vogue.com/article/vogue-editors-pick-their-favorite-spring-2027-shows",
+    "https://hypebeast.com/2026/10/eye-junya-watanabe-man-stussy-chore-coat-release-info",
+    "https://www.highsnobiety.com/p/canada-goose-fw26-haider-ackermann-new/",
+    "https://hypebeast.com/2026/10/soshiotsuki-camisas-manolo-collabo-shirts-release-info"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-10-08T03:32:41.592Z"
+  "createdAt": "2026-10-09T03:38:13.795Z"
 }
