@@ -1,53 +1,34 @@
 {
-  "date": "2026-10-09",
-  "title": "2027春夏秀场盘点与秋冬先锋联名动态",
-  "summary": "本期聚焦2027春夏时装周重点秀场复盘，同步关注秋冬先锋跨界：Junya Watanabe联名STÜSSY工装、Haider Ackermann重塑羽绒机能，以及男装剪裁结构的创新突破。",
+  "date": "2026-10-10",
+  "title": "春季秀场新叙事与跨界鞋履美学",
+  "summary": "今日时尚聚焦2027春季各大时装周对多元性感风格的重新诠释，以及三宅一生与Camper合作带来的解构主义鞋履，展现先锋面料与轮廓实验。",
   "items": [
     {
-      "title": "Vogue Editors Pick Their Favorite Spring 2027 Shows",
+      "title": "Sex and the Cities: How Each Fashion Capital Interpreted Sex for Spring 2027",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/vogue-editors-pick-their-favorite-spring-2027-shows",
-      "publishedAt": "Thu, 08 Oct 2026 17:55:05 +0000",
-      "summary": "Vogue编辑部从纽约至巴黎440场2027春夏大秀中，提炼出本季最具代表性与前瞻性的焦点发布。",
-      "recommendationReason": "权威全景复盘2027春夏时装周核心亮点，为趋势预测与知识库沉淀重要参考。",
+      "url": "https://www.vogue.com/article/sexy-clothes-spring-2027-collections",
+      "publishedAt": "Fri, 09 Oct 2026 18:05:50 +0000",
+      "summary": "从纽约的下城休闲风到巴黎的直接诱惑，各大时尚之都的设计师在2027春季系列中以多元手法重新诠释性感美学。",
+      "recommendationReason": "系统梳理2027春季四大时装周的核心设计趋势，是把握当季风格导向的重要秀场总结。",
       "tags": [
-        "秀场精选",
-        "2027春夏",
-        "趋势洞察",
+        "秀场",
+        "趋势",
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6abd4792941fb4dc3138e93c/master/pass/DriesVanNoten_ParisFashionweek_SS27_backstage_acielle_06.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6abd19fa1c504b5592bbba5c/master/pass/Courreges_ParisFashionweek_SS27_backstage_acielle_15.jpg"
     },
     {
-      "title": "eYe JUNYA WATANABE MAN x STÜSSY Fall/Winter 2026 Final Collab Arrives",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/eye-junya-watanabe-man-stussy-chore-coat-release-info",
-      "publishedAt": "Fri, 09 Oct 2026 00:00:15 +0000",
-      "summary": "渡边淳弥携手STÜSSY推出2026秋冬压轴系列，以重磅牛津布工装外套融合精致剪裁细节。",
-      "recommendationReason": "先锋设计师剪裁与经典街头品牌的深度碰撞，展现顶级工装美学的水准。",
-      "tags": [
-        "品牌联名",
-        "工装美学",
-        "秋冬胶囊",
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Feye-junya-watanabe-man-stussy-chore-coat-release-info-ft.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "You Can Still Be Sexy in Your Winter Jacket",
+      "title": "This Melted Leathery Sack is Issey Miyake’s Best Shoe",
       "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/canada-goose-fw26-haider-ackermann-new/",
-      "publishedAt": "Thu, 08 Oct 2026 15:53:32 GMT",
-      "summary": "Haider Ackermann为Canada Goose打造的2026秋冬胶囊，为硬核保暖机能注入性感流线廓形。",
-      "recommendationReason": "高定设计师打破传统防寒服饰沉闷框架，为户外羽绒时尚开辟高级美学路径。",
+      "url": "https://www.highsnobiety.com/p/issey-miyake-camper/",
+      "publishedAt": "Fri, 09 Oct 2026 21:33:01 GMT",
+      "summary": "Issey Miyake与Camper联名推出Peu Form鞋款，以不规则无定形轮廓展现日本品牌对面料与结构的深刻理解。",
+      "recommendationReason": "先锋时装与经典鞋履品牌的重磅合作，展现了极具辨识度的实验性鞋履轮廓设计。",
       "tags": [
-        "设计师胶囊",
-        "户外机能",
-        "秋冬趋势",
+        "品牌",
+        "趋势",
         "streetwear",
         "brand",
         "trend"
@@ -55,38 +36,52 @@
       "imageUrl": ""
     },
     {
-      "title": "SOSHIOTSUKI and CAMISAS MANOLO Unveil Collaborative Shirt Collection",
+      "title": "Sci-Fi Fantasy and Come Tees Team Up For a Hand-Painted Capsule Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/soshiotsuki-camisas-manolo-collabo-shirts-release-info",
-      "publishedAt": "Fri, 09 Oct 2026 01:25:58 +0000",
-      "summary": "SOSHIOTSUKI联合马德里衬衫工坊，将意大利真丝领带领巾融入垂坠门襟结构中。",
-      "recommendationReason": "展现男装正装剪裁与解构工艺的精妙结合，适合收录于版型设计知识库。",
+      "url": "https://hypebeast.com/2026/10/sci-fi-fantasy-and-come-tees-team-up-for-a-hand-painted-capsule-collection-info",
+      "publishedAt": "Fri, 09 Oct 2026 22:08:44 +0000",
+      "summary": "Sci-Fi Fantasy联手Come Tees推出洛杉矶制造的胶囊系列，融合手绘图案与标志性字体设计。",
+      "recommendationReason": "呈现滑板街头文化与DIY手绘艺术的精妙融合，适合纳入街头潮流趋势库。",
       "tags": [
-        "男装剪裁",
-        "设计创新",
-        "工坊合作",
+        "品牌",
+        "街头潮流",
         "streetwear",
         "brand",
-        "trend"
+        "trend",
+        "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fsoshiotsuki-camisas-manolo-collabo-shirts-release-info-ft.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F09%2Fhed.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "David Koma Spring 2027 Ready-to-Wear",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/david-koma",
+      "publishedAt": "Sat, 10 Oct 2026 03:16:00 +0000",
+      "summary": "David Koma发布2027春季成衣系列，延续其标志性的结构剪裁与现代女性力量美学。",
+      "recommendationReason": "知名设计师品牌最新一季秀场发布，为AI知识库提供关键的2027春季秀场资料储备。",
+      "tags": [
+        "秀场",
+        "品牌",
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ac8d4ffe6b401e99e5c9015/master/pass/00001-david-koma-spring-2027-ready-to-wear-credit-brand.jpg"
     }
   ],
   "trendTags": [
-    "2027春夏秀场",
+    "秀场趋势",
+    "鞋履设计",
     "Spring 2027",
-    "工装解构",
-    "Workwear",
-    "户外奢华",
-    "Haider Ackermann"
+    "Avant-Garde Footwear"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/article/vogue-editors-pick-their-favorite-spring-2027-shows",
-    "https://hypebeast.com/2026/10/eye-junya-watanabe-man-stussy-chore-coat-release-info",
-    "https://www.highsnobiety.com/p/canada-goose-fw26-haider-ackermann-new/",
-    "https://hypebeast.com/2026/10/soshiotsuki-camisas-manolo-collabo-shirts-release-info"
+    "https://www.vogue.com/article/sexy-clothes-spring-2027-collections",
+    "https://www.highsnobiety.com/p/issey-miyake-camper/",
+    "https://hypebeast.com/2026/10/sci-fi-fantasy-and-come-tees-team-up-for-a-hand-painted-capsule-collection-info",
+    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/david-koma"
   ],
   "model": "gemini-3.7-flash",
   "simulated": false,
-  "createdAt": "2026-10-09T03:38:13.795Z"
+  "createdAt": "2026-10-10T03:19:13.257Z"
 }
