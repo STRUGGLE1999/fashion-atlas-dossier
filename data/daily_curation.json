@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610130430578506157428268d9d6MCvOkW6j)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610140240195390856828268d9d6brLn0R1I)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Supreme and Martine Rose Team up for Fall 2026 Collaborative Collection",
+      "title": "Wrangler and ROA Reimagine Denim Workwear for FW26",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/supreme-martine-rose-fall-2026-collaboration-collection-release-info",
-      "publishedAt": "Mon, 12 Oct 2026 10:30:10 +0000",
-      "summary": "Summary Supreme has collaborated with London-based designer Martine Rose on a comprehensive collection for Fall 2026The apparel and accessories range includes a Jeff Hamilton Shearling Coat, Patchwork Leather items, and a custom JBL speakerThe release features an exclusive Nike Dunk Low made specifically for Supreme and Martine Rose Supreme has officially unveiled its Fall 2026 collaborative collection with designer Martine Rose. The expansive apparel, footwear, and hardware capsule marks a major partnership between the New York streetwear staple and the London fashion label.The Fall 2026 rang",
+      "url": "https://hypebeast.com/2026/10/wrangler-roa-second-collection-fall-winter-2026-collaboration-release-info",
+      "publishedAt": "Tue, 13 Oct 2026 13:00:17 +0000",
+      "summary": "Summary Wrangler and ROA reunite for their second collaboration, blending American denim heritage with Italian technical design.The FW26 capsule features denim cargos, hooded jackets and caps in two washes.Inspired by a Swedish lumberjack's training routines, the collection launches October 16. Wrangler and ROA are returning for a second collaboration for Fall/Winter 2026, continuing their exploration of the intersection between American denim heritage and Italian technical design. Building on their debut collection, the latest release revisits Wrangler's workwear roots through ROA's outdoor-o",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,28 +16,43 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F12%2Fsupreme-martine-rose-fall-2026-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F13%2Fwrangler-roa-second-collection-fall-winter-2026-collaboration-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "The New Front Row: Who’s Who at New York, London, Milan, and Paris Fashion Week",
+      "title": "From the Celine Belt to Prada Purple, These Were the Street Style Trends of the Spring 2027 Ready-to-Wear Shows",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/the-new-front-row",
-      "publishedAt": "Mon, 12 Oct 2026 21:20:01 +0000",
-      "summary": "Vogue photographed 35 shows across fashion month to find out who’s sitting front row, from celebrities to influencers—and where they’re seated.",
+      "url": "https://www.vogue.com/article/from-the-celine-belt-to-prada-purple-these-were-the-street-style-trends-of-the-spring-2027-ready-to-wear-shows",
+      "publishedAt": "Tue, 13 Oct 2026 13:24:40 +0000",
+      "summary": "Colorblocking, cummerbunds, and Celine were just some of the street style trends of the spring 2027 season.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/clips/6acd3e77581bc5cf12c5aa1b/master/pass/FROW_4x5_1_2.mp4"
+      "imageUrl": "https://assets.vogue.com/photos/6ace36091e79ad65698c48a8/master/pass/Spring_Trend_Report_9x16.jpg"
     },
     {
-      "title": "Stüssy and Denim Tears Announce Collaborative FW26 Collection",
+      "title": "Street Style Look of the Week: Perfectly at Home in a Travel Outfit",
+      "sourceName": "The New York Times Fashion & Style",
+      "url": "https://www.nytimes.com/2026/10/13/style/street-style-look-travel-outfit.html",
+      "publishedAt": "Tue, 13 Oct 2026 13:00:02 +0000",
+      "summary": "Giovanna Ciampitti, 58, has loved fashion since she was a girl. On a trip to London to visit her son, she brought along some favorite designers as travel companions.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "style",
+        "culture",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://static01.nyt.com/images/2026/10/13/multimedia/13LOTW-ciampitti-01-lzcq/13LOTW-ciampitti-01-lzcq-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "MAAP and Mental Athletic Merge Technical Cycling Gear With Off-Bike Lifestyle Staples",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/stussy-denim-tears-fw26-collaboration-announcement-release-info",
-      "publishedAt": "Tue, 13 Oct 2026 02:19:16 +0000",
-      "summary": "Summary Stüssy and Tremaine Emory's Denim Tears have officially announced their Stüssy Tears Fall/Winter 2026 collectionThe release features an orange windbreaker combining Stüssy's classic SS logo with Denim Tears' iconic cotton wreath graphic alongside jackets with the S logoThe capsule drops on October 16 at 11:00 AM EST across select chapter stores flagship locations and online Stüssy and Tremaine Emory’s Denim Tears have officially announced their collaborative Stüssy Tears Fall/Winter 2026 collection. Featuring Tracy Emory in the campaign, the upcoming joint effort brings the two streetw",
+      "url": "https://hypebeast.com/2026/10/maap-mental-athletic-collaboration-collection-lookbook-release-info",
+      "publishedAt": "Tue, 13 Oct 2026 10:00:29 +0000",
+      "summary": "Summary MAAP and Mental Athletic have announced a limited-edition collection bridging technical cycling apparel and off-bike garmentsThe technical lineup features the Pro Air Jersey 3.0 Team Bib Evo Cargo bibs and a new Lightweight Vest alongside casual hoodies and accessoriesThe capsule showcases vibrant electric green corrosive yellow and synthetic magenta tones releasing globally on October 15 Performance cycling apparel brand MAAP and independent sports culture platform Mental Athletic have officially announced a limited-edition capsule collection. Spanning technical cycling gear and off-b",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -45,53 +60,39 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F12%2Fstussy-denim-tears-fw26-collaboration-announcement-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F12%2Fmaap-mental-athletic-collaboration-collection-lookbook-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Rudo Gloves Up for GEEKS RULE’s New 'Gachiakuta' Collaboration",
+      "title": "Hankyu Men's Tokyo Celebrates Its 15th Anniversary With Exclusive Items and Buzz-Worthy Brand Pop-Ups",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/geeks-rule-gachiakuta-collaboration-collection-release-info",
-      "publishedAt": "Mon, 12 Oct 2026 09:12:56 +0000",
-      "summary": "Summary GEEKS RULE has created two 'Gachiakuta' T-shirts, a Manga Version and an Anime Version, each tied to a different side of the seriesBoth are made with the Japanese label’s signature silkscreen process for a worn-in, vintage-style finishThe tees debut at KODANSHA HOUSE 2026 in New York ahead of a lottery release in Japan GEEKS RULE has teamed up with Gachiakuta on a pair of silkscreen-printed T-shirts celebrating the manga series and its TV anime adaptation. The collection splits into a Manga Version built around creator Kei Urana’s original artwork and an Anime Version featuring a fresh",
+      "url": "https://hypebeast.com/2026/10/hankyu-menz-15-years-aniversaly-project-release-info",
+      "publishedAt": "Wed, 14 Oct 2026 02:00:35 +0000",
+      "summary": "Hankyu Men's Tokyo is celebrating its 15th anniversary. To mark the occasion, the store will host a 15th Anniversary Fair from Wednesday, October 14 to Tuesday, November 17. A variety of men's fashion and lifestyle events will unfold across all floors, featuring 15th-anniversary exclusive items, buzz-worthy brand pop-ups, events, and new store openings.During the event, exclusive 15th-anniversary items will be available on every floor, alongside men's fashion and lifestyle activations, including a footwear fair, pop-ups, and new shop debuts.The fashion floors will highlight domestic labels lik",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend",
-        "runway"
+        "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F12%2Fgeeks-rule-gachiakuta-collaboration-collection-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Kim Jones Announces Eponymous Label With FW27 Debut Collection",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/kim-jones-announces-eponymous-label-with-fw27-debut-collection-hong-kong-store-opening-news",
-      "publishedAt": "Mon, 12 Oct 2026 08:35:40 +0000",
-      "summary": "Summary Kim Jones OBE has officially announced his self-titled label KIM JONES debuting with a Fall/Winter 2027 collectionThe apparel lineup will be predominantly manufactured in Japan alongside Italian-made leather goods at a considered price pointRetail distribution begins online in mid-2027 followed by the brand's first flagship store opening at Central Yards in Hong Kong in October 2027 Kim Jones has officially announced the launch of his brand KIM JONES, marking the return to his own eponymous label with a debut Fall/Winter 2027 Collection. Building on over two decades leading global luxu",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F12%2Fkim-jones-announces-eponymous-label-with-fw27-debut-collection-hong-kong-store-opening-news-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fhankyu-menz-15-years-aniversaly-project-release-info-100-1.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "style",
+    "culture"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/supreme-martine-rose-fall-2026-collaboration-collection-release-info",
-    "https://www.vogue.com/article/the-new-front-row",
-    "https://hypebeast.com/2026/10/stussy-denim-tears-fw26-collaboration-announcement-release-info",
-    "https://hypebeast.com/2026/10/geeks-rule-gachiakuta-collaboration-collection-release-info",
-    "https://hypebeast.com/2026/10/kim-jones-announces-eponymous-label-with-fw27-debut-collection-hong-kong-store-opening-news"
+    "https://hypebeast.com/2026/10/wrangler-roa-second-collection-fall-winter-2026-collaboration-release-info",
+    "https://www.vogue.com/article/from-the-celine-belt-to-prada-purple-these-were-the-street-style-trends-of-the-spring-2027-ready-to-wear-shows",
+    "https://www.nytimes.com/2026/10/13/style/street-style-look-travel-outfit.html",
+    "https://hypebeast.com/2026/10/maap-mental-athletic-collaboration-collection-lookbook-release-info",
+    "https://hypebeast.com/2026/10/hankyu-menz-15-years-aniversaly-project-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-13T04:30:57.912Z"
+  "createdAt": "2026-10-14T02:40:19.695Z"
 }
