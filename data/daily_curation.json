@@ -1,58 +1,42 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610140240195390856828268d9d6brLn0R1I)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610150220313381439568268d9d6OTZKUfjE)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Wrangler and ROA Reimagine Denim Workwear for FW26",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/wrangler-roa-second-collection-fall-winter-2026-collaboration-release-info",
-      "publishedAt": "Tue, 13 Oct 2026 13:00:17 +0000",
-      "summary": "Summary Wrangler and ROA reunite for their second collaboration, blending American denim heritage with Italian technical design.The FW26 capsule features denim cargos, hooded jackets and caps in two washes.Inspired by a Swedish lumberjack's training routines, the collection launches October 16. Wrangler and ROA are returning for a second collaboration for Fall/Winter 2026, continuing their exploration of the intersection between American denim heritage and Italian technical design. Building on their debut collection, the latest release revisits Wrangler's workwear roots through ROA's outdoor-o",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F13%2Fwrangler-roa-second-collection-fall-winter-2026-collaboration-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "From the Celine Belt to Prada Purple, These Were the Street Style Trends of the Spring 2027 Ready-to-Wear Shows",
+      "title": "The New Front Row: Who’s Who at New York, London, Milan, and Paris Fashion Week",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/from-the-celine-belt-to-prada-purple-these-were-the-street-style-trends-of-the-spring-2027-ready-to-wear-shows",
-      "publishedAt": "Tue, 13 Oct 2026 13:24:40 +0000",
-      "summary": "Colorblocking, cummerbunds, and Celine were just some of the street style trends of the spring 2027 season.",
+      "url": "https://www.vogue.com/article/the-new-front-row",
+      "publishedAt": "Wed, 14 Oct 2026 17:01:44 +0000",
+      "summary": "Vogue photographed 35 shows across fashion month to find out who’s sitting front row, from celebrities to influencers—and where they’re seated.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ace36091e79ad65698c48a8/master/pass/Spring_Trend_Report_9x16.jpg"
+      "imageUrl": "https://assets.vogue.com/clips/6acd3e77581bc5cf12c5aa1b/master/pass/FROW_4x5_1_2.mp4"
     },
     {
-      "title": "Street Style Look of the Week: Perfectly at Home in a Travel Outfit",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/2026/10/13/style/street-style-look-travel-outfit.html",
-      "publishedAt": "Tue, 13 Oct 2026 13:00:02 +0000",
-      "summary": "Giovanna Ciampitti, 58, has loved fashion since she was a girl. On a trip to London to visit her son, she brought along some favorite designers as travel companions.",
+      "title": "8 Drops You Don't Want to Miss This Week",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/best-drops-october-week-2-supreme-martine-rose-palace-skateboards-stussy-denim-tears",
+      "publishedAt": "Wed, 14 Oct 2026 12:30:15 +0000",
+      "summary": "With another week upon us, we have yet another installment of our product drops series.This week’s lineup of drops kicks off with Supreme delivering its expansive Fall 2026 collaboration with London designer Martine Rose, featuring heavy outerwear and an exclusive Nike Dunk Low. Keeping the momentum going, Palace Skateboards continues its Winter 2026 season with the art-inspired Caravaggio Shirt and function-focused cold-weather layers, while Stüssy and Denim Tears reunite to merge West Coast heritage with narrative-driven design in a statement-heavy FW26 outerwear capsule. For the active crow",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "style",
-        "culture",
-        "trend",
-        "brand"
+        "streetwear",
+        "brand",
+        "trend"
       ],
-      "imageUrl": "https://static01.nyt.com/images/2026/10/13/multimedia/13LOTW-ciampitti-01-lzcq/13LOTW-ciampitti-01-lzcq-mediumSquareAt3X.jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2Fbest-drops-october-week-2-supreme-martine-rose-palace-skateboards-stussy-denim-tears-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "MAAP and Mental Athletic Merge Technical Cycling Gear With Off-Bike Lifestyle Staples",
+      "title": "BEAMS Stitches Three Leathers Into One Broken-In Blouson",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/maap-mental-athletic-collaboration-collection-lookbook-release-info",
-      "publishedAt": "Tue, 13 Oct 2026 10:00:29 +0000",
-      "summary": "Summary MAAP and Mental Athletic have announced a limited-edition collection bridging technical cycling apparel and off-bike garmentsThe technical lineup features the Pro Air Jersey 3.0 Team Bib Evo Cargo bibs and a new Lightweight Vest alongside casual hoodies and accessoriesThe capsule showcases vibrant electric green corrosive yellow and synthetic magenta tones releasing globally on October 15 Performance cycling apparel brand MAAP and independent sports culture platform Mental Athletic have officially announced a limited-edition capsule collection. Spanning technical cycling gear and off-b",
+      "url": "https://hypebeast.com/2026/10/beams-stitches-three-leathers-into-one-broken-in-blouson",
+      "publishedAt": "Wed, 14 Oct 2026 11:04:42 +0000",
+      "summary": "Summary BEAMS’ new Leather Blouson combines sheep nappa, sheep nubuck and goat suede in a paneled constructionWashing, tumbling and hand-applied distressing give each jacket a worn-for-years look straight off the rackThe design draws on vintage sports jackets, reworked with a wide body and shortened length BEAMS has introduced the Leather Blouson as part of its Fall/Winter 2026 collection, a jacket built from three contrasting leathers and finished to look like a long-owned favorite. Offered in Soft Black and Taupe, the piece pairs a vintage sports jacket template with a contemporary wide, cro",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -60,39 +44,53 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F12%2Fmaap-mental-athletic-collaboration-collection-lookbook-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2FBEAMS-Leather-Blouson-fall-winter-2026-FW26-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Hankyu Men's Tokyo Celebrates Its 15th Anniversary With Exclusive Items and Buzz-Worthy Brand Pop-Ups",
+      "title": "The MM6 Maison Margiela FW26 Campaign Is a Study in Motion and Normality",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/hankyu-menz-15-years-aniversaly-project-release-info",
-      "publishedAt": "Wed, 14 Oct 2026 02:00:35 +0000",
-      "summary": "Hankyu Men's Tokyo is celebrating its 15th anniversary. To mark the occasion, the store will host a 15th Anniversary Fair from Wednesday, October 14 to Tuesday, November 17. A variety of men's fashion and lifestyle events will unfold across all floors, featuring 15th-anniversary exclusive items, buzz-worthy brand pop-ups, events, and new store openings.During the event, exclusive 15th-anniversary items will be available on every floor, alongside men's fashion and lifestyle activations, including a footwear fair, pop-ups, and new shop debuts.The fashion floors will highlight domestic labels lik",
+      "url": "https://hypebeast.com/2026/10/mm6-maison-margiela-fall-winter-2026-collection-campaign-release-info",
+      "publishedAt": "Wed, 14 Oct 2026 10:38:10 +0000",
+      "summary": "Summary MM6 Maison Margiela unveils its FW26 campaign, photographed by Philippine Chaumont and Agathe Zaerpour.The collection reimagines everyday staples through unconventional proportions, exposed linings and unexpected styling.Highlights include tailored separates, sportswear, Bauletto bags and colorful concealing sunglasses. MM6 Maison Margiela has unveiled its Fall/Winter 2026 campaign, offering a fresh perspective on the collection's exploration of everyday dressing and exaggerated normality. Shot by Philippine Chaumont and Agathe Zaerpour, the new visuals revisit the themes established d",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend"
+        "trend",
+        "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fhankyu-menz-15-years-aniversaly-project-release-info-100-1.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2Fftmm6-maison-margiela-fall-winter-2026-collection-campaign-release-info.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Les Benjamins & Apple Go \"From Earth to Sky\" in Turkey Runway Show",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/les-benjamins-apple-runway-show-turkey-from-earth-to-sky",
+      "publishedAt": "Wed, 14 Oct 2026 16:24:26 +0000",
+      "summary": "SummaryLes Benjamins partnered with Apple for its 15th-anniversary \"From Earth to Sky\" collection in Cappadocia, blending East and West.The runway show, featuring custom hot-air balloons, was designed on iPad Pro and filmed on iPhone 18 Pro Max.On Wednesday, Les Bejamins teamed up with Apple to bring its new collection to life, showcasing the “From Earth to Sky” spectacle in Cappadocia, Turkey. Shot on the iPhone 18 Pro Max by French filmmaker Neels Castillon, Bünyamin Aydın’s latest show celebrated 15 years of his Istanbul-based lifestyle brand.Inspired by his Anatolian heritage, Aydın began ",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2Fles-benjamins-apple-runway-show-turkey-from-earth-to-sky-0.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
-    "streetwear",
-    "brand",
-    "trend",
     "runway",
-    "style",
-    "culture"
+    "trend",
+    "brand",
+    "streetwear"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/wrangler-roa-second-collection-fall-winter-2026-collaboration-release-info",
-    "https://www.vogue.com/article/from-the-celine-belt-to-prada-purple-these-were-the-street-style-trends-of-the-spring-2027-ready-to-wear-shows",
-    "https://www.nytimes.com/2026/10/13/style/street-style-look-travel-outfit.html",
-    "https://hypebeast.com/2026/10/maap-mental-athletic-collaboration-collection-lookbook-release-info",
-    "https://hypebeast.com/2026/10/hankyu-menz-15-years-aniversaly-project-release-info"
+    "https://www.vogue.com/article/the-new-front-row",
+    "https://hypebeast.com/2026/10/best-drops-october-week-2-supreme-martine-rose-palace-skateboards-stussy-denim-tears",
+    "https://hypebeast.com/2026/10/beams-stitches-three-leathers-into-one-broken-in-blouson",
+    "https://hypebeast.com/2026/10/mm6-maison-margiela-fall-winter-2026-collection-campaign-release-info",
+    "https://hypebeast.com/2026/10/les-benjamins-apple-runway-show-turkey-from-earth-to-sky"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-14T02:40:19.695Z"
+  "createdAt": "2026-10-15T02:20:31.404Z"
 }
