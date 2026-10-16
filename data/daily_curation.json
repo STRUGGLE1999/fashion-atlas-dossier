@@ -1,96 +1,96 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610150220313381439568268d9d6OTZKUfjE)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610160212410733614958268d9d6SOq9XhDW)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "The New Front Row: Who’s Who at New York, London, Milan, and Paris Fashion Week",
+      "title": "Veronica Leoni Exits Calvin Klein After Four Seasons",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/the-new-front-row",
-      "publishedAt": "Wed, 14 Oct 2026 17:01:44 +0000",
-      "summary": "Vogue photographed 35 shows across fashion month to find out who’s sitting front row, from celebrities to influencers—and where they’re seated.",
+      "url": "https://www.vogue.com/article/veronica-leoni-exits-calvin-klein-after-four-seasons",
+      "publishedAt": "Thu, 15 Oct 2026 15:04:30 +0000",
+      "summary": "The Italian-born designer led the return of Calvin Klein Collection to New York Fashion Week. A successor has not yet been named.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/clips/6acd3e77581bc5cf12c5aa1b/master/pass/FROW_4x5_1_2.mp4"
+      "imageUrl": "https://assets.vogue.com/photos/6ad0f4f1022fddc1ceee2f6e/master/pass/VERONICA-LEONI-STORY.jpg"
     },
     {
-      "title": "8 Drops You Don't Want to Miss This Week",
+      "title": "These Collaborations Between High-End Hotels and Luxury Designers Are Worth Adding to Cart — No Plane Ticket&#160;Required",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/shop/shop-fashion/best-hotel-merch-collaborations-designer-fashion-buy-online-1239035764/",
+      "publishedAt": "Thu, 15 Oct 2026 20:45:40 +0000",
+      "summary": "2026's hottest couple? Hospitality and style, of course.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "industry",
+        "runway",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "Veronica Leoni Steps Down as Creative Director of Calvin Klein Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/best-drops-october-week-2-supreme-martine-rose-palace-skateboards-stussy-denim-tears",
-      "publishedAt": "Wed, 14 Oct 2026 12:30:15 +0000",
-      "summary": "With another week upon us, we have yet another installment of our product drops series.This week’s lineup of drops kicks off with Supreme delivering its expansive Fall 2026 collaboration with London designer Martine Rose, featuring heavy outerwear and an exclusive Nike Dunk Low. Keeping the momentum going, Palace Skateboards continues its Winter 2026 season with the art-inspired Caravaggio Shirt and function-focused cold-weather layers, while Stüssy and Denim Tears reunite to merge West Coast heritage with narrative-driven design in a statement-heavy FW26 outerwear capsule. For the active crow",
+      "url": "https://hypebeast.com/2026/10/veronica-leoni-exits-creative-director-role-calvin-klein-collection-announcement",
+      "publishedAt": "Thu, 15 Oct 2026 15:55:39 +0000",
+      "summary": "Summary Veronica Leoni is stepping down as creative director of Calvin Klein Collection after a four-season tenureAppointed in 2024 to spearhead the revival of the house's runway division Leoni previously held design roles at The Row and CélineCalvin Klein confirmed that Collection remains central to its long-term strategy and will name a successor in due course Calvin Klein has officially announced that Creative Director Veronica Leoni will exit Calvin Klein Collection after four seasons. The designer's departure concludes a two-year tenure leading the American label’s high-end runway revival",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F15%2Fveronica-leoni-exits-creative-director-role-calvin-klein-collection-announcement-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "McQueen Parts Ways With Creative Director Seán McGirr After Three Years",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/kering-alexander-mcqueen-parts-ways-with-creative-director-sean-mcgirr-announcement",
+      "publishedAt": "Thu, 15 Oct 2026 15:47:24 +0000",
+      "summary": "Summary Kering has officially announced the departure of McQueen Creative Director Seán McGirr following a three-year tenureThe executive change arrives alongside operational restructuring including workforce layoffs and a reduced retail footprintThe luxury conglomerate confirmed that new creative leadership for the London fashion house will be announced soon McQueen has officially parted ways with Creative Director Seán McGirr after a three-year tenure at the helm of the British fashion house. According to WWD, the announcement from parent company Kering arrives amid extensive structural reor",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2Fbest-drops-october-week-2-supreme-martine-rose-palace-skateboards-stussy-denim-tears-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F15%2Fkering-alexander-mcqueen-parts-ways-with-creative-director-sean-mcgirr-announcement-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "BEAMS Stitches Three Leathers Into One Broken-In Blouson",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/beams-stitches-three-leathers-into-one-broken-in-blouson",
-      "publishedAt": "Wed, 14 Oct 2026 11:04:42 +0000",
-      "summary": "Summary BEAMS’ new Leather Blouson combines sheep nappa, sheep nubuck and goat suede in a paneled constructionWashing, tumbling and hand-applied distressing give each jacket a worn-for-years look straight off the rackThe design draws on vintage sports jackets, reworked with a wide body and shortened length BEAMS has introduced the Leather Blouson as part of its Fall/Winter 2026 collection, a jacket built from three contrasting leathers and finished to look like a long-owned favorite. Offered in Soft Black and Taupe, the piece pairs a vintage sports jacket template with a contemporary wide, cro",
+      "title": "Nehera Spring 2027 Ready-to-Wear",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/nehera",
+      "publishedAt": "Fri, 16 Oct 2026 02:07:59 +0000",
+      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2FBEAMS-Leather-Blouson-fall-winter-2026-FW26-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "The MM6 Maison Margiela FW26 Campaign Is a Study in Motion and Normality",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/mm6-maison-margiela-fall-winter-2026-collection-campaign-release-info",
-      "publishedAt": "Wed, 14 Oct 2026 10:38:10 +0000",
-      "summary": "Summary MM6 Maison Margiela unveils its FW26 campaign, photographed by Philippine Chaumont and Agathe Zaerpour.The collection reimagines everyday staples through unconventional proportions, exposed linings and unexpected styling.Highlights include tailored separates, sportswear, Bauletto bags and colorful concealing sunglasses. MM6 Maison Margiela has unveiled its Fall/Winter 2026 campaign, offering a fresh perspective on the collection's exploration of everyday dressing and exaggerated normality. Shot by Philippine Chaumont and Agathe Zaerpour, the new visuals revisit the themes established d",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2Fftmm6-maison-margiela-fall-winter-2026-collection-campaign-release-info.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Les Benjamins & Apple Go \"From Earth to Sky\" in Turkey Runway Show",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/les-benjamins-apple-runway-show-turkey-from-earth-to-sky",
-      "publishedAt": "Wed, 14 Oct 2026 16:24:26 +0000",
-      "summary": "SummaryLes Benjamins partnered with Apple for its 15th-anniversary \"From Earth to Sky\" collection in Cappadocia, blending East and West.The runway show, featuring custom hot-air balloons, was designed on iPad Pro and filmed on iPhone 18 Pro Max.On Wednesday, Les Bejamins teamed up with Apple to bring its new collection to life, showcasing the “From Earth to Sky” spectacle in Cappadocia, Turkey. Shot on the iPhone 18 Pro Max by French filmmaker Neels Castillon, Bünyamin Aydın’s latest show celebrated 15 years of his Istanbul-based lifestyle brand.Inspired by his Anatolian heritage, Aydın began ",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2Fles-benjamins-apple-runway-show-turkey-from-earth-to-sky-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6a9841c8e7e05df88c342aa1/master/pass/00001-nehera-spring-2027-ready-to-wear-credit-brand.jpg"
     }
   ],
   "trendTags": [
     "runway",
     "trend",
     "brand",
+    "industry",
     "streetwear"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/article/the-new-front-row",
-    "https://hypebeast.com/2026/10/best-drops-october-week-2-supreme-martine-rose-palace-skateboards-stussy-denim-tears",
-    "https://hypebeast.com/2026/10/beams-stitches-three-leathers-into-one-broken-in-blouson",
-    "https://hypebeast.com/2026/10/mm6-maison-margiela-fall-winter-2026-collection-campaign-release-info",
-    "https://hypebeast.com/2026/10/les-benjamins-apple-runway-show-turkey-from-earth-to-sky"
+    "https://www.vogue.com/article/veronica-leoni-exits-calvin-klein-after-four-seasons",
+    "https://wwd.com/shop/shop-fashion/best-hotel-merch-collaborations-designer-fashion-buy-online-1239035764/",
+    "https://hypebeast.com/2026/10/veronica-leoni-exits-creative-director-role-calvin-klein-collection-announcement",
+    "https://hypebeast.com/2026/10/kering-alexander-mcqueen-parts-ways-with-creative-director-sean-mcgirr-announcement",
+    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/nehera"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-15T02:20:31.404Z"
+  "createdAt": "2026-10-16T02:12:41.162Z"
 }
