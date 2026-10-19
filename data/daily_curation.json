@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610180206150888583628268d9d6r37Iut0c)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610190222078869349298268d9d6djrdHjlK)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "BABY MILO® Debuts \"12 Zodiac Blind Box Series\" for FW26",
+      "title": "Kim Jones Launches Label & Exits Occur at McQueen & Calvin Klein Collection in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/baby-milo-12-zodiac-blind-box-series-fw26-collection-release-info",
-      "publishedAt": "Sat, 17 Oct 2026 09:54:12 +0000",
-      "summary": "A BATHING APE®’s lifestyle brand BABY MILO® has unveiled its first-ever “12 Zodiac Blind Box Series,” arriving as one of the key releases from its Fall/Winter 2026 collection. Bringing BABY MILO®’s characteristically curious and playful personality into a celestial setting, the series reimagines the brand’s familiar mascot through the lens of astrology for streetwear fans and art toy collectors alike.For the blind box series, BABY MILO® dresses up in costumes representing each of the 12 zodiac signs, translating symbols including Libra, Leo and Sagittarius into collectible character designs. T",
+      "url": "https://hypebeast.com/2026/10/kim-jones-launches-label-exits-occur-at-mcqueen-calvin-klein-collection-in-this-weeks-top-fashion-news",
+      "publishedAt": "Fri, 16 Oct 2026 20:30:29 +0000",
+      "summary": "SummarySeán McGirr exits Alexander McQueen, and Veronica Leoni leaves Calvin Klein Collection.Kim Jones debuts his eponymous fashion label; dunhill heads to Pitti Uomo 111.Tyler, The Creator redesigns FC Barcelona’s kits, while SZA drops her earthy Vans campaign.Kim Jones Announces Eponymous Label With FW27 Debut CollectionAfter much anticipation from fans of the designer, Kim Jones launched a standalone fashion house under his own name. Branching out from his executive tenures at legacy luxury brands like Dior and Fendi, the British designer’s independent label kicks off with a Fall/Winter 20",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,83 +16,80 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F16%2Fbaby-milo-12-zodiac-blind-box-series-fw26-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F16%2Fkim-jones-mcqueen-calvin-klein-collection-golf-fcb-spotify-vans-sza-dunhill-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Pamela Anderson Wears Carolina Herrera for Academy Museum Gala 2026 Red&#160;Carpet",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/pop-culture/celebrity-news/pamela-anderson-dress-academy-museum-gala-2026-1239371873/",
-      "publishedAt": "Sun, 18 Oct 2026 01:10:42 +0000",
-      "summary": "The actress wore a look from the spring 2027 ready-to-wear collection.",
+      "title": "Carhartt WIP Reunited With Nike Sportswear and SUPPLY for SURPLUS 2026 Collection",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/carhartt-wip-nike-sportswear-supply-for-surplus-2026-collection",
+      "publishedAt": "Mon, 19 Oct 2026 01:20:52 +0000",
+      "summary": "Summary Carhartt WIP partnered with Nike Sportswear and SUPPLY to launch a limited collection for the SURPLUS festival in SydneyThe capsule was headlined by a souvenir Santa Fe Jacket crafted from heavyweight Dearborn Canvas with faux-leather sleeves alongside French terry staplesAvailable strictly in person the physical assortment dropped on October 17 at the SURPLUS Marketplace with no online release Carhartt WIP officially released its SURPLUS® 2026 collection, returning for its second year at the Sydney music and culture festival presented by Nike Sportswear and SUPPLY®. Conceived as an el",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "industry",
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F18%2Fcarhartt-wip-nike-sportswear-supply-for-surplus-2026-collection-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Retail Executives Speak Out After Store Looting in Paris",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/retail-executives-speak-out-after-store-looting-in-paris",
+      "publishedAt": "Sun, 18 Oct 2026 21:49:52 +0000",
+      "summary": "Protesters in Paris targeted luxury stores, including Burberry, Celine, and Lacoste, on Saturday.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
         "runway",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Nike's Most Swaggy ACG Mules Are Straight from Doernbecher",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/nike-doernbecher-acg-rufus-2026/",
-      "publishedAt": "Sat, 17 Oct 2026 20:44:37 GMT",
-      "summary": "Nike reveals its Doernbecher Freestyle 22 collection for 2026, which includes a pink camo ACG Rufus mule with loads of cool details.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://assets.vogue.com/photos/6ad5377af740f89d4b29d83d/master/pass/PROTESTS-STORY.jpg"
     },
     {
-      "title": "Baracuta x WILD THINGS x WACKO MARIA Go Reversible and Furry",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/baracuta-wild-things-wacko-maria-fall-winter-2026-fw26-collaboration-collection-release-info",
-      "publishedAt": "Sat, 17 Oct 2026 04:00:22 +0000",
-      "summary": "Summary WACKO MARIA reconnects with Baracuta and Wild Things for a three-style Fall/Winter 2026 outerwear capsuleBaracuta’s G9 Harrington Jacket goes fully reversible, pairing a cotton-polyester face with an all-polyester side in blackWild Things delivers the PrimaLoft-insulated Happy Vest in nylon and a leopard faux fur version in beige and pink Baracuta and WILD THINGS x WACKO MARIA have unveiled a Fall/Winter 2026 outerwear lineup made up of the Reversible G9 Harrington Jacket, the Happy Vest and the Leopard Faux Fur Happy Vest. The Tokyo label pulls a signature piece from each partner, the",
+      "title": "Tommy’s Take on Why More Is More When it Comes to Accessorizing",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/tommy-tons-take",
+      "publishedAt": "Sun, 18 Oct 2026 10:00:00 +0000",
+      "summary": "In monthly installments surrounding a fashion theme, street style photographer Tommy Ton gives us an unfiltered close-up of the outfits that caught his eye and why.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F14%2FBARACUTA-WILD-THINGS-WACKO-MARIA-fall-winter-2026-FW26-Collaboration-collection-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Lil Yachty’s Nike Tech Collection Is Larger Than Life",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/lil-yachty-nike-tech-collection-info",
-      "publishedAt": "Fri, 16 Oct 2026 20:08:55 +0000",
-      "summary": "Summary Lil Yachty’s first Nike apparel collab drops today, with an oversized Tech Fleece zip-up hoodie and below-the-knee shorts, both in black and navy, with heavyweight double-layer construction and Yachty branding.The raffle is for the Lil Yachty x Nike Tech Collection is exclusively available on yachty.shop. Lil Yachty’s first Nike apparel collaboration lands today, October 16, with a reworked take on the iconic Tech Fleece. Dubbed the “best-dressed rappers on the scene” by the brand, the lineup pushes proportions to the extreme in Yachty-style elevated basics, oversized silhouettes, and ",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F16%2Fhed.png?w=800&cbr=1&q=90&format=png&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6ad134a073e7d92f19242741/master/pass/101526_Tommy"
+    },
+    {
+      "title": "Up to Our Necks: Fall Accessories and Full-Tilt Maximalism Tie the Knot",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot",
+      "publishedAt": "Sat, 17 Oct 2026 00:00:00 +0000",
+      "summary": "The leaves aren’t the only things wild with color this season. As nature trades its summer greens for a rich tapestry of amber, rust, burgundy, and gold, our wardrobes are following suit.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ad2bce2bd36e357588fcf4a/master/pass/vogue_fall_collage_03%20(1).jpg"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway",
-    "industry"
+    "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/baby-milo-12-zodiac-blind-box-series-fw26-collection-release-info",
-    "https://wwd.com/pop-culture/celebrity-news/pamela-anderson-dress-academy-museum-gala-2026-1239371873/",
-    "https://www.highsnobiety.com/p/nike-doernbecher-acg-rufus-2026/",
-    "https://hypebeast.com/2026/10/baracuta-wild-things-wacko-maria-fall-winter-2026-fw26-collaboration-collection-release-info",
-    "https://hypebeast.com/2026/10/lil-yachty-nike-tech-collection-info"
+    "https://hypebeast.com/2026/10/kim-jones-launches-label-exits-occur-at-mcqueen-calvin-klein-collection-in-this-weeks-top-fashion-news",
+    "https://hypebeast.com/2026/10/carhartt-wip-nike-sportswear-supply-for-surplus-2026-collection",
+    "https://www.vogue.com/article/retail-executives-speak-out-after-store-looting-in-paris",
+    "https://www.vogue.com/article/tommy-tons-take",
+    "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-18T02:06:15.214Z"
+  "createdAt": "2026-10-19T02:22:07.968Z"
 }
