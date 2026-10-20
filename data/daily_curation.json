@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610190222078869349298268d9d6djrdHjlK)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610200235375048890958268d9d644uselRT)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Kim Jones Launches Label & Exits Occur at McQueen & Calvin Klein Collection in This Week's Top Fashion News",
+      "title": "‘Virgil Abloh’s ‘The Codes’ Retrospective Is Coming to NYC",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/kim-jones-launches-label-exits-occur-at-mcqueen-calvin-klein-collection-in-this-weeks-top-fashion-news",
-      "publishedAt": "Fri, 16 Oct 2026 20:30:29 +0000",
-      "summary": "SummarySeán McGirr exits Alexander McQueen, and Veronica Leoni leaves Calvin Klein Collection.Kim Jones debuts his eponymous fashion label; dunhill heads to Pitti Uomo 111.Tyler, The Creator redesigns FC Barcelona’s kits, while SZA drops her earthy Vans campaign.Kim Jones Announces Eponymous Label With FW27 Debut CollectionAfter much anticipation from fans of the designer, Kim Jones launched a standalone fashion house under his own name. Branching out from his executive tenures at legacy luxury brands like Dior and Fendi, the British designer’s independent label kicks off with a Fall/Winter 20",
+      "url": "https://hypebeast.com/2026/10/virgil-abloh-the-codes-nike-exhibition-nyc-info",
+      "publishedAt": "Mon, 19 Oct 2026 16:38:50 +0000",
+      "summary": "Summary The Virgil Abloh Archive™ and Nike will present a New York iteration of 'Virgil Abloh: The Codes,' a retrospective exhibition exploring the late designer's influence across fashion, culture, art, and designThe presentation features everything from finished products, prototypes, archival materials, sketches, to a recreation of Abloh's Paris office The showcase will run from December 10, 2026 through January 18, 2027, with tickets going on sale October 23, 2026 for $25 The Virgil Abloh Archive™ and Nike are bringing back Virgil Abloh: The Codes, the global exhibition dedicated to the lif",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F16%2Fkim-jones-mcqueen-calvin-klein-collection-golf-fcb-spotify-vans-sza-dunhill-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F19%2Fvirgil-abloh-the-codes-nike-exhibition-nyc-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Carhartt WIP Reunited With Nike Sportswear and SUPPLY for SURPLUS 2026 Collection",
+      "title": "McLaren Racing and PUMA Take Notes From James Hunt’s Rebellious Wardrobe for New Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/carhartt-wip-nike-sportswear-supply-for-surplus-2026-collection",
-      "publishedAt": "Mon, 19 Oct 2026 01:20:52 +0000",
-      "summary": "Summary Carhartt WIP partnered with Nike Sportswear and SUPPLY to launch a limited collection for the SURPLUS festival in SydneyThe capsule was headlined by a souvenir Santa Fe Jacket crafted from heavyweight Dearborn Canvas with faux-leather sleeves alongside French terry staplesAvailable strictly in person the physical assortment dropped on October 17 at the SURPLUS Marketplace with no online release Carhartt WIP officially released its SURPLUS® 2026 collection, returning for its second year at the Sydney music and culture festival presented by Nike Sportswear and SUPPLY®. Conceived as an el",
+      "url": "https://hypebeast.com/2026/10/mclaren-racing-puma-james-hunt-collection-release-info",
+      "publishedAt": "Mon, 19 Oct 2026 16:03:37 +0000",
+      "summary": "For their latest collaboration, McLaren Racing and PUMA revisit racing’s golden era to craft a new collection honoring James Hunt. One of the most pioneering drivers at the time, Hunt’s legacy extends beyond the track with a rebellious personal style that still stands out today. The James Hunt collection was previewed last month at McLaren’s Designed to Race: Front Row runway show ahead of London Fashion Week. With racing drivers, music artists, and industry experts in attendance, the event highlighted the icon’s effortless dress sense through relaxed racing jackets, throw-over mid-layers, and",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,49 +31,51 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F18%2Fcarhartt-wip-nike-sportswear-supply-for-surplus-2026-collection-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F12%2Fmclaren-racing-puma-james-hunt-collection-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Retail Executives Speak Out After Store Looting in Paris",
+      "title": "MODMNT Reworks Military Classics Into Modular Down Jackets",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/modmnt-fall-winter-2026-collection",
+      "publishedAt": "Mon, 19 Oct 2026 15:48:29 +0000",
+      "summary": "MODMNT, a brand developed by NANGA CO., LTD., one of Japan’s leading down manufacturers, has released the second delivery of its 2026 Fall/Winter collection. The lineup features four styles of down wear reinterpreting functional garments rooted in hunting, military, and other distinct eras and purposes, alongside additional fall/winter pieces.MODMNT takes its name from “Modulement,” a coined term combining “Module,” “Mode,” “Equipment,” and “Element.” This season’s theme, “Beautifully Unpredictable,” translates the free-form processes of layering, removing, adding, and rearranging into the des",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F19%2Fmodmnt-2026-autumn-winter-collection-feature-image-1.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "6 Fall Boot Trends to Try This Season, From Buckled Styles to Slim Knee-Highs",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/retail-executives-speak-out-after-store-looting-in-paris",
-      "publishedAt": "Sun, 18 Oct 2026 21:49:52 +0000",
-      "summary": "Protesters in Paris targeted luxury stores, including Burberry, Celine, and Lacoste, on Saturday.",
+      "url": "https://www.vogue.com/article/fall-2026-boot-trends",
+      "publishedAt": "Mon, 19 Oct 2026 18:05:37 +0000",
+      "summary": "The silver lining of summer ending? All the fall 2026 boot trends. From stompy buckled styles to slim knee-highs, these are the shapes to know—and try.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ad5377af740f89d4b29d83d/master/pass/PROTESTS-STORY.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ad288c267b21e4f29adda10/master/pass/boottrends_leadholding.jpeg"
     },
     {
-      "title": "Tommy’s Take on Why More Is More When it Comes to Accessorizing",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/tommy-tons-take",
-      "publishedAt": "Sun, 18 Oct 2026 10:00:00 +0000",
-      "summary": "In monthly installments surrounding a fashion theme, street style photographer Tommy Ton gives us an unfiltered close-up of the outfits that caught his eye and why.",
+      "title": "Supreme and Timberland Reunite for Fall 2026 Collection",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/supreme-timberland-fall-2026-collaboration-release-info",
+      "publishedAt": "Mon, 19 Oct 2026 13:00:40 +0000",
+      "summary": "Summary Supreme has collaborated with Timberland on an expansive apparel and accessories collection for Fall 2026The lineup features technical outerwear such as a waterproof Ventile Utility Jacket alongside Polartec fleece layers and double knee denimThe collaborative capsule releases on October 22 followed by an Asia launch on October 24 Supreme has officially partnered with Timberland to release a collaborative apparel and accessories collection for Fall 2026.Leading the cold-weather outerwear selection is a premium Suede Puffer Jacket alongside the technical Ventile Utility Jacket, which is",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
+        "streetwear",
+        "brand",
         "trend",
-        "brand"
+        "runway"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ad134a073e7d92f19242741/master/pass/101526_Tommy"
-    },
-    {
-      "title": "Up to Our Necks: Fall Accessories and Full-Tilt Maximalism Tie the Knot",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot",
-      "publishedAt": "Sat, 17 Oct 2026 00:00:00 +0000",
-      "summary": "The leaves aren’t the only things wild with color this season. As nature trades its summer greens for a rich tapestry of amber, rust, burgundy, and gold, our wardrobes are following suit.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ad2bce2bd36e357588fcf4a/master/pass/vogue_fall_collage_03%20(1).jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F19%2Fsupreme-timberland-fall-2026-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
@@ -83,13 +85,13 @@
     "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/kim-jones-launches-label-exits-occur-at-mcqueen-calvin-klein-collection-in-this-weeks-top-fashion-news",
-    "https://hypebeast.com/2026/10/carhartt-wip-nike-sportswear-supply-for-surplus-2026-collection",
-    "https://www.vogue.com/article/retail-executives-speak-out-after-store-looting-in-paris",
-    "https://www.vogue.com/article/tommy-tons-take",
-    "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot"
+    "https://hypebeast.com/2026/10/virgil-abloh-the-codes-nike-exhibition-nyc-info",
+    "https://hypebeast.com/2026/10/mclaren-racing-puma-james-hunt-collection-release-info",
+    "https://hypebeast.com/2026/10/modmnt-fall-winter-2026-collection",
+    "https://www.vogue.com/article/fall-2026-boot-trends",
+    "https://hypebeast.com/2026/10/supreme-timberland-fall-2026-collaboration-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-19T02:22:07.968Z"
+  "createdAt": "2026-10-20T02:35:37.581Z"
 }
