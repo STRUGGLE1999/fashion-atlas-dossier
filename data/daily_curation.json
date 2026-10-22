@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610210229576469531398268d9d6LZGWU2Z4)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610220233132801492088268d9d65K0a1XGy)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Willy Chavarria Is Behind the adidas Originals adiSignature Collection",
+      "title": "8 Drops You Don't Want to Miss This Week",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/adidas-originals-adisignature-willy-chavarria-collection-release-info",
-      "publishedAt": "Tue, 20 Oct 2026 19:18:07 +0000",
-      "summary": "Summaryadidas Originals and Willy Chavarria's new adiSignature line upgrades classic sweats with roomy fits, dropped shoulders, and premium 420g fleece.The debut collection, launching October 23, features bold, '80s-inspired color blocking alongside neutral staples, designed to offer timeless, individual style.adidas Originals has unveiled the first collection from its new adiSignature line, guided by Creative Advisor Willy Chavarria. In this new arm of the brand, the designer brings his distinct perspective to adidas’ classic sweats in new cuts, fits, and materials. “adiSignature is a framewo",
+      "url": "https://hypebeast.com/2026/10/best-drops-october-week-4-supreme-palace-carhartt-wip",
+      "publishedAt": "Wed, 21 Oct 2026 12:30:50 +0000",
+      "summary": "With another week upon us, we have yet another installment of our product drops series.This week’s lineup of drops kicks off with Supreme reuniting with Timberland for a rugged Fall 2026 collection anchored by the iconic Field Boot, while Palace Skateboards continues its Winter 2026 rollout with a weather-ready assortment of GORE-TEX shells and insulated puffers. Patta joins forces with Carhartt WIP for the workwear-inspired \"Hartt and Soul\" capsule, just as G-Dragon’s PEACEMINUSONE blends K-pop subculture with avant-garde Japanese tailoring in an exclusive WILDSIDE Yohji Yamamoto collaboratio",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,57 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F20%2Fadidas-originals-adisignature-willy-chavarria-collection-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F21%2Fbest-drops-october-week-4-supreme-palace-carhartt-wip-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "The UNIQLO F.RISSO 2026 Knitwear Collection Is \"Made for Dreaming\"",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/uniqlo-f-risso-collection-collaboration-2026-knitwear-info",
-      "publishedAt": "Tue, 20 Oct 2026 20:24:47 +0000",
-      "summary": "SummaryFrancesco Risso’s genderless 2026 UNIQLO F.RISSO knitwear collection features neutral-toned merino sweaters in various necklines, plus HEATTECH accessories with bright accents.Releasing October 29, the line expands Risso’s Fast Retailing role after his 2025 Marni exit and 2026 GU appointmentFrancesco Risso’s UNIQLO F.RISSO returns right in time for the changing seasons with a collection titled \"Made for Dreaming\". As a follow-up to F.RISSO’s colorful SS26 debut, the designer-backed line returns with a full collection of 2026 knitwear powered by UNIQLO’s technology.In an official stateme",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F20%2Funiqlo-f-risso-collection-collaboration-2026-knitwear-info-0.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "The 126 Best Wedding Looks From New York Bridal Fashion Week Fall 2027",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/best-wedding-looks-from-new-york-bridal-fashion-week-fall-2027",
-      "publishedAt": "Tue, 20 Oct 2026 17:21:16 +0000",
-      "summary": "Ready to start scoping out the wedding dresses and suits you’ll see on brides next year? See all our favorite pieces from New York Bridal Fashion Week fall 2027 presentations here.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ad7a25b310e407bc7be6b37/master/pass/102026_bestweddingholding_NYBFW27.jpg"
-    },
-    {
-      "title": "The 6 Biggest Wedding Dress Trends From New York Bridal Fashion Week Fall 2027",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/wedding-dress-trends-bridal-fashion-week-fall-2027",
-      "publishedAt": "Tue, 20 Oct 2026 17:00:15 +0000",
-      "summary": "New York Bridal Fashion Week fall 2027 offered a preview of wedding dress trends for the year ahead. From innovative lace to 1920-inspired looks, see what will be popular to wear down the aisle.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ad60dd0a209d34205e142af/master/pass/danielle4.jpg"
-    },
-    {
-      "title": "New Balance’s Earthy Skate Shoe Isn’t Just Good — It’s Grand",
+      "title": "New York's Craziest Vintage Archive Is Hidden In a Brooklyn Basement",
       "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/grand-collection-new-balance-numeric-770/",
-      "publishedAt": "Tue, 20 Oct 2026 22:03:08 GMT",
-      "summary": "Grand Collection debuts its New Balance Numeric collaboration, which includes a very good-looking green 770 skate shoe.",
+      "url": "https://www.highsnobiety.com/p/sumshitifound-interview/",
+      "publishedAt": "Wed, 21 Oct 2026 15:47:07 GMT",
+      "summary": "In a Brooklyn basement, sumshitifound stashes the greatest vintage collection in New York, if not the East Coast (or America). We chatted with founder Abe.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -75,22 +32,67 @@
         "runway"
       ],
       "imageUrl": ""
+    },
+    {
+      "title": "Romance Was Born Spring 2027 Ready-to-Wear",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/romance-was-born",
+      "publishedAt": "Thu, 22 Oct 2026 02:30:13 +0000",
+      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ac35d37e70d580cbdbeb5e8/master/pass/00001-romance-was-born-spring-2027-ready-to-wear-credit-brand.jpg"
+    },
+    {
+      "title": "Commando Launches First Bodysuit Bar at Saks Fifth Avenue&#160;Flagship",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/commando-first-bodysuit-bar-saks-fifth-avenue-flagship-1239380006/",
+      "publishedAt": "Wed, 21 Oct 2026 21:48:54 +0000",
+      "summary": "The Bodysuit Bar showcases bestselling styles and introduces the Ultimate Cotton collection.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "industry",
+        "runway",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "Shonen Jump Store Brings Iconic Manga Panels to Life in New ‘Naruto’ and ‘Black Clover’ Drops",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/viz-media-shonen-jump-store-naruto-black-clover-collection-release-info",
+      "publishedAt": "Wed, 21 Oct 2026 17:00:34 +0000",
+      "summary": "Summary Shonen Jump Store unveils new Naruto and Black Clover merchandise collections.Highlights include a limited-edition Naruto jumbo-print tee and a hand-dyed Black Clover Asta tee.The drops also feature hoodies, skate decks, desk mats and accessories. VIZ Media's Shonen Jump Store is expanding its anime and manga-inspired merchandise lineup with two new collections dedicated to Naruto and Black Clover. Building on its previous releases celebrating titles such as HUNTERxHUNTER, Bleach and more, the latest drops continue to translate iconic manga artwork into graphic streetwear, accessories ",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F21%2Fviz-media-shonen-jump-store-naruto-black-clover-collection-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/adidas-originals-adisignature-willy-chavarria-collection-release-info",
-    "https://hypebeast.com/2026/10/uniqlo-f-risso-collection-collaboration-2026-knitwear-info",
-    "https://www.vogue.com/slideshow/best-wedding-looks-from-new-york-bridal-fashion-week-fall-2027",
-    "https://www.vogue.com/article/wedding-dress-trends-bridal-fashion-week-fall-2027",
-    "https://www.highsnobiety.com/p/grand-collection-new-balance-numeric-770/"
+    "https://hypebeast.com/2026/10/best-drops-october-week-4-supreme-palace-carhartt-wip",
+    "https://www.highsnobiety.com/p/sumshitifound-interview/",
+    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/romance-was-born",
+    "https://wwd.com/fashion-news/fashion-scoops/commando-first-bodysuit-bar-saks-fifth-avenue-flagship-1239380006/",
+    "https://hypebeast.com/2026/10/viz-media-shonen-jump-store-naruto-black-clover-collection-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-21T02:29:57.710Z"
+  "createdAt": "2026-10-22T02:33:13.391Z"
 }
