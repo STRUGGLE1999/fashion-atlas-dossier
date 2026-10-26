@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610250216434666848988268d9d6Bfr21vtc)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610260216543942032798268d9d6LSFAPs5O)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Matt Hui's SS27 “Live to the Fullest” Collection Reimagines the Uniforms of Childhood",
+      "title": "YOKE Channels Jean Arp for FW26 at BELOWGROUND Pop-up",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/matt-hui-spring-summer-2027-collection-live-to-the-fullest-lookbooks-info",
-      "publishedAt": "Sat, 24 Oct 2026 08:00:56 +0000",
-      "summary": "Summary Matt Hui's SS27 “Live to the Fullest” collection explores childhood nostalgia, freedom and self-discovery.School uniforms, scout attire and workwear inspire reconstructed tailoring, delicate knitwear and floral embellishments.A dreamlike campaign explores identity through playful contrasts between reality and illusion. What if growing up didn't mean leaving behind the freedom and fearlessness of childhood? Hong Kong-based designer Matt Hui explores this question through his Spring/Summer 2027 collection, “Live to the Fullest,” a nostalgic yet forward-looking study of identity, self-exp",
+      "url": "https://hypebeast.com/2026/10/yoke-fw26-norio-terada-interview-hbx-gallery-belowground-pop-up-hong-kong-interview-info",
+      "publishedAt": "Sat, 24 Oct 2026 01:00:08 +0000",
+      "summary": "YOKE has officially presented its Fall/Winter 2026 collection, titled \"Beyond Form,\" alongside the announcement of its first international pop-up space at BELOWGROUND in Hong Kong.Founded in 2018 by designer Norio Terada, YOKE derives its name from the tailoring term for the pattern piece that connects and joins fabric together, framing the brand's core ethos: “Things connect people, people connect people, and people connect things.” For the FW26 season, the Tokyo Fashion Award-winning designer channels his background in fine art to merge sculpture with daily wear, drawing heavily from the sur",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,82 +16,82 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F22%2Fmatt-hui-spring-summer-2027-collection-live-to-the-fullest-lookbooks-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F21%2Fyoke-fw26-norio-terada-interview-hbx-gallery-belowground-pop-up-hong-kong-interview-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Inside the Couture Council Luncheon, Where Diane von Furstenberg Was Celebrated as a “Force of Nature”",
+      "title": "Marmot x CITY COUNTRY CITY’s “Everywhere” Capsule Layers Up for Winter",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/marmot-city-country-city-fall-winter-2026-fw26-everywhere-capsule-release-info",
+      "publishedAt": "Sat, 24 Oct 2026 02:00:26 +0000",
+      "summary": "Summary Marmot and CITY COUNTRY CITY reunite for their sixth capsule collection, titled the “Everywhere” seriesA puffer jacket pairs PrimaLoft insulation with a Pertex Quantum shell, while a Polartec 100 fleece jacket comes with matching pants and a capLong- and short-sleeve tees feature archive-inspired graphics on a cotton-like, moisture-wicking body Marmot and CITY COUNTRY CITY have teamed up again on the “Everywhere” series, their sixth collaborative capsule. Designed for the cold months ahead, the collection centers on technical insulation and fleece layers, rounded out by a pair of graph",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F21%2Fmarmot-city-country-city-fall-winter-2026-fw26-everywhere-capsule-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "What Is Brutalism? Alex Eagle Explains How to Bring the Aesthetic Home",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/couture-council-luncheon-2026-diane-von-furstenberg",
-      "publishedAt": "Sat, 24 Oct 2026 16:59:50 +0000",
-      "summary": "The 2026 Couture Council Award was presented to designer, author, and philanthropist, Diane von Furstenberg at Gotham Hall in New York. Fashion industry veterans, emerging designers, and supporters alike showed up wearing signature DVF prints.",
+      "url": "https://www.vogue.com/article/eagle-eye-brutalism",
+      "publishedAt": "Sun, 25 Oct 2026 10:00:00 +0000",
+      "summary": "Designer and creative director Alex Eagle on why brutalism feels so current—and how to bring the style home.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6adcdc105bf38644fa129f49/master/pass/BFA_56437_8281545.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ada1685a8b6e4e44f120491/master/pass/final_16x9_Eagle-Eye-montage-flat_october.jpg"
     },
     {
-      "title": "ICYMI: Gap x Victoria Beckham's Fall Collection, JT Talks Her Personal Style & Target's Newest Fragrance Brand",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/10/fashion-news-you-need-to-know-october-24",
-      "publishedAt": "Sat, 24 Oct 2026 12:00:00 GMT",
-      "summary": "A must-read roundup of our most popular stories of the week.",
+      "title": "Vans Sparkly Old Skool 36 Is the Gift That Keeps on Serving",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/vans-old-skool-36-sequins/",
+      "publishedAt": "Sun, 25 Oct 2026 09:10:00 GMT",
+      "summary": "The Meet The Vans collection features a dazzling sequin Old Skool 36 sneaker. It's the gift that keeps on serving.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
+        "streetwear",
+        "brand",
         "trend",
-        "brand",
-        "industry",
         "runway"
-      ],
-      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODA1MzQ4/gap-victoria-beckhampost-1.jpg?profile=rss"
-    },
-    {
-      "title": "Drake Dapperly Gives Black-Tie Dressing a Sparkling Twist While in New York for His Pre-Birthday&#160;Bash",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/pop-culture/celebrity-news/drake-sparkling-black-suit-jacket-dress-shoes-new-york-1239385071/",
-      "publishedAt": "Sat, 24 Oct 2026 16:22:09 +0000",
-      "summary": "The suiting moment is similar to the styles that Michael Jackson would wear.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "industry",
-        "runway",
-        "brand",
-        "trend"
       ],
       "imageUrl": ""
     },
     {
-      "title": "This Joan Crawford Classic Still Has Something to Teach Us About Women—and the Clothes They Wear",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/the-women-movie-illeana-douglas-book-interview",
-      "publishedAt": "Sat, 24 Oct 2026 12:34:57 +0000",
-      "summary": "The 1939 hit The Women spawned fashion trends, resurrected careers, launched new ones, and has fallen in and out of favor. Now, it’s enjoying another reconsideration, thanks to a new book by actress-turned-film scholar Illeana Douglas.",
+      "title": "The NEEDLES x Pendleton Collection Puts Six Pieces of Archival Wool to Work",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/needles-pendleton-first-collaboration-collection-release-info",
+      "publishedAt": "Sun, 25 Oct 2026 04:30:21 +0000",
+      "summary": "Summary NEEDLES and Pendleton link up for the first time on a six-piece capsule cut from Pendleton’s traditional plaids and wool fabricsA boxy shirt, a jacket with leather elbow patches and a coat in an archival Pendleton pattern lead the outerwear and shirtingPlaid trousers, a mohair sweater in Pendleton’s signature Native-inspired motif and a fully lined Cowichan knit round out the lineup NEEDLES is teaming up with Pendleton for the first time, debuting a six-piece NEEDLES x Pendleton collection that reworks the American mill’s classic plaids and wool cloth. Every garment starts from Pendlet",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
+        "streetwear",
+        "brand",
         "trend",
-        "brand"
+        "runway"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6adbb1e5fc944524d52266cc/master/pass/GettyImages-526903972.jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F22%2FNEEDLES-Pendleton-First-Collaboration-collection-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway",
-    "industry"
+    "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/matt-hui-spring-summer-2027-collection-live-to-the-fullest-lookbooks-info",
-    "https://www.vogue.com/slideshow/couture-council-luncheon-2026-diane-von-furstenberg",
-    "https://fashionista.com/2026/10/fashion-news-you-need-to-know-october-24",
-    "https://wwd.com/pop-culture/celebrity-news/drake-sparkling-black-suit-jacket-dress-shoes-new-york-1239385071/",
-    "https://www.vogue.com/article/the-women-movie-illeana-douglas-book-interview"
+    "https://hypebeast.com/2026/10/yoke-fw26-norio-terada-interview-hbx-gallery-belowground-pop-up-hong-kong-interview-info",
+    "https://hypebeast.com/2026/10/marmot-city-country-city-fall-winter-2026-fw26-everywhere-capsule-release-info",
+    "https://www.vogue.com/article/eagle-eye-brutalism",
+    "https://www.highsnobiety.com/p/vans-old-skool-36-sequins/",
+    "https://hypebeast.com/2026/10/needles-pendleton-first-collaboration-collection-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-25T02:16:43.524Z"
+  "createdAt": "2026-10-26T02:16:54.475Z"
 }
