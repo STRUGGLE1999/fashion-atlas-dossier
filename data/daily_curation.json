@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610260216543942032798268d9d6LSFAPs5O)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610270252524193463528268d9d6aK74xKqY)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "YOKE Channels Jean Arp for FW26 at BELOWGROUND Pop-up",
+      "title": "Explore the Japan Field Gear Line and Iconic Eyewear Silhouettes at Oakley’s Houston Flagship",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/yoke-fw26-norio-terada-interview-hbx-gallery-belowground-pop-up-hong-kong-interview-info",
-      "publishedAt": "Sat, 24 Oct 2026 01:00:08 +0000",
-      "summary": "YOKE has officially presented its Fall/Winter 2026 collection, titled \"Beyond Form,\" alongside the announcement of its first international pop-up space at BELOWGROUND in Hong Kong.Founded in 2018 by designer Norio Terada, YOKE derives its name from the tailoring term for the pattern piece that connects and joins fabric together, framing the brand's core ethos: “Things connect people, people connect people, and people connect things.” For the FW26 season, the Tokyo Fashion Award-winning designer channels his background in fine art to merge sculpture with daily wear, drawing heavily from the sur",
+      "url": "https://hypebeast.com/2026/10/oakley-japan-field-gear-houston-event",
+      "publishedAt": "Mon, 26 Oct 2026 19:48:25 +0000",
+      "summary": "Oakley’s Fall/Winter 2026 collection marks a dynamic shift in how performance gear intersects with personal style. Anchored by the tagline \"Shifting skies, solid core,\" the Japan Field Gear Line (FGL) combines weather-resistant technical materials and ergonomic tailoring with bold, highly functional design. Originally rooted in high-performance outdoor innovation, this season’s apparel lineup seamlessly transitions extreme-element protection into modern, everyday streetwear wardrobes.Complementing the apparel is the return of the iconic Oakley Jackets Eyewear Family. Known for pioneering high-",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F21%2Fyoke-fw26-norio-terada-interview-hbx-gallery-belowground-pop-up-hong-kong-interview-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F13%2Foakley-houston-main.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Marmot x CITY COUNTRY CITY’s “Everywhere” Capsule Layers Up for Winter",
+      "title": "AURALEE x TEKLA Brings the Outdoors Into the Home for FW26",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/marmot-city-country-city-fall-winter-2026-fw26-everywhere-capsule-release-info",
-      "publishedAt": "Sat, 24 Oct 2026 02:00:26 +0000",
-      "summary": "Summary Marmot and CITY COUNTRY CITY reunite for their sixth capsule collection, titled the “Everywhere” seriesA puffer jacket pairs PrimaLoft insulation with a Pertex Quantum shell, while a Polartec 100 fleece jacket comes with matching pants and a capLong- and short-sleeve tees feature archive-inspired graphics on a cotton-like, moisture-wicking body Marmot and CITY COUNTRY CITY have teamed up again on the “Everywhere” series, their sixth collaborative capsule. Designed for the cold months ahead, the collection centers on technical insulation and fleece layers, rounded out by a pair of graph",
+      "url": "https://hypebeast.com/2026/10/auralee-tekla-capsule-collection-collaboration-release-info",
+      "publishedAt": "Mon, 26 Oct 2026 10:49:03 +0000",
+      "summary": "Summary AURALEE and TEKLA reunite for their second collaboration, exploring Scandinavian winter living.Highlights include wool-cashmere knitwear, checked flannel sleepwear, shearling slippers and home textiles.Launching October 28, the collection blends Japanese craftsmanship with Scandinavian comfort. Finding comfort in the colder months is at the heart of AURALEE and TEKLA's second collaborative capsule, which brings together Japanese textile craftsmanship and Scandinavian sensibilities for Fall/Winter 2026. Following their inaugural partnership back in 2024, the two labels reunite to explor",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,67 +31,67 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F21%2Fmarmot-city-country-city-fall-winter-2026-fw26-everywhere-capsule-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F26%2Fauralee-tekla-capsule-collection-collaboration-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "What Is Brutalism? Alex Eagle Explains How to Bring the Aesthetic Home",
+      "title": "Is the Luxury Fleece Era Over?",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/alo-fleece-hype/",
+      "publishedAt": "Mon, 26 Oct 2026 18:33:00 GMT",
+      "summary": "The \"Fashion Killa\" rapper stepped out in a $148 Alo half-zip fleece again, signaling the end of an era for visually similar, very expensive designer fleece.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "Naeem Khan Spring 2027 Ready-to-Wear",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/eagle-eye-brutalism",
-      "publishedAt": "Sun, 25 Oct 2026 10:00:00 +0000",
-      "summary": "Designer and creative director Alex Eagle on why brutalism feels so current—and how to bring the style home.",
+      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/naeem-khan",
+      "publishedAt": "Tue, 27 Oct 2026 02:48:00 +0000",
+      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ada1685a8b6e4e44f120491/master/pass/final_16x9_Eagle-Eye-montage-flat_october.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ad0923aebef6702bc6359a9/master/pass/00001-naeem-khan-spring-2027-ready-to-wear-credit-brand.jpg"
     },
     {
-      "title": "Vans Sparkly Old Skool 36 Is the Gift That Keeps on Serving",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/vans-old-skool-36-sequins/",
-      "publishedAt": "Sun, 25 Oct 2026 09:10:00 GMT",
-      "summary": "The Meet The Vans collection features a dazzling sequin Old Skool 36 sneaker. It's the gift that keeps on serving.",
+      "title": "Dua Lipa Shows Off Strappy Schiaparelli Satin Shoes at the 2026 London Literature&#160;Festival",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/footwear-news/shoe-trends/dua-lipa-schiaparelli-shoes-london-literature-festival-1239386698/",
+      "publishedAt": "Mon, 26 Oct 2026 19:54:27 +0000",
+      "summary": "She matched them with a Schiaparelli spring 2027 look.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
+        "industry",
+        "runway",
         "brand",
-        "trend",
-        "runway"
+        "trend"
       ],
       "imageUrl": ""
-    },
-    {
-      "title": "The NEEDLES x Pendleton Collection Puts Six Pieces of Archival Wool to Work",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/needles-pendleton-first-collaboration-collection-release-info",
-      "publishedAt": "Sun, 25 Oct 2026 04:30:21 +0000",
-      "summary": "Summary NEEDLES and Pendleton link up for the first time on a six-piece capsule cut from Pendleton’s traditional plaids and wool fabricsA boxy shirt, a jacket with leather elbow patches and a coat in an archival Pendleton pattern lead the outerwear and shirtingPlaid trousers, a mohair sweater in Pendleton’s signature Native-inspired motif and a fully lined Cowichan knit round out the lineup NEEDLES is teaming up with Pendleton for the first time, debuting a six-piece NEEDLES x Pendleton collection that reworks the American mill’s classic plaids and wool cloth. Every garment starts from Pendlet",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F22%2FNEEDLES-Pendleton-First-Collaboration-collection-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/yoke-fw26-norio-terada-interview-hbx-gallery-belowground-pop-up-hong-kong-interview-info",
-    "https://hypebeast.com/2026/10/marmot-city-country-city-fall-winter-2026-fw26-everywhere-capsule-release-info",
-    "https://www.vogue.com/article/eagle-eye-brutalism",
-    "https://www.highsnobiety.com/p/vans-old-skool-36-sequins/",
-    "https://hypebeast.com/2026/10/needles-pendleton-first-collaboration-collection-release-info"
+    "https://hypebeast.com/2026/10/oakley-japan-field-gear-houston-event",
+    "https://hypebeast.com/2026/10/auralee-tekla-capsule-collection-collaboration-release-info",
+    "https://www.highsnobiety.com/p/alo-fleece-hype/",
+    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/naeem-khan",
+    "https://wwd.com/footwear-news/shoe-trends/dua-lipa-schiaparelli-shoes-london-literature-festival-1239386698/"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-26T02:16:54.475Z"
+  "createdAt": "2026-10-27T02:52:52.476Z"
 }
