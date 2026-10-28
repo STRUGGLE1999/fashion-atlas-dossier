@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610270252524193463528268d9d6aK74xKqY)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610280300268383525368268d9d6jTRPAV7W)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Explore the Japan Field Gear Line and Iconic Eyewear Silhouettes at Oakley’s Houston Flagship",
+      "title": "New Arrivals From HBX: Thom Browne",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/oakley-japan-field-gear-houston-event",
-      "publishedAt": "Mon, 26 Oct 2026 19:48:25 +0000",
-      "summary": "Oakley’s Fall/Winter 2026 collection marks a dynamic shift in how performance gear intersects with personal style. Anchored by the tagline \"Shifting skies, solid core,\" the Japan Field Gear Line (FGL) combines weather-resistant technical materials and ergonomic tailoring with bold, highly functional design. Originally rooted in high-performance outdoor innovation, this season’s apparel lineup seamlessly transitions extreme-element protection into modern, everyday streetwear wardrobes.Complementing the apparel is the return of the iconic Oakley Jackets Eyewear Family. Known for pioneering high-",
+      "url": "https://hypebeast.com/2026/10/new-arrivals-from-hbx-thom-browne-4",
+      "publishedAt": "Wed, 28 Oct 2026 00:52:34 +0000",
+      "summary": "Brand Information: Thom Browne is a New York-based global fashion house best known for its iconic 4-Bar stripes and monochromatic palettes. Deeply rooted in luxury tailored suits, Thom Browne redefines modern tailoring with distinctive structures and fits with its ankle-length trousers, narrow lapel collars, and fitted silhouettes. The label carries collections for men, women, and children alike providing a contemporary American uniform look for all generations. Thom Browne's notable collaborations with global partners such as Moncler, Brooks Brothers, and Supreme are testaments to the brand's",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F13%2Foakley-houston-main.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F4-bar-stripe-long-sleeve-t-shirt-navy-product-1-e4233ad9_1793148721.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "AURALEE x TEKLA Brings the Outdoors Into the Home for FW26",
+      "title": "New Arrivals From HBX: Lemaire",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/auralee-tekla-capsule-collection-collaboration-release-info",
-      "publishedAt": "Mon, 26 Oct 2026 10:49:03 +0000",
-      "summary": "Summary AURALEE and TEKLA reunite for their second collaboration, exploring Scandinavian winter living.Highlights include wool-cashmere knitwear, checked flannel sleepwear, shearling slippers and home textiles.Launching October 28, the collection blends Japanese craftsmanship with Scandinavian comfort. Finding comfort in the colder months is at the heart of AURALEE and TEKLA's second collaborative capsule, which brings together Japanese textile craftsmanship and Scandinavian sensibilities for Fall/Winter 2026. Following their inaugural partnership back in 2024, the two labels reunite to explor",
+      "url": "https://hypebeast.com/2026/10/new-arrivals-from-hbx-lemaire-2",
+      "publishedAt": "Tue, 27 Oct 2026 14:53:39 +0000",
+      "summary": "Brand Information: In an age of ever-changing trends, a timeless garment speaks volumes, and one of the leading voices in contemporary fashion will be Lemaire, a French-based fashion label. Helmed by Christophe Lemaire and Sarah-Linh Tran, the label is an expert in refining the classic Parisian style with supple silhouettes, grounded palettes, and utility elements borrowed from traditional Asian clothing. A perfect assemblage of originality and poise, Lemaire's collection will be a most welcome addition to your everyday wardrobe.Price Range: $235.00 USD - $2,085.00 USDWhere to Buy: Available n",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,42 +31,29 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F26%2Fauralee-tekla-capsule-collection-collaboration-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fsmall-care-bag-roasted-pecan-product-1-a37c4133_1793112781.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Is the Luxury Fleece Era Over?",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/alo-fleece-hype/",
-      "publishedAt": "Mon, 26 Oct 2026 18:33:00 GMT",
-      "summary": "The \"Fashion Killa\" rapper stepped out in a $148 Alo half-zip fleece again, signaling the end of an era for visually similar, very expensive designer fleece.",
+      "title": "Schiaparelli Opens Surrealist Atelier Boutique at Hankyu Osaka",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/schiaparelli-opens-surrealist-atelier-boutique-hankyu-osaka",
+      "publishedAt": "Wed, 28 Oct 2026 02:22:22 +0000",
+      "summary": "Summary Maison Schiaparelli has opened a new permanent atelier boutique on the sixth floor of Hankyu OsakaConceived by Creative Director Daniel Roseberry and Swedish architecture studio Halleroed the boutique features brushed stainless steel lacquered wood and an enclosed mirrored jewelry chamberThe retail space showcases the Fall-Winter 2026 collections alongside house signatures including the Secret bag and anatomical jewelry Maison Schiaparelli has officially expanded its retail presence in Japan with the opening of its new Hankyu Osaka atelier boutique. Situated on the department store’s s",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Naeem Khan Spring 2027 Ready-to-Wear",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/naeem-khan",
-      "publishedAt": "Tue, 27 Oct 2026 02:48:00 +0000",
-      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
         "trend",
-        "brand"
+        "runway"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ad0923aebef6702bc6359a9/master/pass/00001-naeem-khan-spring-2027-ready-to-wear-credit-brand.jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F27%2Fschiaparelli-opens-surrealist-atelier-boutique-hankyu-osaka-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Dua Lipa Shows Off Strappy Schiaparelli Satin Shoes at the 2026 London Literature&#160;Festival",
+      "title": "Michelle Monaghan Pairs Deconstructed Joseph Altuzarra With Statement Earrings at WWD&#160;Honors",
       "sourceName": "WWD",
-      "url": "https://wwd.com/footwear-news/shoe-trends/dua-lipa-schiaparelli-shoes-london-literature-festival-1239386698/",
-      "publishedAt": "Mon, 26 Oct 2026 19:54:27 +0000",
-      "summary": "She matched them with a Schiaparelli spring 2027 look.",
+      "url": "https://wwd.com/pop-culture/celebrity-news/michelle-monaghan-altuzarra-dress-wwd-honors-2026-1239388481/",
+      "publishedAt": "Tue, 27 Oct 2026 22:44:39 +0000",
+      "summary": "The actress picked look 37 from the designer's spring 2027 collection and told WWD about one beauty trend she is not eager to try.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "industry",
@@ -75,6 +62,21 @@
         "trend"
       ],
       "imageUrl": ""
+    },
+    {
+      "title": "lululemon’s Clean-Cut Outerwear Collection Arrives at Zalando",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/lululemon-outerwear-2026-zalando-release-info",
+      "publishedAt": "Tue, 27 Oct 2026 17:50:23 +0000",
+      "summary": "Just in time for the new season, sportswear label lululemon brings its technically built outerwear to Zalando. The latest collection applies the label’s refined blueprint to functional styles, giving coats and jackets a versatile edge for everyday wear. With puffer jackets often adopting large silhouettes, lululemon provides a unique alternative through an array of sleeker shapes. Helping to achieve this aesthetic, the label incorporates innovative insulating materials to keep silhouettes tailored while ensuring warmth and weatherproofing. In the Featherweight line, a noticeably weightless fee",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F22%2Flululemon-outerwear-2026-zalando-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
@@ -85,13 +87,13 @@
     "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/oakley-japan-field-gear-houston-event",
-    "https://hypebeast.com/2026/10/auralee-tekla-capsule-collection-collaboration-release-info",
-    "https://www.highsnobiety.com/p/alo-fleece-hype/",
-    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/naeem-khan",
-    "https://wwd.com/footwear-news/shoe-trends/dua-lipa-schiaparelli-shoes-london-literature-festival-1239386698/"
+    "https://hypebeast.com/2026/10/new-arrivals-from-hbx-thom-browne-4",
+    "https://hypebeast.com/2026/10/new-arrivals-from-hbx-lemaire-2",
+    "https://hypebeast.com/2026/10/schiaparelli-opens-surrealist-atelier-boutique-hankyu-osaka",
+    "https://wwd.com/pop-culture/celebrity-news/michelle-monaghan-altuzarra-dress-wwd-honors-2026-1239388481/",
+    "https://hypebeast.com/2026/10/lululemon-outerwear-2026-zalando-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-27T02:52:52.476Z"
+  "createdAt": "2026-10-28T03:00:26.892Z"
 }
