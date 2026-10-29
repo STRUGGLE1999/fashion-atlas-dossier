@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610280300268383525368268d9d6jTRPAV7W)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610290327443805015178268d9d62Xyc01IC)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "New Arrivals From HBX: Thom Browne",
+      "title": "House of Errors Introduces Winter-Ready TOUT SCHUSS Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/new-arrivals-from-hbx-thom-browne-4",
-      "publishedAt": "Wed, 28 Oct 2026 00:52:34 +0000",
-      "summary": "Brand Information: Thom Browne is a New York-based global fashion house best known for its iconic 4-Bar stripes and monochromatic palettes. Deeply rooted in luxury tailored suits, Thom Browne redefines modern tailoring with distinctive structures and fits with its ankle-length trousers, narrow lapel collars, and fitted silhouettes. The label carries collections for men, women, and children alike providing a contemporary American uniform look for all generations. Thom Browne's notable collaborations with global partners such as Moncler, Brooks Brothers, and Supreme are testaments to the brand's",
+      "url": "https://hypebeast.com/2026/10/house-of-errors-tout-schuss-collection-release-info",
+      "publishedAt": "Wed, 28 Oct 2026 17:00:18 +0000",
+      "summary": "Summary London-based label House of Errors has unveiled its latest winter clothing collection dubbed TOUT SCHUSSThe seasonal range immortalizes moments of hiemal joy featuring tactile design details like fleeced snow and embroidered tracksThe full collection officially launches on October 30 via the brand's official webstore London-based label House of Errors is gearing up for the colder months with the introduction of its TOUT SCHUSS Collection. Founded in 2020 by designer Fully, the brand continues its playful approach to luxury, blending imaginative storytelling with elevated craftsmanship ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F4-bar-stripe-long-sleeve-t-shirt-navy-product-1-e4233ad9_1793148721.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F28%2Fhouse-of-errors-tout-schuss-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "New Arrivals From HBX: Lemaire",
+      "title": "adidas Originals by Wales Bonner FW26 Reimagines Retro Sportswear Through Refined Tailoring",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/new-arrivals-from-hbx-lemaire-2",
-      "publishedAt": "Tue, 27 Oct 2026 14:53:39 +0000",
-      "summary": "Brand Information: In an age of ever-changing trends, a timeless garment speaks volumes, and one of the leading voices in contemporary fashion will be Lemaire, a French-based fashion label. Helmed by Christophe Lemaire and Sarah-Linh Tran, the label is an expert in refining the classic Parisian style with supple silhouettes, grounded palettes, and utility elements borrowed from traditional Asian clothing. A perfect assemblage of originality and poise, Lemaire's collection will be a most welcome addition to your everyday wardrobe.Price Range: $235.00 USD - $2,085.00 USDWhere to Buy: Available n",
+      "url": "https://hypebeast.com/2026/10/adidas-originals-by-wales-bonner-fall-winter-2026-collection-campaigns-release-info",
+      "publishedAt": "Wed, 28 Oct 2026 11:39:21 +0000",
+      "summary": "Summary adidas Originals and Wales Bonner revisit their collaborative archive for FW26.Leather outerwear, pinstripe tracksuits and retro football-inspired pieces blend sportswear with refined tailoring.Harley Weir's campaign channels 1980s London ahead of the October 29 launch. For Fall/Winter 2026, adidas Originals and Wales Bonner are looking back to move forward, revisiting the design codes that have defined their longstanding partnership. Rather than simply reproducing past favorites, the latest collection reinterprets the collaboration's signature blend of athletic heritage and sartorial ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,29 +31,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fsmall-care-bag-roasted-pecan-product-1-a37c4133_1793112781.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F28%2Fadidas-originals-by-wales-bonner-fall-winter-2026-collection-campaigns-release-info-1.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Schiaparelli Opens Surrealist Atelier Boutique at Hankyu Osaka",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/schiaparelli-opens-surrealist-atelier-boutique-hankyu-osaka",
-      "publishedAt": "Wed, 28 Oct 2026 02:22:22 +0000",
-      "summary": "Summary Maison Schiaparelli has opened a new permanent atelier boutique on the sixth floor of Hankyu OsakaConceived by Creative Director Daniel Roseberry and Swedish architecture studio Halleroed the boutique features brushed stainless steel lacquered wood and an enclosed mirrored jewelry chamberThe retail space showcases the Fall-Winter 2026 collections alongside house signatures including the Secret bag and anatomical jewelry Maison Schiaparelli has officially expanded its retail presence in Japan with the opening of its new Hankyu Osaka atelier boutique. Situated on the department store’s s",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F27%2Fschiaparelli-opens-surrealist-atelier-boutique-hankyu-osaka-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Michelle Monaghan Pairs Deconstructed Joseph Altuzarra With Statement Earrings at WWD&#160;Honors",
+      "title": "The Best Work Bags for Women to Wear This&#160;Fall",
       "sourceName": "WWD",
-      "url": "https://wwd.com/pop-culture/celebrity-news/michelle-monaghan-altuzarra-dress-wwd-honors-2026-1239388481/",
-      "publishedAt": "Tue, 27 Oct 2026 22:44:39 +0000",
-      "summary": "The actress picked look 37 from the designer's spring 2027 collection and told WWD about one beauty trend she is not eager to try.",
+      "url": "https://wwd.com/shop/shop-fashion/best-designer-work-bags-for-women-1235437605/",
+      "publishedAt": "Wed, 28 Oct 2026 20:10:42 +0000",
+      "summary": "Part convenient carrier of all your essentials, part trend-aligned style statement.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "industry",
@@ -64,19 +49,34 @@
       "imageUrl": ""
     },
     {
-      "title": "lululemon’s Clean-Cut Outerwear Collection Arrives at Zalando",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/lululemon-outerwear-2026-zalando-release-info",
-      "publishedAt": "Tue, 27 Oct 2026 17:50:23 +0000",
-      "summary": "Just in time for the new season, sportswear label lululemon brings its technically built outerwear to Zalando. The latest collection applies the label’s refined blueprint to functional styles, giving coats and jackets a versatile edge for everyday wear. With puffer jackets often adopting large silhouettes, lululemon provides a unique alternative through an array of sleeker shapes. Helping to achieve this aesthetic, the label incorporates innovative insulating materials to keep silhouettes tailored while ensuring warmth and weatherproofing. In the Featherweight line, a noticeably weightless fee",
+      "title": "The Ballgown Wedding Dress Is Back—and Bigger Than Ever",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/traditional-ballgown-wedding-dress-trend",
+      "publishedAt": "Wed, 28 Oct 2026 15:53:20 +0000",
+      "summary": "The ballgown wedding dress has emerged as one of the biggest trends from the fall 2026 bridal collections—here’s why this traditional silhouette is on the rise.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F22%2Flululemon-outerwear-2026-zalando-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6ae213ba1d8abc981af6f728/master/pass/EH_Emilia%20Wickstead%20Bridal%2026_Shot%2012_095.jpg"
+    },
+    {
+      "title": "SC103, the Downtown New York Brand for Clothes Meant to Show Their Seams",
+      "sourceName": "The New York Times Fashion & Style",
+      "url": "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html",
+      "publishedAt": "Wed, 28 Oct 2026 15:45:37 +0000",
+      "summary": "The designs from SC103 capture a yen for garments that wear the signs of the hands that made them.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "style",
+        "culture",
+        "trend",
+        "runway",
+        "brand"
+      ],
+      "imageUrl": "https://static01.nyt.com/images/2026/10/28/multimedia/28ST-SC103-01-wpgq/28ST-SC103-01-wpgq-mediumSquareAt3X.jpg"
     }
   ],
   "trendTags": [
@@ -84,16 +84,18 @@
     "brand",
     "trend",
     "runway",
-    "industry"
+    "industry",
+    "style",
+    "culture"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/new-arrivals-from-hbx-thom-browne-4",
-    "https://hypebeast.com/2026/10/new-arrivals-from-hbx-lemaire-2",
-    "https://hypebeast.com/2026/10/schiaparelli-opens-surrealist-atelier-boutique-hankyu-osaka",
-    "https://wwd.com/pop-culture/celebrity-news/michelle-monaghan-altuzarra-dress-wwd-honors-2026-1239388481/",
-    "https://hypebeast.com/2026/10/lululemon-outerwear-2026-zalando-release-info"
+    "https://hypebeast.com/2026/10/house-of-errors-tout-schuss-collection-release-info",
+    "https://hypebeast.com/2026/10/adidas-originals-by-wales-bonner-fall-winter-2026-collection-campaigns-release-info",
+    "https://wwd.com/shop/shop-fashion/best-designer-work-bags-for-women-1235437605/",
+    "https://www.vogue.com/article/traditional-ballgown-wedding-dress-trend",
+    "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-28T03:00:26.892Z"
+  "createdAt": "2026-10-29T03:27:44.450Z"
 }
