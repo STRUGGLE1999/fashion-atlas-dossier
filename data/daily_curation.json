@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610290327443805015178268d9d62Xyc01IC)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610300329532341619418268d9d6wNNDso1R)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "House of Errors Introduces Winter-Ready TOUT SCHUSS Collection",
+      "title": "Aimé Leon Dore Expands Its Cold-Weather Uniform for FW26",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/house-of-errors-tout-schuss-collection-release-info",
-      "publishedAt": "Wed, 28 Oct 2026 17:00:18 +0000",
-      "summary": "Summary London-based label House of Errors has unveiled its latest winter clothing collection dubbed TOUT SCHUSSThe seasonal range immortalizes moments of hiemal joy featuring tactile design details like fleeced snow and embroidered tracksThe full collection officially launches on October 30 via the brand's official webstore London-based label House of Errors is gearing up for the colder months with the introduction of its TOUT SCHUSS Collection. Founded in 2020 by designer Fully, the brand continues its playful approach to luxury, blending imaginative storytelling with elevated craftsmanship ",
+      "url": "https://hypebeast.com/2026/10/aime-leon-dore-expands-its-cold-weather-uniform-for-fw26",
+      "publishedAt": "Fri, 30 Oct 2026 01:22:56 +0000",
+      "summary": "Summary Aimé Leon Dore has unveiled its 40-piece Fall/Winter 2026 collection spanning cold-weather outerwear knitwear and tailoringThe seasonal range features deconstructed New Balance Mary Janes and Italian-crafted leather bags alongside versatile pieces with unisex appealThe collection launches on Friday October 30 at 11 AM ET online and across flagships in New York Los Angeles and London Aimé Leon Dore has officially introduced its Fall/Winter 2026 Women’s Collection, representing the New York label's largest dedicated seasonal range to date with over 40 individual pieces. Rooted in classic",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F28%2Fhouse-of-errors-tout-schuss-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F29%2Faime-leon-dore-womens-fall-winter-2026-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "adidas Originals by Wales Bonner FW26 Reimagines Retro Sportswear Through Refined Tailoring",
+      "title": "The North Face and Cecilie Bahnsen Reunite for Fourth Collaborative Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/adidas-originals-by-wales-bonner-fall-winter-2026-collection-campaigns-release-info",
-      "publishedAt": "Wed, 28 Oct 2026 11:39:21 +0000",
-      "summary": "Summary adidas Originals and Wales Bonner revisit their collaborative archive for FW26.Leather outerwear, pinstripe tracksuits and retro football-inspired pieces blend sportswear with refined tailoring.Harley Weir's campaign channels 1980s London ahead of the October 29 launch. For Fall/Winter 2026, adidas Originals and Wales Bonner are looking back to move forward, revisiting the design codes that have defined their longstanding partnership. Rather than simply reproducing past favorites, the latest collection reinterprets the collaboration's signature blend of athletic heritage and sartorial ",
+      "url": "https://hypebeast.com/2026/10/the-north-face-cecilie-bahnsen-fourth-collaborative-collection-release-info",
+      "publishedAt": "Fri, 30 Oct 2026 02:05:35 +0000",
+      "summary": "Summary The North Face and Cecilie Bahnsen have officially announced their fourth collaborative capsule debuting a cropped Nuptse Short JacketThe seven-piece assortment merges high-performance materials with couture lace and dimensional floral embroidery in Midnight Sky and TNF BlackThe collection is scheduled to launch in November 2026 with the Nuptse Short arriving later in the month The North Face and Cecilie Bahnsen have officially revealed their fourth collaborative capsule, spotlighting the The North Face x Cecilie Bahnsen Nuptse Short Jacket. First previewed during Bahnsen's Fall/Winter",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,71 +31,66 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F28%2Fadidas-originals-by-wales-bonner-fall-winter-2026-collection-campaigns-release-info-1.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F29%2Fthe-north-face-cecilie-bahnsen-fourth-collaborative-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "The Best Work Bags for Women to Wear This&#160;Fall",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/shop/shop-fashion/best-designer-work-bags-for-women-1235437605/",
-      "publishedAt": "Wed, 28 Oct 2026 20:10:42 +0000",
-      "summary": "Part convenient carrier of all your essentials, part trend-aligned style statement.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "industry",
-        "runway",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "The Ballgown Wedding Dress Is Back—and Bigger Than Ever",
+      "title": "John Elliott Spring 2027 Menswear",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/traditional-ballgown-wedding-dress-trend",
-      "publishedAt": "Wed, 28 Oct 2026 15:53:20 +0000",
-      "summary": "The ballgown wedding dress has emerged as one of the biggest trends from the fall 2026 bridal collections—here’s why this traditional silhouette is on the rise.",
+      "url": "https://www.vogue.com/fashion-shows/spring-2027-menswear/john-elliot-co",
+      "publishedAt": "Fri, 30 Oct 2026 03:29:28 +0000",
+      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae213ba1d8abc981af6f728/master/pass/EH_Emilia%20Wickstead%20Bridal%2026_Shot%2012_095.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ae31b163e8353326daf2560/master/pass/00001-john-elliot-spring-2027-menswear-credit-brand.jpg"
     },
     {
-      "title": "SC103, the Downtown New York Brand for Clothes Meant to Show Their Seams",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html",
-      "publishedAt": "Wed, 28 Oct 2026 15:45:37 +0000",
-      "summary": "The designs from SC103 capture a yen for garments that wear the signs of the hands that made them.",
+      "title": "New Arrivals From HBX: Rick Owens Drkshdw",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/10/new-arrivals-from-hbx-rick-owens-drkshdw-3",
+      "publishedAt": "Fri, 30 Oct 2026 01:45:52 +0000",
+      "summary": "Brand Information: Rick Owens DRKSHDW continues the dark elegance exemplified by its parent brand. Launched in 2005, Rick Owens DRKSHDW is the more accessibly-priced sub-brand of Rick Owens. The sub-brand boasts a streetwear-oriented collection of staples such as sweats, hoodies, T-shirts, shorts, pants, and of course, sneakers. Rick Owens DRKSHDW offers not only a more economic entry point for those who adore the aesthetics of the main brand, but it is also stylistically more subtle for those who want something more toned down.Price Range: $165.00 USD - $1,775.00 USDWhere to Buy: Available no",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "style",
-        "culture",
+        "streetwear",
+        "brand",
         "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fwalrus-t-black-pearl-product-1-1dd67975_1793324702.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "The Best Street Style Photos From the Spring 2027 Shows in Lagos",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-lagos",
+      "publishedAt": "Thu, 29 Oct 2026 21:41:46 +0000",
+      "summary": "Stephen Tayo photographs the best dressed guests at the spring 2027 shows in Lagos.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
         "runway",
+        "trend",
         "brand"
       ],
-      "imageUrl": "https://static01.nyt.com/images/2026/10/28/multimedia/28ST-SC103-01-wpgq/28ST-SC103-01-wpgq-mediumSquareAt3X.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ae3b918252ce528dd1a6c96/master/pass/LAGOSFASHIONWEEK_SS27_streetstyle_day1_Stephentayo_13%20copy.jpg"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway",
-    "industry",
-    "style",
-    "culture"
+    "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/house-of-errors-tout-schuss-collection-release-info",
-    "https://hypebeast.com/2026/10/adidas-originals-by-wales-bonner-fall-winter-2026-collection-campaigns-release-info",
-    "https://wwd.com/shop/shop-fashion/best-designer-work-bags-for-women-1235437605/",
-    "https://www.vogue.com/article/traditional-ballgown-wedding-dress-trend",
-    "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html"
+    "https://hypebeast.com/2026/10/aime-leon-dore-expands-its-cold-weather-uniform-for-fw26",
+    "https://hypebeast.com/2026/10/the-north-face-cecilie-bahnsen-fourth-collaborative-collection-release-info",
+    "https://www.vogue.com/fashion-shows/spring-2027-menswear/john-elliot-co",
+    "https://hypebeast.com/2026/10/new-arrivals-from-hbx-rick-owens-drkshdw-3",
+    "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-lagos"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-29T03:27:44.450Z"
+  "createdAt": "2026-10-30T03:29:53.331Z"
 }
