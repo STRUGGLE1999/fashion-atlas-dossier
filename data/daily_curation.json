@@ -1,95 +1,98 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202610310314355828820738268d9d6JyJDCIGm)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611010312270882243688268d9d6IQE0OOT5)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Yohji Yamamoto to Win Outstanding Achievement Award & Mulier to Debut Versace Couture in This Week's Top Fashion News",
+      "title": "New Arrivals From HBX: Human Made",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/yohji-yamamoto-to-win-outstanding-achievement-award-mulier-to-debut-versace-couture-in-this-weeks-top-fashion-news",
-      "publishedAt": "Fri, 30 Oct 2026 20:30:32 +0000",
-      "summary": "Summary Yohji Yamamoto earns a major BFC honor, while Maison Margiela marks two decades in Ebisu.Atelier Versace heads back to the Paris Couture Week runway under Pieter Mulier.Kith taps Kit Harington for winter, alongside fresh collabs from Maison Margiela x Gentle Monster and Our Legacy x Nike.Yohji Yamamoto Receives Outstanding Achievement Award at British Fashion Council Awards 2026The British Fashion Council has named Japanese designer Yohji Yamamoto as the recipient of the Outstanding Achievement Award for the upcoming 2026 Fashion Awards. Scheduled to take place on November 30 at London",
+      "url": "https://hypebeast.com/2026/10/new-arrivals-from-hbx-human-made-11",
+      "publishedAt": "Sun, 01 Nov 2026 02:31:08 +0000",
+      "summary": "Brand Information: In 2010, Japanese DJ and fashion designer NIGO® launched “HUMAN MADE” in partnership with Pharrell Williams. A lifestyle brand based on the concept of “The Future is in the Past,” HUMAN MADE products combine the best of vintage and street culture with excellent craftsmanship and unique graphics. Based on a casual American style, the brand has a wide range of tastes including workwear, military, sports, outdoor, and classic. Combined with a variety of streetwear, HUMAN MADE definitely has something tailor-made for you.Price Range: $15.00 USD - $1,415.00 USDWhere to Buy: Avail",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend",
-        "runway"
+        "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F30%2Fyohji-yamamoto-versace-kith-kit-harrington-gentle-monster-maison-margiela-our-legacy-nike-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fgraphic-t-shirt-black-32-product-1-8c957a1d_1793500021.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Lemaire’s Best Product Might Be Its Art Shows",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/lemaire-art-shows/",
-      "publishedAt": "Fri, 30 Oct 2026 18:10:01 GMT",
-      "summary": "The French luxury label's in-store exhibition of Surrealist painter Roland Topor combines art and commerce with a perfectly integrated capsule collection.",
+      "title": "Willy Chavarria Teams With Xinú for Limited-Edition Candle&#160;Vessel",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/beauty-industry-news/fragrance/willy-chavarria-xinu-candle-collab-mexico-1239393054/",
+      "publishedAt": "Sat, 31 Oct 2026 19:00:00 +0000",
+      "summary": "The fashion designer is officially launching the collaboration he teased during his spring 2027 ready-to-wear presentation last June.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
+        "industry",
+        "runway",
+        "brand"
       ],
       "imageUrl": ""
     },
     {
-      "title": "Zara’s New Arrivals Have Fall and Winter Dressing Covered",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/best-zara-finds",
-      "publishedAt": "Fri, 30 Oct 2026 22:19:31 +0000",
-      "summary": "From Leather Jackets to Party Dresses, Zara’s New Arrivals Have It All",
+      "title": "SC103, the Downtown New York Brand for Clothes Meant to Show Their Seams",
+      "sourceName": "The New York Times Fashion & Style",
+      "url": "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html",
+      "publishedAt": "Sat, 31 Oct 2026 15:53:03 +0000",
+      "summary": "Starting with a leather link tote, the duo behind SC103 has captured a yen for garments that show their craft.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
+        "style",
+        "culture",
         "trend",
+        "runway",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae4b2e2fec1c32e05754077/master/pass/07521253250-p.jpg"
+      "imageUrl": "https://static01.nyt.com/images/2026/10/28/multimedia/28ST-SC103-01-wpgq/28ST-SC103-01-wpgq-mediumSquareAt3X.jpg"
     },
     {
-      "title": "8 Fresh Ways to Wear Corduroy Pants—To Work, on the Weekend, and Beyond",
+      "title": "The Best Restaurants in Paris Now, From Classic Bistros to Cutting-Edge Tasting Menus",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/how-to-style-corduroy-pants",
-      "publishedAt": "Fri, 30 Oct 2026 21:49:42 +0000",
-      "summary": "As seen on the fall 2026 runways, corduroy pants are a must-have. Shop the best pairs and discover how to style them now.",
+      "url": "https://www.vogue.com/article/best-restaurants-in-paris",
+      "publishedAt": "Sat, 31 Oct 2026 12:00:00 +0000",
+      "summary": "From quintessential bistros to fashion-crowd favorites, find Vogue’s guide to the best restaurants in Paris here.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae259a382728bf22bf47025/master/pass/image4.png"
+      "imageUrl": "https://assets.vogue.com/photos/663d1ea5b4933304ec06a3aa/master/pass/GettyImages-1495733716.jpg"
     },
     {
-      "title": "Angels & Demons: Inside ABT’s Theatrical and Fashion-Filled Fall Gala, Honoring Cynthia Erivo",
+      "title": "The Best Street Style Photos From the Spring 2027 Shows in Lagos",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/abt-fall-gala-2026-honoring-cynthia-erivo",
-      "publishedAt": "Fri, 30 Oct 2026 19:45:45 +0000",
-      "summary": "American Ballet Theatre kicked off Halloweekend a little early on Thursday evening with its Angels & Demons–themed Fall Gala at Lincoln Center, honoring the shapeshifting talents of Grammy, Emmy, and Tony Award–winning actress, musician, and producer Cynthia Erivo",
+      "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-lagos",
+      "publishedAt": "Fri, 30 Oct 2026 19:32:22 +0000",
+      "summary": "Stephen Tayo photographs the best dressed guests at the spring 2027 shows in Lagos.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae4ef4171ca861aaf7cc525/master/pass/Cynthia%20Erivo%20%20(Photo%20by%20Jenny%20Anderson_Getty%20Images%20for%20American%20Ballet%20Theatre)2654.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ae4f06f2f1bc702eeebd078/master/pass/LAGOSFASHIONWEEK_SS27_streetstyle_day2_Stephentayo_02.jpg"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "industry",
+    "runway",
+    "style",
+    "culture"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/yohji-yamamoto-to-win-outstanding-achievement-award-mulier-to-debut-versace-couture-in-this-weeks-top-fashion-news",
-    "https://www.highsnobiety.com/p/lemaire-art-shows/",
-    "https://www.vogue.com/article/best-zara-finds",
-    "https://www.vogue.com/article/how-to-style-corduroy-pants",
-    "https://www.vogue.com/slideshow/abt-fall-gala-2026-honoring-cynthia-erivo"
+    "https://hypebeast.com/2026/10/new-arrivals-from-hbx-human-made-11",
+    "https://wwd.com/beauty-industry-news/fragrance/willy-chavarria-xinu-candle-collab-mexico-1239393054/",
+    "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html",
+    "https://www.vogue.com/article/best-restaurants-in-paris",
+    "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-lagos"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-10-31T03:14:35.665Z"
+  "createdAt": "2026-11-01T03:12:27.150Z"
 }
