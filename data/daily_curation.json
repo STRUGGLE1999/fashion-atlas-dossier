@@ -1,98 +1,97 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611010312270882243688268d9d6IQE0OOT5)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611020321519758139758268d9d6hsNXayEo)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "New Arrivals From HBX: Human Made",
+      "title": "Yohji Yamamoto to Win Outstanding Achievement Award & Mulier to Debut Versace Couture in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/new-arrivals-from-hbx-human-made-11",
-      "publishedAt": "Sun, 01 Nov 2026 02:31:08 +0000",
-      "summary": "Brand Information: In 2010, Japanese DJ and fashion designer NIGO® launched “HUMAN MADE” in partnership with Pharrell Williams. A lifestyle brand based on the concept of “The Future is in the Past,” HUMAN MADE products combine the best of vintage and street culture with excellent craftsmanship and unique graphics. Based on a casual American style, the brand has a wide range of tastes including workwear, military, sports, outdoor, and classic. Combined with a variety of streetwear, HUMAN MADE definitely has something tailor-made for you.Price Range: $15.00 USD - $1,415.00 USDWhere to Buy: Avail",
+      "url": "https://hypebeast.com/2026/10/yohji-yamamoto-to-win-outstanding-achievement-award-mulier-to-debut-versace-couture-in-this-weeks-top-fashion-news",
+      "publishedAt": "Fri, 30 Oct 2026 20:30:32 +0000",
+      "summary": "Summary Yohji Yamamoto earns a major BFC honor, while Maison Margiela marks two decades in Ebisu.Atelier Versace heads back to the Paris Couture Week runway under Pieter Mulier.Kith taps Kit Harington for winter, alongside fresh collabs from Maison Margiela x Gentle Monster and Our Legacy x Nike.Yohji Yamamoto Receives Outstanding Achievement Award at British Fashion Council Awards 2026The British Fashion Council has named Japanese designer Yohji Yamamoto as the recipient of the Outstanding Achievement Award for the upcoming 2026 Fashion Awards. Scheduled to take place on November 30 at London",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend"
+        "trend",
+        "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2Fgraphic-t-shirt-black-32-product-1-8c957a1d_1793500021.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F30%2Fyohji-yamamoto-versace-kith-kit-harrington-gentle-monster-maison-margiela-our-legacy-nike-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Willy Chavarria Teams With Xinú for Limited-Edition Candle&#160;Vessel",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/willy-chavarria-xinu-candle-collab-mexico-1239393054/",
-      "publishedAt": "Sat, 31 Oct 2026 19:00:00 +0000",
-      "summary": "The fashion designer is officially launching the collaboration he teased during his spring 2027 ready-to-wear presentation last June.",
+      "title": "Louis Vuitton Unveils Weather-Defying SS27 Men's Pre-Collection",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/pharrell-williams-louis-vuitton-ss27-mens-pre-collection-lookbook-release-info",
+      "publishedAt": "Sun, 01 Nov 2026 04:18:06 +0000",
+      "summary": "Summary Louis Vuitton has unveiled its Spring-Summer 2027 Men's Pre-Collection designed by Men's Creative Director Pharrell WilliamsCentered on the theme Whatever the Weather the lineup showcases trompe l'oeil illusions alongside weathered Monogram Reporter bagsThe seasonal range expands into technical footwear including the LV Drop 300 sneaker and mud-splattered LV Ranger boots Louis Vuitton has officially unveiled its Spring/Summer 2027 Men’s Pre-Collection, designed by Men's Creative Director Pharrell Williams under the guiding title \"Whatever the Weather.\" Engineered for the global travele",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "industry",
-        "runway",
-        "brand"
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F29%2Fpharrell-williams-louis-vuitton-ss27-mens-pre-collection-lookbook-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Nike’s ‘Space Jam’ Air Jordans Went Full Bottega",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/jordan-11-space-jam-green-screen/",
+      "publishedAt": "Sun, 01 Nov 2026 20:54:18 GMT",
+      "summary": "The Air Jordan 11 gets a refresh for the 'Space Jam' collection, resulting in this tonal Bottega-style \"Green Screen\" version of the sneaker.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
       ],
       "imageUrl": ""
     },
     {
-      "title": "SC103, the Downtown New York Brand for Clothes Meant to Show Their Seams",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html",
-      "publishedAt": "Sat, 31 Oct 2026 15:53:03 +0000",
-      "summary": "Starting with a leather link tote, the duo behind SC103 has captured a yen for garments that show their craft.",
+      "title": "Palace and Burberry Announce Limited-Edition Capsule for London Flagship Opening",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/palace-skateboard-burberry-limited-edition-capsule-london-flagship-opening-exclusive-collaboration-release-info",
+      "publishedAt": "Sun, 01 Nov 2026 09:00:20 +0000",
+      "summary": "Summary Palace and Burberry have announced a limited-edition 10-piece collaborative capsule celebrating the opening of Palace's new London flagshipThe lineup reinterprets the classic Camden car coat in honey beige alongside graphic tees hooded jackets caps skateboards and a hybrid Tri-Ferg Equestrian Knight logoThe collection launches on November 5 exclusively in person at Palace's new Soho flagship located at 8 Poland Street Palace and Burberry have officially announced an exclusive collaborative collection, celebrating the opening of the London streetwear label's new flagship space. Uniting ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "style",
-        "culture",
+        "streetwear",
+        "brand",
         "trend",
-        "runway",
-        "brand"
+        "runway"
       ],
-      "imageUrl": "https://static01.nyt.com/images/2026/10/28/multimedia/28ST-SC103-01-wpgq/28ST-SC103-01-wpgq-mediumSquareAt3X.jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F31%2Fpalace-skateboard-burberry-limited-edition-capsule-london-flagship-opening-exclusive-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "The Best Restaurants in Paris Now, From Classic Bistros to Cutting-Edge Tasting Menus",
+      "title": "Harry Styles’s Thank-You Note to New York? A Special Issue of The Village Voice",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/best-restaurants-in-paris",
-      "publishedAt": "Sat, 31 Oct 2026 12:00:00 +0000",
-      "summary": "From quintessential bistros to fashion-crowd favorites, find Vogue’s guide to the best restaurants in Paris here.",
+      "url": "https://www.vogue.com/article/harry-styles-the-village-voice-special-issue",
+      "publishedAt": "Sun, 01 Nov 2026 15:05:00 +0000",
+      "summary": "“It has been an honour to live and work in your city for the past three months,” Harry Styles writes in a note addressed to “friends, strangers, citizens of New York.” “The energy of the audiences, the openness, the dancing, the sheer joy, will never leave me; it altered me.”",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/663d1ea5b4933304ec06a3aa/master/pass/GettyImages-1495733716.jpg"
-    },
-    {
-      "title": "The Best Street Style Photos From the Spring 2027 Shows in Lagos",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-lagos",
-      "publishedAt": "Fri, 30 Oct 2026 19:32:22 +0000",
-      "summary": "Stephen Tayo photographs the best dressed guests at the spring 2027 shows in Lagos.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae4f06f2f1bc702eeebd078/master/pass/LAGOSFASHIONWEEK_SS27_streetstyle_day2_Stephentayo_02.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6ae6704c9f8696a299c0964f/master/pass/image1.png"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "industry",
-    "runway",
-    "style",
-    "culture"
+    "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/new-arrivals-from-hbx-human-made-11",
-    "https://wwd.com/beauty-industry-news/fragrance/willy-chavarria-xinu-candle-collab-mexico-1239393054/",
-    "https://www.nytimes.com/2026/10/28/style/sc103-claire-mckinney-sophie-andes-gascon-new-york.html",
-    "https://www.vogue.com/article/best-restaurants-in-paris",
-    "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-lagos"
+    "https://hypebeast.com/2026/10/yohji-yamamoto-to-win-outstanding-achievement-award-mulier-to-debut-versace-couture-in-this-weeks-top-fashion-news",
+    "https://hypebeast.com/2026/11/pharrell-williams-louis-vuitton-ss27-mens-pre-collection-lookbook-release-info",
+    "https://www.highsnobiety.com/p/jordan-11-space-jam-green-screen/",
+    "https://hypebeast.com/2026/11/palace-skateboard-burberry-limited-edition-capsule-london-flagship-opening-exclusive-collaboration-release-info",
+    "https://www.vogue.com/article/harry-styles-the-village-voice-special-issue"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-01T03:12:27.150Z"
+  "createdAt": "2026-11-02T03:21:52.072Z"
 }
