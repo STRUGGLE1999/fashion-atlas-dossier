@@ -1,14 +1,28 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611020321519758139758268d9d6hsNXayEo)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611030433206531096248268d9d6MvXWeoLa)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Yohji Yamamoto to Win Outstanding Achievement Award & Mulier to Debut Versace Couture in This Week's Top Fashion News",
+      "title": "And the Winner Is … See Who Walked Away With the Top Prizes at the 2026 CFDA Awards",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/cfda-awards-2026-winners-honorees",
+      "publishedAt": "Tue, 03 Nov 2026 03:41:20 +0000",
+      "summary": "See the full list of 2026 CFDA Fashion Awards winners, celebrating the best in American fashion, including womenswear, menswear, accessories, and emerging designers.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6ae9576ce56bfc38edc0c760/master/pass/2302813738"
+    },
+    {
+      "title": "18 East Revives Alphanumeric for Artisanal Fall 2026 Skate Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/10/yohji-yamamoto-to-win-outstanding-achievement-award-mulier-to-debut-versace-couture-in-this-weeks-top-fashion-news",
-      "publishedAt": "Fri, 30 Oct 2026 20:30:32 +0000",
-      "summary": "Summary Yohji Yamamoto earns a major BFC honor, while Maison Margiela marks two decades in Ebisu.Atelier Versace heads back to the Paris Couture Week runway under Pieter Mulier.Kith taps Kit Harington for winter, alongside fresh collabs from Maison Margiela x Gentle Monster and Our Legacy x Nike.Yohji Yamamoto Receives Outstanding Achievement Award at British Fashion Council Awards 2026The British Fashion Council has named Japanese designer Yohji Yamamoto as the recipient of the Outstanding Achievement Award for the upcoming 2026 Fashion Awards. Scheduled to take place on November 30 at London",
+      "url": "https://hypebeast.com/2026/11/18-east-alphanumeric-fall-2026-skate-collaboration-collection-release-info",
+      "publishedAt": "Mon, 02 Nov 2026 14:58:15 +0000",
+      "summary": "Summary 18 East has unveiled its Fall 2026 collection featuring a collaborative nine-piece capsule with Alyasha Owerka Moore's AlphanumericThe capsule reimagines archival skatewear designs through artisanal hand block printing organic cotton fleeces and hand-knit Japanese beaniesThe full seasonal collection is scheduled to release on October 29 at 11 AM ET via the Eighteen East webstore and its New York studio 18 East has officially introduced its Fall 2026 skate collection, anchored by a collaborative nine-piece capsule reviving Alyasha Owerka Moore's influential brand, Alphanumeric. Unveiled",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +30,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F30%2Fyohji-yamamoto-versace-kith-kit-harrington-gentle-monster-maison-margiela-our-legacy-nike-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F02%2F18-east-alphanumeric-fall-2026-skate-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Louis Vuitton Unveils Weather-Defying SS27 Men's Pre-Collection",
+      "title": "Corteiz and Nike Officially Reveal the CRTZ Shox R419 Mystique and Apparel Capsule",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/pharrell-williams-louis-vuitton-ss27-mens-pre-collection-lookbook-release-info",
-      "publishedAt": "Sun, 01 Nov 2026 04:18:06 +0000",
-      "summary": "Summary Louis Vuitton has unveiled its Spring-Summer 2027 Men's Pre-Collection designed by Men's Creative Director Pharrell WilliamsCentered on the theme Whatever the Weather the lineup showcases trompe l'oeil illusions alongside weathered Monogram Reporter bagsThe seasonal range expands into technical footwear including the LV Drop 300 sneaker and mud-splattered LV Ranger boots Louis Vuitton has officially unveiled its Spring/Summer 2027 Men’s Pre-Collection, designed by Men's Creative Director Pharrell Williams under the guiding title \"Whatever the Weather.\" Engineered for the global travele",
+      "url": "https://hypebeast.com/2026/11/corteiz-nike-crtz-shox-r419-mystique-apparel-capsule-release-info",
+      "publishedAt": "Tue, 03 Nov 2026 02:08:25 +0000",
+      "summary": "Summary Corteiz and Nike have officially unveiled the CRTZ Nike Shox R419 Mystique alongside a full royal blue apparel collectionThe collaborative capsule features sweatsuits performance shirts beanies and a signature tracksuit with black accents and futuristic interior liningThe entire collection is scheduled to launch online on Wednesday November 4 at 7 Pp.m.M London time London streetwear imprint Corteiz and athletic giant Nike have officially revealed their upcoming collaborative drop, headlined by the CRTZ Nike Shox R419 Mystique sneaker and a matching apparel collection. Taking to Instag",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,14 +45,28 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F29%2Fpharrell-williams-louis-vuitton-ss27-mens-pre-collection-lookbook-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F02%2Fcorteiz-nike-crtz-shox-r419-mystique-apparel-capsule-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Nike’s ‘Space Jam’ Air Jordans Went Full Bottega",
+      "title": "Ayumu Hirano's Style, Distilled Into a 400-Gram Down Jacket",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/ayumu-hiranos-style-distilled-into-a-400-gram-down-jacket",
+      "publishedAt": "Tue, 03 Nov 2026 01:00:55 +0000",
+      "summary": "Ayumu Hirano has long remained at the forefront of professional snowboarding while cultivating a style entirely his own. Now, a new piece born from his years of apparel development with UNIQLO is set to arrive: the Light Down Volume Jacket, launching for Fall/Winter 2026. The design traces its origins to a special competition model developed for Hirano to wear while training and competing. Since appointing him as a global brand ambassador in 2018, UNIQLO has continued to create performance wear alongside the athlete - from Hybrid Down, which strategically combines down and synthetic insulation",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F29%2Fayumu-hiranos-style-distilled-into-a-400-gram-down-jacket-000a.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "New Balance Trackside Makes Uniform Dressing Easy (& Elevated)",
       "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/jordan-11-space-jam-green-screen/",
-      "publishedAt": "Sun, 01 Nov 2026 20:54:18 GMT",
-      "summary": "The Air Jordan 11 gets a refresh for the 'Space Jam' collection, resulting in this tonal Bottega-style \"Green Screen\" version of the sneaker.",
+      "url": "https://www.highsnobiety.com/p/hs-new-balance-trackside/",
+      "publishedAt": "Mon, 02 Nov 2026 23:01:00 GMT",
+      "summary": "Striking his perfect balance between comfy and fly, our editor, Jason Meggyesy, steps out in the new Trackside collection, merging function and fashion for everyday wear.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -47,51 +75,22 @@
         "runway"
       ],
       "imageUrl": ""
-    },
-    {
-      "title": "Palace and Burberry Announce Limited-Edition Capsule for London Flagship Opening",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/palace-skateboard-burberry-limited-edition-capsule-london-flagship-opening-exclusive-collaboration-release-info",
-      "publishedAt": "Sun, 01 Nov 2026 09:00:20 +0000",
-      "summary": "Summary Palace and Burberry have announced a limited-edition 10-piece collaborative capsule celebrating the opening of Palace's new London flagshipThe lineup reinterprets the classic Camden car coat in honey beige alongside graphic tees hooded jackets caps skateboards and a hybrid Tri-Ferg Equestrian Knight logoThe collection launches on November 5 exclusively in person at Palace's new Soho flagship located at 8 Poland Street Palace and Burberry have officially announced an exclusive collaborative collection, celebrating the opening of the London streetwear label's new flagship space. Uniting ",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F31%2Fpalace-skateboard-burberry-limited-edition-capsule-london-flagship-opening-exclusive-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Harry Styles’s Thank-You Note to New York? A Special Issue of The Village Voice",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/harry-styles-the-village-voice-special-issue",
-      "publishedAt": "Sun, 01 Nov 2026 15:05:00 +0000",
-      "summary": "“It has been an honour to live and work in your city for the past three months,” Harry Styles writes in a note addressed to “friends, strangers, citizens of New York.” “The energy of the audiences, the openness, the dancing, the sheer joy, will never leave me; it altered me.”",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae6704c9f8696a299c0964f/master/pass/image1.png"
     }
   ],
   "trendTags": [
-    "streetwear",
-    "brand",
+    "runway",
     "trend",
-    "runway"
+    "brand",
+    "streetwear"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/10/yohji-yamamoto-to-win-outstanding-achievement-award-mulier-to-debut-versace-couture-in-this-weeks-top-fashion-news",
-    "https://hypebeast.com/2026/11/pharrell-williams-louis-vuitton-ss27-mens-pre-collection-lookbook-release-info",
-    "https://www.highsnobiety.com/p/jordan-11-space-jam-green-screen/",
-    "https://hypebeast.com/2026/11/palace-skateboard-burberry-limited-edition-capsule-london-flagship-opening-exclusive-collaboration-release-info",
-    "https://www.vogue.com/article/harry-styles-the-village-voice-special-issue"
+    "https://www.vogue.com/article/cfda-awards-2026-winners-honorees",
+    "https://hypebeast.com/2026/11/18-east-alphanumeric-fall-2026-skate-collaboration-collection-release-info",
+    "https://hypebeast.com/2026/11/corteiz-nike-crtz-shox-r419-mystique-apparel-capsule-release-info",
+    "https://hypebeast.com/2026/11/ayumu-hiranos-style-distilled-into-a-400-gram-down-jacket",
+    "https://www.highsnobiety.com/p/hs-new-balance-trackside/"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-02T03:21:52.072Z"
+  "createdAt": "2026-11-03T04:33:20.769Z"
 }
