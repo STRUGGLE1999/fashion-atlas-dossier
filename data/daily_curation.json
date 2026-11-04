@@ -1,28 +1,43 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611030433206531096248268d9d6MvXWeoLa)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611040353149402614918268d9d6G7Y1EhHh)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "And the Winner Is … See Who Walked Away With the Top Prizes at the 2026 CFDA Awards",
+      "title": "Supreme x Vaquera Fall 2026 Collaboration Collection",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/supreme-vaquera-fall-2026-collaboration-collection-release-info",
+      "publishedAt": "Tue, 03 Nov 2026 11:30:48 +0000",
+      "summary": "Summary Supreme has officially unveiled a collaborative Fall collection with American fashion house VaqueraThe collection spans zip-up hoodies graphic tops loose-fit denim basketball shorts and a duvet setThe full Supreme and Vaquera collection is scheduled to release on November 5 followed by an Asia launch on November 7 Supreme has officially partnered with fashion house Vaquera on a collaborative apparel and home goods capsule for Fall 2026. Designed alongside the New York-founded, Paris-based label, the seasonal offering brings Vaquera's playfully subversive \"fashion fan-fiction\" perspecti",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F03%2Fsupreme-vaquera-fall-2026-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Hailey! Demi! Keke! An Exclusive Behind-the-Scenes Look at the 2026 CFDA Awards",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/cfda-awards-2026-winners-honorees",
-      "publishedAt": "Tue, 03 Nov 2026 03:41:20 +0000",
-      "summary": "See the full list of 2026 CFDA Fashion Awards winners, celebrating the best in American fashion, including womenswear, menswear, accessories, and emerging designers.",
+      "url": "https://www.vogue.com/slideshow/cfda-awards-photos",
+      "publishedAt": "Tue, 03 Nov 2026 13:04:07 +0000",
+      "summary": "See the full list of 2026 CFDA Awards winners, celebrating the best in American fashion, including womenswear, menswear, accessories, and emerging designers.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae9576ce56bfc38edc0c760/master/pass/2302813738"
+      "imageUrl": "https://assets.vogue.com/photos/6ae9cca5a87cd08549783ac6/master/pass/20261102_CFDA_AWARDS_VOGUE_winners_walk_HunterAbramsStudiosLLC-203.jpg"
     },
     {
-      "title": "18 East Revives Alphanumeric for Artisanal Fall 2026 Skate Collection",
+      "title": "New Arrivals From HBX: Protocol-Index",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/18-east-alphanumeric-fall-2026-skate-collaboration-collection-release-info",
-      "publishedAt": "Mon, 02 Nov 2026 14:58:15 +0000",
-      "summary": "Summary 18 East has unveiled its Fall 2026 collection featuring a collaborative nine-piece capsule with Alyasha Owerka Moore's AlphanumericThe capsule reimagines archival skatewear designs through artisanal hand block printing organic cotton fleeces and hand-knit Japanese beaniesThe full seasonal collection is scheduled to release on October 29 at 11 AM ET via the Eighteen East webstore and its New York studio 18 East has officially introduced its Fall 2026 skate collection, anchored by a collaborative nine-piece capsule reviving Alyasha Owerka Moore's influential brand, Alphanumeric. Unveiled",
+      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-protocol-index-3",
+      "publishedAt": "Tue, 03 Nov 2026 14:05:23 +0000",
+      "summary": "Brand Information: Protocol-Index is a Seoul-based design studio founded by Augustine Oh and Jude Lee, former creative director of Project G/R. Specializing in high-fashion collections, spatial interventions, and bold visual direction. It deconstructs conventions through expansion and reduction, merging progressive philosophy with craftsmanship to deliver boundary-pushing experiences for a global audience.Price Range: $125.00 USD - $320.00 USDWhere to Buy: Available now on HBX Click here to view full gallery at Hypebeast",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -30,67 +45,51 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F02%2F18-east-alphanumeric-fall-2026-skate-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fconvention-t-shirt-black-product-1-4e9ebf0e_1793714701.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Corteiz and Nike Officially Reveal the CRTZ Shox R419 Mystique and Apparel Capsule",
+      "title": "Ralph Lauren Wins American Menswear Designer of the Year at 2026 CFDA Awards",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/corteiz-nike-crtz-shox-r419-mystique-apparel-capsule-release-info",
-      "publishedAt": "Tue, 03 Nov 2026 02:08:25 +0000",
-      "summary": "Summary Corteiz and Nike have officially unveiled the CRTZ Nike Shox R419 Mystique alongside a full royal blue apparel collectionThe collaborative capsule features sweatsuits performance shirts beanies and a signature tracksuit with black accents and futuristic interior liningThe entire collection is scheduled to launch online on Wednesday November 4 at 7 Pp.m.M London time London streetwear imprint Corteiz and athletic giant Nike have officially revealed their upcoming collaborative drop, headlined by the CRTZ Nike Shox R419 Mystique sneaker and a matching apparel collection. Taking to Instag",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F02%2Fcorteiz-nike-crtz-shox-r419-mystique-apparel-capsule-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "Ayumu Hirano's Style, Distilled Into a 400-Gram Down Jacket",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/ayumu-hiranos-style-distilled-into-a-400-gram-down-jacket",
-      "publishedAt": "Tue, 03 Nov 2026 01:00:55 +0000",
-      "summary": "Ayumu Hirano has long remained at the forefront of professional snowboarding while cultivating a style entirely his own. Now, a new piece born from his years of apparel development with UNIQLO is set to arrive: the Light Down Volume Jacket, launching for Fall/Winter 2026. The design traces its origins to a special competition model developed for Hirano to wear while training and competing. Since appointing him as a global brand ambassador in 2018, UNIQLO has continued to create performance wear alongside the athlete - from Hybrid Down, which strategically combines down and synthetic insulation",
+      "url": "https://hypebeast.com/2026/11/ralph-lauren-wins-american-menswear-designer-of-the-year-2026-cfda-awards-news",
+      "publishedAt": "Tue, 03 Nov 2026 13:05:26 +0000",
+      "summary": "Summary Ralph Lauren was named American Menswear Designer of the Year at the 2026 CFDA Fashion AwardsActor Matt Damon presented the award to Lauren who previously secured the menswear title in 1996 and 2007Lauren remains the only designer in history to claim all of the CFDA's top honors throughout his career American fashion institution Ralph Lauren took home the American Menswear Designer of the Year title at the 2026 CFDA Fashion Awards, held Monday night at the American Museum of Natural History. The accolade marks the third time Lauren has secured the organization's highest menswear prize,",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F29%2Fayumu-hiranos-style-distilled-into-a-400-gram-down-jacket-000a.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F03%2Fralph-lauren-wins-american-menswear-designer-of-the-year-2026-cfda-awards-news-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "New Balance Trackside Makes Uniform Dressing Easy (& Elevated)",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/hs-new-balance-trackside/",
-      "publishedAt": "Mon, 02 Nov 2026 23:01:00 GMT",
-      "summary": "Striking his perfect balance between comfy and fly, our editor, Jason Meggyesy, steps out in the new Trackside collection, merging function and fashion for everyday wear.",
+      "title": "Daniel Roseberry’s Victorious Fashion Journey Was Spotlighted at the Hirshhorn Gala",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/slideshow/daniel-roseberry-hirshhorn-gala-2026",
+      "publishedAt": "Tue, 03 Nov 2026 21:37:10 +0000",
+      "summary": "Even if they weren’t in Schiaparelli looks, many attendees wore gilded accessories in honor of the designer, who received the Hirshhorn’s Leader in the Arts Award.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://assets.vogue.com/photos/6aea3ca787a941797f3bcee4/master/pass/BFA-MAIN-DanielRoseberry-Emily%20Blunt.jpg"
     }
   ],
   "trendTags": [
-    "runway",
-    "trend",
+    "streetwear",
     "brand",
-    "streetwear"
+    "trend",
+    "runway"
   ],
   "sourceUrls": [
-    "https://www.vogue.com/article/cfda-awards-2026-winners-honorees",
-    "https://hypebeast.com/2026/11/18-east-alphanumeric-fall-2026-skate-collaboration-collection-release-info",
-    "https://hypebeast.com/2026/11/corteiz-nike-crtz-shox-r419-mystique-apparel-capsule-release-info",
-    "https://hypebeast.com/2026/11/ayumu-hiranos-style-distilled-into-a-400-gram-down-jacket",
-    "https://www.highsnobiety.com/p/hs-new-balance-trackside/"
+    "https://hypebeast.com/2026/11/supreme-vaquera-fall-2026-collaboration-collection-release-info",
+    "https://www.vogue.com/slideshow/cfda-awards-photos",
+    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-protocol-index-3",
+    "https://hypebeast.com/2026/11/ralph-lauren-wins-american-menswear-designer-of-the-year-2026-cfda-awards-news",
+    "https://www.vogue.com/slideshow/daniel-roseberry-hirshhorn-gala-2026"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-03T04:33:20.769Z"
+  "createdAt": "2026-11-04T03:53:15.018Z"
 }
