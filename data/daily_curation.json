@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611040353149402614918268d9d6G7Y1EhHh)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611050413026255593518268d9d6Lpp5GHMO)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Supreme x Vaquera Fall 2026 Collaboration Collection",
+      "title": "8 Drops You Don’t Want to Miss This Week",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/supreme-vaquera-fall-2026-collaboration-collection-release-info",
-      "publishedAt": "Tue, 03 Nov 2026 11:30:48 +0000",
-      "summary": "Summary Supreme has officially unveiled a collaborative Fall collection with American fashion house VaqueraThe collection spans zip-up hoodies graphic tops loose-fit denim basketball shorts and a duvet setThe full Supreme and Vaquera collection is scheduled to release on November 5 followed by an Asia launch on November 7 Supreme has officially partnered with fashion house Vaquera on a collaborative apparel and home goods capsule for Fall 2026. Designed alongside the New York-founded, Paris-based label, the seasonal offering brings Vaquera's playfully subversive \"fashion fan-fiction\" perspecti",
+      "url": "https://hypebeast.com/2026/11/best-drops-november-week-1-supreme-palace-bape",
+      "publishedAt": "Wed, 04 Nov 2026 13:30:42 +0000",
+      "summary": "With another week upon us, we have yet another installment of our product drops series.This week’s lineup kicks off with Supreme teaming up with Vaquera on a campy Fall 2026 capsule that stretches from graphic hoodies to a duvet set. Fear of God follows by tapping Jon Bernthal to front the campaign for The Eternal Order, while BAPE and adidas enlist Jalen Williams for a Y2K hoops collection led by the Crazy Energy+. In London, Palace Skateboards celebrates its new Poland Street flagship with a store-exclusive Burberry capsule, and back in Los Angeles, Crenshaw Skate Club and Sprite turn South ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,28 +16,28 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F03%2Fsupreme-vaquera-fall-2026-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F04%2Fbest-drops-november-week-1-supreme-palace-bape-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Hailey! Demi! Keke! An Exclusive Behind-the-Scenes Look at the 2026 CFDA Awards",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/cfda-awards-photos",
-      "publishedAt": "Tue, 03 Nov 2026 13:04:07 +0000",
-      "summary": "See the full list of 2026 CFDA Awards winners, celebrating the best in American fashion, including womenswear, menswear, accessories, and emerging designers.",
+      "title": "ACCENT Is Hiring A Public Relations Publicist, Fashion & Luxury Lifestyle In New York, NY",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/11/accent-is-hiring-a-public-relations-publicist-fashion-luxury-lifestyle-in-new-york-ny",
+      "publishedAt": "Wed, 04 Nov 2026 20:54:20 GMT",
+      "summary": "Accent is a New York-based public relations agency specializing in fashion, luxury, and lifestyle. We are seeking a motivated, highly organized, and well-connected Public Relations Manager to join our growing team.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
         "trend",
-        "brand"
+        "brand",
+        "industry"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae9cca5a87cd08549783ac6/master/pass/20261102_CFDA_AWARDS_VOGUE_winners_walk_HunterAbramsStudiosLLC-203.jpg"
+      "imageUrl": "https://fashionista.com/.image/MTk2MzkwOTcyNjE4MTg4NDM0/accent-pr_oject.png?profile=rss"
     },
     {
-      "title": "New Arrivals From HBX: Protocol-Index",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-protocol-index-3",
-      "publishedAt": "Tue, 03 Nov 2026 14:05:23 +0000",
-      "summary": "Brand Information: Protocol-Index is a Seoul-based design studio founded by Augustine Oh and Jude Lee, former creative director of Project G/R. Specializing in high-fashion collections, spatial interventions, and bold visual direction. It deconstructs conventions through expansion and reduction, merging progressive philosophy with craftsmanship to deliver boundary-pushing experiences for a global audience.Price Range: $125.00 USD - $320.00 USDWhere to Buy: Available now on HBX Click here to view full gallery at Hypebeast",
+      "title": "This Japanese Workwear is for Actual Furniture Designers",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/this-japanese-workwear-is-for-actual-furniture-designers/",
+      "publishedAt": "Wed, 04 Nov 2026 18:57:57 GMT",
+      "summary": "Jun Takahashi's UNDERCOVER label partnered with art-furniture design firm Studio Valentin Loellmann to create a workwear collection built for working.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -45,51 +45,52 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fconvention-t-shirt-black-product-1-4e9ebf0e_1793714701.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": ""
     },
     {
-      "title": "Ralph Lauren Wins American Menswear Designer of the Year at 2026 CFDA Awards",
+      "title": "Coperni Closes Brand as Founders Cease Operations",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/ralph-lauren-wins-american-menswear-designer-of-the-year-2026-cfda-awards-news",
-      "publishedAt": "Tue, 03 Nov 2026 13:05:26 +0000",
-      "summary": "Summary Ralph Lauren was named American Menswear Designer of the Year at the 2026 CFDA Fashion AwardsActor Matt Damon presented the award to Lauren who previously secured the menswear title in 1996 and 2007Lauren remains the only designer in history to claim all of the CFDA's top honors throughout his career American fashion institution Ralph Lauren took home the American Menswear Designer of the Year title at the 2026 CFDA Fashion Awards, held Monday night at the American Museum of Natural History. The accolade marks the third time Lauren has secured the organization's highest menswear prize,",
+      "url": "https://hypebeast.com/2026/11/coperni-closes-brand-founders-arnaud-vaillant-sebastien-meyer-cease-operations-news",
+      "publishedAt": "Wed, 04 Nov 2026 14:41:44 +0000",
+      "summary": "Summary French operating entity Coperni SAS will cease operations after failing to reach an agreement with distributor TomorrowCo-founders Arnaud Vaillant and Sébastien Meyer confirmed the closure following months of dispute over unpaid sumsThe decision officially brings an end to the eight-year-old Paris-based fashion label Parisian fashion brand Coperni is closing its operations as co-founders Arnaud Vaillant and Sébastien Meyer officially shutter the label. According to statements shared by the designers, the main French operating entity Coperni SAS will cease all business activities after ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F03%2Fralph-lauren-wins-american-menswear-designer-of-the-year-2026-cfda-awards-news-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F04%2Fcoperni-closes-brand-founders-arnaud-vaillant-sebastien-meyer-cease-operations-news-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Daniel Roseberry’s Victorious Fashion Journey Was Spotlighted at the Hirshhorn Gala",
+      "title": "Forget Arrakis, Zendaya’s Latest Look Comes From a London Auto Shop",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/slideshow/daniel-roseberry-hirshhorn-gala-2026",
-      "publishedAt": "Tue, 03 Nov 2026 21:37:10 +0000",
-      "summary": "Even if they weren’t in Schiaparelli looks, many attendees wore gilded accessories in honor of the designer, who received the Hirshhorn’s Leader in the Arts Award.",
+      "url": "https://www.vogue.com/article/zendaya-selasi-look-11-04-2026",
+      "publishedAt": "Wed, 04 Nov 2026 11:28:04 +0000",
+      "summary": "If Ronan McKenzie called her latest collection “Going Places,” it did just that when Law Roach enlisted the designer to dress Zendaya.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6aea3ca787a941797f3bcee4/master/pass/BFA-MAIN-DanielRoseberry-Emily%20Blunt.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6aeb149103cfc7b57067a053/master/pass/WhatsApp%20Image%202026-11-02%20at%2016.37.42.jpeg"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/supreme-vaquera-fall-2026-collaboration-collection-release-info",
-    "https://www.vogue.com/slideshow/cfda-awards-photos",
-    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-protocol-index-3",
-    "https://hypebeast.com/2026/11/ralph-lauren-wins-american-menswear-designer-of-the-year-2026-cfda-awards-news",
-    "https://www.vogue.com/slideshow/daniel-roseberry-hirshhorn-gala-2026"
+    "https://hypebeast.com/2026/11/best-drops-november-week-1-supreme-palace-bape",
+    "https://fashionista.com/2026/11/accent-is-hiring-a-public-relations-publicist-fashion-luxury-lifestyle-in-new-york-ny",
+    "https://www.highsnobiety.com/p/this-japanese-workwear-is-for-actual-furniture-designers/",
+    "https://hypebeast.com/2026/11/coperni-closes-brand-founders-arnaud-vaillant-sebastien-meyer-cease-operations-news",
+    "https://www.vogue.com/article/zendaya-selasi-look-11-04-2026"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-04T03:53:15.018Z"
+  "createdAt": "2026-11-05T04:13:02.686Z"
 }
