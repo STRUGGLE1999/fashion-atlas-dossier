@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611060410290207244418268d9d6uEaO2mje)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611070342592772122528268d9d6EPWupCY2)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "From Couture to Blue Jeans: The Met Pivots to the Everyday for Spring 2027",
+      "title": "Balenciaga Hires Martine Rose & Yeezy Makes Runway Return in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/the-met-gala-2027-pivots-theme-exhibition-extraordinary-fashion-and-the-poetics-of-the-everyday",
-      "publishedAt": "Thu, 05 Nov 2026 17:50:28 +0000",
-      "summary": "Summary The Metropolitan Museum of Art has announced its spring 2027 Costume Institute exhibition extraOrdinary Fashion and the Poetics of the EverydayCurated by Andrew Bolton the showcase explores how designers elevate everyday staples from denim to bubble wrapThe exhibition will open to the public on May 9 2027 following the annual Met Gala the Monday before The Metropolitan Museum of Art has officially revealed its Spring 2027 Costume Institute exhibition, \"extraOrdinary: Fashion and the Poetics of the Everyday\", establishing the theme for the upcoming Met Gala. The presentation pivots towa",
+      "url": "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
+      "publishedAt": "Fri, 06 Nov 2026 21:30:13 +0000",
+      "summary": "SummaryMartine Rose took the helm at Balenciaga, while Ralph Lauren secured top menswear honors at the 2026 CFDA Awards.Ye announced a Yeezy reboot in Los Angeles, and the 2027 Met Gala revealed a new, everyday-focused theme.Palace detailed its Burberry collaboration, and Joaquin Phoenix debuted smart eyewear with Gentle Monster.Martine Rose Confirmed at Balenciaga' a Day After Piccioli ExitFollowing widespread speculation, Martine Rose was officially named the new creative director of Balenciaga. The London-based designer will oversee all men's and women's collections moving forward. Rose bri",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,82 +16,80 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2Fthe-met-gala-2027-pivots-theme-exhibition-extraordinary-fashion-and-the-poetics-of-the-everyday-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F06%2Fmartine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry-001.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Pierpaolo Piccioli Steps Down as Creative Director of Balenciaga",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/kering-pierpaolo-piccioli-steps-down-as-creative-director-balenciaga-announcement",
-      "publishedAt": "Thu, 05 Nov 2026 17:33:30 +0000",
-      "summary": "Summary Pierpaolo Piccioli will step down as creative director of Balenciaga after serving less than two years in the roleKering chief executive Luca de Meo announced the departure as part of an ongoing restructuring across the luxury group's portfolioLondon-based designer Martine Rose has reportedly been tapped to take over the helm at the Parisian fashion house French luxury conglomerate Kering has announced that Pierpaolo Piccioli will step down as creative director of Balenciaga after less than two years in the role. The departure comes amid an extensive creative restructuring spearheaded ",
+      "title": "A Close Look At the 10 Key Autumn/Winter 2026 Bag Trends",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/fall-2026-handbag-trends",
+      "publishedAt": "Fri, 06 Nov 2026 21:19:43 +0000",
+      "summary": "Vogue highlights the key fall 2026 handbag trends to shop now. From super shoulder bags to new-gen clutches, these are styles to bookmark now.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6a54e8b3225e21d071d69df8/master/pass/*lead%20bags%20holding.jpeg"
+    },
+    {
+      "title": "Yoshitomo Nara’s Big-Headed Girls Have Found Their Forever Designer",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/yoshitomo-nara-stella-mccartney/",
+      "publishedAt": "Fri, 06 Nov 2026 20:33:00 GMT",
+      "summary": "The British designer and Japanese artist's third collection proves why this is a match made in heaven, fueled by mutual respect and artisanal craftsmanship.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "Margaret Howell's Simple Trick to Surviving 50 Years of Fashion",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/margaret-howell-book-interview/",
+      "publishedAt": "Fri, 06 Nov 2026 22:33:01 GMT",
+      "summary": "That Margaret Howell has made it 50 years in fashion is no accident. The British designer's success comes down to one simple little thing, as she tells us.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2Fkering-pierpaolo-piccioli-steps-down-as-creative-director-balenciaga-announcement-000.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "The Met Announces New Theme After Backlash",
-      "sourceName": "The New York Times Fashion & Style",
-      "url": "https://www.nytimes.com/video/style/100000011262709/the-met-announces-new-theme-after-backlash.html",
-      "publishedAt": "Thu, 05 Nov 2026 18:07:41 +0000",
-      "summary": "Vanessa Friedman, The New York Times’s chief fashion critic, discusses the new theme for the 2027 Met Gala. The previous one had been set to honor John Galliano, a designer with a history of antisemitic remarks who withdrew from a planned exhibition.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "style",
-        "culture",
-        "trend",
-        "brand"
-      ],
       "imageUrl": ""
     },
     {
-      "title": "Simkhai Pre-Fall 2027 Menswear",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/pre-fall-2027-menswear/jonathan-simkhai",
-      "publishedAt": "Fri, 06 Nov 2026 04:06:29 +0000",
-      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
+      "title": "It's High Time You Invested in a Better Beanie",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/best-beanie-hats-for-men/",
+      "publishedAt": "Fri, 06 Nov 2026 21:30:35 GMT",
+      "summary": "Beanies for men don't have to be boring. From classic wool knits to more offbeat takes on the winter staple, these are the styles worth getting your hands on.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
-        "trend",
-        "brand"
+        "streetwear",
+        "brand",
+        "trend"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6aecdb3998510106bb322840/master/pass/00001-simkhai-pre-fall-2027-menswear-credit-brand.jpg"
-    },
-    {
-      "title": "The Fall Winter 2026 Shoe Trends to Shop Now—From Kitten Heels to Great Boots",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/fall-2026-shoe-trends",
-      "publishedAt": "Thu, 05 Nov 2026 20:59:41 +0000",
-      "summary": "From elegant kitten heels to embellished slippers and punchy animal print boots, these are the top fall/winter 2026 shoe trends to shop now.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aeccb0ff157bc64fcba3094/master/pass/final_shoeleadholding.jpg"
+      "imageUrl": ""
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway",
-    "style",
-    "culture"
+    "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/the-met-gala-2027-pivots-theme-exhibition-extraordinary-fashion-and-the-poetics-of-the-everyday",
-    "https://hypebeast.com/2026/11/kering-pierpaolo-piccioli-steps-down-as-creative-director-balenciaga-announcement",
-    "https://www.nytimes.com/video/style/100000011262709/the-met-announces-new-theme-after-backlash.html",
-    "https://www.vogue.com/fashion-shows/pre-fall-2027-menswear/jonathan-simkhai",
-    "https://www.vogue.com/article/fall-2026-shoe-trends"
+    "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
+    "https://www.vogue.com/article/fall-2026-handbag-trends",
+    "https://www.highsnobiety.com/p/yoshitomo-nara-stella-mccartney/",
+    "https://www.highsnobiety.com/p/margaret-howell-book-interview/",
+    "https://www.highsnobiety.com/p/best-beanie-hats-for-men/"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-06T04:10:29.106Z"
+  "createdAt": "2026-11-07T03:42:59.386Z"
 }
