@@ -1,43 +1,56 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611070342592772122528268d9d6EPWupCY2)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611080319484240873638268d9d6iOaqtqj1)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Balenciaga Hires Martine Rose & Yeezy Makes Runway Return in This Week's Top Fashion News",
+      "title": "New Arrivals From HBX: Moncler",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
-      "publishedAt": "Fri, 06 Nov 2026 21:30:13 +0000",
-      "summary": "SummaryMartine Rose took the helm at Balenciaga, while Ralph Lauren secured top menswear honors at the 2026 CFDA Awards.Ye announced a Yeezy reboot in Los Angeles, and the 2027 Met Gala revealed a new, everyday-focused theme.Palace detailed its Burberry collaboration, and Joaquin Phoenix debuted smart eyewear with Gentle Monster.Martine Rose Confirmed at Balenciaga' a Day After Piccioli ExitFollowing widespread speculation, Martine Rose was officially named the new creative director of Balenciaga. The London-based designer will oversee all men's and women's collections moving forward. Rose bri",
+      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-moncler-2",
+      "publishedAt": "Sat, 07 Nov 2026 14:06:26 +0000",
+      "summary": "Brand Information: Moncler is an Italian luxury brand founded in 1952 by Réné Ramillion in the French alpine village, Monestier-de-Clermont. Over the past six decades, Moncler has cemented itself as a pioneer in the field of functional outerwear. The world-famous outerwear label is especially well-known for its trademark quilted down jackets. In 1968, Moncler designed the professional team uniform for the French alpine skiing team at the Winter Olympics in Grenoble. Today, under the current president and creative director Remo Ruffini, Moncler stands strong as a global lifestyle brand that dev",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend",
-        "runway"
+        "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F06%2Fmartine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry-001.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fcheck-jersey-zip-up-shirt-black-product-1-1211c247_1794060361.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "A Close Look At the 10 Key Autumn/Winter 2026 Bag Trends",
+      "title": "The 9 Most-Wanted Accessories of Fall—and How to Style Them Now",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/fall-2026-handbag-trends",
-      "publishedAt": "Fri, 06 Nov 2026 21:19:43 +0000",
-      "summary": "Vogue highlights the key fall 2026 handbag trends to shop now. From super shoulder bags to new-gen clutches, these are styles to bookmark now.",
+      "url": "https://www.vogue.com/article/fall-2026-most-wanted-accessories",
+      "publishedAt": "Sat, 07 Nov 2026 11:00:00 +0000",
+      "summary": "A silk scarf tied at the waist, a brooch pinned to a blazer, or a strand of pearls tucked beneath a sheer knit are the small styling gestures making the biggest impact.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6a54e8b3225e21d071d69df8/master/pass/*lead%20bags%20holding.jpeg"
+      "imageUrl": "https://assets.vogue.com/photos/6aed066fcd1887df9efca328/master/pass/holding_topaccessories%20(2).jpg"
     },
     {
-      "title": "Yoshitomo Nara’s Big-Headed Girls Have Found Their Forever Designer",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/yoshitomo-nara-stella-mccartney/",
-      "publishedAt": "Fri, 06 Nov 2026 20:33:00 GMT",
-      "summary": "The British designer and Japanese artist's third collection proves why this is a match made in heaven, fueled by mutual respect and artisanal craftsmanship.",
+      "title": "Colormania Outside the Spring 2027 Shows",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/color-mania-outside-the-spring-2027-shows",
+      "publishedAt": "Sat, 07 Nov 2026 11:00:00 +0000",
+      "summary": "Bubble-gum pink or mustard yellow, cobalt blue or royal purple—the spring 2027 street style scene was all about color.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6aecd7bfd1fce5b979ae1dcf/master/pass/Colors_9x16.jpg"
+    },
+    {
+      "title": "Alpha Industries x No Problemo Map Mount Kailash Across the CWU-45 Jacket",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/alpha-industries-no-problemo-cwu-45-jacket-release-info",
+      "publishedAt": "Sat, 07 Nov 2026 08:00:46 +0000",
+      "summary": "Summary Alpha Industries and No Problemo reunite for FW26, moving from the MA-1 of their first collaboration to the CWU-45 flight jacketThe sage green jacket keeps the CWU-45’s fold-down collar, high-set pockets and structured shapeGraphics from No Problemo’s “Mount Kailash” collection cover the back, and tonal branding runs along the sleeve Alpha Industries and No Problemo have released the Alpha Industries x No Problemo CWU-45, the second chapter of a partnership that started with a take on the MA-1. Finished in sage green for FW26, the jacket brings the graphic world of No Problemo’s Mount ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -45,35 +58,21 @@
         "trend",
         "runway"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2FAlpha-Industries-No-Problemo-CWU-45-Jacket-Release-Info-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Margaret Howell's Simple Trick to Surviving 50 Years of Fashion",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/margaret-howell-book-interview/",
-      "publishedAt": "Fri, 06 Nov 2026 22:33:01 GMT",
-      "summary": "That Margaret Howell has made it 50 years in fashion is no accident. The British designer's success comes down to one simple little thing, as she tells us.",
+      "title": "Barbour x Paraboot Trade Waxed Canvas and French Leather for FW26",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/barbour-paraboot-chambord-derby-bedale-jacket-collaboration-collection-release-info",
+      "publishedAt": "Sat, 07 Nov 2026 04:00:35 +0000",
+      "summary": "Summary Barbour and Paraboot reunite seven years after their first collaboration with a Bedale jacket and a Chambord derbyEach piece borrows a signature material from its partner, putting olive waxed canvas on the shoe and Paraboot leather on the jacketA co-branded medallion, leather tassel and Barbour tartan lining connect the two designs Barbour and Paraboot have teamed up again for Fall/Winter 2026, pairing a reworked Bedale jacket with a Chambord derby that each take on materials from the other house. The two-piece capsule is the brands’ second collaboration, arriving seven years after the",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
         "trend"
       ],
-      "imageUrl": ""
-    },
-    {
-      "title": "It's High Time You Invested in a Better Beanie",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/best-beanie-hats-for-men/",
-      "publishedAt": "Fri, 06 Nov 2026 21:30:35 GMT",
-      "summary": "Beanies for men don't have to be boring. From classic wool knits to more offbeat takes on the winter staple, these are the styles worth getting your hands on.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2FftBarbour-Paraboot-Chambord-Derby-Bedale-Jacket-Collaboration-collection-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
@@ -83,13 +82,13 @@
     "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
-    "https://www.vogue.com/article/fall-2026-handbag-trends",
-    "https://www.highsnobiety.com/p/yoshitomo-nara-stella-mccartney/",
-    "https://www.highsnobiety.com/p/margaret-howell-book-interview/",
-    "https://www.highsnobiety.com/p/best-beanie-hats-for-men/"
+    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-moncler-2",
+    "https://www.vogue.com/article/fall-2026-most-wanted-accessories",
+    "https://www.vogue.com/article/color-mania-outside-the-spring-2027-shows",
+    "https://hypebeast.com/2026/11/alpha-industries-no-problemo-cwu-45-jacket-release-info",
+    "https://hypebeast.com/2026/11/barbour-paraboot-chambord-derby-bedale-jacket-collaboration-collection-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-07T03:42:59.386Z"
+  "createdAt": "2026-11-08T03:19:48.535Z"
 }
