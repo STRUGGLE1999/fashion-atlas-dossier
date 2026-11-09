@@ -1,56 +1,14 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611080319484240873638268d9d6iOaqtqj1)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611090339173351230668268d9d6y4awAEV4)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "New Arrivals From HBX: Moncler",
+      "title": "Balenciaga Hires Martine Rose & Yeezy Makes Runway Return in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-moncler-2",
-      "publishedAt": "Sat, 07 Nov 2026 14:06:26 +0000",
-      "summary": "Brand Information: Moncler is an Italian luxury brand founded in 1952 by Réné Ramillion in the French alpine village, Monestier-de-Clermont. Over the past six decades, Moncler has cemented itself as a pioneer in the field of functional outerwear. The world-famous outerwear label is especially well-known for its trademark quilted down jackets. In 1968, Moncler designed the professional team uniform for the French alpine skiing team at the Winter Olympics in Grenoble. Today, under the current president and creative director Remo Ruffini, Moncler stands strong as a global lifestyle brand that dev",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fcheck-jersey-zip-up-shirt-black-product-1-1211c247_1794060361.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "The 9 Most-Wanted Accessories of Fall—and How to Style Them Now",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/fall-2026-most-wanted-accessories",
-      "publishedAt": "Sat, 07 Nov 2026 11:00:00 +0000",
-      "summary": "A silk scarf tied at the waist, a brooch pinned to a blazer, or a strand of pearls tucked beneath a sheer knit are the small styling gestures making the biggest impact.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aed066fcd1887df9efca328/master/pass/holding_topaccessories%20(2).jpg"
-    },
-    {
-      "title": "Colormania Outside the Spring 2027 Shows",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/color-mania-outside-the-spring-2027-shows",
-      "publishedAt": "Sat, 07 Nov 2026 11:00:00 +0000",
-      "summary": "Bubble-gum pink or mustard yellow, cobalt blue or royal purple—the spring 2027 street style scene was all about color.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aecd7bfd1fce5b979ae1dcf/master/pass/Colors_9x16.jpg"
-    },
-    {
-      "title": "Alpha Industries x No Problemo Map Mount Kailash Across the CWU-45 Jacket",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/alpha-industries-no-problemo-cwu-45-jacket-release-info",
-      "publishedAt": "Sat, 07 Nov 2026 08:00:46 +0000",
-      "summary": "Summary Alpha Industries and No Problemo reunite for FW26, moving from the MA-1 of their first collaboration to the CWU-45 flight jacketThe sage green jacket keeps the CWU-45’s fold-down collar, high-set pockets and structured shapeGraphics from No Problemo’s “Mount Kailash” collection cover the back, and tonal branding runs along the sleeve Alpha Industries and No Problemo have released the Alpha Industries x No Problemo CWU-45, the second chapter of a partnership that started with a take on the MA-1. Finished in sage green for FW26, the jacket brings the graphic world of No Problemo’s Mount ",
+      "url": "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
+      "publishedAt": "Fri, 06 Nov 2026 21:30:13 +0000",
+      "summary": "SummaryMartine Rose took the helm at Balenciaga, while Ralph Lauren secured top menswear honors at the 2026 CFDA Awards.Ye announced a Yeezy reboot in Los Angeles, and the 2027 Met Gala revealed a new, everyday-focused theme.Palace detailed its Burberry collaboration, and Joaquin Phoenix debuted smart eyewear with Gentle Monster.Martine Rose Confirmed at Balenciaga' a Day After Piccioli ExitFollowing widespread speculation, Martine Rose was officially named the new creative director of Balenciaga. The London-based designer will oversee all men's and women's collections moving forward. Rose bri",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -58,21 +16,67 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2FAlpha-Industries-No-Problemo-CWU-45-Jacket-Release-Info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F06%2Fmartine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry-001.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Barbour x Paraboot Trade Waxed Canvas and French Leather for FW26",
+      "title": "Gorsch’s FW26 “The Dancing People” Collection Is Cut for Movement and Built From Rare Cloth",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/barbour-paraboot-chambord-derby-bedale-jacket-collaboration-collection-release-info",
-      "publishedAt": "Sat, 07 Nov 2026 04:00:35 +0000",
-      "summary": "Summary Barbour and Paraboot reunite seven years after their first collaboration with a Bedale jacket and a Chambord derbyEach piece borrows a signature material from its partner, putting olive waxed canvas on the shoe and Paraboot leather on the jacketA co-branded medallion, leather tassel and Barbour tartan lining connect the two designs Barbour and Paraboot have teamed up again for Fall/Winter 2026, pairing a reworked Bedale jacket with a Chambord derby that each take on materials from the other house. The two-piece capsule is the brands’ second collaboration, arriving seven years after the",
+      "url": "https://hypebeast.com/2026/11/gorsch-fw-fall-winter-2026-collection-release-info",
+      "publishedAt": "Sun, 08 Nov 2026 07:00:44 +0000",
+      "summary": "Summary Gorsch’s Fall/Winter 2026 offering, titled “The Dancing People,” closes out the second half of the Iwate label’s fourteenth seasonDesigner Eiichi Suzuki mixes rare deadstock fabrics with custom and locally made textiles across a run of unisex cutsHighlights include a black flannel cape coat and a denim set colored with kakishibu, a dye made from fermented persimmon tannin Gorsch has unveiled “The Dancing People,” its Fall/Winter 2026 collection, a lineup of outerwear, shirting and trousers from Iwate-based designer Eiichi Suzuki that puts fabric and fit ahead of everything else. The se",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend"
+        "trend",
+        "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2FftBarbour-Paraboot-Chambord-Derby-Bedale-Jacket-Collaboration-collection-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F08%2Fgorsch-fw-fall-winter-2026-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "BEAMS’ “DEAR VINTAGE COLLECTION” Dresses the 2026 MAMA AWARDS in Band T-Shirt Nostalgia",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/2026-mama-awards-beams-collaboration-collection-release-info",
+      "publishedAt": "Sun, 08 Nov 2026 03:30:13 +0000",
+      "summary": "Summary BEAMS teams up with CJ ENM’s 2026 MAMA AWARDS on the DEAR VINTAGE COLLECTION, a line of official merchandise for the eventThe graphics draw on vintage band tees, festival shirts and corporate promotional teesThe six-piece lineup covers a logo T-shirt, game shirt, zip-up hoodie, tote bag, cap and bandana BEAMS has partnered with the 2026 MAMA AWARDS on the DEAR VINTAGE COLLECTION, official merchandise for CJ ENM’s awards show, taking place on November 20 and 21. Instead of standard event merch, the Japanese retailer has based the range on the graphic styles of collectible vintage tees.T",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2F2026-mama-awards-beams-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Billionaire Boys Club Celebrates Pokémon's 30th Anniversary With Commemorative Capsule",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/billionaire-boys-club-celebrates-pokemon-30th-anniversary-commemorative-capsule-collaboration-release-info",
+      "publishedAt": "Mon, 09 Nov 2026 02:03:12 +0000",
+      "summary": "Summary Billionaire Boys Club has teamed up with Pokémon for a collaborative 30th anniversary collectionThe capsule features original anime graphics of Pikachu Mewtwo Charizard Eevee and the Squirtle Squad across apparel and outerwearThe collection releases on November 13 via the international BBC online store Streetwear imprint Billionaire Boys Club has officially revealed the collaborative Pokémon 30th Anniversary Collection, celebrating three decades of the globally adored anime and gaming franchise. Established by Pharrell Williams and NIGO under the guiding mantra that \"wealth is of the h",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F08%2Fbillionaire-boys-club-celebrates-pokemon-30th-anniversary-commemorative-capsule-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "This Beautifully Blacked-Out Air Jordan Packs a Luxe Sting",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/jordan-17-low-black-pack/",
+      "publishedAt": "Sun, 08 Nov 2026 20:49:15 GMT",
+      "summary": "Nike's Air Jordan 17 Low \"Black Pack\" is collection's fourth luxurious all-black sneaker featuring stingray leather.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": ""
     }
   ],
   "trendTags": [
@@ -82,13 +86,13 @@
     "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-moncler-2",
-    "https://www.vogue.com/article/fall-2026-most-wanted-accessories",
-    "https://www.vogue.com/article/color-mania-outside-the-spring-2027-shows",
-    "https://hypebeast.com/2026/11/alpha-industries-no-problemo-cwu-45-jacket-release-info",
-    "https://hypebeast.com/2026/11/barbour-paraboot-chambord-derby-bedale-jacket-collaboration-collection-release-info"
+    "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
+    "https://hypebeast.com/2026/11/gorsch-fw-fall-winter-2026-collection-release-info",
+    "https://hypebeast.com/2026/11/2026-mama-awards-beams-collaboration-collection-release-info",
+    "https://hypebeast.com/2026/11/billionaire-boys-club-celebrates-pokemon-30th-anniversary-commemorative-capsule-collaboration-release-info",
+    "https://www.highsnobiety.com/p/jordan-17-low-black-pack/"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-08T03:19:48.535Z"
+  "createdAt": "2026-11-09T03:39:17.418Z"
 }
