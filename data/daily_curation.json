@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611090339173351230668268d9d6y4awAEV4)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611100512021956948048268d9d6IRikfPX1)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Balenciaga Hires Martine Rose & Yeezy Makes Runway Return in This Week's Top Fashion News",
+      "title": "N.HOOLYWOOD TEST PRODUCT EXCHANGE SERVICE and PORTER Release a Military-Inspired Modular Bag Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
-      "publishedAt": "Fri, 06 Nov 2026 21:30:13 +0000",
-      "summary": "SummaryMartine Rose took the helm at Balenciaga, while Ralph Lauren secured top menswear honors at the 2026 CFDA Awards.Ye announced a Yeezy reboot in Los Angeles, and the 2027 Met Gala revealed a new, everyday-focused theme.Palace detailed its Burberry collaboration, and Joaquin Phoenix debuted smart eyewear with Gentle Monster.Martine Rose Confirmed at Balenciaga' a Day After Piccioli ExitFollowing widespread speculation, Martine Rose was officially named the new creative director of Balenciaga. The London-based designer will oversee all men's and women's collections moving forward. Rose bri",
+      "url": "https://hypebeast.com/2026/11/n-hoolywood-test-product-exchange-service-porter-new-collabo-collection-release-info",
+      "publishedAt": "Tue, 10 Nov 2026 04:46:00 +0000",
+      "summary": "The newest collaborative collection from N.HOOLYWOOD TEST PRODUCT EXCHANGE SERVICE—an alternative line by Daisuke Obana's N.HOOLYWOOD—and Yoshida & Co.'s original brand PORTER is here. Building on their ongoing partnership, the duo is rolling out a bag collection this season that reconstructs classic PORTER items through a military lens.Drawing inspiration from PORTER's ALL series, this collection strips each item down to a minimalist design. The lineup features four styles in total: a helmet bag, a backpack, a drawstring bag, and a pouch. The standout feature is a modular docking system that ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,29 +16,28 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F06%2Fmartine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry-001.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fn-hoolywood-test-product-exchange-service-porter-new-collabo-collection-release-info-ft.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Gorsch’s FW26 “The Dancing People” Collection Is Cut for Movement and Built From Rare Cloth",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/gorsch-fw-fall-winter-2026-collection-release-info",
-      "publishedAt": "Sun, 08 Nov 2026 07:00:44 +0000",
-      "summary": "Summary Gorsch’s Fall/Winter 2026 offering, titled “The Dancing People,” closes out the second half of the Iwate label’s fourteenth seasonDesigner Eiichi Suzuki mixes rare deadstock fabrics with custom and locally made textiles across a run of unisex cutsHighlights include a black flannel cape coat and a denim set colored with kakishibu, a dye made from fermented persimmon tannin Gorsch has unveiled “The Dancing People,” its Fall/Winter 2026 collection, a lineup of outerwear, shirting and trousers from Iwate-based designer Eiichi Suzuki that puts fabric and fit ahead of everything else. The se",
+      "title": "The Fall Winter 2026 Fashion Trends to Know and Shop Now",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/fall-winter-2026-fashion-trends",
+      "publishedAt": "Mon, 09 Nov 2026 21:08:17 +0000",
+      "summary": "The top six trends of the fall winter 2026 season—which range from modern suiting codes to 1920s Art Deco evening wear—are designed for work and play. Shop them now.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F08%2Fgorsch-fw-fall-winter-2026-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6a55325385415eee2f879431/master/pass/v2%20fashion%20trends%20lead%20holding.jpg"
     },
     {
-      "title": "BEAMS’ “DEAR VINTAGE COLLECTION” Dresses the 2026 MAMA AWARDS in Band T-Shirt Nostalgia",
+      "title": "Supreme x Elliott Smith Fall 2026 Collaboration Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/2026-mama-awards-beams-collaboration-collection-release-info",
-      "publishedAt": "Sun, 08 Nov 2026 03:30:13 +0000",
-      "summary": "Summary BEAMS teams up with CJ ENM’s 2026 MAMA AWARDS on the DEAR VINTAGE COLLECTION, a line of official merchandise for the eventThe graphics draw on vintage band tees, festival shirts and corporate promotional teesThe six-piece lineup covers a logo T-shirt, game shirt, zip-up hoodie, tote bag, cap and bandana BEAMS has partnered with the 2026 MAMA AWARDS on the DEAR VINTAGE COLLECTION, official merchandise for CJ ENM’s awards show, taking place on November 20 and 21. Instead of standard event merch, the Japanese retailer has based the range on the graphic styles of collectible vintage tees.T",
+      "url": "https://hypebeast.com/2026/11/supreme-elliott-smith-fall-2026-collection-release-info",
+      "publishedAt": "Mon, 09 Nov 2026 14:00:33 +0000",
+      "summary": "Supreme is honoring Elliott Smith with a new Supreme x Elliott Smith collection, created with the permission of the late singer-songwriter’s estate for Fall 2026. The capsule includes outerwear, fleece, layering pieces and accessories. Archival-feeling photography and album references link the clothing directly to Smith’s catalog.The lineup is short and focused, with seven pieces in total. At the top of the range are a Work Jacket and a Zip Up Hooded Sweatshirt, followed by a Thermal, three T-shirts and a Beanie. Supreme hasn’t yet shared colorways or graphic details for the jacket, hoodie, st",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -46,29 +45,28 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2F2026-mama-awards-beams-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F09%2Fsupreme-elliott-smith-fall-2026-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Billionaire Boys Club Celebrates Pokémon's 30th Anniversary With Commemorative Capsule",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/billionaire-boys-club-celebrates-pokemon-30th-anniversary-commemorative-capsule-collaboration-release-info",
-      "publishedAt": "Mon, 09 Nov 2026 02:03:12 +0000",
-      "summary": "Summary Billionaire Boys Club has teamed up with Pokémon for a collaborative 30th anniversary collectionThe capsule features original anime graphics of Pikachu Mewtwo Charizard Eevee and the Squirtle Squad across apparel and outerwearThe collection releases on November 13 via the international BBC online store Streetwear imprint Billionaire Boys Club has officially revealed the collaborative Pokémon 30th Anniversary Collection, celebrating three decades of the globally adored anime and gaming franchise. Established by Pharrell Williams and NIGO under the guiding mantra that \"wealth is of the h",
+      "title": "“It’s Always About Me and What I Need or What I Want to See Out in the World”: Rick Owens on Reuniting With Adidas",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/rick-owens-adidas-collaboration",
+      "publishedAt": "Mon, 09 Nov 2026 13:00:00 +0000",
+      "summary": "Designer Rick Owens on his new Adidas collaboration, working out in hotel slippers, and the inflatable outfits he presented for his spring 2027 collection.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F08%2Fbillionaire-boys-club-celebrates-pokemon-30th-anniversary-commemorative-capsule-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6a3d7331d0a935866037cad4/master/pass/rickowens_parismensss27_backstage_acielle38.jpg"
     },
     {
-      "title": "This Beautifully Blacked-Out Air Jordan Packs a Luxe Sting",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/jordan-17-low-black-pack/",
-      "publishedAt": "Sun, 08 Nov 2026 20:49:15 GMT",
-      "summary": "Nike's Air Jordan 17 Low \"Black Pack\" is collection's fourth luxurious all-black sneaker featuring stingray leather.",
+      "title": "Moncler and André 3000 Unite for \"Pioneers in Moncler\" Re/Icons Campaign",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/andre-3000-new-pioneers-moncler-re-icons-campaign-release-info",
+      "publishedAt": "Mon, 09 Nov 2026 07:00:08 +0000",
+      "summary": "Summary Moncler has unveiled the latest chapter of its Re/Icons campaign starring cultural pioneer André 3000Shot by Gabriel Moses the visual campaign is soundtracked by an unreleased musical snippet from André 3000The Moncler Re/Icons collection is available now at select Moncler boutiques and online Luxury outerwear house Moncler has officially linked with multi-hyphenate visionary André 3000 for its latest Moncler Re/Icons campaign, titled “PIONEERS IN MONCLER.” Shot by acclaimed photographer and filmmaker Gabriel Moses, the multidisciplinary project features an artistic short film and visu",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -76,7 +74,7 @@
         "trend",
         "runway"
       ],
-      "imageUrl": ""
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F09%2Fandre-3000-new-pioneers-moncler-re-icons-campaign-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
@@ -86,13 +84,13 @@
     "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
-    "https://hypebeast.com/2026/11/gorsch-fw-fall-winter-2026-collection-release-info",
-    "https://hypebeast.com/2026/11/2026-mama-awards-beams-collaboration-collection-release-info",
-    "https://hypebeast.com/2026/11/billionaire-boys-club-celebrates-pokemon-30th-anniversary-commemorative-capsule-collaboration-release-info",
-    "https://www.highsnobiety.com/p/jordan-17-low-black-pack/"
+    "https://hypebeast.com/2026/11/n-hoolywood-test-product-exchange-service-porter-new-collabo-collection-release-info",
+    "https://www.vogue.com/article/fall-winter-2026-fashion-trends",
+    "https://hypebeast.com/2026/11/supreme-elliott-smith-fall-2026-collection-release-info",
+    "https://www.vogue.com/article/rick-owens-adidas-collaboration",
+    "https://hypebeast.com/2026/11/andre-3000-new-pioneers-moncler-re-icons-campaign-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-09T03:39:17.418Z"
+  "createdAt": "2026-11-10T05:12:02.300Z"
 }
