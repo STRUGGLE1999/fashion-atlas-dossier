@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611110344058308036488268d9d6nvmuSumD)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611120452475067754418268d9d6B4KF5u7a)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Stella McCartney and Yoshitomo Nara Unleash Their Inner Punks in \"Rock ’n’ Roll Forest\"",
+      "title": "Chris Black Frames Quiet American Style in Hanover's Fall Delivery 1 Lookbook",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/stella-mccartney-yoshitomo-nara-rock-n-roll-forest-collaboration-collection-release-info",
-      "publishedAt": "Wed, 11 Nov 2026 01:21:50 +0000",
-      "summary": "Summary Stella McCartney and Japanese artist Yoshitomo Nara have unveiled their third collaborative collection titled Rock ’n’ roll ForestThe capsule introduces ready-to-wear knits accessories and an Adidas SPW64 sneaker crafted from 100 percent responsible and deadstock materialsThe limited-edition collection launches globally on November 11 alongside dedicated pop-ups and retail celebrations in Japan Stella McCartney has officially unveiled its third collaboration with Japanese artist Yoshitomo Nara, introducing the nature-advocating \"Rock ’n’ roll Forest\" collection. Crafted entirely from 1",
+      "url": "https://hypebeast.com/2026/11/chris-black-hanover-fall-2026-delivery-1-lookbook-release-info",
+      "publishedAt": "Wed, 11 Nov 2026 06:45:31 +0000",
+      "summary": "Summary Chris Black's menswear brand Hanover has unveiled its Fall Delivery 1 lookbook photographed by David GurzhievShot on LA band Jawdropped in the East Village the collection features sunwashed polos button-downs and French terry sweatpantsThe Los Angeles-made range expands the label's domestic core program of everyday American essentials priced under $200 USD Los Angeles-based menswear label Hanover, co-founded and creatively directed by Chris Black, has officially unveiled its Fall Delivery 1 lookbook. Photographed by David Gurzhiev and featuring LA-based band Jawdropped at 101 in New Yo",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F09%2Fstella-mccartney-yoshitomo-nara-rock-n-roll-forest-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F10%2Fchris-black-hanover-fall-2026-delivery-1-lookbook-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "New Arrivals From HBX: Paly",
+      "title": "Balenciaga and Damien Hirst Unveil Limited-Edition Collaborative \"Damienciaga\" Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-paly-2",
-      "publishedAt": "Tue, 10 Nov 2026 14:05:20 +0000",
-      "summary": "Brand Information: Paly Hollywood is a Los Angeles-based streetwear label founded in 2020 by actor James Franco and designer Kyle Lindgren. Drawing from the hidden side of Hollywood, the brand blends DIY punk with cinematic storytelling featuring hand-distressed, vintage-washed graphics and imperfect hand-worked details. Paly creates raw and rebellious pieces that easily fit in your streetwear collection.Price Range: $285.00 USD - $1,450.00 USDWhere to Buy: Available now on HBX Click here to view full gallery at Hypebeast",
+      "url": "https://hypebeast.com/2026/11/balenciaga-damien-hirst-limited-edition-collaborative-damienciaga-collection-release-info",
+      "publishedAt": "Thu, 12 Nov 2026 04:22:05 +0000",
+      "summary": "Summary Balenciaga and British artist Damien Hirst have partnered on a limited-edition capsule collection nicknamed DamienciagaThe collaboration celebrates the 25th anniversary of the Le City handbag with Hirst's signature spots butterflies and sticker motifsThe artistic graphics also extend across apparel and accessories including bomber jackets hoodies sneakers T-shirts and scarves French luxury house Balenciaga has joined forces with renowned British artist Damien Hirst to introduce the limited-edition Damienciaga collection. Arriving during a transitional leadership moment for the fashion ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,42 +31,44 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Ffuneral-fakeout-long-sleeve-raglan-multi-product-1-29400445_1794319501.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F11%2Fbalenciaga-damien-hirst-limited-edition-collaborative-damienciaga-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Barbara Tfank Spring 2027 Ready-to-Wear",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/barbara-tfank",
-      "publishedAt": "Wed, 11 Nov 2026 03:39:16 +0000",
-      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6aee0ebddc789c172444cb0b/master/pass/00001-barbara-tfank-spring-2027-credit-brand.jpg"
-    },
-    {
-      "title": "New Arrivals From HBX: Needles",
+      "title": "8 Drops You Don’t Want to Miss This Week",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-needles-2",
-      "publishedAt": "Tue, 10 Nov 2026 23:09:07 +0000",
-      "summary": "Brand Information: Needles, an in-house label of Nepenthes, was founded by designer Keizo Shimizu in 1988. With all products manufactured in Japan, Needles is notable for blending old Western military style with Japanese textiles. Fan-favourite pieces, including tracksuits, track pants and reconstructed military jackets, have gained popularity with celebrities such as A$AP Rocky and Virgil Abloh. Explore our curated selection of apparel items here on HBX.Price Range: $65.00 USD - $735.00 USDWhere to Buy: Available now on HBX Click here to view full gallery at Hypebeast",
+      "url": "https://hypebeast.com/2026/11/best-drops-november-week-2-supreme-palace-kith-pokemon-billionaire-boys-club",
+      "publishedAt": "Wed, 11 Nov 2026 13:30:20 +0000",
+      "summary": "This week's lineup of drops kicks off with Supreme honoring the late singer-songwriter Elliott Smith, followed by Palace Skateboards rolling out its heavy outerwear and fleece options for Winter 2026 Drop 7. Kith then celebrates the reigning NBA champions, the New York Knicks, with a victory lap collection, while Kaptain Sunshine and COVERCHORD cut an exclusive uniform in black cashmere-linen. LOEWE bridges tactile craftsmanship with the cinematic world of Tim Burton's The Nightmare Before Christmas, leading into Metallica and Japanese artist MADSAKI turning up the volume for their second coll",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend"
+        "trend",
+        "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Flong-sleeves-pocket-t-shirt-heather-gray-product-1-474e2702_1794352081.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F10%2Fbest-drops-november-week-2-supreme-palace-kith-pokemon-billionaire-boys-club-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Vans’ Peachy Sneaker Is a Winterized Stomper With Summer Steez",
+      "title": "adidas Originals and SP5DER Reunite for Head-to-Toe Collection and F50 Formotion SP5DER",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/adidas-originals-sp5der-collection-f50-formotion-collaboration-release-info",
+      "publishedAt": "Thu, 12 Nov 2026 01:31:11 +0000",
+      "summary": "Summary adidas Originals and SP5DER have reunited for a head-to-toe collection featuring the hybrid F50 Formotion SP5DERThe release includes two neon footwear colorways alongside web-print tracksuits graphic tees Cordura backpacks and balaclavasThe capsule launches November 13 on KINGSPIDER CO followed by a global release November 14 on CONFIRMED adidas Originals and streetwear imprint SP5DER have reunited to introduce a full head-to-toe collection, headlined by two vibrant iterations of the F50 Formotion SP5DER. Following their initial summer capsule that fused punk aesthetics with football h",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F10%2Fadidas-originals-sp5der-collection-f50-formotion-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "The Seasonal Style Guide to the Low-Key, Not Low-Effort Look",
       "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/vans-half-cab-gore-tex-warm-blush/",
-      "publishedAt": "Tue, 10 Nov 2026 21:55:01 GMT",
-      "summary": "Vans drops a Half Cab GORE-TEX sneaker in pink suede, bringing pretty summer vibes to the winterized model.",
+      "url": "https://www.highsnobiety.com/p/gift-guide-season-style-with-ugg/",
+      "publishedAt": "Wed, 11 Nov 2026 20:35:30 GMT",
+      "summary": "Whether you’re inside catching a Christmas movie or en route to family festivities (we know how the holiday hustle and bustle can get) UGG has the perfect footwear to take you through the season ahead, whatever the weather—or your winter plans—may bring.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -83,13 +85,13 @@
     "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/stella-mccartney-yoshitomo-nara-rock-n-roll-forest-collaboration-collection-release-info",
-    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-paly-2",
-    "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/barbara-tfank",
-    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-needles-2",
-    "https://www.highsnobiety.com/p/vans-half-cab-gore-tex-warm-blush/"
+    "https://hypebeast.com/2026/11/chris-black-hanover-fall-2026-delivery-1-lookbook-release-info",
+    "https://hypebeast.com/2026/11/balenciaga-damien-hirst-limited-edition-collaborative-damienciaga-collection-release-info",
+    "https://hypebeast.com/2026/11/best-drops-november-week-2-supreme-palace-kith-pokemon-billionaire-boys-club",
+    "https://hypebeast.com/2026/11/adidas-originals-sp5der-collection-f50-formotion-collaboration-release-info",
+    "https://www.highsnobiety.com/p/gift-guide-season-style-with-ugg/"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-11T03:44:05.912Z"
+  "createdAt": "2026-11-12T04:52:47.586Z"
 }
