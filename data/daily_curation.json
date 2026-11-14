@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611130403533485746168268d9d6b7sQ1lO6)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611140400449103886798268d9d6hw800aQz)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Subtitle Launches Godzilla-Inspired Capsule Featuring Laser-Burned Denim Jackets",
+      "title": "Gentle Monster Smart Glasses Fully Revealed & Rimowa Links With Maison Margiela in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/subtitle-godzilla-tides-capsule-collection-toho-international-release-info",
-      "publishedAt": "Thu, 12 Nov 2026 20:00:29 +0000",
-      "summary": "Summary Subtitle's \"TIDES\" is an eight-piece collection centering on Godzilla’s ties to the sea.Garment-washed denim and heat ray-inspired laser burning define the lineup.Highlights include a Type I jacket, a noragi-style jacket and a 1:1954 scale hat. Following its successful debut collection centered on Jujutsu Kaisen, Subtitle has teamed up with TOHO International on \"TIDES\" -- an eight-piece collection that draws on more than 70 years of Godzilla history. The range draws its aesthetic influence and inspiration from Godzilla’s lifelong tie to the ocean, ranging from the folklore of Odo Isla",
+      "url": "https://hypebeast.com/2026/11/gentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info",
+      "publishedAt": "Fri, 13 Nov 2026 21:30:34 +0000",
+      "summary": "Summary High-profile pairings dominate the week, including Balenciaga x Damien Hirst’s \"Damienciaga,\" Rimowa joining Maison Margiela, On partnering with Erewhon,Gentle Monster previews its innovative intelligent eyewear line, and JW Anderson unveils its holiday collection.Our Legacy inaugurates an eclectic Tokyo flagship.Gentle Monster Intelligent Eyewear Collection Revealed in NYC PreviewBacked by Google and Samsung, Gentle Monster is officially entering the tech space, unveiling its full Intelligent Eyewear Collection at an exclusive New York City public preview running from November 13 to N",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,44 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F12%2Fsubtitle-godzilla-tides-collection-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fgentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info-0-2.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "AlphaTauri Dressed Sport’s Biggest Names in Their Defining Moments",
+      "title": "ESP Showroom Is Hiring A Wholesale Fashion Showroom & Sales Coordinator In New York, NY (Hybrid)",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
+      "publishedAt": "Fri, 13 Nov 2026 18:37:55 GMT",
+      "summary": "Must have 2+ years of full-time experience in a luxury, designer or contemporary RTW wholesale showroom, with expertise in showroom operations, sales support, and customer service.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "trend",
+        "brand",
+        "industry",
+        "runway"
+      ],
+      "imageUrl": "https://fashionista.com/.image/MjIxODc3NzkwOTMxMTY3MDk0/pexels-angela-roma-7318909.jpg?profile=rss&x=45&y=27"
+    },
+    {
+      "title": "Wicker, Coachwork and Sapphires Take Center Stage at Sotheby’s ‘The Human Touch’",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/sothebys-the-human-touch-exhibition-info",
+      "publishedAt": "Sat, 14 Nov 2026 02:00:16 +0000",
+      "summary": "Summary Sotheby’s hosts The Human Touch from November 23 – 28, a special exhibition celebrating luxury handcraftsmanship.Highlights include a wicker Hermès Mini Kelly Picnic and Morgan’s Midsummer Coupé.Creations by Charles Frodsham and Moussaieff Jewellers spotlight human artistry. This month, Sotheby’s is presenting The Human Touch, a special exhibition spotlighting the enduring value of handcraftsmanship across the global luxury ecosystem. Bringing together a curated mix of rare automobiles, watches, jewelry and collectibles, the showcase celebrates the human ingenuity and technical mastery",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fsothebys-the-human-touch-exhibition-info.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "How Indie Designers Made Google Pixel Work for Them",
       "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/alpha-tauri-dressed-sports-biggest-names/",
-      "publishedAt": "Thu, 12 Nov 2026 11:22:47 GMT",
-      "summary": "Max Verstappen, Jürgen Klopp and more share the defining moments behind AlphaTauri’s limited-edition Autumn/Winter 2026 collection.",
+      "url": "https://www.highsnobiety.com/p/google-pixel-institute-of-fashion-technology-ottolinger-cob-showcase/",
+      "publishedAt": "Fri, 13 Nov 2026 22:04:59 GMT",
+      "summary": "At the first Google Pixel Institute of Fashion & Technology (PIFT) Showcase Thursday night, designers showed off their Pixel-powered projects — based on human creativity.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -34,62 +64,36 @@
       "imageUrl": ""
     },
     {
-      "title": "Liu Jo Fall 2027 Ready-to-Wear",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/fall-2027-ready-to-wear/liu-jo",
-      "publishedAt": "Fri, 13 Nov 2026 03:58:45 +0000",
-      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
+      "title": "Kappa Goes Red, White and Blue in Fédération Française de Ski Collection",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/kappa-federation-francaise-de-ski-collection-2026-release-info",
+      "publishedAt": "Fri, 13 Nov 2026 15:00:10 +0000",
+      "summary": "Crafting winter sports garments has become a core part of Kappa’s design schedule. As the seasons change, the brand turns its attention to kitting out national clubs like the US Ski and Snowboard team as well as casual sports enthusiasts. Adding to its portfolio, it now joins Fédération Française de Ski in a new partnership. The latest deal will see Kappa act as the team’s Official Technical Sponsor and Supplier until 2034. To kick off the partnership, it unveils a striking collection for athletes, coaches and staff competing in championships during the 2026/27 season. Considering alpine skiin",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
+        "streetwear",
+        "brand",
         "trend",
-        "brand"
+        "runway"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6af5f6f4da02c727486f5c00/master/pass/00001-liu-jo-fall-2027-ready-to-wear-credit-brand-sponsored.jpg"
-    },
-    {
-      "title": "The Next Big Menswear Collab Is With an Art Magazine",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/menswear-art-colbo-artforum-new-collab/",
-      "publishedAt": "Fri, 13 Nov 2026 00:00:52 GMT",
-      "summary": "Colbo is barely five years old, and is already collaborating with one of the biggest legacy art publications during New York City Art Week.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "Sweaters So Good You’ll Want That Thermostat to Drop",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/best-knit-sweaters-for-men/",
-      "publishedAt": "Thu, 12 Nov 2026 23:05:03 GMT",
-      "summary": "Knit sweaters are the ultimate fall and winter essential. Packed with history and practical prowess, this list's picks are some of our favorites right now.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend"
-      ],
-      "imageUrl": ""
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fkappa-federation-francaise-de-ski-collection-2026-release-info-0.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/subtitle-godzilla-tides-capsule-collection-toho-international-release-info",
-    "https://www.highsnobiety.com/p/alpha-tauri-dressed-sports-biggest-names/",
-    "https://www.vogue.com/fashion-shows/fall-2027-ready-to-wear/liu-jo",
-    "https://www.highsnobiety.com/p/menswear-art-colbo-artforum-new-collab/",
-    "https://www.highsnobiety.com/p/best-knit-sweaters-for-men/"
+    "https://hypebeast.com/2026/11/gentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info",
+    "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
+    "https://hypebeast.com/2026/11/sothebys-the-human-touch-exhibition-info",
+    "https://www.highsnobiety.com/p/google-pixel-institute-of-fashion-technology-ottolinger-cob-showcase/",
+    "https://hypebeast.com/2026/11/kappa-federation-francaise-de-ski-collection-2026-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-13T04:03:53.467Z"
+  "createdAt": "2026-11-14T04:00:45.029Z"
 }
