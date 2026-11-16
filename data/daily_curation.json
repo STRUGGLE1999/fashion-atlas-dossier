@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611150347151437683448268d9d6EDWo1Hpv)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611160347591116383418268d9d6AxFtAqOA)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "KidSuper and Mercedes-Benz Have Football Fever",
+      "title": "Gentle Monster Smart Glasses Fully Revealed & Rimowa Links With Maison Margiela in This Week's Top Fashion News",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/kidsuper-mercedes-benz-football-capsule-fall-winter-2026",
-      "publishedAt": "Sat, 14 Nov 2026 19:03:14 +0000",
-      "summary": "Summary KidSuper and Mercedes-Benz celebrate seven World Cup-winning nations with a 17-piece collection connecting football and automotive history.The collection pairs iconic Mercedes-Benz vehicles with national team colors, historic victories, and football-inspired designs.Priced from $125 to $595 USD, the collection launches November 14 alongside a special event at KidSuper Studios in Brooklyn. KidSuper and Mercedes-Benz are bringing football history to the forefront of their latest collaboration. First previewed during KidSuper's Spring/Summer 2027 runway show in Miami, the collection celeb",
+      "url": "https://hypebeast.com/2026/11/gentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info",
+      "publishedAt": "Fri, 13 Nov 2026 21:30:34 +0000",
+      "summary": "Summary High-profile pairings dominate the week, including Balenciaga x Damien Hirst’s \"Damienciaga,\" Rimowa joining Maison Margiela, On partnering with Erewhon,Gentle Monster previews its innovative intelligent eyewear line, and JW Anderson unveils its holiday collection.Our Legacy inaugurates an eclectic Tokyo flagship.Gentle Monster Intelligent Eyewear Collection Revealed in NYC PreviewBacked by Google and Samsung, Gentle Monster is officially entering the tech space, unveiling its full Intelligent Eyewear Collection at an exclusive New York City public preview running from November 13 to N",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,29 +16,29 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F14%2Fkidsuper-mercedes-benz-football-capsule-fall-winter-2026-featured-image-scaled.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fgentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info-0-2.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Siegelman Stable's Holiday Homecoming Takes Over SoHo",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/siegelman-stables-holiday-homecoming-soho-pop-up",
-      "publishedAt": "Sat, 14 Nov 2026 18:31:02 +0000",
-      "summary": "Summary Siegelman Stable returns to SoHo for the holidays with a six-week pop-up featuring exclusive drops, coveted restocks, and its FW26 collection.The space features an Almost Home coffee bar, lounge, and interiors inspired by the late 1980s.In partnership with Chase Sapphire Reserve for Business, the brand will host special events and programming for New York's entrepreneurial community. Siegelman Stable is back in New York City for the holidays. Following previous pop-ups in SoHo, East Hampton, and Chicago, the brand returns to its hometown with a new retail space at 430 W Broadway, open ",
+      "title": "ESP Showroom Is Hiring A Wholesale Fashion Showroom & Sales Coordinator In New York, NY (Hybrid)",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
+      "publishedAt": "Fri, 13 Nov 2026 18:37:55 GMT",
+      "summary": "Must have 2+ years of full-time experience in a luxury, designer or contemporary RTW wholesale showroom, with expertise in showroom operations, sales support, and customer service.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
         "trend",
+        "brand",
+        "industry",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F14%2Fsiegelman-stables-holiday-homecoming-soho-pop-up-00.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://fashionista.com/.image/MjIxODc3NzkwOTMxMTY3MDk0/pexels-angela-roma-7318909.jpg?profile=rss&x=45&y=27"
     },
     {
-      "title": "Nike Adds to Its Premium Air Max Releases With a Previously Unseen New Colorway That&#8217;s Available&#160;Now",
+      "title": "From Brunello Cucinelli to Ralph Lauren, Fashion Houses Capitalize on Mahjong Trend by Selling Luxury Kits&#160;Online",
       "sourceName": "WWD",
-      "url": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-sp-dark-russet-mesa-orange-iv4504-200-1239416590/",
-      "publishedAt": "Sat, 14 Nov 2026 16:55:00 +0000",
-      "summary": "The just-launched Dark Russet/Mesa Orange style is well-suited for fall and winter.",
+      "url": "https://wwd.com/shop/shop-home/best-designer-luxury-mahjong-game-sets-shop-online-1238466783/",
+      "publishedAt": "Mon, 16 Nov 2026 01:36:00 +0000",
+      "summary": "The designer mahjong sets double as luxurious home decor.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "industry",
@@ -49,32 +49,33 @@
       "imageUrl": ""
     },
     {
-      "title": "Liu Jo Fall 2027 Ready-to-Wear",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/fall-2027-ready-to-wear/liu-jo",
-      "publishedAt": "Sun, 15 Nov 2026 03:45:09 +0000",
-      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
+      "title": "Wicker, Coachwork and Sapphires Take Center Stage at Sotheby’s ‘The Human Touch’",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/sothebys-the-human-touch-exhibition-info",
+      "publishedAt": "Sat, 14 Nov 2026 02:00:16 +0000",
+      "summary": "Summary Sotheby’s hosts The Human Touch from November 23 – 28, a special exhibition celebrating luxury handcraftsmanship.Highlights include a wicker Hermès Mini Kelly Picnic and Morgan’s Midsummer Coupé.Creations by Charles Frodsham and Moussaieff Jewellers spotlight human artistry. This month, Sotheby’s is presenting The Human Touch, a special exhibition spotlighting the enduring value of handcraftsmanship across the global luxury ecosystem. Bringing together a curated mix of rare automobiles, watches, jewelry and collectibles, the showcase celebrates the human ingenuity and technical mastery",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
+        "streetwear",
+        "brand",
         "trend",
-        "brand"
+        "runway"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6af5f6f4da02c727486f5c00/master/pass/00001-liu-jo-fall-2027-ready-to-wear-credit-brand-sponsored.jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fsothebys-the-human-touch-exhibition-info.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Inside the Y2K Costumes and Sets of Kelly O’Sullivan and Alex Thompson’s ‘Mouse’",
+      "title": "Phoebe Dynevor Gives a First Look at Her Wedding Ring—and It’s a Timeless Classic",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/how-mouse-gets-the-early-2000s-so-right",
-      "publishedAt": "Sat, 14 Nov 2026 01:39:04 +0000",
-      "summary": "From vintage prom dresses to Seventeen-covered bedrooms, the designers of “Mouse” reveal how fashion and interiors bring 2002 Arkansas to life.",
+      "url": "https://www.vogue.com/article/phoebe-dynevor-wedding-ring-gold-band",
+      "publishedAt": "Fri, 13 Nov 2026 19:56:31 +0000",
+      "summary": "Phoebe Dynevor revealed her classic wedding ring for the first time on a London outing—here’s why this style is more popular than ever.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6af74d8efb238f95a4e9475b/master/pass/Mouse_PRImage7%20Shannon%20Attaway%20(1).jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6af757c34a0decf2dd680a02/master/pass/ae8i5683.jpg"
     }
   ],
   "trendTags": [
@@ -85,13 +86,13 @@
     "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/kidsuper-mercedes-benz-football-capsule-fall-winter-2026",
-    "https://hypebeast.com/2026/11/siegelman-stables-holiday-homecoming-soho-pop-up",
-    "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-sp-dark-russet-mesa-orange-iv4504-200-1239416590/",
-    "https://www.vogue.com/fashion-shows/fall-2027-ready-to-wear/liu-jo",
-    "https://www.vogue.com/article/how-mouse-gets-the-early-2000s-so-right"
+    "https://hypebeast.com/2026/11/gentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info",
+    "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
+    "https://wwd.com/shop/shop-home/best-designer-luxury-mahjong-game-sets-shop-online-1238466783/",
+    "https://hypebeast.com/2026/11/sothebys-the-human-touch-exhibition-info",
+    "https://www.vogue.com/article/phoebe-dynevor-wedding-ring-gold-band"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-15T03:47:15.222Z"
+  "createdAt": "2026-11-16T03:47:59.208Z"
 }
