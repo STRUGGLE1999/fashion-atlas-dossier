@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611160347591116383418268d9d6AxFtAqOA)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611170541561089745738268d9d6ol8XqpTU)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Gentle Monster Smart Glasses Fully Revealed & Rimowa Links With Maison Margiela in This Week's Top Fashion News",
+      "title": "Bloomingdale’s Casual Roots and Refined Tailoring Collide to Build the Blueprint for Modern Men’s Dressing",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/gentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info",
-      "publishedAt": "Fri, 13 Nov 2026 21:30:34 +0000",
-      "summary": "Summary High-profile pairings dominate the week, including Balenciaga x Damien Hirst’s \"Damienciaga,\" Rimowa joining Maison Margiela, On partnering with Erewhon,Gentle Monster previews its innovative intelligent eyewear line, and JW Anderson unveils its holiday collection.Our Legacy inaugurates an eclectic Tokyo flagship.Gentle Monster Intelligent Eyewear Collection Revealed in NYC PreviewBacked by Google and Samsung, Gentle Monster is officially entering the tech space, unveiling its full Intelligent Eyewear Collection at an exclusive New York City public preview running from November 13 to N",
+      "url": "https://hypebeast.com/2026/11/bloomingdales-fall-winter-2026-editorial",
+      "publishedAt": "Mon, 16 Nov 2026 19:00:58 +0000",
+      "summary": "Streetwear fundamentally altered luxury and contemporary fashion, but its influence is now splintering into exciting new territories. Today’s style culture is defined by fluid self-expression: music subcultures, West Coast nostalgia, European tailoring, and high-level material craftsmanship all converge into one singular narrative. Men are no longer dressing for rigid occasions or hiding behind uniform silhouettes; instead, they are mixing dramatic proportions with tactile luxury and relaxed elegance. Bloomingdale’s Fall/Winter 2026 collection serves as the ultimate hub for this movement, spot",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,44 +16,28 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fgentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info-0-2.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F12%2Fbloomingdales-casual-roots-and-refined-tailoring-collide-to-build-the-blueprint-for-modern-mens-dressing-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "ESP Showroom Is Hiring A Wholesale Fashion Showroom & Sales Coordinator In New York, NY (Hybrid)",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
-      "publishedAt": "Fri, 13 Nov 2026 18:37:55 GMT",
-      "summary": "Must have 2+ years of full-time experience in a luxury, designer or contemporary RTW wholesale showroom, with expertise in showroom operations, sales support, and customer service.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "trend",
-        "brand",
-        "industry",
-        "runway"
-      ],
-      "imageUrl": "https://fashionista.com/.image/MjIxODc3NzkwOTMxMTY3MDk0/pexels-angela-roma-7318909.jpg?profile=rss&x=45&y=27"
-    },
-    {
-      "title": "From Brunello Cucinelli to Ralph Lauren, Fashion Houses Capitalize on Mahjong Trend by Selling Luxury Kits&#160;Online",
+      "title": "Brett Johnson Launches Womenswear, Opens Geneva&#160;Store",
       "sourceName": "WWD",
-      "url": "https://wwd.com/shop/shop-home/best-designer-luxury-mahjong-game-sets-shop-online-1238466783/",
-      "publishedAt": "Mon, 16 Nov 2026 01:36:00 +0000",
-      "summary": "The designer mahjong sets double as luxurious home decor.",
+      "url": "https://wwd.com/fashion-news/designer-luxury/brett-johnson-debuts-womenswear-geneva-store-1239417799/",
+      "publishedAt": "Mon, 16 Nov 2026 23:01:00 +0000",
+      "summary": "The Milan-based American luxury label will unveil its first womenswear collection for fall 2027 and open its first European store in Geneva.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "industry",
         "runway",
-        "brand",
-        "trend"
+        "brand"
       ],
       "imageUrl": ""
     },
     {
-      "title": "Wicker, Coachwork and Sapphires Take Center Stage at Sotheby’s ‘The Human Touch’",
+      "title": "BEAMS and adidas Unveil a Collaborative Loafer and Apparel Pack for Retailer's 50th Anniversary",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/sothebys-the-human-touch-exhibition-info",
-      "publishedAt": "Sat, 14 Nov 2026 02:00:16 +0000",
-      "summary": "Summary Sotheby’s hosts The Human Touch from November 23 – 28, a special exhibition celebrating luxury handcraftsmanship.Highlights include a wicker Hermès Mini Kelly Picnic and Morgan’s Midsummer Coupé.Creations by Charles Frodsham and Moussaieff Jewellers spotlight human artistry. This month, Sotheby’s is presenting The Human Touch, a special exhibition spotlighting the enduring value of handcraftsmanship across the global luxury ecosystem. Bringing together a curated mix of rare automobiles, watches, jewelry and collectibles, the showcase celebrates the human ingenuity and technical mastery",
+      "url": "https://hypebeast.com/2026/11/beams-50th-anniversary-adidas-loafer-apparel-pack-collaboration-release-info",
+      "publishedAt": "Tue, 17 Nov 2026 04:12:15 +0000",
+      "summary": "Summary BEAMS and adidas Originals have teamed up to release a new loafer pack as part of the Japanese retailer's 50th-anniversary collectionThe collaborative footwear arrives in \"Preppy\" and \"Yankee\" styles featuring tassels, Three Stripes branding, and a chunky lug soleThe collection opens for presale on November 20 before a wider release on November 21 via BEAMS BEAMS and adidas Originals have officially joined forces to celebrate the Japanese retailer's 50th anniversary with a collaborative Loafer Pack. Anchoring a broader 14-piece assortment of apparel and accessories, the brand-new footw",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -61,21 +45,36 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F13%2Fsothebys-the-human-touch-exhibition-info.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F16%2Fbeams-50th-anniversary-adidas-loafer-apparel-pack-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Phoebe Dynevor Gives a First Look at Her Wedding Ring—and It’s a Timeless Classic",
+      "title": "WIND AND SEA and the NBA’s “The Legacy Continues” Collection Puts Game Mesh on Chino",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/nba-wind-and-sea-collaboration-collection-release-info",
+      "publishedAt": "Tue, 17 Nov 2026 04:06:21 +0000",
+      "summary": "Summary WIND AND SEA and the NBA team up on a 10-piece collection built around the New York Knicks, Los Angeles Lakers, Philadelphia 76ers and San Antonio SpursTrack jackets and pants pair classic chino with basketball game mesh, while the hoodies use a double-layered build to give a layered look in one garmentEach team’s signature colors guide its version of the range, which extends past apparel into knit caps, belts, blankets and bracelets WIND AND SEA has partnered with the NBA on “The Legacy Continues,” a collection that gives four of the league’s most storied franchises their own versions",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F16%2Fnba-wind-and-sea-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "The Wide-Leg Jeans That Every French Girl (And Kate Moss) Owns",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/phoebe-dynevor-wedding-ring-gold-band",
-      "publishedAt": "Fri, 13 Nov 2026 19:56:31 +0000",
-      "summary": "Phoebe Dynevor revealed her classic wedding ring for the first time on a London outing—here’s why this style is more popular than ever.",
+      "url": "https://www.vogue.com/article/wide-leg-french-girl-jeans",
+      "publishedAt": "Mon, 16 Nov 2026 17:40:10 +0000",
+      "summary": "While on the hunt for street-style trends at fashion week, I turned my attention to real-life Parisians, among whom one item seemed to proliferate: Gérard Darel’s Anna jeans.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6af757c34a0decf2dd680a02/master/pass/ae8i5683.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6afa61fe82bcf9f543d74608/master/pass/BGUK_1568473_013.jpg"
     }
   ],
   "trendTags": [
@@ -86,13 +85,13 @@
     "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/gentle-monster-intelligent-balenciaga-on-rimowa-maison-margiela-jw-anderson-info",
-    "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
-    "https://wwd.com/shop/shop-home/best-designer-luxury-mahjong-game-sets-shop-online-1238466783/",
-    "https://hypebeast.com/2026/11/sothebys-the-human-touch-exhibition-info",
-    "https://www.vogue.com/article/phoebe-dynevor-wedding-ring-gold-band"
+    "https://hypebeast.com/2026/11/bloomingdales-fall-winter-2026-editorial",
+    "https://wwd.com/fashion-news/designer-luxury/brett-johnson-debuts-womenswear-geneva-store-1239417799/",
+    "https://hypebeast.com/2026/11/beams-50th-anniversary-adidas-loafer-apparel-pack-collaboration-release-info",
+    "https://hypebeast.com/2026/11/nba-wind-and-sea-collaboration-collection-release-info",
+    "https://www.vogue.com/article/wide-leg-french-girl-jeans"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-16T03:47:59.208Z"
+  "createdAt": "2026-11-17T05:41:56.218Z"
 }
