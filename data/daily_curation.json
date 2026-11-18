@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611170541561089745738268d9d6ol8XqpTU)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611180506162935434838268d9d6SeuzJDKd)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Bloomingdale’s Casual Roots and Refined Tailoring Collide to Build the Blueprint for Modern Men’s Dressing",
+      "title": "New Arrivals From HBX: Rick Owens",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/bloomingdales-fall-winter-2026-editorial",
-      "publishedAt": "Mon, 16 Nov 2026 19:00:58 +0000",
-      "summary": "Streetwear fundamentally altered luxury and contemporary fashion, but its influence is now splintering into exciting new territories. Today’s style culture is defined by fluid self-expression: music subcultures, West Coast nostalgia, European tailoring, and high-level material craftsmanship all converge into one singular narrative. Men are no longer dressing for rigid occasions or hiding behind uniform silhouettes; instead, they are mixing dramatic proportions with tactile luxury and relaxed elegance. Bloomingdale’s Fall/Winter 2026 collection serves as the ultimate hub for this movement, spot",
+      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-rick-owens-6",
+      "publishedAt": "Tue, 17 Nov 2026 14:48:03 +0000",
+      "summary": "Brand Information: California-born, Paris-based designer Rick Owens founded his namesake line in 1994. Owens reinterpreted luxury wear by infusing a dark elegance into his designs. A year after his first Vogue-sponsored runway show in New York, Rick Owens won the 2002 CFDA New Talent Award, further solidifying his vision for comfort through draped silhouettes. Rick Owen's dark gothic couture remains critically acclaimed and has generated an intense cult following in the underground glam rock and grunge communities all through the world.Price Range: $160.00 USD - $2,935.00 USDWhere to Buy: Avai",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,28 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F12%2Fbloomingdales-casual-roots-and-refined-tailoring-collide-to-build-the-blueprint-for-modern-mens-dressing-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Frick-owens-x-adidas-originals-springblade-runner-light-brown-product-1-dd28e1a7_1794926822.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Brett Johnson Launches Womenswear, Opens Geneva&#160;Store",
-      "sourceName": "WWD",
-      "url": "https://wwd.com/fashion-news/designer-luxury/brett-johnson-debuts-womenswear-geneva-store-1239417799/",
-      "publishedAt": "Mon, 16 Nov 2026 23:01:00 +0000",
-      "summary": "The Milan-based American luxury label will unveil its first womenswear collection for fall 2027 and open its first European store in Geneva.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "industry",
-        "runway",
-        "brand"
-      ],
-      "imageUrl": ""
-    },
-    {
-      "title": "BEAMS and adidas Unveil a Collaborative Loafer and Apparel Pack for Retailer's 50th Anniversary",
+      "title": "Paris Saint-Germain and The Weeknd's XO Unveil Full Collaborative Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/beams-50th-anniversary-adidas-loafer-apparel-pack-collaboration-release-info",
-      "publishedAt": "Tue, 17 Nov 2026 04:12:15 +0000",
-      "summary": "Summary BEAMS and adidas Originals have teamed up to release a new loafer pack as part of the Japanese retailer's 50th-anniversary collectionThe collaborative footwear arrives in \"Preppy\" and \"Yankee\" styles featuring tassels, Three Stripes branding, and a chunky lug soleThe collection opens for presale on November 20 before a wider release on November 21 via BEAMS BEAMS and adidas Originals have officially joined forces to celebrate the Japanese retailer's 50th anniversary with a collaborative Loafer Pack. Anchoring a broader 14-piece assortment of apparel and accessories, the brand-new footw",
+      "url": "https://hypebeast.com/2026/11/paris-saint-germain-the-weeknd-xo-full-collaborative-collection-release-info",
+      "publishedAt": "Wed, 18 Nov 2026 04:17:38 +0000",
+      "summary": "Summary Paris Saint-Germain and The Weeknd's XO have officially revealed their full collaborative apparel and music collectionThe capsule features nine apparel pieces including track jackets, T-shirts, shorts, and an official co-branded jerseyThe crossover project officially launches globally on November 16 through both PSG and XO online storefronts Paris Saint-Germain and XO have officially unveiled the full PSG x XO collection, blending the worlds of global football, high fashion, and music. Following an exclusive preview in Paris this past summer as part of the \"Ici C'est Paris – La Maison\"",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -45,14 +31,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F16%2Fbeams-50th-anniversary-adidas-loafer-apparel-pack-collaboration-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F16%2Fparis-saint-germain-the-weeknd-xo-full-collaborative-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "WIND AND SEA and the NBA’s “The Legacy Continues” Collection Puts Game Mesh on Chino",
+      "title": "The Company Behind Your Favorite Supercar's Brakes Is Making Clothes Now",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/nba-wind-and-sea-collaboration-collection-release-info",
-      "publishedAt": "Tue, 17 Nov 2026 04:06:21 +0000",
-      "summary": "Summary WIND AND SEA and the NBA team up on a 10-piece collection built around the New York Knicks, Los Angeles Lakers, Philadelphia 76ers and San Antonio SpursTrack jackets and pants pair classic chino with basketball game mesh, while the hoodies use a double-layered build to give a layered look in one garmentEach team’s signature colors guide its version of the range, which extends past apparel into knit caps, belts, blankets and bracelets WIND AND SEA has partnered with the NBA on “The Legacy Continues,” a collection that gives four of the league’s most storied franchises their own versions",
+      "url": "https://hypebeast.com/2026/11/brembro-launches-first-full-lifestyle-collection",
+      "publishedAt": "Tue, 17 Nov 2026 22:11:14 +0000",
+      "summary": "Summary Italian braking specialist Brembo is bringing its motorsport heritage into fashion with its first full lifestyle collection.The seven-style lineup combines racing-inspired graphics with technical streetwear, including T-shirts, hoodies, outerwear, and accessories.Drawing on decades of performance engineering, the collection translates Brembo's signature precision and attention to detail into everyday wear. You might not recognize the name Brembo, but chances are you've seen its work. From Ferrari's Formula 1 cars to some of the world's most recognizable performance vehicles, the Italia",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -60,38 +46,53 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F16%2Fnba-wind-and-sea-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Fbrembro-launches-first-full-lifestyle-collection-lookbook-featured-image.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "The Wide-Leg Jeans That Every French Girl (And Kate Moss) Owns",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/wide-leg-french-girl-jeans",
-      "publishedAt": "Mon, 16 Nov 2026 17:40:10 +0000",
-      "summary": "While on the hunt for street-style trends at fashion week, I turned my attention to real-life Parisians, among whom one item seemed to proliferate: Gérard Darel’s Anna jeans.",
+      "title": "Ten c Wants You to Wear Its Fall/Winter 2026 Collection Forever",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/ten-c-fall-winter-2026-collection",
+      "publishedAt": "Tue, 17 Nov 2026 21:00:27 +0000",
+      "summary": "Summary Ten c's Fall/Winter 2026 collection combines military heritage with technical innovation, creating garments designed to stand the test of time.Signature materials like Original Japanese Jersey and high-tenacity nylon are engineered to withstand the elements and develop character with age.Embracing an \"aesthetic of error,\" the collection celebrates imperfections through garment dyeing, craftsmanship, and evolving textures. For Fall/Winter 2026, Ten c is looking to the past to build for the future. Designed by Alessandro Pungetti, the Italian label's latest collection brings together mil",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "runway",
+        "streetwear",
+        "brand",
         "trend",
-        "brand"
+        "runway"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6afa61fe82bcf9f543d74608/master/pass/BGUK_1568473_013.jpg"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Ften-c-fall-winter-2026-lookbook-featured-image.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Gentle Monster Premieres Intelligent Eyewear Campaign Film Starring Joaquin Phoenix",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/gentle-monster-intelligent-eyewear-campaign-film-starring-joaquin-phoenix-release-info",
+      "publishedAt": "Wed, 18 Nov 2026 03:16:01 +0000",
+      "summary": "Summary Gentle Monster has released its full Intelligent Eyewear campaign film directed by Jonathan Glazer and starring Joaquin PhoenixThe cinematic visual takes an experimental approach to storytelling through tension, absurdity, and dark humorThe 16-piece collection is currently on display at a New York public preview ahead of its impending rollout Gentle Monster has officially premiered the full campaign film for its Intelligent Eyewear Collection. Directed by acclaimed filmmaker Jonathan Glazer and starring Academy Award-winning actor Joaquin Phoenix, the unconventional visual challenges t",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Fgentle-monster-intelligent-eyewear-campaign-film-starring-joaquin-phoenix-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway",
-    "industry"
+    "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/bloomingdales-fall-winter-2026-editorial",
-    "https://wwd.com/fashion-news/designer-luxury/brett-johnson-debuts-womenswear-geneva-store-1239417799/",
-    "https://hypebeast.com/2026/11/beams-50th-anniversary-adidas-loafer-apparel-pack-collaboration-release-info",
-    "https://hypebeast.com/2026/11/nba-wind-and-sea-collaboration-collection-release-info",
-    "https://www.vogue.com/article/wide-leg-french-girl-jeans"
+    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-rick-owens-6",
+    "https://hypebeast.com/2026/11/paris-saint-germain-the-weeknd-xo-full-collaborative-collection-release-info",
+    "https://hypebeast.com/2026/11/brembro-launches-first-full-lifestyle-collection",
+    "https://hypebeast.com/2026/11/ten-c-fall-winter-2026-collection",
+    "https://hypebeast.com/2026/11/gentle-monster-intelligent-eyewear-campaign-film-starring-joaquin-phoenix-release-info"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-17T05:41:56.218Z"
+  "createdAt": "2026-11-18T05:06:16.383Z"
 }
