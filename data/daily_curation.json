@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611180506162935434838268d9d6SeuzJDKd)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"CHANNEL_INVALID\",\"message\":\"渠道无效\"}}",
   "items": [
     {
-      "title": "New Arrivals From HBX: Rick Owens",
+      "title": "The Brand Crossovers That Shaped Culture in 2026",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-rick-owens-6",
-      "publishedAt": "Tue, 17 Nov 2026 14:48:03 +0000",
-      "summary": "Brand Information: California-born, Paris-based designer Rick Owens founded his namesake line in 1994. Owens reinterpreted luxury wear by infusing a dark elegance into his designs. A year after his first Vogue-sponsored runway show in New York, Rick Owens won the 2002 CFDA New Talent Award, further solidifying his vision for comfort through draped silhouettes. Rick Owen's dark gothic couture remains critically acclaimed and has generated an intense cult following in the underground glam rock and grunge communities all through the world.Price Range: $160.00 USD - $2,935.00 USDWhere to Buy: Avai",
+      "url": "https://hypebeast.com/2026/11/the-brand-crossovers-that-shaped-culture-in-2026",
+      "publishedAt": "Wed, 18 Nov 2026 17:00:56 +0000",
+      "summary": "In 2026, the most interesting collaborations didn't stay in their lane. A football federation gave its kit to a Paris designer. A pop star turned a halftime look into a high-street wardrobe. Lunazul Tequila and a New York designer found a shared muse in the moon, and translated the spirit of blue weber agave into a moonlit runway capsule.The common thread was context. The pairings that mattered this year were tied to moments people were already living through: a home World Cup, a championship parade down Broadway, a festival debut, a fashion week under the Unisphere. They gave fans something t",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,83 +16,81 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Frick-owens-x-adidas-originals-springblade-runner-light-brown-product-1-dd28e1a7_1794926822.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F05%2Fthe-brand-crossovers-that-shaped-culture-in-2026-lunazul-luar-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Paris Saint-Germain and The Weeknd's XO Unveil Full Collaborative Collection",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/paris-saint-germain-the-weeknd-xo-full-collaborative-collection-release-info",
-      "publishedAt": "Wed, 18 Nov 2026 04:17:38 +0000",
-      "summary": "Summary Paris Saint-Germain and The Weeknd's XO have officially revealed their full collaborative apparel and music collectionThe capsule features nine apparel pieces including track jackets, T-shirts, shorts, and an official co-branded jerseyThe crossover project officially launches globally on November 16 through both PSG and XO online storefronts Paris Saint-Germain and XO have officially unveiled the full PSG x XO collection, blending the worlds of global football, high fashion, and music. Following an exclusive preview in Paris this past summer as part of the \"Ici C'est Paris – La Maison\"",
+      "title": "Rooms Showroom Is Hiring an Account Executive in New York, NY (Hybrid)",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/11/rooms-showroom-is-hiring-an-account-executive-in-new-york-ny-2",
+      "publishedAt": "Wed, 18 Nov 2026 17:39:58 GMT",
+      "summary": "ROOMS is a multi-brand womenswear showroom based in SoHo, New York, representing a curated portfolio of contemporary fashion brands from the U.S. and around the world.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
         "trend",
+        "brand",
+        "industry",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F16%2Fparis-saint-germain-the-weeknd-xo-full-collaborative-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwNzkzMzE5/rooms-showroom-172-30646.jpg?profile=rss"
     },
     {
-      "title": "The Company Behind Your Favorite Supercar's Brakes Is Making Clothes Now",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/brembro-launches-first-full-lifestyle-collection",
-      "publishedAt": "Tue, 17 Nov 2026 22:11:14 +0000",
-      "summary": "Summary Italian braking specialist Brembo is bringing its motorsport heritage into fashion with its first full lifestyle collection.The seven-style lineup combines racing-inspired graphics with technical streetwear, including T-shirts, hoodies, outerwear, and accessories.Drawing on decades of performance engineering, the collection translates Brembo's signature precision and attention to detail into everyday wear. You might not recognize the name Brembo, but chances are you've seen its work. From Ferrari's Formula 1 cars to some of the world's most recognizable performance vehicles, the Italia",
+      "title": "Totally Buggin'! Paid Nails Are Here for Fall",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/plaid-nails-2026-winter-nail-trend",
+      "publishedAt": "Wed, 18 Nov 2026 23:07:03 +0000",
+      "summary": "Amid cozy season and collegiate-style fashion, the Argyle sweater is proving to be beauty’s latest inspo. Say hello to plaid nails.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Fbrembro-launches-first-full-lifestyle-collection-lookbook-featured-image.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6afe2e740c001b75de2ba919/master/pass/SnapInsta.to_598060865_18110346733616563_1353604308545721650_n.jpg"
     },
     {
-      "title": "Ten c Wants You to Wear Its Fall/Winter 2026 Collection Forever",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/ten-c-fall-winter-2026-collection",
-      "publishedAt": "Tue, 17 Nov 2026 21:00:27 +0000",
-      "summary": "Summary Ten c's Fall/Winter 2026 collection combines military heritage with technical innovation, creating garments designed to stand the test of time.Signature materials like Original Japanese Jersey and high-tenacity nylon are engineered to withstand the elements and develop character with age.Embracing an \"aesthetic of error,\" the collection celebrates imperfections through garment dyeing, craftsmanship, and evolving textures. For Fall/Winter 2026, Ten c is looking to the past to build for the future. Designed by Alessandro Pungetti, the Italian label's latest collection brings together mil",
+      "title": "Taylor Swift&#8217;s Oscar de la Renta Gown Has a Detail Worth Bragging About at the 2026 CMA&#160;Awards",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/pop-culture/celebrity-news/taylor-swift-cma-awards-2026-oscar-de-la-renta-pockets-1239426467/",
+      "publishedAt": "Thu, 19 Nov 2026 00:19:36 +0000",
+      "summary": "The singer returned to the ceremony after a decade away in a voluminous yellow gown from the fashion house's spring 2027 collection.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
+        "industry",
+        "runway",
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Ften-c-fall-winter-2026-lookbook-featured-image.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": ""
     },
     {
-      "title": "Gentle Monster Premieres Intelligent Eyewear Campaign Film Starring Joaquin Phoenix",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/gentle-monster-intelligent-eyewear-campaign-film-starring-joaquin-phoenix-release-info",
-      "publishedAt": "Wed, 18 Nov 2026 03:16:01 +0000",
-      "summary": "Summary Gentle Monster has released its full Intelligent Eyewear campaign film directed by Jonathan Glazer and starring Joaquin PhoenixThe cinematic visual takes an experimental approach to storytelling through tension, absurdity, and dark humorThe 16-piece collection is currently on display at a New York public preview ahead of its impending rollout Gentle Monster has officially premiered the full campaign film for its Intelligent Eyewear Collection. Directed by acclaimed filmmaker Jonathan Glazer and starring Academy Award-winning actor Joaquin Phoenix, the unconventional visual challenges t",
+      "title": "Plastic Shoes Are in Their Luxury Era",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/plastic-shoes/",
+      "publishedAt": "Wed, 18 Nov 2026 21:15:43 GMT",
+      "summary": "Plastic shoes have been around forever, but it’s only recently that they’ve become a fashion staple. Now, TPU shoes have entered the luxury brand matrix.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend",
-        "runway"
+        "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Fgentle-monster-intelligent-eyewear-campaign-film-starring-joaquin-phoenix-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": ""
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-rick-owens-6",
-    "https://hypebeast.com/2026/11/paris-saint-germain-the-weeknd-xo-full-collaborative-collection-release-info",
-    "https://hypebeast.com/2026/11/brembro-launches-first-full-lifestyle-collection",
-    "https://hypebeast.com/2026/11/ten-c-fall-winter-2026-collection",
-    "https://hypebeast.com/2026/11/gentle-monster-intelligent-eyewear-campaign-film-starring-joaquin-phoenix-release-info"
+    "https://hypebeast.com/2026/11/the-brand-crossovers-that-shaped-culture-in-2026",
+    "https://fashionista.com/2026/11/rooms-showroom-is-hiring-an-account-executive-in-new-york-ny-2",
+    "https://www.vogue.com/article/plaid-nails-2026-winter-nail-trend",
+    "https://wwd.com/pop-culture/celebrity-news/taylor-swift-cma-awards-2026-oscar-de-la-renta-pockets-1239426467/",
+    "https://www.highsnobiety.com/p/plastic-shoes/"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-18T05:06:16.383Z"
+  "createdAt": "2026-11-19T04:59:47.729Z"
 }
