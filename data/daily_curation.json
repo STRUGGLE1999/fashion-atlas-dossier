@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"CHANNEL_INVALID\",\"message\":\"渠道无效\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611240734248533320288268d9d6EmiLNb99)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Brain Dead's Third FW26 Drop Trades Polish for Brushed Alpaca and Merino Knits",
+      "title": "BAPE® Re-Imagines Its Icons for Winter 2026",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/brooks-brothers-brain-dead-fall-winter-fw-2026-collaboration-collection-release-info",
-      "publishedAt": "Mon, 23 Nov 2026 04:15:41 +0000",
-      "summary": "Summary Brain Dead's third Fall/Winter 2026 drop includes a run of knitwear in brushed alpaca and merino woolThe knits land alongside the next chapter of the label's Brooks Brothers California project, which reworks Brooks Brothers classicsThe campaign was shot at Eugene Tssui's Fish House in Berkeley, with the architect and two of his grandchildren modeling Brain Dead has released the third drop of \"Cyber Primitivism,\" its Fall/Winter 2026 collection, and its knitwear brings a tactile counterpoint to the season's Brooks Brothers California offering. The drop includes brushed alpaca sweaters, ",
+      "url": "https://hypebeast.com/2026/11/bape-re-imagines-its-icons-for-winter-2026",
+      "publishedAt": "Tue, 24 Nov 2026 06:37:09 +0000",
+      "summary": "BAPE® has officially launched its Winter 2026 collection, a robust seasonal delivery centered around the theme of “TIMELESS CULTURE.” Arriving between October and December, the collection explores the ongoing dialogue between music, sport, and street fashion, honoring the cultural movements that have shaped generations. Balancing heritage with innovation, the brand reimagines its most recognizable signatures: CROC PATTERN, 1ST CAMO, COLOR CAMO, and SHARK, through elevated fabrications, bold graphic treatments and playing with dimensional textures. From oversized ice hockey-inspired designs to ",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,14 +16,14 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F22%2Fbrooks-brothers-brain-dead-fall-winter-fw-2026-collaboration-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Fbape-re-imagines-its-icons-for-winter-2026-0000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "POST ARCHIVE FACTION (PAF) Opens Hannam Flagship Store in Seoul Alongside FW26 Drop",
+      "title": "XLARGE Releases Collaborative Apparel with Artist Unit OBS",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/post-archive-faction-paf-opens-hannam-flagship-store-seoul-alongside-fw26-drop",
-      "publishedAt": "Sun, 22 Nov 2026 04:00:16 +0000",
-      "summary": "Summary POST ARCHIVE FACTION (PAF) has officially opened the doors to its new flagship store in the Hannam-dong neighborhood of SeoulThe immersive two-story space features adjustable display panels and a bespoke sound system developed with artist Erika CoxThe retail launch coincides with the third drop of the brand's Fall/Winter 2026 collection highlighting premium Italian fabrics POST ARCHIVE FACTION (PAF) has officially expanded its physical retail footprint with the opening of a new Hannam flagship store in Seoul. Sitting at the heart of the city's art and cultural landscape, the space echo",
+      "url": "https://hypebeast.com/2026/11/xlarge-obs-dragon76-cook-collaboration-exhibition-calif-art-gallery-info",
+      "publishedAt": "Tue, 24 Nov 2026 06:59:23 +0000",
+      "summary": "OBS, an artist unit formed by New York-based artist DRAGON76 and Osaka-based artist COOK, has announced a collaborative collection with XLARGE. Additionally, the duo will hold an exhibition titled \"OBS Dépôt\" at the calif art gallery in Nakameguro, Tokyo.Born in Shiga Prefecture, DRAGON76 has long expressed the concepts of beginnings, endings, and the coexistence of different entities through the motif of OUROBOROS, which frequently appears in his work. COOK, on the other hand, is a member of DISSIZIT!, led by OG SLICK, a prominent artist in the LA graffiti scene. His artist name stems from hi",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -31,29 +31,28 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fpost-archive-faction-paf-opens-hannam-flagship-store-seoul-alongside-fw26-drop-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fxlarge-obs-dragon76-cook-collaboration-exhibition-calif-art-gallery-info00.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Fear of God Introduces Collection TEN and Debut In-House Trainer",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/fear-of-god-collection-ten-debut-in-house-trainer-fall-2027-lookbook-release-info",
-      "publishedAt": "Sun, 22 Nov 2026 09:46:18 +0000",
-      "summary": "Summary Fear of God has officially introduced Collection TEN as the latest evolution of the house's visual codes and foundationsThe expansive range debuts a new Athletics category and the brand's first in-house athletic shoe featuring supercritical foamCollection TEN will officially arrive in Fall 2027 as the first collection to land at the brand's Los Angeles flagship store Fear of God has officially unveiled its highly anticipated Collection TEN. Rooted in a conviction that extends beyond the material, the latest seasonal offering distills thirteen years of the brand's foundational instincts",
+      "title": "10+ Winter Looks to Re-create From Fashion’s Beloved Style Icons",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/style-icons-winter-outfit-ideas",
+      "publishedAt": "Mon, 23 Nov 2026 21:31:56 +0000",
+      "summary": "From Lee Radziwill to Carolyn Bessette-Kennedy and Audrey Hepburn, 5+ winter outfit ideas to steal from fashion’s favorite muses.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Ffear-of-god-collection-ten-debut-in-house-trainer-fall-2027-lookbook-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6afdd779f851234dd8e96c73/master/pass/107289527"
     },
     {
-      "title": "Dior Names Stray Kids' Hyunjin as New Brand Ambassador",
+      "title": "Dyenamik's XBOX Anniversary Collection Prints 25 Years of Console Hardware Onto Jerseys",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/dior-names-stray-kids-hyunjin-new-brand-ambassador-announcement",
-      "publishedAt": "Sun, 22 Nov 2026 08:00:22 +0000",
-      "summary": "Summary French luxury house Dior has officially signed Stray Kids member Hyunjin as its newest brand ambassadorThe South Korean rapper, singer, and dancer will represent the brand's beauty division and creative director Jonathan Anderson's collectionsThe major announcement arrives alongside the K-pop group's ongoing Run It World Tour which runs through July 2027 Dior has officially appointed South Korean rapper, singer, and dancer Hyunjin as its newest brand ambassador. Cementing a rapidly growing relationship with the French luxury house, the Stray Kids member will represent the brand's expan",
+      "url": "https://hypebeast.com/2026/11/dyenamik-xbox-the-anniversary-collection-jersey-release-info",
+      "publishedAt": "Tue, 24 Nov 2026 06:46:38 +0000",
+      "summary": "Summary Dyenamik marks 25 years of XBOX with three heritage jerseys, each one built around a different era of the consoleHardware details like the original X-shaped chassis, the 360's Ring of Light and the see-through shells of later consoles become tonal graphicsA 200-piece Collector's Box modeled on the original 2001 console holds the full set Dyenamik is celebrating a quarter-century of gaming history with the XBOX Anniversary Collection, a set of three heritage jerseys paired with a strictly limited Collector's Box. The designs skip oversized logos and take their graphics straight from the",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -61,38 +60,38 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fdior-names-stray-kids-hyunjin-new-brand-ambassador-announcement-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F24%2Fdyenamik-xbox-the-anniversary-collection-jersey-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "Lewis Hamilton's +44 Unveils \"Area +44\" Collection Ahead of Las Vegas Grand Prix",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/lewis-hamilton-plus-44-las-vegas-grand-prix-area-44-collection-release-info",
-      "publishedAt": "Sun, 22 Nov 2026 05:16:01 +0000",
-      "summary": "Summary Lewis Hamilton's lifestyle brand +44 has announced its new concept-driven Area +44 collection for the Las Vegas Grand PrixThe versatile range is inspired by mystery and the unknown, featuring utility silhouettes and technical detailingThe collection is available online and at a dedicated pop-up at the Wynn in Las Vegas +44 has officially unveiled its new Area +44 collection. Launched ahead of the Las Vegas Grand Prix, the latest capsule from Lewis Hamilton's lifestyle brand is concept-driven and heavily inspired by the unknown, taking ideas of mystery and restricted access and explorin",
+      "title": "AISTE HONG Is Hiring Social Media & Digital Content Producer In New York, NY",
+      "sourceName": "Fashionista",
+      "url": "https://fashionista.com/2026/11/aiste-hong-is-hiring-social-media-digital-content-producer-in-new-york-ny",
+      "publishedAt": "Mon, 23 Nov 2026 19:33:56 GMT",
+      "summary": "The ideal candidate has a strong visual eye, understands fashion and luxury, and is equally comfortable developing ideas, shooting and editing content, managing day-to-day social media, and maintaining a polished digital brand presence.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
         "trend",
-        "runway"
+        "brand",
+        "industry"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F21%2Flewis-hamilton-plus-44-las-vegas-grand-prix-area-44-collection-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://fashionista.com/.image/MTg1ODE3NTAxMDY0NTA0OTYw/pexels-harper-sunday-3751226.jpg?profile=rss"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/brooks-brothers-brain-dead-fall-winter-fw-2026-collaboration-collection-release-info",
-    "https://hypebeast.com/2026/11/post-archive-faction-paf-opens-hannam-flagship-store-seoul-alongside-fw26-drop",
-    "https://hypebeast.com/2026/11/fear-of-god-collection-ten-debut-in-house-trainer-fall-2027-lookbook-release-info",
-    "https://hypebeast.com/2026/11/dior-names-stray-kids-hyunjin-new-brand-ambassador-announcement",
-    "https://hypebeast.com/2026/11/lewis-hamilton-plus-44-las-vegas-grand-prix-area-44-collection-release-info"
+    "https://hypebeast.com/2026/11/bape-re-imagines-its-icons-for-winter-2026",
+    "https://hypebeast.com/2026/11/xlarge-obs-dragon76-cook-collaboration-exhibition-calif-art-gallery-info",
+    "https://www.vogue.com/article/style-icons-winter-outfit-ideas",
+    "https://hypebeast.com/2026/11/dyenamik-xbox-the-anniversary-collection-jersey-release-info",
+    "https://fashionista.com/2026/11/aiste-hong-is-hiring-social-media-digital-content-producer-in-new-york-ny"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-23T04:43:19.541Z"
+  "createdAt": "2026-11-24T07:34:24.944Z"
 }
