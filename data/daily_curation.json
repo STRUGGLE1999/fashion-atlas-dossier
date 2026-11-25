@@ -1,97 +1,93 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611240734248533320288268d9d6EmiLNb99)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611250602279928931318268d9d6UzKibpa3)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "BAPE® Re-Imagines Its Icons for Winter 2026",
+      "title": "New Arrivals From HBX: WTAPS",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/bape-re-imagines-its-icons-for-winter-2026",
-      "publishedAt": "Tue, 24 Nov 2026 06:37:09 +0000",
-      "summary": "BAPE® has officially launched its Winter 2026 collection, a robust seasonal delivery centered around the theme of “TIMELESS CULTURE.” Arriving between October and December, the collection explores the ongoing dialogue between music, sport, and street fashion, honoring the cultural movements that have shaped generations. Balancing heritage with innovation, the brand reimagines its most recognizable signatures: CROC PATTERN, 1ST CAMO, COLOR CAMO, and SHARK, through elevated fabrications, bold graphic treatments and playing with dimensional textures. From oversized ice hockey-inspired designs to ",
+      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-wtaps-2",
+      "publishedAt": "Wed, 25 Nov 2026 00:49:20 +0000",
+      "summary": "Brand Information: Tetsu Nishiyama (Tet) began the project FORTY PERCENT AGAINST RIGHTS (FPAR) in 1993, then WTAPS was launched in 1996. WTAPS (pronounced ‘double taps’) is heavily inspired by the military and the outdoors, while advancing several signature styles such as ‘Trad’, ‘Ivy’ and ‘Preppy’. After collaborations with the likes of Supreme, Stussy and Vans, WTAPS became revered across the men's fashion industry.Price Range: $60.00 USD - $495.00 USDWhere to Buy: Available now on HBX Click here to view full gallery at Hypebeast",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend",
-        "runway"
+        "trend"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F17%2Fbape-re-imagines-its-icons-for-winter-2026-0000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Finsect-ss-ctpl-black-product-1-da035925_1795567741.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "XLARGE Releases Collaborative Apparel with Artist Unit OBS",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/xlarge-obs-dragon76-cook-collaboration-exhibition-calif-art-gallery-info",
-      "publishedAt": "Tue, 24 Nov 2026 06:59:23 +0000",
-      "summary": "OBS, an artist unit formed by New York-based artist DRAGON76 and Osaka-based artist COOK, has announced a collaborative collection with XLARGE. Additionally, the duo will hold an exhibition titled \"OBS Dépôt\" at the calif art gallery in Nakameguro, Tokyo.Born in Shiga Prefecture, DRAGON76 has long expressed the concepts of beginnings, endings, and the coexistence of different entities through the motif of OUROBOROS, which frequently appears in his work. COOK, on the other hand, is a member of DISSIZIT!, led by OG SLICK, a prominent artist in the LA graffiti scene. His artist name stems from hi",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
-        "brand",
-        "trend",
-        "runway"
-      ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fxlarge-obs-dragon76-cook-collaboration-exhibition-calif-art-gallery-info00.jpg?w=800&cbr=1&q=90&fit=max"
-    },
-    {
-      "title": "10+ Winter Looks to Re-create From Fashion’s Beloved Style Icons",
+      "title": "How to Style Straight-Leg Jeans This Winter",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/style-icons-winter-outfit-ideas",
-      "publishedAt": "Mon, 23 Nov 2026 21:31:56 +0000",
-      "summary": "From Lee Radziwill to Carolyn Bessette-Kennedy and Audrey Hepburn, 5+ winter outfit ideas to steal from fashion’s favorite muses.",
+      "url": "https://www.vogue.com/article/straight-leg-jeans-outfits",
+      "publishedAt": "Tue, 24 Nov 2026 11:00:00 +0000",
+      "summary": "Straight-leg jeans are a longtime street style favorite, but they also happen to be trending on the runways. Here’s how to style straight-leg jeans for winter.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6afdd779f851234dd8e96c73/master/pass/107289527"
+      "imageUrl": "https://assets.vogue.com/photos/6ac515d71d7d0f4f012f7770/master/pass/ParisFashionWeek_SS27_streetstyle_day8_philoh_14.jpg"
     },
     {
-      "title": "Dyenamik's XBOX Anniversary Collection Prints 25 Years of Console Hardware Onto Jerseys",
-      "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/dyenamik-xbox-the-anniversary-collection-jersey-release-info",
-      "publishedAt": "Tue, 24 Nov 2026 06:46:38 +0000",
-      "summary": "Summary Dyenamik marks 25 years of XBOX with three heritage jerseys, each one built around a different era of the consoleHardware details like the original X-shaped chassis, the 360's Ring of Light and the see-through shells of later consoles become tonal graphicsA 200-piece Collector's Box modeled on the original 2001 console holds the full set Dyenamik is celebrating a quarter-century of gaming history with the XBOX Anniversary Collection, a set of three heritage jerseys paired with a strictly limited Collector's Box. The designs skip oversized logos and take their graphics straight from the",
+      "title": "The Garment Pre-Fall 2027",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/fashion-shows/pre-fall-2027/the-garment",
+      "publishedAt": "Wed, 25 Nov 2026 06:02:26 +0000",
+      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
-        "streetwear",
-        "brand",
+        "runway",
         "trend",
-        "runway"
+        "brand"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F24%2Fdyenamik-xbox-the-anniversary-collection-jersey-release-info-000.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://assets.vogue.com/photos/6b055c38ccfb962a1985aaee/master/pass/00001-the-garment-pre-fall-2027-credit-brand.jpg"
     },
     {
-      "title": "AISTE HONG Is Hiring Social Media & Digital Content Producer In New York, NY",
-      "sourceName": "Fashionista",
-      "url": "https://fashionista.com/2026/11/aiste-hong-is-hiring-social-media-digital-content-producer-in-new-york-ny",
-      "publishedAt": "Mon, 23 Nov 2026 19:33:56 GMT",
-      "summary": "The ideal candidate has a strong visual eye, understands fashion and luxury, and is equally comfortable developing ideas, shooting and editing content, managing day-to-day social media, and maintaining a polished digital brand presence.",
+      "title": "Baum und Pferdgarten Pre-Fall 2027",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/fashion-shows/pre-fall-2027/baum-und-pferdgarten",
+      "publishedAt": "Wed, 25 Nov 2026 06:02:26 +0000",
+      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
+        "runway",
         "trend",
-        "brand",
-        "industry"
+        "brand"
       ],
-      "imageUrl": "https://fashionista.com/.image/MTg1ODE3NTAxMDY0NTA0OTYw/pexels-harper-sunday-3751226.jpg?profile=rss"
+      "imageUrl": "https://assets.vogue.com/photos/6ae0bb538ebac1dc4e633530/master/pass/00001-baum-und-pferdgarten-pre-fall-2027-credit-brand.jpg"
+    },
+    {
+      "title": "Why Luxury Watch Brands Are Still Struggling Online",
+      "sourceName": "Vogue",
+      "url": "https://www.vogue.com/article/why-luxury-watch-brands-are-still-struggling-online",
+      "publishedAt": "Wed, 25 Nov 2026 05:30:00 +0000",
+      "summary": "Cartier tops the digital ranking, but the brands that outperform on social still lag in online-to-offline integration.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "runway",
+        "trend",
+        "brand"
+      ],
+      "imageUrl": "https://assets.vogue.com/photos/6b0596670c042adb914f4e59/master/pass/VB-WATCHES-2026-DIGITAL-MARKETING-story.gif"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway",
-    "industry"
+    "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/bape-re-imagines-its-icons-for-winter-2026",
-    "https://hypebeast.com/2026/11/xlarge-obs-dragon76-cook-collaboration-exhibition-calif-art-gallery-info",
-    "https://www.vogue.com/article/style-icons-winter-outfit-ideas",
-    "https://hypebeast.com/2026/11/dyenamik-xbox-the-anniversary-collection-jersey-release-info",
-    "https://fashionista.com/2026/11/aiste-hong-is-hiring-social-media-digital-content-producer-in-new-york-ny"
+    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-wtaps-2",
+    "https://www.vogue.com/article/straight-leg-jeans-outfits",
+    "https://www.vogue.com/fashion-shows/pre-fall-2027/the-garment",
+    "https://www.vogue.com/fashion-shows/pre-fall-2027/baum-und-pferdgarten",
+    "https://www.vogue.com/article/why-luxury-watch-brands-are-still-struggling-online"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-24T07:34:24.944Z"
+  "createdAt": "2026-11-25T06:02:28.072Z"
 }
