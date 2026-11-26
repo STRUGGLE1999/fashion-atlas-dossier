@@ -1,77 +1,80 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611250602279928931318268d9d6UzKibpa3)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611260555550605629448268d9d6836h4gqX)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "New Arrivals From HBX: WTAPS",
+      "title": "ESOTERIC THING Releases First Drop of Winter 2026 Collection",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/new-arrivals-from-hbx-wtaps-2",
-      "publishedAt": "Wed, 25 Nov 2026 00:49:20 +0000",
-      "summary": "Brand Information: Tetsu Nishiyama (Tet) began the project FORTY PERCENT AGAINST RIGHTS (FPAR) in 1993, then WTAPS was launched in 1996. WTAPS (pronounced ‘double taps’) is heavily inspired by the military and the outdoors, while advancing several signature styles such as ‘Trad’, ‘Ivy’ and ‘Preppy’. After collaborations with the likes of Supreme, Stussy and Vans, WTAPS became revered across the men's fashion industry.Price Range: $60.00 USD - $495.00 USDWhere to Buy: Available now on HBX Click here to view full gallery at Hypebeast",
+      "url": "https://hypebeast.com/2026/11/esoteric-thing-2026-winter-first-release",
+      "publishedAt": "Thu, 26 Nov 2026 03:12:17 +0000",
+      "summary": "Shanghai streetwear brand ESOTERIC THING has officially released Drop 1 of its Winter 2026 collection. Drawing inspiration from classic streetwear elements, the brand presents a bold and direct winter street style through the collision of portrait photography prints, highly saturated camouflage, animal textures, and comic patterns.The collection covers a variety of apparel and accessory pieces, with portrait photography prints running through T-shirts and pullover hoodies, paired with cargo pants made from distressed flocked fabric for a gritty street texture. The visually recognizable pink ca",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
         "brand",
-        "trend"
+        "trend",
+        "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Finsect-ss-ctpl-black-product-1-da035925_1795567741.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fesoteric-thing-2026-winter-first-release-0.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "How to Style Straight-Leg Jeans This Winter",
+      "title": "thisisneverthat and New Era's Latest Collection Highlights the Yankees",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/thisisneverthat-x-new-era-new-york-yankees-collaboration-info",
+      "publishedAt": "Thu, 26 Nov 2026 03:09:41 +0000",
+      "summary": "Seoul-based streetwear brand thisisneverthat is launching a collaborative collection with New Era on Friday, November 27.Building on a longstanding relationship between the two brands, this season's collection infuses the sports-derived classic silhouettes of New Era with the vintage mood and seasonal flair signature to thisisneverthat. The drop features three headwear styles adorned with the New York Yankees logo.The lineup includes the wool-crafted TNT NEW ERA 49FORTY NEYYAN. Featuring earflaps for extra coverage, it perfectly balances cold-weather protection with a distinctive silhouette. C",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Fthisisneverthat-x-new-era-new-york-yankees-collaboration-info00.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Yohji’s Greatest Art Show Has Always Been His Leather Jackets",
+      "sourceName": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/p/yohji-yamamoto-suzume-uchida/",
+      "publishedAt": "Wed, 25 Nov 2026 20:33:00 GMT",
+      "summary": "The designer's new BLACK Scandal collection with artist Suzume Uchida continues his tradition of treating leather jackets as a canvas for art collabs.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": ""
+    },
+    {
+      "title": "Summer’s Coolest Manicure Is Fall-Approved, Too, According To Hailey Bieber",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/straight-leg-jeans-outfits",
-      "publishedAt": "Tue, 24 Nov 2026 11:00:00 +0000",
-      "summary": "Straight-leg jeans are a longtime street style favorite, but they also happen to be trending on the runways. Here’s how to style straight-leg jeans for winter.",
+      "url": "https://www.vogue.com/article/hailey-bieber-charli-xcx-fall-blue-manicure",
+      "publishedAt": "Wed, 25 Nov 2026 22:52:57 +0000",
+      "summary": "Charli XCX was spotted with a flash of this shade too.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6ac515d71d7d0f4f012f7770/master/pass/ParisFashionWeek_SS27_streetstyle_day8_philoh_14.jpg"
+      "imageUrl": "https://assets.vogue.com/photos/6b07662e5d85ecbbee18f66b/master/pass/2305235916"
     },
     {
-      "title": "The Garment Pre-Fall 2027",
+      "title": "Your Winter Plans Called and They’re Requesting a Fair Isle Knit",
       "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/pre-fall-2027/the-garment",
-      "publishedAt": "Wed, 25 Nov 2026 06:02:26 +0000",
-      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
+      "url": "https://www.vogue.com/article/how-to-style-fair-isle-knits",
+      "publishedAt": "Wed, 25 Nov 2026 21:40:59 +0000",
+      "summary": "Discover five ways to style a Fair Isle knit this winter, from après ski looks to holiday hosting.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "runway",
         "trend",
         "brand"
       ],
-      "imageUrl": "https://assets.vogue.com/photos/6b055c38ccfb962a1985aaee/master/pass/00001-the-garment-pre-fall-2027-credit-brand.jpg"
-    },
-    {
-      "title": "Baum und Pferdgarten Pre-Fall 2027",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/fashion-shows/pre-fall-2027/baum-und-pferdgarten",
-      "publishedAt": "Wed, 25 Nov 2026 06:02:26 +0000",
-      "summary": "公开来源显示，这条资讯与趋势、秀场或品牌动态相关，适合作为今日策展线索。",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6ae0bb538ebac1dc4e633530/master/pass/00001-baum-und-pferdgarten-pre-fall-2027-credit-brand.jpg"
-    },
-    {
-      "title": "Why Luxury Watch Brands Are Still Struggling Online",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/why-luxury-watch-brands-are-still-struggling-online",
-      "publishedAt": "Wed, 25 Nov 2026 05:30:00 +0000",
-      "summary": "Cartier tops the digital ranking, but the brands that outperform on social still lag in online-to-offline integration.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6b0596670c042adb914f4e59/master/pass/VB-WATCHES-2026-DIGITAL-MARKETING-story.gif"
+      "imageUrl": "https://assets.vogue.com/photos/6994bc648c8796340b97b923/master/pass/00021-nili-lotan-fall-2026-ready-to-wear-credit-brand.JPG"
     }
   ],
   "trendTags": [
@@ -81,13 +84,13 @@
     "runway"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/new-arrivals-from-hbx-wtaps-2",
-    "https://www.vogue.com/article/straight-leg-jeans-outfits",
-    "https://www.vogue.com/fashion-shows/pre-fall-2027/the-garment",
-    "https://www.vogue.com/fashion-shows/pre-fall-2027/baum-und-pferdgarten",
-    "https://www.vogue.com/article/why-luxury-watch-brands-are-still-struggling-online"
+    "https://hypebeast.com/2026/11/esoteric-thing-2026-winter-first-release",
+    "https://hypebeast.com/2026/11/thisisneverthat-x-new-era-new-york-yankees-collaboration-info",
+    "https://www.highsnobiety.com/p/yohji-yamamoto-suzume-uchida/",
+    "https://www.vogue.com/article/hailey-bieber-charli-xcx-fall-blue-manicure",
+    "https://www.vogue.com/article/how-to-style-fair-isle-knits"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-25T06:02:28.072Z"
+  "createdAt": "2026-11-26T05:55:55.163Z"
 }
