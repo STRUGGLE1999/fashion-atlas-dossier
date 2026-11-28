@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "title": "今日时尚策展简报",
-  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611270549477652523488268d9d6RL03iKcY)\",\"type\":\"new_api_error\"}}",
+  "summary": "系统已基于公开 RSS 来源完成趋势、秀场与品牌动态筛选。AI 主编生成暂不可用，当前使用规则策展兜底。原因：{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-3.7-flash under group gemini_官方订阅渠道 (distributor) (request id: 202611280529298719603648268d9d6CN3alUmw)\",\"type\":\"new_api_error\"}}",
   "items": [
     {
-      "title": "Moncler x Rick Owens FW26 Arms Quilted Outerwear With Studs and Straps",
+      "title": "ROA x C.P. Company Announce First Collaboration",
       "sourceName": "Hypebeast Fashion",
-      "url": "https://hypebeast.com/2026/11/moncler-rick-owens-fall-winter-fw-2026-collaboration-collection-release-info",
-      "publishedAt": "Thu, 26 Nov 2026 06:49:27 +0000",
-      "summary": "Summary Moncler and Rick Owens return with a Fall/Winter 2026 collection built mainly around quilted outerwearGeo Quilting, metal studs, oversized Tour pockets and a carry-ready Mega Strap appear across the lineupThe collection uses a tight palette of black, metallic Palladium, Cloud Grey and a muted Grease tone The Moncler x Rick Owens Fall/Winter 2026 collection is built around outerwear. It brings Owens' subversive eye together with the Italian house's background in warm, protective technical gear. The two labels have shaped each other's work over time, and this season puts that exchange in",
+      "url": "https://hypebeast.com/2026/11/roa-c-p-company-collabo-collection-release-info",
+      "publishedAt": "Fri, 27 Nov 2026 06:10:41 +0000",
+      "summary": "Italian footwear brand ROA and Italian luxury sportswear brand C.P. Company have announced their first collaborative collection. The two Italian brands, which have pursued design through different approaches, fuse technical outdoor gear with advanced sportswear, centering on a shared attitude toward material and manufacturing research and functionality.At the center of the collection is the NUNA 800 Fill Power Hooded Down Jacket, a reimagining of C.P. Company's iconic Goggle Jacket through ROA's lens. It features 10D water-repellent ripstop nylon filled with 800-fill-power down, and a custom c",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -16,57 +16,44 @@
         "trend",
         "runway"
       ],
-      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F26%2FMoncler-Rick-Owens-fall-winter-fw-2026-collaboration-collection-Release-Info.jpg?w=800&cbr=1&q=90&fit=max"
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Froa-c-p-company-collabo-collection-release-info-ft.jpg?w=800&cbr=1&q=90&fit=max"
     },
     {
-      "title": "How Costume Designer Trish Summerville Reimagined ’70s Hollywood Style for ‘The Further Mis-Adventures of Cliff Booth’",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/the-further-mis-adventures-of-cliff-booth-costumes-trish-summerville-interview",
-      "publishedAt": "Thu, 26 Nov 2026 17:45:24 +0000",
-      "summary": "From custom-printing vintage shirts for Brad Pitt to channeling Lauren Hutton for Elizabeth Debicki, the longtime David Fincher collaborator breaks down the film’s lived-in ’70s wardrobe.",
+      "title": "TOGA Drops Limited-Edition Sweatshirts Reimagining Champion's Reverse Weave",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/toga-champion-reverse-weave-exclusive-collection-info",
+      "publishedAt": "Fri, 27 Nov 2026 06:09:34 +0000",
+      "summary": "TOGA, the label helmed by Yasuko Furuta, has unveiled an exclusive collection with American athletic wear brand Champion. The release features two styles—a crewneck sweatshirt and a hoodie—that take the authentic silhouette of Champion’s signature Reverse Weave as their base, updated with boldly printed, colorful TOGA logos.Reverse Weave is Champion’s proprietary construction method that prevents vertical shrinkage by cutting the fabric on the cross-grain rather than the standard vertical grain, while utilizing expansion gussets on the sides to manage horizontal shrinkage. For this special col",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
+        "streetwear",
+        "brand",
+        "trend",
+        "runway"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2Ftoga-champion-reverse-weave-exclusive-collection-info00.jpg?w=800&cbr=1&q=90&fit=max"
+    },
+    {
+      "title": "Salomon’s Secret Black Friday Sale Includes the Sneakers That Defined Street Style This Year (Even Gore-Tex&#160;Models)",
+      "sourceName": "WWD",
+      "url": "https://wwd.com/shop/shop-shoes/salomon-black-friday-sale-gore-tex-sneakers-buy-deals-2026-1239467702/",
+      "publishedAt": "Fri, 27 Nov 2026 19:14:35 +0000",
+      "summary": "Fashion’s fascination with technical footwear shows no signs of waning, and Salomon’s Black Friday sale presents an opportunity to shop the trend for less.",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "industry",
         "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6b081d074b30407c2d9a97f7/master/pass/DSC_6447%20copy%203.jpg"
-    },
-    {
-      "title": "HUGO and Entire Studios Want You to Wear These Pieces, Not the Other Way Around",
-      "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/hugo-and-entire-studios-want-you-to-wear-these-pieces-not-the-other-way-around/",
-      "publishedAt": "Thu, 26 Nov 2026 14:04:14 GMT",
-      "summary": "HUGO x Entire Studios blends sharp tailoring, oversized outerwear and elevated sweats in a modular collection designed around personal style.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "streetwear",
         "brand",
-        "trend",
-        "runway"
+        "trend"
       ],
       "imageUrl": ""
     },
     {
-      "title": "The Art of Being Veruschka: Fashion Pays Tribute to a Legend",
-      "sourceName": "Vogue",
-      "url": "https://www.vogue.com/article/veruschka-tributes",
-      "publishedAt": "Thu, 26 Nov 2026 17:11:22 +0000",
-      "summary": "Generations of fashion’s image-makers, designers, and models reflect on the late Veruschka: the woman who made modeling an art form of its own.",
-      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
-      "tags": [
-        "runway",
-        "trend",
-        "brand"
-      ],
-      "imageUrl": "https://assets.vogue.com/photos/6b06d7ccd56ac22cf02da87f/master/pass/CN00044214.jpg"
-    },
-    {
-      "title": "The Year's Best Menswear That You Can Actually Buy",
+      "title": "adidas' Winter Tank Feels Like a Summer Runner",
       "sourceName": "Highsnobiety",
-      "url": "https://www.highsnobiety.com/p/10-gifts-inspired-by-this-year-s-best-menswear-trends/",
-      "publishedAt": "Thu, 26 Nov 2026 12:54:36 GMT",
-      "summary": "Gifts inspired by 2026’s best menswear trends: These pieces are what you ought to get for the trend-savvy, fashion forward person in your life.",
+      "url": "https://www.highsnobiety.com/p/adidas-dreamcushion-climawarm/",
+      "publishedAt": "Fri, 27 Nov 2026 17:40:00 GMT",
+      "summary": "The adidas Dreamcushion Climawarm Silver Pebble leads a three-pack that also includes Core Black and Sand Strata options.",
       "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
       "tags": [
         "streetwear",
@@ -74,22 +61,37 @@
         "trend"
       ],
       "imageUrl": ""
+    },
+    {
+      "title": "Stone Island’s Milan Flagship Is a Material Research Lab in Its Own Right",
+      "sourceName": "Hypebeast Fashion",
+      "url": "https://hypebeast.com/2026/11/stone-island-milan-flagship-store-renovation",
+      "publishedAt": "Fri, 27 Nov 2026 16:33:19 +0000",
+      "summary": "Summary Stone Island reunites with OMA/AMO to renovate and expand its 600-square-meter Milan flagship.Burnt cork, handmade fused glass, and recycled resin translate the brand’s garment research into architectural experimentation.Seven independent designers and creative studios contribute furniture, lighting, display objects, and sound systems to the space. What happens when you apply the same curiosity that goes into developing a Stone Island jacket to the design of an entire building’s interior? The Italian label’s newly renovated and expanded Milan flagship offers a pretty good answer.Reunit",
+      "recommendationReason": "命中趋势、秀场或品牌关键词，并保留原始来源链接，适合进入 FashionAtlas 今日策展池。",
+      "tags": [
+        "streetwear",
+        "brand",
+        "trend"
+      ],
+      "imageUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F27%2Fstone-island-milan-flagship-store-renovation-00.jpg?w=800&cbr=1&q=90&fit=max"
     }
   ],
   "trendTags": [
     "streetwear",
     "brand",
     "trend",
-    "runway"
+    "runway",
+    "industry"
   ],
   "sourceUrls": [
-    "https://hypebeast.com/2026/11/moncler-rick-owens-fall-winter-fw-2026-collaboration-collection-release-info",
-    "https://www.vogue.com/article/the-further-mis-adventures-of-cliff-booth-costumes-trish-summerville-interview",
-    "https://www.highsnobiety.com/p/hugo-and-entire-studios-want-you-to-wear-these-pieces-not-the-other-way-around/",
-    "https://www.vogue.com/article/veruschka-tributes",
-    "https://www.highsnobiety.com/p/10-gifts-inspired-by-this-year-s-best-menswear-trends/"
+    "https://hypebeast.com/2026/11/roa-c-p-company-collabo-collection-release-info",
+    "https://hypebeast.com/2026/11/toga-champion-reverse-weave-exclusive-collection-info",
+    "https://wwd.com/shop/shop-shoes/salomon-black-friday-sale-gore-tex-sneakers-buy-deals-2026-1239467702/",
+    "https://www.highsnobiety.com/p/adidas-dreamcushion-climawarm/",
+    "https://hypebeast.com/2026/11/stone-island-milan-flagship-store-renovation"
   ],
   "model": "heuristic-fallback",
   "simulated": true,
-  "createdAt": "2026-11-27T05:49:47.837Z"
+  "createdAt": "2026-11-28T05:29:29.948Z"
 }
